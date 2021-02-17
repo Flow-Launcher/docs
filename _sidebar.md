@@ -1,1 +1,2 @@
 - [**Introduction**](/)
+- [**JSON RPC**](/json-rpc.md)
