@@ -1,11 +1,12 @@
 # Porting Plugins
-How to port Wox/PowerToys Run
 
-## Note
+## Wox/PowerToys Run
+
+### Notes
 - When porting, please keep the author's commit history
 - Flow Launcher targets .Net Core 3.1, so plugins should also be upgraded to keep the continuity of future developments
 
-## Steps
+### Steps
 1. To start off, you can fork/create a new repo, either way the project's commit history must be kept. If it's forked, you can just start updating it. If it's a new repo, do this by first cloning the repo, then add your new repo as a new repo remote, remove the original remote and then push to it.
 2. Use try convert tool from https://github.com/dotnet/try-convert
 3. Try-convert -w path-to-folder-or-solution-or-project
