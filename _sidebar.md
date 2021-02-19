@@ -1,2 +1,4 @@
 - [**Introduction**](/)
+- [**Usage Tips**](/usage-tips.md)
 - [**JSON RPC**](/json-rpc.md)
+- [**Porting Plugins**](/port-plugins.md)
