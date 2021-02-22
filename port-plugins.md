@@ -1,4 +1,4 @@
-# Porting Plugins
+# Porting .Net Plugins
 
 ## Wox/PowerToys Run
 
