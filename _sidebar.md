@@ -1,4 +1,4 @@
-- [**Introduction**](/)
+- [**Introduction**](/README.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**JSON RPC**](/json-rpc.md)
 - [**Plugin Directory**](/Plugins.md)
