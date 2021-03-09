@@ -3,7 +3,6 @@
   - Acronyms eg. `gk` or `gp` for GitKraken Preview.
   - Fuzzy eg. `acr` or `rea` for Acrobat Reader DC.
   - Single word eg.`code` or `visual` for Visual Studio Code.
-- Due to using Windows API search method, Explorer plugin will not be able to support Flow's core search methods above, you will need to search with the start of a word or title instead.
 - Press `F5` while in the query window or type `reload plugin data` to reload all plugin data such as newly installed programs or added bookmarks.
 - Right click on a result will also take you to the context menu for additional actions.
 - Back up Flow's settings including installed plugins, simply back up your UserData folder located:
