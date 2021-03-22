@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Flow.Launcher
+# Flow Launcher
 
 > Launch apps with greater control, search files effortlessly and extend features with community plugins.
 
