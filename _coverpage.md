@@ -15,4 +15,4 @@
 - Native Shell Support
 
 [GitHub](https://github.com/Flow-Launcher/Flow.Launcher)
-[Getting Started](#running-flow-launcher)
+[Getting Started](#welcome)

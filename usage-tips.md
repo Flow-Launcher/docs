@@ -1,0 +1,14 @@
+# Usage Tips
+- Search programs, bookmarks and control panel items using:
+  - Acronyms eg. `gk` or `gp` for GitKraken Preview.
+  - Fuzzy eg. `acr` or `rea` for Acrobat Reader DC.
+  - Single word eg.`code` or `visual` for Visual Studio Code.
+- Press `F5` while in the query window or type `reload plugin data` to reload all plugin data such as newly installed programs or added bookmarks.
+- Right click on a result will also take you to the context menu for additional actions.
+- Back up Flow's settings including installed plugins, simply back up your UserData folder located:
+  - If using roaming: `%APPDATA%\FlowLauncher`
+  - If using portable, by default: `%localappdata%\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData`
+- To restore your saved settings, ensure Flow is exited, simply delete the current UserData folder in the above location and copy yours in. Start Flow and all your settings will be setup. One exception however is your saved Quick Access files and folder paths in Explorer plugin you may need to update if the locations have changed.
+- The Program plugin runs indexing every 3 days, during which newly installed programs are added and uninstalled ones removed. You can also manually trigger this with pressing F5 while in the query window or type `reload plugin data`.
+- If your plugin is not triggering, open Flow's settings and go to the Plugins tab, click on the plugin and check if it is set to a particular action keyword. You can set the plugin's action keyword to global: `*` but be wary sometimes a plugin sets a dedicated keyword is because it may return lots of results cluttering the result list.
+- For Explorer plugin results, you can press `Ctrl + Enter` to open the folder directly instead of navigating into the folder.
