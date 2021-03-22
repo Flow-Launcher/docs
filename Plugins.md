@@ -1,5 +1,5 @@
 ## Plugins
-Here are some plugins to add to the functionality of Flow-Launcher.  They are either Woxy plugins that work already or have been ported over to be compatible.
+Here are some plugins to add to the functionality of Flow-Launcher.  They are either Wox plugins that work already or have been ported over to be compatible.
 
 | Name | Repo | Function |
 | --- | --- | --- |
