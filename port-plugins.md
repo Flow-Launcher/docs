@@ -8,7 +8,7 @@
 - All dll libraries used by the plugin should be outputted and included in the final build, to do this, set the attribute CopyLocalLockFileAssemblies in your project file to true
 
 ### Steps
-1. To start off, you can fork/create a new repo, either way the project's commit history must be kept. If it's forked, you can just start updating it. If it's a new repo, do this by first cloning the repo, then add your new repo as a new repo remote, remove the original remote and then push to it.
+1. To start off, you can fork/create a new repo, either way the project's commit history must be kept. If it's forked, you can just start updating it. If it's a new repo, do this by first cloning the repo, then add your new repo as a new repo remote, remove the original remote and then push to it
 2. Use try convert tool from https://github.com/dotnet/try-convert
 3. Try-convert -w path-to-folder-or-solution-or-project
 4. May need to fix on the project file, a good template to follow is the [Explorer plugin](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Plugins/Flow.Launcher.Plugin.Explorer/Flow.Launcher.Plugin.Explorer.csproj) project:
