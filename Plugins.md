@@ -1,4 +1,3 @@
-## Plugins
 Here are some plugins to add to the functionality of Flow-Launcher.  They are either Wox plugins that work already or have been ported over to be compatible.
 
 | Name | Repo | Function |
@@ -13,7 +12,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.  They are ei
 | UrlEncode | https://github.com/taooceros/Flow.Plugin.UrlEncode | Encode/Decode strings for URLs |
 | Putty | https://github.com/jjw24/Flow.Launcher.Plugin.Putty | Launch a PuTTy client |
 | FancyEmoji | https://github.com/821C3/Wox.Plugin.FancyEmoji | Emoji Search |
-| IsPrime | https://github.com/lvonkacsoh/wox-plugin-isPrime | Tells you if an entered number is prime or not |
+| IsPrime | https://github.com/lvonkacsoh/Flow.Launcher.Plugin.IsPrime | Tells you if an entered number is prime or not |
 | DiskSpace | https://github.com/roose/Wox.Plugin.DiskSpace | Shows available disk space |
 | wox-dash-velocity | https://github.com/etiago/wox-dash-velocity | Integrate with [Velocity](https://velocity.silverlakesoftware.com/) |
 | LibreTranslate | https://github.com/taooceros/Flow.LibreTranslate | Multi-language translation tool with [LibreTranslate](https://github.com/uav4geo/LibreTranslate) back-end |

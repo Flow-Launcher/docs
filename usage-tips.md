@@ -1,4 +1,3 @@
-# Usage Tips
 - Search programs, bookmarks and control panel items using:
   - Acronyms eg. `gk` or `gp` for GitKraken Preview.
   - Fuzzy eg. `acr` or `rea` for Acrobat Reader DC.
