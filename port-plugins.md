@@ -1,4 +1,4 @@
-## C# Wox/PowerToys Run Plugins
+## Wox/PowerToys Run C# Plugins
 
 ### Notes
 - When porting, please keep the author's commit history
@@ -17,7 +17,7 @@
 5. Update code and fix plugin's setting layout if neccessary
 6. Update readme to indicate where this port is from and the original author of the project
 
-## Python Wox Plugins
+## Wox Python Plugins
 
 ### Notes
 - When porting, please keep the author's commit history
