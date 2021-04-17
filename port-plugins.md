@@ -1,6 +1,4 @@
-# Porting Plugins
-
-## Wox/PowerToys Run
+## Wox/PowerToys Run C# Plugins
 
 ### Notes
 - When porting, please keep the author's commit history
@@ -18,3 +16,13 @@
 	- bump version to 2.0.0 and fix up any missing attributes if neccessary
 5. Update code and fix plugin's setting layout if neccessary
 6. Update readme to indicate where this port is from and the original author of the project
+
+## Wox Python Plugins
+
+### Notes
+- When porting, please keep the author's commit history
+
+### Steps
+1. Change the import from Wox to import from flowlauncher
+2. The class should inherit from FlowLauncher instead of Wox
+3. Install the flowlauncher python package
