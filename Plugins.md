@@ -4,7 +4,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.  They are ei
 | --- | --- | --- |
 | WoxDictionary | https://github.com/jjw24/WoxDictionary/releases/latest | Dictionary | 
 | Google Search Plus | https://github.com/jjw24/Wox.Plugin.GoogleSearch/releases/latest | Google Search |
-| SpotifyPremium | https://github.com/jjw24/Wox.Plugin.SpotifyPremium/releases/latest | Spotify Search |
+| SpotifyPremium | https://github.com/fow5040/Flow.Launcher.Plugin.SpotifyPremium/releases/latest | Spotify Search |
 | Runner | https://github.com/jjw24/Wox.Plugin.Runner/releases/latest | Create command line aliases |
 | Clipboard Manager | https://github.com/Xenolphthalein/Flow.Launcher.Plugin.ClipboardHistory | Manage your clipboard |
 | WindowWalker | https://github.com/taooceros/Microsoft.Plugin.WindowWalker | Alt+Tab Enhancer |
