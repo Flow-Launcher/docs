@@ -2,7 +2,7 @@
   - Acronyms eg. `gk` or `gp` for GitKraken Preview.
   - Fuzzy eg. `acr` or `rea` for Acrobat Reader DC.
   - Single word eg.`code` or `visual` for Visual Studio Code.
-- Press `F5` while in the query window or type `reload plugin data` to reload all plugin data such as newly installed programs or added bookmarks.
+- Press `F5` while in the query window (available in 1.8.0 version) or type `reload plugin data` to reload all plugin data such as newly installed programs or added bookmarks.
 - Right click on a result will also take you to the context menu for additional actions.
 - Back up Flow's settings including installed plugins, simply back up your UserData folder located:
   - If using roaming: `%APPDATA%\FlowLauncher`
