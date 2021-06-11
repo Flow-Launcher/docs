@@ -1,5 +1,5 @@
 - [**Introduction**](/README.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**JSON RPC**](/json-rpc.md)
-- [**Plugin Directory**](/Plugins.md)
+- [**Plugin Directory**](/plugins.md)
 - [**Porting Plugins**](/port-plugins.md)
