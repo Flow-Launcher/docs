@@ -1,4 +1,6 @@
-Here are some plugins to add to the functionality of Flow-Launcher.  They are either Wox plugins that work already or have been ported over to be compatible.
+Here are some plugins to add to the functionality of Flow-Launcher.
+
+They are either Wox plugins that work already or have been ported over to be compatible.
 
 <!--START_SECTION:plugin-->
 | Name | Repo | Function |
@@ -19,4 +21,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.  They are ei
 | LibreTranslate | https://github.com/taooceros/Flow.LibreTranslate | Multi-language translation tool with [LibreTranslate](https://github.com/uav4geo/LibreTranslate) back-end |
 <!--END_SECTION:plugin-->
 
-There is an [open issue](https://github.com/Flow-Launcher/Flow.Launcher/issues/170) where you can request existing Wox or PowerToys Run plugins be ported.  You can also do this yourself using the instructions elsewhere in [our documentation](https://flow-launcher.github.io/docs/#/port-plugins).
+There is an [open issue](https://github.com/Flow-Launcher/Flow.Launcher/issues/170)
+where you can request existing Wox or PowerToys Run plugins be ported.
+
+You can also do this yourself using the instructions elsewhere in [our documentation](https://flow-launcher.github.io/docs/#/port-plugins).
