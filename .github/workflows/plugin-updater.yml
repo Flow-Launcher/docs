@@ -26,8 +26,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: "Flow-Launcher/Flow.Launcher.PluginsManifest"
-          PLUGINS_JSON: "plugins.json"
-          PLUGINS_MARKDOWN: "plugins.md"
+          PLUGIN_JSON: "plugins.json"
+          PLUGIN_MARKDOWN: "plugins.md"
           PLUGIN_NAME: "Name"
           PLUGIN_AUTHOR: "Author"
           PLUGIN_DESCRIPTION: "Description"
@@ -37,6 +37,6 @@ jobs:
       - name: Commit & Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "DOC: update plugin list from "
+          commit_message: "DOC: update plugin list"
           push_options: --force
           branch: main
