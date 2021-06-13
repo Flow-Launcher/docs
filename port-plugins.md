@@ -1,11 +1,13 @@
 ## Wox/PowerToys Run C# Plugins
 
 ### Notes
+
 - When porting, please keep the author's commit history
 - Flow Launcher targets .Net Core 3.1, so plugins should also be upgraded to keep the continuity of future developments
 - All dll libraries used by the plugin should be outputted and included in the final build, to do this, set the attribute CopyLocalLockFileAssemblies in your project file to true
 
 ### Steps
+
 1. To start off, you can fork/create a new repo, either way the project's commit history must be kept. If it's forked, you can just start updating it. If it's a new repo, do this by first cloning the repo, then add your new repo as a new repo remote, remove the original remote and then push to it
 2. Use try convert tool from https://github.com/dotnet/try-convert
 3. Try-convert -w path-to-folder-or-solution-or-project
@@ -20,9 +22,11 @@
 ## Wox Python Plugins
 
 ### Notes
+
 - When porting, please keep the author's commit history
 
 ### Steps
+
 1. Change the import from Wox to import from flowlauncher
 2. The class should inherit from FlowLauncher instead of Wox
 3. Install the flowlauncher python package
