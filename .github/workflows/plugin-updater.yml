@@ -1,0 +1,42 @@
+name: Plugin Updater
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install Dependencies
+        run: pip install -r ./ci/envs/requirements-plugin.txt
+
+      - name: Update Plugin Informations
+        run: python ./ci/src/plugin_updater.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: "Flow-Launcher/Flow.Launcher.PluginsManifest"
+          PLUGINS_JSON: "plugins.json"
+          PLUGINS_MARKDOWN: "plugins.md"
+          PLUGIN_NAME: "Name"
+          PLUGIN_AUTHOR: "Author"
+          PLUGIN_DESCRIPTION: "Description"
+          PLUGIN_VERSION: "Version"
+          PLUGIN_WEBSITE: "Website"
+
+      - name: Commit & Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "DOC: update plugin list from "
+          push_options: --force
+          branch: main
