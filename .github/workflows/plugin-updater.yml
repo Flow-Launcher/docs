@@ -1,10 +1,6 @@
 name: Plugin Updater
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -14,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
       - uses: actions/setup-python@v2
         with:
           python-version: "3.x"
@@ -26,8 +25,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: "Flow-Launcher/Flow.Launcher.PluginsManifest"
-          PLUGINS_JSON: "plugins.json"
-          PLUGINS_MARKDOWN: "plugins.md"
+          PLUGIN_JSON: "plugins.json"
+          PLUGIN_MARKDOWN: "plugins.md"
           PLUGIN_NAME: "Name"
           PLUGIN_AUTHOR: "Author"
           PLUGIN_DESCRIPTION: "Description"
@@ -37,6 +36,6 @@ jobs:
       - name: Commit & Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "DOC: update plugin list from "
+          commit_message: "DOC: update plugin list"
           push_options: --force
           branch: main

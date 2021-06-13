@@ -4,7 +4,7 @@ ghtoken = os.getenv("GH_TOKEN")
 repository = os.getenv("REPOSITORY")
 
 plugin_markdown = os.getenv("PLUGIN_MARKDOWN")
-plugin_json = os.getenv("PLUGINS_JSON")
+plugin_json = os.getenv("PLUGIN_JSON")
 
 plugin_name = os.getenv("PLUGIN_NAME")
 plugin_author = os.getenv("PLUGIN_AUTHOR")
