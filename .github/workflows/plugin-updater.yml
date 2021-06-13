@@ -25,8 +25,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: "Flow-Launcher/Flow.Launcher.PluginsManifest"
-          PLUGINS_JSON: "plugins.json"
-          PLUGINS_MARKDOWN: "plugins.md"
+          PLUGIN_JSON: "plugins.json"
+          PLUGIN_MARKDOWN: "plugins.md"
           PLUGIN_NAME: "Name"
           PLUGIN_AUTHOR: "Author"
           PLUGIN_DESCRIPTION: "Description"
