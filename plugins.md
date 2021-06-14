@@ -1,7 +1,5 @@
 Here are some plugins to add to the functionality of Flow-Launcher.
 
-They are either Wox plugins that work already or have been ported over to be compatible.
-
 <!--START_SECTION:plugin-->
 |                                           Name                                            |                               Description                                |                    Author                    |Version|
 |-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------|-------|
@@ -27,7 +25,5 @@ They are either Wox plugins that work already or have been ported over to be com
 
 <!--END_SECTION:plugin-->
 
-There is an [open issue](https://github.com/Flow-Launcher/Flow.Launcher/issues/170)
-where you can request existing Wox or PowerToys Run plugins be ported.
-
-You can also do this yourself using the instructions elsewhere in [our documentation](https://flow-launcher.github.io/docs/#/port-plugins).
+You can request existing Wox or PowerToys Run plugins that you use frequently be ported in this [open issue](https://github.com/Flow-Launcher/Flow.Launcher/issues/170), or
+do this yourself using the instructions from the [Porting Plugins](https://flow-launcher.github.io/docs/#/port-plugins) section of our documentation.
