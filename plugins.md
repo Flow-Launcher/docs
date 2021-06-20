@@ -11,7 +11,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Window Walker](https://www.windowwalker.com/)                                             |Alt-Tab alternative enabling searching through your windows.              |betadele                                      |1.4.2  |
 |[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)             |Search Everything                                                         |qianlifeng, orzfly                            |1.4.9  |
 |[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                      |Provide hex color preview.(Try #000 in Flow Launcher)                     |qianlifeng                                    |1.1.1  |
-|[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)          |Currency converter using the euro and rates at https://www.ecb.europa.eu/ |deefrawley                                    |1.1.0  |
+|[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)          |Currency converter using the euro and rates at https://www.ecb.europa.eu/ |deefrawley                                    |1.2.0  |
 |[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                           |Shows your internal and external IP address                               |ishu3101                                      |1.2.1  |
 |[Flow.Plugin.UrlEncode](https://github.com/cxfksword/Wox.Plugin.UrlEncode)                 |urlencode or urldecode a string                                           |cxfksword                                     |1.0    |
 |[Putty](https://github.com/jjw24/Flow.Launcher.Plugin.Putty)                               |Launch Putty Sessions                                                     |Konstantin Zaitcev, Kai Eichinger (@cH40zLord)|2.1.2  |
@@ -20,7 +20,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Todos](https://github.com/jjw24/Wox.Plugin.Todos)                                         |A simple todo app.                                                        |caoyue                                        |2.0.1  |
 |[Direct Translate](https://github.com/Drimix20/Flow.Launcher.Plugin.DirectTranslate)       |Translate between any languages supported by textblob.                    |Drimix20                                      |1.0.0  |
 |[GitHub](https://github.com/JohnTheGr8/Flow.Plugin.Github)                                 |Search Github repositories and users, browse issues and PRs               |Ioannis G. (@JohnTheGr8)                      |1.2.2  |
-|[isPrime](https://github.com/lvonkacsoh/Flow.Launcher.Plugin.IsPrime)                      |Checks if the given arguments are prime numbers                           |lvonkacsoh                                    |1.1    |
+|[isPrime](https://github.com/lvonkacsoh/Flow.Launcher.Plugin.IsPrime)                      |Checks if the given arguments are prime numbers                           |lvonkacsoh                                    |1.3.0  |
 |[RollDice](https://github.com/lvonkacsoh/Flow.Launcher.RollDice)                           |Rolls the given dices and evaluates the expression                        |lvonkacsoh                                    |1.0.0  |
 
 <!--END_SECTION:plugin-->
