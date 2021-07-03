@@ -3,3 +3,5 @@
 - [**JSON RPC**](/json-rpc.md)
 - [**Plugin Directory**](/plugins.md)
 - [**Porting Plugins**](/port-plugins.md)
+- [**Develop C# Plugins**](/develop-csharp-plugins.md)
+- [**Develop Python Plugins**](/develop-py-plugins.md)
