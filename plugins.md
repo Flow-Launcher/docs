@@ -22,6 +22,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[GitHub](https://github.com/JohnTheGr8/Flow.Plugin.Github)                                 |Search Github repositories and users, browse issues and PRs               |Ioannis G. (@JohnTheGr8)                      |1.2.2  |
 |[isPrime](https://github.com/lvonkacsoh/Flow.Launcher.Plugin.IsPrime)                      |Checks if the given arguments are prime numbers                           |lvonkacsoh                                    |1.3.0  |
 |[RollDice](https://github.com/lvonkacsoh/Flow.Launcher.RollDice)                           |Rolls the given dices and evaluates the expression                        |lvonkacsoh                                    |1.0.0  |
+|[Fancy Emoji](https://github.com/Ma-ve/Flow.Launcher.Plugin.FancyEmoji)                    |Search for emoji and add to your clipboard automatically                  |Mave                                          |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
