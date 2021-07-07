@@ -1,7 +1,5 @@
 # Flow.Launcher.Plugin
 
-## Flow.Launcher.Plugin
-
 [ActionContext](./flow.launcher.plugin.actioncontext.md)
 
 [AllowedLanguage](./flow.launcher.plugin.allowedlanguage.md)
