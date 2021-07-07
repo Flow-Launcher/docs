@@ -1,8 +1,8 @@
-## How to develop C#/F# plugins
+# C#/F# plugins Development Guid
 
 Flow is written in C#, so plugins written in C#/F# can directly communicate with Flow without extra protocols.
 
-### Initialization
+# Initialization
 
 We recommand you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template first.
 
@@ -10,7 +10,7 @@ In order to be recongized as a Flow DotNet plugin, the directory need to have at
 1. [`plugin.json`](/plugin.json.md)
 2. A C#/F# class that implement `IPlugin`or `IAsyncPlugin`(remember to refrence [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a`Main.cs` that implement `IPlugin`.
 
-### IPlugin/IAsyncPlugin
+## IPlugin/IAsyncPlugin
 
 The `Main`class that implement `IPlugin`or `IAsyncPlugin`will handle the query search with Flow.
 
@@ -27,13 +27,13 @@ The `Main`class that implement `IPlugin`or `IAsyncPlugin`will handle the query s
  - Instead of implmenting `Init` and `Query`, you will need to implement `InitAsync`and `QueryAsync`, which use `Task`,`Task<List<Result>` as return value to allow  using `async/await`strategy
  - `QueryAsync` provides a `CancellationToken token` to allow you to check whether user has typed a new query.
  
-### Additional Interface
+## Additional Interface
 
 Besides the basic implementation of **IPlugin/IAsyncPlugin**, plugins can also implement a series of interface that belongs to **IFeatures** to control more communication with Flow. 
 
 **Remarks**: We requires you to implement these interfaces in the same class that implement **IPlugin/IAsyncPlugin**.
 
-#### IContextMenu
+### IContextMenu
 
 ```csharp
 public interface IContextMenu : IFeatures
@@ -45,7 +45,7 @@ public interface IContextMenu : IFeatures
 `LoadContextMenus` will be invoked when users expand the context menu of a specific Result. 
 The return value of `LoadContextMenus` is similar to Results from`Query/QueryAsync`.
 
-#### IReloadable/IAsyncReloadable
+### IReloadable/IAsyncReloadable
 
 ```csharp
 public interface IReloadable : IFeatures
@@ -61,7 +61,7 @@ public interface IAsyncReloadable : IFeatures
 
 `ReloadData/ReloadDataAsync` will be invoked when users click the `Reload Plugin Data` command from _sys_ plugin. Generally, it is used to reload some cache (such as the programs information cached in _Program_ plugin).
 
-#### IPluginI18n
+### IPluginI18n
 
 ```csharp
 public interface IPluginI18n : IFeatures
@@ -75,16 +75,16 @@ public interface IPluginI18n : IFeatures
 **IPluginI18n** means the plugins has been internationalized. Therefore, Flow will load the additional lauguage resources from `/Language` when loading the plugin.
 By implementing this interface with additional language files, Flow will be able to load localized language resources. You will able to get the translated text with `IPublicAPI.GetTranslation(string key)`.
 
-##### Language Resource
+#### Language Resource
 
 A Language Resource file will have name of the specific Language Code with suffix `.xaml`. The information of the Language Code can be found here [AvailableLanguages.cs](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher.Core/Resource/AvailableLanguages.cs).
 The Language Resource file will need to be a list of **key/value** set. Follow the examples found [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Languages/en.xaml).
 
-##### Remark
+#### Remark
 
 Plugins are required to implement **IPublicI18n** to let Flow loads Language resources.
 
-#### IResultUpdated
+### IResultUpdated
 
 ```csharp
 public interface IResultUpdated : IFeatures
