@@ -1,4 +1,4 @@
-# C#/F# plugins Development Guid
+# C#/F# plugins Development Guide
 
 Flow is written in C#, so plugins written in C#/F# can directly communicate with Flow without extra protocols.
 
