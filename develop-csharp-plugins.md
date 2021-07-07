@@ -1,14 +1,14 @@
 ## How to develop C#/F# plugins
 
-Flow is written in C#, so plugins written in C#/F# can be directly communicated with Flow without extra protocal.
+Flow is written in C#, so plugins written in C#/F# can directly communicate with Flow without extra protocols.
 
 ### Initialization
 
-We recommand you to use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template first.
+We recommand you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template first.
 
 In order to be recongized as a Flow DotNet plugin, the directory need to have at least two files
 1. `plugin.json`
-2. A C#/F# class that implement `IPlugin`or `IAsyncPlugin`(Add refrence [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a`Main.cs` that implement `IPlugin`.
+2. A C#/F# class that implement `IPlugin`or `IAsyncPlugin`(remember to refrence [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a`Main.cs` that implement `IPlugin`.
 
 ### IPlugin/IAsyncPlugin
 
@@ -18,7 +18,7 @@ The `Main`class that implement `IPlugin`or `IAsyncPlugin`will handle the query s
 1. `void Init(PluginInitContext context)`
     - [PluginInitContext](https://github.com/Flow-Launcher/Flow.Launcher/blob/master/Flow.Launcher.Plugin/PluginInitContext.cs) exposes some API from Flow and an metadata object for your plugin. 
     - `Init`method will be invoked before the invocation of `Query`, so you can do some preparation here. 
-    - We recommand you to do expensive paration in `Init`instead of Object Constructor because `Init`method will be executed in parallel with other plugin.
+    - We recommand you do expensive operations in `Init`instead of Object Constructor because `Init`method will be executed in parallel with other plugin.
 2. `List<Result> Query(Query query)`
     - `Query`will be invoked when user activate this plugin with specific ActionKeyword.
     - A `List`of `Result`object should be returned.
@@ -98,4 +98,3 @@ Implementing **IResultUpdated** provides a way to early update part of the resul
 To early invoke a result to Flow, you will need to invoke `ResultUpdated` event with an `ResultUpdatedEventArgs`, which includes the current `Query` object and the List of `Result` objects similar to the return value in `Query(Async)`.
 
 Follow the examples found [here](https://github.com/Flow-Launcher/plugin-samples/tree/master/HelloWorldCSharp) 
-
