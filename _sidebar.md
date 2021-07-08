@@ -6,5 +6,4 @@
     - [**JSON RPC**](/json-rpc.md)
         - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Develop C# Plugins**](/develop-csharp-plugins.md)
-      - [**Flow.Launcher.Plugin Reference**](/Flow.Launcher.Plugin/index.md)
     - [**Porting Plugins**](/port-plugins.md)
