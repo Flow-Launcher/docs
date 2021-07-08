@@ -1,5 +1,5 @@
 # Flow.Launcher.Plugin.SharedCommands Namesapce
 
-- [FilesFolders](Flow.Launcher.Plugin.SharedCommands/flow.launcher.plugin.sharedcommands.filesfolders.md)
-- [SearchWeb](Flow.Launcher.Plugin.SharedCommands/flow.launcher.plugin.sharedcommands.searchweb.md)
-- [ShellCommand](Flow.Launcher.Plugin.SharedCommands/flow.launcher.plugin.sharedcommands.shellcommand.md)
+- [FilesFolders](Flow.Launcher.Plugin.SharedCommands/filesfolders.md)
+- [SearchWeb](Flow.Launcher.Plugin.SharedCommands/searchweb.md)
+- [ShellCommand](Flow.Launcher.Plugin.SharedCommands/shellcommand.md)

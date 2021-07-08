@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class ResultUpdatedEventArgs : System.EventArgs
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [EventArgs](https://docs.microsoft.com/en-us/dotnet/api/system.eventargs) → [ResultUpdatedEventArgs](./flow.launcher.plugin.resultupdatedeventargs.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [EventArgs](https://docs.microsoft.com/en-us/dotnet/api/system.eventargs) → [ResultUpdatedEventArgs](resultupdatedeventargs.md)
 
 ## Fields
 

@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class Query
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Query](./flow.launcher.plugin.query.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Query](query.md)
 
 ## Fields
 

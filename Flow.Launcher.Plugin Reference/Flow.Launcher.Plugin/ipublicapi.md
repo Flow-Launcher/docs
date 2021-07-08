@@ -187,7 +187,7 @@ The string that will be compared against the query
 
 #### Returns
 
-[MatchResult](./flow.launcher.plugin.sharedmodels.matchresult.md)<br>
+[MatchResult](sharedmodels.matchresult.md)<br>
 Match results
 
 ### **HttpGetStringAsync(String, CancellationToken)**

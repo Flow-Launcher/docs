@@ -20,7 +20,7 @@ Task<List<Result>> QueryAsync(Query query, CancellationToken token)
 
 #### Parameters
 
-`query` [Query](./flow.launcher.plugin.query.md)<br>
+`query` [Query](query.md)<br>
 Query to search
 
 `token` [CancellationToken](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken)<br>
@@ -40,7 +40,7 @@ Task InitAsync(PluginInitContext context)
 
 #### Parameters
 
-`context` [PluginInitContext](./flow.launcher.plugin.plugininitcontext.md)<br>
+`context` [PluginInitContext](plugininitcontext.md)<br>
 
 #### Returns
 

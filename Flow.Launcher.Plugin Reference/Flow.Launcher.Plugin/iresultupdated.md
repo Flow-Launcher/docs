@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public interface IResultUpdated : IFeatures
 ```
 
-Implements [IFeatures](./flow.launcher.plugin.ifeatures.md)
+Implements [IFeatures](ifeatures.md)
 
 ## Events
 

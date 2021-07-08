@@ -11,7 +11,7 @@ Synchronous Plugin Model for Flow Launcher
 public interface IPlugin : IAsyncPlugin
 ```
 
-Implements [IAsyncPlugin](./flow.launcher.plugin.iasyncplugin.md)
+Implements [IAsyncPlugin](iasyncplugin.md)
 
 ## Methods
 
@@ -28,7 +28,7 @@ List<Result> Query(Query query)
 
 #### Parameters
 
-`query` [Query](./flow.launcher.plugin.query.md)<br>
+`query` [Query](query.md)<br>
 Query to search
 
 #### Returns
@@ -45,4 +45,4 @@ void Init(PluginInitContext context)
 
 #### Parameters
 
-`context` [PluginInitContext](./flow.launcher.plugin.plugininitcontext.md)<br>
+`context` [PluginInitContext](plugininitcontext.md)<br>

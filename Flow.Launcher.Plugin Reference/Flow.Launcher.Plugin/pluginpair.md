@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class PluginPair
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [PluginPair](./flow.launcher.plugin.pluginpair.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [PluginPair](pluginpair.md)
 
 ## Properties
 
@@ -22,7 +22,7 @@ public IAsyncPlugin Plugin { get; internal set; }
 
 #### Property Value
 
-[IAsyncPlugin](./flow.launcher.plugin.iasyncplugin.md)<br>
+[IAsyncPlugin](iasyncplugin.md)<br>
 
 ### **Metadata**
 
@@ -34,7 +34,7 @@ public PluginMetadata Metadata { get; internal set; }
 
 #### Property Value
 
-[PluginMetadata](./flow.launcher.plugin.pluginmetadata.md)<br>
+[PluginMetadata](pluginmetadata.md)<br>
 
 ## Constructors
 

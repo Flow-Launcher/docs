@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class PluginMetadata : BaseModel, System.ComponentModel.INotifyPropertyChanged
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [BaseModel](./flow.launcher.plugin.basemodel.md) → [PluginMetadata](./flow.launcher.plugin.pluginmetadata.md)<br>
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [BaseModel](basemodel.md) → [PluginMetadata](pluginmetadata.md)<br>
 Implements INotifyPropertyChanged
 
 ## Properties

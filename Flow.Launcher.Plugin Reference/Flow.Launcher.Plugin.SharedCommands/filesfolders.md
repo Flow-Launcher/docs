@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin.SharedCommands
 public static class FilesFolders
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [FilesFolders](./flow.launcher.plugin.sharedcommands.filesfolders.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [FilesFolders](filesfolders.md)
 
 ## Methods
 

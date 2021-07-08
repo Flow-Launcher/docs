@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin.SharedCommands
 public static class ShellCommand
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [ShellCommand](./flow.launcher.plugin.sharedcommands.shellcommand.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [ShellCommand](shellcommand.md)
 
 ## Methods
 

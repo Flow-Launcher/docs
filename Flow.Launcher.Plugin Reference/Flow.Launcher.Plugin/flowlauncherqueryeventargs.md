@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class FlowLauncherQueryEventArgs
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [FlowLauncherQueryEventArgs](./flow.launcher.plugin.flowlauncherqueryeventargs.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [FlowLauncherQueryEventArgs](flowlauncherqueryeventargs.md)
 
 ## Properties
 
@@ -22,7 +22,7 @@ public Query Query { get; set; }
 
 #### Property Value
 
-[Query](./flow.launcher.plugin.query.md)<br>
+[Query](query.md)<br>
 
 ## Constructors
 

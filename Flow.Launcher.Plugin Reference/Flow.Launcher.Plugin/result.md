@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class Result
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Result](./flow.launcher.plugin.result.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Result](result.md)
 
 ## Fields
 

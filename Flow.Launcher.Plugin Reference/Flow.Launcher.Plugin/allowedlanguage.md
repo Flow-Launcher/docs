@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public static class AllowedLanguage
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [AllowedLanguage](./flow.launcher.plugin.allowedlanguage.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [AllowedLanguage](allowedlanguage.md)
 
 ## Properties
 

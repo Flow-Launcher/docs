@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class SpecialKeyState
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SpecialKeyState](./flow.launcher.plugin.specialkeystate.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SpecialKeyState](specialkeystate.md)
 
 ## Properties
 

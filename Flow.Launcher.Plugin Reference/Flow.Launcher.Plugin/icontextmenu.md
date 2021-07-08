@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public interface IContextMenu : IFeatures
 ```
 
-Implements [IFeatures](./flow.launcher.plugin.ifeatures.md)
+Implements [IFeatures](ifeatures.md)
 
 ## Methods
 
@@ -22,7 +22,7 @@ List<Result> LoadContextMenus(Result selectedResult)
 
 #### Parameters
 
-`selectedResult` [Result](./flow.launcher.plugin.result.md)<br>
+`selectedResult` [Result](result.md)<br>
 
 #### Returns
 

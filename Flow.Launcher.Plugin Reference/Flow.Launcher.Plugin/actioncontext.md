@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class ActionContext
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [ActionContext](./flow.launcher.plugin.actioncontext.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [ActionContext](actioncontext.md)
 
 ## Properties
 
@@ -22,7 +22,7 @@ public SpecialKeyState SpecialKeyState { get; set; }
 
 #### Property Value
 
-[SpecialKeyState](./flow.launcher.plugin.specialkeystate.md)<br>
+[SpecialKeyState](specialkeystate.md)<br>
 
 ## Constructors
 

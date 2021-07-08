@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class PluginInitContext
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [PluginInitContext](./flow.launcher.plugin.plugininitcontext.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [PluginInitContext](plugininitcontext.md)
 
 ## Properties
 
@@ -22,7 +22,7 @@ public PluginMetadata CurrentPluginMetadata { get; internal set; }
 
 #### Property Value
 
-[PluginMetadata](./flow.launcher.plugin.pluginmetadata.md)<br>
+[PluginMetadata](pluginmetadata.md)<br>
 
 ### **API**
 
@@ -34,7 +34,7 @@ public IPublicAPI API { get; set; }
 
 #### Property Value
 
-[IPublicAPI](./flow.launcher.plugin.ipublicapi.md)<br>
+[IPublicAPI](ipublicapi.md)<br>
 
 ## Constructors
 
@@ -56,6 +56,6 @@ public PluginInitContext(PluginMetadata currentPluginMetadata, IPublicAPI api)
 
 #### Parameters
 
-`currentPluginMetadata` [PluginMetadata](./flow.launcher.plugin.pluginmetadata.md)<br>
+`currentPluginMetadata` [PluginMetadata](pluginmetadata.md)<br>
 
-`api` [IPublicAPI](./flow.launcher.plugin.ipublicapi.md)<br>
+`api` [IPublicAPI](ipublicapi.md)<br>

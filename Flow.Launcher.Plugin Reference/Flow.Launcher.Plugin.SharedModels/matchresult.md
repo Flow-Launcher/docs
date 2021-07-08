@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin.SharedModels
 public class MatchResult
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [MatchResult](./flow.launcher.plugin.sharedmodels.matchresult.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [MatchResult](matchresult.md)
 
 ## Properties
 
@@ -70,7 +70,7 @@ public SearchPrecisionScore SearchPrecision { get; set; }
 
 #### Property Value
 
-[SearchPrecisionScore](./flow.launcher.plugin.sharedmodels.searchprecisionscore.md)<br>
+[SearchPrecisionScore](sharedmodels.searchprecisionscore.md)<br>
 
 ## Constructors
 
@@ -86,7 +86,7 @@ public MatchResult(bool success, SearchPrecisionScore searchPrecision)
 
 `success` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br>
 
-`searchPrecision` [SearchPrecisionScore](./flow.launcher.plugin.sharedmodels.searchprecisionscore.md)<br>
+`searchPrecision` [SearchPrecisionScore](sharedmodels.searchprecisionscore.md)<br>
 
 ### **MatchResult(Boolean, SearchPrecisionScore, List&lt;Int32&gt;, Int32)**
 
@@ -100,7 +100,7 @@ public MatchResult(bool success, SearchPrecisionScore searchPrecision, List<int>
 
 `success` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br>
 
-`searchPrecision` [SearchPrecisionScore](./flow.launcher.plugin.sharedmodels.searchprecisionscore.md)<br>
+`searchPrecision` [SearchPrecisionScore](sharedmodels.searchprecisionscore.md)<br>
 
 `matchData` [List&lt;Int32&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br>
 

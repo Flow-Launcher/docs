@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin
 public class BaseModel : System.ComponentModel.INotifyPropertyChanged
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [BaseModel](./flow.launcher.plugin.basemodel.md)<br>
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [BaseModel](basemodel.md)<br>
 Implements INotifyPropertyChanged
 
 ## Constructors

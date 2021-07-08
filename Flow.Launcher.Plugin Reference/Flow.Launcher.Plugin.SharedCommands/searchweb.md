@@ -8,7 +8,7 @@ Namespace: Flow.Launcher.Plugin.SharedCommands
 public static class SearchWeb
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SearchWeb](./flow.launcher.plugin.sharedcommands.searchweb.md)
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SearchWeb](searchweb.md)
 
 ## Methods
 

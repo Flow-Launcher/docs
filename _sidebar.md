@@ -4,6 +4,6 @@
 - Plugin Development
     - [**plugin.json**](/plugins.json.md)
     - [**JSON RPC**](/json-rpc.md)
-        - [**Develop Python Plugins**](/develop-py-plugins.md)
+    - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Develop C# Plugins**](/develop-csharp-plugins.md)
     - [**Porting Plugins**](/port-plugins.md)
