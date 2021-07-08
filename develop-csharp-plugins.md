@@ -4,11 +4,11 @@ Flow is written in C#, so plugins written in dotnet platform can directly commun
 
 ## Initialization
 
-We recommand you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template first.
+For C# Plugins, We recommand you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template.
 
 In order to be recongized as a Flow DotNet plugin, the directory need to have at least two files
 1. [`plugin.json`](plugin.json.md)
-2. A Dotnet class that implement **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** or **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** (remember to refrence [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a`Main.cs` that implement `IPlugin`.
+2. A Dotnet Assembly that implement **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** or **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** (remember to refrence [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a`Main.cs` that implement `IPlugin`.
 
 Found our API Reference [here](API-Reference/)
 

@@ -1,6 +1,6 @@
-## plugin.json
+# plugin.json
 
-Plugin.json is the manifest files of your plugin. It is required for Flow to understand how to communicate with your plugin. 
+`plugin.json` is the manifest files of your plugin. It is required for Flow to understand how to communicate with your plugin. 
 It must be in the plugin root directory.
 
 ```json
