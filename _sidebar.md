@@ -2,7 +2,7 @@
 - [**Usage Tips**](/usage-tips.md)
 - [**Plugin Directory**](/plugins.md)
 - Plugin Development
-    - [**plugin.json**](/plugins.json.md)
+    - [**plugin.json**](/plugin.json.md)
     - [**JSON RPC**](/json-rpc.md)
     - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Develop C# Plugins**](/develop-csharp-plugins.md)
