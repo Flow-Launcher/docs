@@ -12,6 +12,9 @@ In order to be recongized as a Flow DotNet plugin, the directory need to have at
 
 Found our API Reference [here](API-Reference/)
 
+
+A sample CSharp Plugin [here](https://github.com/Flow-Launcher/plugin-samples/tree/master/HelloWorldCSharp) 
+
 ## IPlugin/IAsyncPlugin
 
 The `Main`class that implement **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** or **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** will handle the query search with Flow.
@@ -65,4 +68,3 @@ Implementing **IResultUpdated** provides a way to early update part of the resul
 
 To early invoke a result to Flow, you will need to invoke `ResultUpdated` event with an `ResultUpdatedEventArgs`, which includes the current `Query` object and the List of `Result` objects similar to the return value in `Query(Async)`.
 
-Follow the examples found [here](https://github.com/Flow-Launcher/plugin-samples/tree/master/HelloWorldCSharp) 
