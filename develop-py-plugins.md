@@ -1,4 +1,4 @@
-## How to develop C# plugins
+## How to develop Python plugins
 
 We are currently writing up this section, will be updated soon.
 
