@@ -2,7 +2,7 @@
 
 Flow is written in C#, so plugins written in dotnet platform can directly communicate with Flow without extra protocols.
 
-# Initialization
+## Initialization
 
 We recommand you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template first.
 
@@ -31,7 +31,8 @@ The `Main`class that implement **[IPlugin](API-Reference/Flow.Launcher.Plugin/ip
  **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** is the async version of **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)**
  - Instead of implmenting `Init` and `Query`, you will need to implement `InitAsync`and `QueryAsync`, which use `Task`,`Task<List<Result>` as return value to allow  using `async/await`strategy
  - `QueryAsync` provides a `CancellationToken token` to allow you to check whether user has typed a new query.
- 
+
+
 ## Additional Interface
 
 Besides the basic implementation of **IPlugin/IAsyncPlugin**, plugins can also implement a series of interface that belongs to **IFeatures** to control more communication with Flow. 
