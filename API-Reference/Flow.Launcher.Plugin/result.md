@@ -14,7 +14,7 @@ Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) 
 
 ### **Icon**
 
-
+Delegate version of IcoPath. You can use either Icon or IcoPath to display image for the result.
 
 ```csharp
 public IconDelegate Icon;
@@ -61,7 +61,7 @@ public string ActionKeywordAssigned { get; set; }
 
 ### **IcoPath**
 
-
+Relative Path (plugin directory) to the Image displayed for the current Result.
 
 ```csharp
 public string IcoPath { get; set; }
@@ -85,7 +85,7 @@ public Func<ActionContext, bool> Action { get; set; }
 
 ### **Score**
 
-
+An int value showing the priority of the current result. It can be used to sort multiple results.
 
 ```csharp
 public int Score { get; set; }
