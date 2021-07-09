@@ -4,7 +4,7 @@
 - Plugin Development
     - [**plugin.json**](/plugin.json.md)
     - Dotnet Plugins
-      - [**Development Guide**](/develop-csharp-plugins.md)
+      - [**Development Guide**](/develop-dotnet-plugins.md)
       - [**API Reference**](API-Reference/)
     - JSONRPC Plugins
       - [**JSON RPC Introduction**](/json-rpc.md)
