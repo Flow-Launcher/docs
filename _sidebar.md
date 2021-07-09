@@ -3,10 +3,10 @@
 - [**Plugin Directory**](/plugins.md)
 - Plugin Development
     - [**plugin.json**](/plugin.json.md)
+    - Dotnet Plugins
+      - [**Development Guide**](/develop-csharp-plugins.md)
+      - [**API Reference**](API-Reference/)
     - JSONRPC Plugins
       - [**JSON RPC Introduction**](/json-rpc.md)
       - [**Develop Python Plugins**](/develop-py-plugins.md)
-    - Dotnet Plugins
-      - [**Develop Guide**](/develop-csharp-plugins.md)
-      - [**API Reference**](API-Reference/)
     - [**Porting Plugins**](/port-plugins.md)
