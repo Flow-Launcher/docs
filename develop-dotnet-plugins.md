@@ -13,7 +13,7 @@ In order to be recongized as a Flow DotNet plugin, the directory needs to have a
 Find our API Reference [here](API-Reference/)
 
 
-A sample CSharp Plugin [here](https://github.com/Flow-Launcher/plugin-samples/tree/master/HelloWorldCSharp) 
+A sample CSharp Plugin [here](https://github.com/Flow-Launcher/plugin-samples) 
 
 ## IPlugin/IAsyncPlugin
 
