@@ -24,6 +24,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[RollDice](https://github.com/lvonkacsoh/Flow.Launcher.RollDice)                           |Rolls the given dices and evaluates the expression                        |lvonkacsoh                                    |1.0    |
 |[Fancy Emoji](https://github.com/Ma-ve/Flow.Launcher.Plugin.FancyEmoji)                    |Search for emoji and add to your clipboard automatically                  |Mave                                          |1.0.1  |
 |[Timestamp](https://github.com/Zeroto521/Flow.Launcher.Plugin.Timestamp)                   |Show system time and could copy that                                      |Zero <Zeroto521>                              |1.0.7  |
+|[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)         |General weights and measures converter                                    |deefrawley                                    |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
