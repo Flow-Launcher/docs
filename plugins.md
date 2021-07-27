@@ -26,6 +26,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Timestamp](https://github.com/Zeroto521/Flow.Launcher.Plugin.Timestamp)                   |Show system time and could copy that                                      |Zero <Zeroto521>                              |1.0.7  |
 |[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)         |General weights and measures converter                                    |deefrawley                                    |1.0.0  |
 |[HA-Commander](https://github.com/Garulf/HA-Commander)                                     |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |2.3.3  |
+|[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
