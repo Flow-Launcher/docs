@@ -50,7 +50,7 @@ The return value of `LoadContextMenus` is similar to Results from `Query/QueryAs
 
 ### [IPluginI18n](/API-Reference/Flow.Launcher.Plugin/iplugini18n.md)
 
-**IPluginI18n** means the plugin has been internationalized. Therefore, Flow will load the additional lauguage resources from `/Language` when loading the plugin.
+**IPluginI18n** means the plugin has been internationalized. Therefore, Flow will load the additional lauguage resources from `/Languages` when loading the plugin.
 By implementing this interface with additional language files, Flow will be able to load plugin-sepcified localized language resources. You will be able to get the translated text with `IPublicAPI.GetTranslation(string key)`.
 
 #### Language Resource
