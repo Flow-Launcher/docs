@@ -1,7 +1,12 @@
 - [**Introduction**](/README.md)
 - [**Usage Tips**](/usage-tips.md)
-- [**JSON RPC**](/json-rpc.md)
 - [**Plugin Directory**](/plugins.md)
-- [**Porting Plugins**](/port-plugins.md)
-- [**Develop C# Plugins**](/develop-csharp-plugins.md)
-- [**Develop Python Plugins**](/develop-py-plugins.md)
+- Plugin Development
+    - [**plugin.json**](/plugin.json.md)
+    - Dotnet Plugins
+      - [**Development Guide**](/develop-dotnet-plugins.md)
+      - [**API Reference**](API-Reference/)
+    - JSONRPC Plugins
+      - [**JSON RPC Introduction**](/json-rpc.md)
+      - [**Develop Python Plugins**](/develop-py-plugins.md)
+    - [**Porting Plugins**](/port-plugins.md)
