@@ -18,3 +18,4 @@
 - Prioritize the plugin results order, this can be done by going to the plugin's settings page. Under the plugin's title and the description, click the number next to 'Priority', this is where you can assign weight to the plugin's result. The higher the weight is, the higher the selected plugin's results will be in Flow's result list.
 - Press ctrl + enter/click on a Shell plugin command will run it directly as admin.
 - In the plugins download list, you can press ctrl + enter/click to open the plugin's url.
+- Explorer's Search action keyword combines both Path and Index search, so you can use it without worrying about which action keyword to use for what, just put in what you need to search for. Path (searches a specific path) and Index (search a file or folder name) search allows users to do just their specific searches and are disabled by default.
