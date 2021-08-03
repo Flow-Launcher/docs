@@ -10,7 +10,7 @@ When building a Python plugins there are several things to be mindful of. The mo
 
 ### Simple Example Plugin
 Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/plugin-samples/tree/master/HelloWorldPython), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CICD for the project. Moving out of that folder you can go into the [main.py](https://github.com/Flow-Launcher/plugin-samples/blob/master/HelloWorldPython/plugin.json) file, this is the entry file for your plugin. Notice it has this code block:
-```
+```python
 import sys,os
 parent_folder_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.append(parent_folder_path)
@@ -22,20 +22,20 @@ sys.path.append(os.path.join(parent_folder_path, 'plugin'))
 The workflow [file](https://github.com/Flow-Launcher/plugin-samples/blob/master/HelloWorldPython/.github/workflows/Publish%20Release.yml) will help build and deploy your project, it does the following things:
 1. `workflow_dispatch:` gives you the option to manually run your workflow from the Actions section of your project
 2. On pushes to main, it will kick off the workflow but ignore the push if it's only changes made to the workflow file.
-```
+```yml
 push:
     branches: [ main ]
     paths-ignore: 
       - .github/workflows/*
 ```
 3. It specifies the python version that will be used for building your project:
-```
+```yml
  strategy:
       matrix:
         python-version: [3.8]
 ```
 4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
-```
+```yml
 - name: get version
   id: version
   uses: notiz-dev/github-action-json-property@release
@@ -46,7 +46,7 @@ push:
 5. The 'Install dependencies' section is where you will do most of your CI work. Notice it installs the requirements.txt and outputs it with the `-t` parameter to the `./lib` folder. This tells pip to dump all the installed modules to the local lib folder which you will zip up along with your project using the `zip -r <NAME-OF-YOUR-PLUGIN>.zip . -x '*.git*'`, where you replace this '<NAME-OF-YOUR-PLUGIN>' with the name of your plugin.
     
     You can also add additional steps here to unpack/install any additional depedencies your plugin requires, for example compiling additional translation files like [this](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency/blob/23770ee929af059b1b1b7f9b5f3327b692ac9587/.github/workflows/Publish%20Release.yml#L34)
-```
+```yml
 - name: Install dependencies
   run: |
     python -m pip install --upgrade pip
@@ -56,7 +56,7 @@ push:
 
 ### 2. Publish all as a zip
 The final step to the workflow file is this publish section, which will publish the zip file you generated, upload to GitHub Releases page and tag with the version generated from the previous step from your plugin.json file. Remmember again to replace '<NAME-OF-YOUR-PLUGIN>' with the name of your plugin.
-```
+```yml
 - name: Publish
   if: success() && github.ref == 'refs/heads/main'
   uses: softprops/action-gh-release@v1
@@ -71,7 +71,7 @@ Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-
 
 ### 3. Point your module imports to a lib directory
 Once the lib folder is included in your zip release, it can then be used without needing the user to manually pip install. You just have to tell during runtime to find those modules in your local lib folder. Do this by using this exact copy of the following block of code:
-```
+```python
 import sys,os
 parent_folder_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.append(parent_folder_path)
