@@ -75,7 +75,7 @@ Once the lib folder is included in your zip release, it can then be used without
 import sys,os
 parent_folder_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.append(parent_folder_path)
-z(os.path.join(parent_folder_path, 'lib'))
+sys.path.append(os.path.join(parent_folder_path, 'lib'))
 sys.path.append(os.path.join(parent_folder_path, 'plugin'))
 
 ```
