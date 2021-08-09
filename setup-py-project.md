@@ -1,4 +1,4 @@
-## 1. Add GitHub workflow
+### 1. Add GitHub workflow
 The workflow [file](https://github.com/Flow-Launcher/plugin-samples/blob/master/HelloWorldPython/.github/workflows/Publish%20Release.yml) will help build and deploy your project, it does the following things:
 1. `workflow_dispatch:` gives you the option to manually run your workflow from the Actions section of your project
 2. On pushes to main, it will kick off the workflow but ignore the push if it's only changes made to the workflow file.
@@ -34,7 +34,7 @@ push:
     zip -r <NAME-OF-YOUR-PLUGIN>.zip . -x '*.git*'
 ```
 
-## 2. Publish as zip
+### 2. Publish as zip
 The final step to the workflow file is this publish section, which will publish the zip file you generated, upload to GitHub Releases page and tag with the version generated from the previous step from your plugin.json file. Remmember again to replace '<NAME-OF-YOUR-PLUGIN>' with the name of your plugin.
 ```yml
 - name: Publish
@@ -49,7 +49,7 @@ The final step to the workflow file is this publish section, which will publish 
 
 Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-to-build-your-first-github-actions-workflow) which does a simple explaination of how to use GitHub Actions Workflow.
 
-## 3. Use lib directory
+### 3. Use lib directory
 Once the lib folder is included in your zip release, it can then be used without needing the user to manually pip install. You just have to tell during runtime to find those modules in your local lib folder. Do this by using this exact copy of the following block of code:
 ```python
 import sys,os
