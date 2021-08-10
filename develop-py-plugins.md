@@ -20,12 +20,3 @@ sys.path.append(parent_folder_path)
 sys.path.append(os.path.join(parent_folder_path, 'lib'))
 sys.path.append(os.path.join(parent_folder_path, 'plugin'))
 ```
-
-
-
-
-
-For now you can use the [Python template](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.PythonTemplate) to set up your plugin 
-
-Follow this Python plugin as an [example](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency) 
-
