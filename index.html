@@ -23,6 +23,10 @@
       subMaxLevel: 4,
       search: 'auto',
       auto2top: true,
+      alias: {
+        '.*?/pytemplate':
+          'https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.Plugin.PythonTemplate/master/README.md',
+      },
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
