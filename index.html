@@ -26,7 +26,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            url = 'https://github.com/Flow-Launcher/Docs/blob/main/' + vm.route.file
+            url = 'https://github.com/Flow-Launcher/docs/blob/main/' + vm.route.file
             var editHtml = '[:memo: Edit this Page](' + url + ')\n'
             return editHtml + html
           })
