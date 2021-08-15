@@ -27,8 +27,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)         |General weights and measures converter                                    |deefrawley                                    |1.0.0  |
 |[HA-Commander](https://github.com/Garulf/HA-Commander)                                     |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |2.4.8  |
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
-|[Search-MDI](https://github.com/Garulf/Search-MDI)                                         |Search materialdesignicons.com                                            |Garulf                                        |2.1.1  |
-|[Plexy](https://github.com/Garulf/plexy)                                                   |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.1  |
+|[Search-MDI](https://github.com/Garulf/Search-MDI)                                         |Search materialdesignicons.com                                            |Garulf                                        |2.2.2  |
+|[Plexy](https://github.com/Garulf/plexy)                                                   |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.2  |
 
 <!--END_SECTION:plugin-->
 
