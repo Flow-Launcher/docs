@@ -10,9 +10,8 @@ push:
 ```
 3. It specifies the python version that will be used for building your project:
 ```yml
- strategy:
-      matrix:
-        python-version: [3.8]
+    env:
+      python_ver: 3.8
 ```
 4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
 ```yml
