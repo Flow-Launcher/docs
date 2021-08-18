@@ -30,7 +30,14 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            url = 'https://github.com/Flow-Launcher/docs/blob/main/' + vm.route.file
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+                .replace(/\/main/, '/blob/main');
+            } else {
+              url = 'https://github.com/Flow-Launcher/docs/blob/main/' + vm.route.file
+            }
             var editHtml = '[:memo: Edit this Page](' + url + ')\n'
             return editHtml + html
           })
