@@ -24,12 +24,13 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[RollDice](https://github.com/lvonkacsoh/Flow.Launcher.RollDice)                           |Rolls the given dices and evaluates the expression                        |lvonkacsoh                                    |1.0    |
 |[Fancy Emoji](https://github.com/Ma-ve/Flow.Launcher.Plugin.FancyEmoji)                    |Search for emoji and add to your clipboard automatically                  |Mave                                          |1.0.1  |
 |[Timestamp](https://github.com/Zeroto521/Flow.Launcher.Plugin.Timestamp)                   |Show system time and could copy that                                      |Zero <Zeroto521>                              |1.0.7  |
-|[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)         |General weights and measures converter                                    |deefrawley                                    |1.0.1  |
+|[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)         |General weights and measures converter                                    |deefrawley                                    |1.0.2  |
 |[HA-Commander](https://github.com/Garulf/HA-Commander)                                     |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |2.4.8  |
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                         |Search materialdesignicons.com                                            |Garulf                                        |2.2.2  |
 |[Plexy](https://github.com/Garulf/plexy)                                                   |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.2  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                     |Search and launch your Steam Game library                                 |Garulf                                        |1.0.2  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                     |Search and launch your Steam Game library                                 |Garulf                                        |1.0.3  |
+|[Twitchy](https://github.com/Garulf/twitchy)                                               |Search and stream twitch.tv                                               |Garulf                                        |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
