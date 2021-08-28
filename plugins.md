@@ -29,8 +29,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                         |Search materialdesignicons.com                                            |Garulf                                        |2.2.2  |
 |[Plexy](https://github.com/Garulf/plexy)                                                   |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.2  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                     |Search and launch your Steam Game library                                 |Garulf                                        |1.0.3  |
-|[Twitchy](https://github.com/Garulf/twitchy)                                               |Search and stream twitch.tv                                               |Garulf                                        |1.0.1  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                     |Search and launch your Steam Game library                                 |Garulf                                        |1.0.11 |
+|[Twitchy](https://github.com/Garulf/twitchy)                                               |Search and stream twitch.tv                                               |Garulf                                        |1.0.22 |
 
 <!--END_SECTION:plugin-->
 
