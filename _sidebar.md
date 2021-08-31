@@ -6,7 +6,9 @@
     - Dotnet Plugins
       - [**Development Guide**](/develop-dotnet-plugins.md)
       - [**API Reference**](API-Reference/)
-    - JSONRPC Plugins
+    - [**Python Plugins**](/develop-py-plugins.md)
+      - [**Set up your project**](/setup-py-project.md)
+      - [**Write the code**](/write-code-py.md)
+    - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
-      - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Porting Plugins**](/port-plugins.md)
