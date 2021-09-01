@@ -27,10 +27,21 @@
       subMaxLevel: 4,
       search: 'auto',
       auto2top: true,
+      alias: {
+        '.*?/pytemplate':
+          'https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher.Plugin.PythonTemplate/master/README.md',
+      },
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            url = 'https://github.com/Flow-Launcher/Docs/blob/main/' + vm.route.file
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master')
+                .replace(/\/main/, '/blob/main');
+            } else {
+              url = 'https://github.com/Flow-Launcher/docs/blob/main/' + vm.route.file
+            }
             var editHtml = '[:memo: Edit this Page](' + url + ')\n'
             return editHtml + html
           })

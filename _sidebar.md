@@ -10,3 +10,5 @@
       - [**JSON RPC Introduction**](/json-rpc.md)
       - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Porting Plugins**](/port-plugins.md)
+- Plugin Templates
+  - [**Python Template**](/pytemplate.md)
