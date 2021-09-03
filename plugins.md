@@ -32,6 +32,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Steam Search](https://github.com/Garulf/Steam-Search)                                     |Search and launch your Steam Game library                                 |Garulf                                        |1.0.11 |
 |[Twitchy](https://github.com/Garulf/twitchy)                                               |Search and stream twitch.tv                                               |Garulf                                        |1.0.22 |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                  |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
+|[nexusmods-search](https://github.com/Garulf/nexusmods-search)                             |Search Nexusmods.com                                                      |Garulf                                        |0.1.1  |
 
 <!--END_SECTION:plugin-->
 
