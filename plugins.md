@@ -10,7 +10,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[ClipboardHistory](https://github.com/Xenolphthalein/Flow.Launcher.Plugin.ClipboardHistory)|a Clipboard History Plugin for FlowLauncher                               |Xenolphthalein                                |1.0.0  |
 |[Window Walker](https://www.windowwalker.com/)                                             |Alt-Tab alternative enabling searching through your windows.              |betadele                                      |2.0.1  |
 |[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)             |Search Everything                                                         |qianlifeng, orzfly                            |1.5.6  |
-|[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                      |Provide hex color preview.(Try #000 in Flow Launcher)                     |qianlifeng                                    |2.0.0  |
+|[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                      |Provides HEX and RGB color preview.                                       |qianlifeng, Vladimir Antos, bluray            |2.0.0  |
 |[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)          |Currency converter using the euro and rates at https://www.ecb.europa.eu/ |deefrawley                                    |1.2.2  |
 |[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                           |Shows your internal and external IP address                               |ishu3101                                      |1.2.1  |
 |[Flow.Plugin.UrlEncode](https://github.com/cxfksword/Wox.Plugin.UrlEncode)                 |urlencode or urldecode a string                                           |cxfksword                                     |1.0    |
@@ -32,7 +32,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Steam Search](https://github.com/Garulf/Steam-Search)                                     |Search and launch your Steam Game library                                 |Garulf                                        |1.1.0  |
 |[Twitchy](https://github.com/Garulf/twitchy)                                               |Search and stream twitch.tv                                               |Garulf                                        |1.0.22 |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                  |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
-|[nexusmods-search](https://github.com/Garulf/nexusmods-search)                             |Search Nexusmods.com                                                      |Garulf                                        |0.2.0  |
+|[nexusmods-search](https://github.com/Garulf/nexusmods-search)                             |Search Nexusmods.com                                                      |Garulf                                        |0.2.1  |
 
 <!--END_SECTION:plugin-->
 
