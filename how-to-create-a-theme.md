@@ -18,12 +18,14 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 In this item, you can set the color, border size, border color, and corner radius of the basic window.
 
-`<Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
+```
+<Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
         <Setter Property="BorderThickness" Value="2" />
         <Setter Property="BorderBrush" Value="#6c7279" /> 
         <Setter Property="CornerRadius" Value="5" />
         <Setter Property="Background" Value="#303840" />
- </Style>`
+ </Style>
+ ```
 
 Window border thickness is recommended from 1 or 2. Corner radius recommends 0, 5 or less.
 
@@ -33,14 +35,16 @@ Window border thickness is recommended from 1 or 2. Corner radius recommends 0, 
 
 This is the style of the basic search window. You can set the font size, color of cursor, font color, input window height. If the font size is reduced, the height of the window is also reduced, so the height must be specified.
 
-` <Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
+```
+<Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
         <Setter Property="FontSize" Value="24" />
         <Setter Property="Background" Value="#303840" />  <!-- Set it to the same color as the window. -->
         <Setter Property="Foreground" Value="#d2d8e5" /> <!-- Font Color -->
         <Setter Property="CaretBrush" Value="#FFAA47" /> <!-- Cursor Color -->
         <Setter Property="FontSize" Value="26" />
         <Setter Property="Height" Value="42" /> <!-- Default is 42. -->
-  </Style>` 
+</Style>
+``` 
 
 
 
@@ -48,12 +52,14 @@ This is the style of the basic search window. You can set the font size, color o
 
 This is the style of the recommended search word that appears after the search word. The font size & Height should be the same as the QueryBoxStyle, and a more translucent color is recommended.
 
-`<Style x:Key="QuerySuggestionBoxStyle" BasedOn="{StaticResource BaseQuerySuggestionBoxStyle}" TargetType="{x:Type TextBox}">
+```
+<Style x:Key="QuerySuggestionBoxStyle" BasedOn="{StaticResource BaseQuerySuggestionBoxStyle}" TargetType="{x:Type TextBox}">
         <Setter Property="Background" Value="#303840" />
         <Setter Property="Foreground" Value="#798189" /> <!-- Font Color -->
         <Setter Property="FontSize" Value="26" /> <!-- Same as QueryBox -->
         <Setter Property="Height" Value="42" /> <!-- Same as QueryBox -->
-    </Style>`
+</Style>
+```
 
 
 
@@ -61,9 +67,11 @@ This is the style of the recommended search word that appears after the search w
 
 It is possible to set the color of the loading bar that is sometimes displayed.
 
-`<Style x:Key="PendingLineStyle" BasedOn="{StaticResource BasePendingLineStyle}" TargetType="{x:Type Line}">
+```
+<Style x:Key="PendingLineStyle" BasedOn="{StaticResource BasePendingLineStyle}" TargetType="{x:Type Line}">
         <Setter Property="Stroke" Value="#FFAA47" /> <!-- Bar Color -->
- </Style>`
+</Style>
+```
 
 
 
@@ -71,15 +79,19 @@ It is possible to set the color of the loading bar that is sometimes displayed.
 
 This is the style of the magnifying glass icon displayed on the right side of the search window. Color & Size can be changed or hidden. (The picture change will be updated later.)
 
-`   <Style x:Key="SearchIconStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource BaseSearchIconStyle}">
+```
+<Style x:Key="SearchIconStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource BaseSearchIconStyle}">
         <Setter Property="Fill" Value="#3c454e" /> <!-- Color -->
         <Setter Property="Width" Value="32" /> <!-- Size. Default is 32. -->
         <Setter Property="Height" Value="32" /> <!-- Size -->
-   </Style>`
+</Style>
+```
 
 If you want to hide it, you can add the following code.
 
-`<Setter Property="Visibility" Value="Collapsed" />`
+```
+<Setter Property="Visibility" Value="Collapsed" />
+```
 
 
 
@@ -87,10 +99,12 @@ If you want to hide it, you can add the following code.
 
 This is the title part of the search result. The font size and color can be adjusted.
 
-`<Style x:Key="ItemTitleStyle"  BasedOn="{StaticResource BaseItemTitleStyle}" TargetType="{x:Type TextBlock}">
+```
+<Style x:Key="ItemTitleStyle"  BasedOn="{StaticResource BaseItemTitleStyle}" TargetType="{x:Type TextBlock}">
 	<Setter Property="Foreground" Value="#5989b2" /> 
 	<Setter Property="FontSize" Value="13" /> <!-- Default is 16 -->
-</Style>` 
+</Style>
+```
 
  
 
@@ -98,9 +112,11 @@ This is the title part of the search result. The font size and color can be adju
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemTitleStyle.
 
-`   <Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}"  TargetType="{x:Type TextBlock}" >
+```
+<Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}"  TargetType="{x:Type TextBlock}" >
         <Setter Property="Foreground" Value="#5bafb0" />
-   </Style>`
+</Style>
+```
 
 
 
@@ -108,10 +124,12 @@ You can specify a color that changes when the item is focused. The font size sho
 
 This is the filepath part of the search result. The font size and color can be adjusted.
 
-`   <Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}" >
+```
+<Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}" >
         <Setter Property="Foreground" Value="#7b858f" />
         <Setter Property="FontSize" Value="13" /> <!-- Default is 13 -->
-  </Style>`
+</Style>
+```
 
 
 
@@ -119,10 +137,12 @@ This is the filepath part of the search result. The font size and color can be a
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemSubTitleStyle.
 
-`  <Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}" >
+```
+<Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}" >
         <Setter Property="Cursor" Value="Arrow" />
         <Setter Property="Foreground" Value="#cc8ec8" />
-    </Style>`
+</Style>
+```    
 
 
 
@@ -130,10 +150,12 @@ You can specify a color that changes when the item is focused. The font size sho
 
 Specifies the color and size of the Hotkey font.
 
-`     <Style x:Key="ItemHotkeyStyle" TargetType="{x:Type TextBlock}">
+```
+<Style x:Key="ItemHotkeyStyle" TargetType="{x:Type TextBlock}">
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Foreground" Value="#5bafb0" />
-    </Style>`
+</Style>
+```
 
 
 
@@ -141,16 +163,18 @@ Specifies the color and size of the Hotkey font.
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemHotkeyStyle.
 
-`    <Style x:Key="ItemHotkeySelectedStyle" TargetType="{x:Type TextBlock}">
+```
+<Style x:Key="ItemHotkeySelectedStyle" TargetType="{x:Type TextBlock}">
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Foreground" Value="#ea7354" />
-    </Style>`
+</Style>
+```    
 
 ##### ItemSelectedBackgroundColor
 
 This is the background color that is emphasized when the item is selected.
 
-`<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>`
+```<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>```
 
 
 
@@ -158,10 +182,12 @@ This is the background color that is emphasized when the item is selected.
 
 It emphasizes the part where the search word matches the result. Color and Font Weight can be set.
 
-`     <Style x:Key="HighlightStyle">
+```
+<Style x:Key="HighlightStyle">
         <Setter Property="Inline.Foreground" Value="#ea7354" />
         <Setter Property="Inline.FontWeight" Value="Bold" />
-    </Style>`
+</Style>
+```    
 
 
 
@@ -169,7 +195,8 @@ It emphasizes the part where the search word matches the result. Color and Font 
 
 Specifies the color and size of the scroll bar.
 
-`<Style x:Key="ThumbStyle" BasedOn="{StaticResource BaseThumbStyle}" TargetType="{x:Type Thumb}">
+```
+<Style x:Key="ThumbStyle" BasedOn="{StaticResource BaseThumbStyle}" TargetType="{x:Type Thumb}">
         <Setter Property="SnapsToDevicePixels" Value="True"/>
         <Setter Property="OverridesDefaultStyle" Value="true"/>
         <Setter Property="IsTabStop" Value="false"/>
@@ -182,7 +209,8 @@ Specifies the color and size of the scroll bar.
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-    </Style>`
+    </Style>
+```    
 
 
 
@@ -190,11 +218,13 @@ Specifies the color and size of the scroll bar.
 
 Set the size, height, color, and margin of the horizontal line.If you don't think you need it, you can get rid of it.
 
-`    <Style x:Key="SeparatorStyle" BasedOn="{StaticResource BaseSeparatorStyle}" TargetType="{x:Type Rectangle}">
+```
+<Style x:Key="SeparatorStyle" BasedOn="{StaticResource BaseSeparatorStyle}" TargetType="{x:Type Rectangle}">
         <Setter Property="Fill" Value="#3c454e"/>
         <Setter Property="Height" Value="1"/> 
         <Setter Property="Margin" Value="0 0 0 8"/> <!--  It is left, up, right, and down in order. -->
-    </Style>`
+</Style>
+```    
 
 If you want to hide it, you can add the following code.
 
@@ -206,6 +236,8 @@ If you want to hide it, you can add the following code.
 
 Specifies the color of the glyph icon.
 
-`    <Style x:Key="ItemGlyph"  BasedOn="{StaticResource BaseGlyphStyle}" TargetType="{x:Type TextBlock}">
+```
+<Style x:Key="ItemGlyph"  BasedOn="{StaticResource BaseGlyphStyle}" TargetType="{x:Type TextBlock}">
         <Setter Property="Foreground" Value="#5bafb0" />
-    </Style>`
+</Style>
+```   
