@@ -12,7 +12,7 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 (*There is a possibility of changing/deleting this part depending on the version.*)
 
-<img src="C:\Users\oneso\AppData\Roaming\Typora\typora-user-images\image-20211028105808479.png" alt="image-20211028105808479" style="zoom:70%;" />
+<img src="/assets/themelayout.png" style="zoom:50%;" />
 
 ##### WindowBorderStyle
 
