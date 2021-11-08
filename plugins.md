@@ -33,7 +33,9 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Twitchy](https://github.com/Garulf/twitchy)                                          |Search and stream twitch.tv                                               |Garulf                                        |1.1.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)             |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
 |[nexusmods-search](https://github.com/Garulf/nexusmods-search)                        |Search Nexusmods.com                                                      |Garulf                                        |0.2.1  |
+|[Favorites](https://github.com/stax76/Flow.Launcher.Plugin.Favorites)                 |Flow Launcher plugin to define favorite apps, files, folders and URLs.    |stax76                                        |1.2    |
 |[Number Converter](https://github.com/liberize/Flow.Launcher.Plugin.NumberConverter)  |Convert numbers between dec/oct/hex/bin                                   |liberize                                      |1.0.0  |
+|[Window Services](https://github.com/Garulf/window-services)                          |Start and stop Windows services.                                          |Garulf                                        |1.1.1  |
 
 <!--END_SECTION:plugin-->
 
