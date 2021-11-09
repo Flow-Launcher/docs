@@ -10,7 +10,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Clipboard History](https://github.com/liberize/Flow.Launcher.Plugin.ClipboardHistory)|a Clipboard History Plugin for FlowLauncher                               |liberize,Xenolphthalein                       |1.1.1  |
 |[Window Walker](https://www.windowwalker.com/)                                        |Alt-Tab alternative enabling searching through your windows.              |betadele                                      |2.0.1  |
 |[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)        |Search Everything                                                         |qianlifeng, orzfly                            |1.5.6  |
-|[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                 |Provides HEX and RGB color preview.                                       |qianlifeng, Vladimir Antos, bluray            |2.0.0  |
+|[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                 |Provides HEX and RGB color preview.                                       |qianlifeng, Vladimir Antos, bluray            |2.0.1  |
 |[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)     |Currency converter using the euro and rates at https://www.ecb.europa.eu/ |deefrawley                                    |1.2.2  |
 |[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                      |Shows your internal and external IP address                               |ishu3101                                      |1.2.1  |
 |[Flow.Plugin.UrlEncode](https://github.com/cxfksword/Wox.Plugin.UrlEncode)            |urlencode or urldecode a string                                           |cxfksword                                     |1.0    |
@@ -36,6 +36,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Favorites](https://github.com/stax76/Flow.Launcher.Plugin.Favorites)                 |Flow Launcher plugin to define favorite apps, files, folders and URLs.    |stax76                                        |1.2    |
 |[Number Converter](https://github.com/liberize/Flow.Launcher.Plugin.NumberConverter)  |Convert numbers between dec/oct/hex/bin                                   |liberize                                      |1.0.0  |
 |[Window Services](https://github.com/Garulf/window-services)                          |Start and stop Windows services.                                          |Garulf                                        |1.1.1  |
+|[Windows Dark Mode Toggle](https://github.com/Garulf/windows-dark-mode-toggle)        |Toggle Window's Dark & Light modes                                        |Garulf                                        |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
