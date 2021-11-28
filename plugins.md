@@ -36,7 +36,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Favorites](https://github.com/stax76/Flow.Launcher.Plugin.Favorites)                 |Flow Launcher plugin to define favorite apps, files, folders and URLs.    |stax76                                        |1.3    |
 |[Number Converter](https://github.com/liberize/Flow.Launcher.Plugin.NumberConverter)  |Convert numbers between dec/oct/hex/bin                                   |liberize                                      |1.0.0  |
 |[Window Services](https://github.com/Garulf/window-services)                          |Start and stop Windows services.                                          |Garulf                                        |1.1.1  |
-|[Windows Dark Mode Toggle](https://github.com/Garulf/windows-dark-mode-toggle)        |Toggle Window's Dark & Light modes                                        |Garulf                                        |1.0.0  |
+|[Windows Dark Mode Toggle](https://github.com/Garulf/windows-dark-mode-toggle)        |Toggle Window's Dark & Light modes                                        |Garulf                                        |1.0.2  |
 |[Windows Startup](https://github.com/Garulf/Windows-Startup)                          |Control Windows start-up programs.                                        |Garulf                                        |1.0.1  |
 
 <!--END_SECTION:plugin-->
