@@ -38,7 +38,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Window Services](https://github.com/Garulf/window-services)                          |Start and stop Windows services.                                          |Garulf                                        |1.1.1  |
 |[Windows Dark Mode Toggle](https://github.com/Garulf/windows-dark-mode-toggle)        |Toggle Window's Dark & Light modes                                        |Garulf                                        |1.0.2  |
 |[Windows Startup](https://github.com/Garulf/Windows-Startup)                          |Control Windows start-up programs.                                        |Garulf                                        |1.0.1  |
-|[TenorGIF](https://github.com/Garulf/TenorGIF)                                        |Search Tenor for amazing GIFs!                                            |Garulf                                        |1.1.0  |
+|[TenorGIF](https://github.com/Garulf/TenorGIF)                                        |Search Tenor for amazing GIFs!                                            |Garulf                                        |1.1.1  |
 
 <!--END_SECTION:plugin-->
 
