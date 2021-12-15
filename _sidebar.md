@@ -14,3 +14,4 @@
     - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
     - [**Porting Plugins**](/port-plugins.md)
+- [**How To Create a Theme**](/how-to-create-a-theme.md)
