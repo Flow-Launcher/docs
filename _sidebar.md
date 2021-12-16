@@ -11,6 +11,7 @@
       - [**Set up your project**](/py-setup-project.md)
       - [**Write the code**](/py-write-code.md)
       - [**Add your plugin to Flow**](/py-release-project.md)
+      - [**Plugin references**](/py-plugin-references.md)
     - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
     - [**Porting Plugins**](/port-plugins.md)
