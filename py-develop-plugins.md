@@ -1,4 +1,4 @@
-## How to develop Python plugins
+### About Flow's Python plugins
 
 Python plugins use the [JSON-RPC](https://flow-launcher.github.io/docs/#/json-rpc) protocol to communicate with Flow via JSON structured calls.
 
