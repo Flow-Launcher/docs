@@ -42,5 +42,4 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 
 <!--END_SECTION:plugin-->
 
-You can request existing Wox or PowerToys Run plugins that you use frequently be ported in this [open issue](https://github.com/Flow-Launcher/Flow.Launcher/issues/170), or
-do this yourself using the instructions from the [Porting Plugins](https://flow-launcher.github.io/docs/#/port-plugins) section of our documentation.
+You can port existing Wox or PowerToys Run plugins that you use frequently by following the instructions from [Porting Plugins](https://flow-launcher.github.io/docs/#/port-plugins).
