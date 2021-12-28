@@ -1,6 +1,7 @@
 ### 1. Add GitHub workflow
 The workflow [file](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/.github/workflows/Publish%20Release.yml) will help build and deploy your project, it does the following things:
 1. `workflow_dispatch:` gives you the option to manually run your workflow from the Actions section of your project
+
 2. On pushes to main, it will kick off the workflow but ignore the push if it's only changes made to the workflow file.
 ```yml
 push:
@@ -8,6 +9,7 @@ push:
     paths-ignore: 
       - .github/workflows/*
 ```
+
 3. It specifies the Node.js version that will be used for building your project:
 ```yml
     - name: Set up Node.Js
@@ -15,6 +17,7 @@ push:
       with:
         node-version: '17.3.0'
 ```
+
 4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
 ```yml
 - name: get version
@@ -24,6 +27,7 @@ push:
     path: 'plugin.json'
     prop_path: 'Version'
 ```
+
 5. The 'Install dependencies' section is where you will do most of your CI work. It will run `npm install`, which will output all the dependencies specified in package.json into the 'node_modules' directory. The workflow will then zip them up along with your project using the `zip -r Flow.Launcher.Plugin.HelloWorldNodeJS.zip . -x '*.git*'`, where you replace this `Flow.Launcher.Plugin.HelloWorldNodeJS` with the name of your plugin.
 ```yml
 - name: Install dependencies
