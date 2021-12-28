@@ -49,8 +49,15 @@ This if statement captures the args passed viar JsonRPC defined as `const { meth
 This is where you specify the method that will be executed when the user selects on the result.
 In this example, if the user selects the result, the `do_something_for_query` method will be called with the url parameter which opens the Flow Launcher GitHub repo.
 
-### 5. Your plugin.json
+### 5. node.bat
+The [node.bat](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/node.bat) file is the entry Flow uses to call main.js, it will set the working directory to the plugin's own location before calling main.js with node.
+```
+@echo off
+SET plugin_dir=%~dp0%
+node %plugin_dir%/main.js %*
+```
 
+### 6. Your plugin.json
 You will also need to if not yet already, create a plugin.json file that will instruct Flow on how to load your plugin.
 
 This file should be placed in the top level folder.

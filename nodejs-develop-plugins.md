@@ -14,7 +14,4 @@ When building a Node.js plugins there are several things to be mindful of:
 * Currently we will require users to install Node.js on the computer in order to use the plugin, so you will need to explain how to do so in your plugin readme.
 
 ### Simple Example
-Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CICD for the project. Moving out of that folder you can go into the [main.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/main.js) file, this is the entry file for your plugin. Notice it has this code block:
-```javascript
-const open = require('./node_modules/open')
-```
+Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CICD for the project. Moving out of that folder you can go into the [main.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/main.js) file, this is the entry file for your plugin.
