@@ -15,6 +15,6 @@ When building a Node.js plugins there are several things to be mindful of:
 
 ### Simple Example
 Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CICD for the project. Moving out of that folder you can go into the [main.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/main.js) file, this is the entry file for your plugin. Notice it has this code block:
-```python
+```javascript
 const open = require('./node_modules/open')
 ```
