@@ -3,6 +3,7 @@ The workflow [file](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloW
 1. `workflow_dispatch:` gives you the option to manually run your workflow from the Actions section of your project
 
 2. On pushes to main, it will kick off the workflow but ignore the push if it's only changes made to the workflow file.
+
 ```yml
 push:
     branches: [ main ]
