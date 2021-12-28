@@ -12,10 +12,10 @@ push:
 
 3. It specifies the Node.js version that will be used for building your project:
 ```yml
-    - name: Set up Node.Js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '17.3.0'
+- name: Set up Node.Js
+  uses: actions/setup-node@v2
+  with:
+    node-version: '17.3.0'
 ```
 
 4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
