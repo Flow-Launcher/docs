@@ -18,29 +18,6 @@ push:
       python_ver: 3.8
 ```
 
-4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
-
-```yml
-- name: get version
-  id: version
-  uses: notiz-dev/github-action-json-property@release
-  with: 
-    path: 'plugin.json'
-    prop_path: 'Version'
-```
-
-5. The 'Install dependencies' section is where you will do most of your CI work. Notice it installs the requirements.txt and outputs it with the `-t` parameter to the `./lib` folder. This tells pip to dump all the installed modules to the local lib folder which you will zip up along with your project using the `zip -r Flow.Launcher.Plugin.HelloWorldPython.zip . -x '*.git*'`, where you replace this `Flow.Launcher.Plugin.HelloWorldPython` with the name of your plugin.
-    
-    You can also add additional steps here to unpack/install any additional depedencies your plugin requires, for example compiling additional translation files like [this](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency/blob/23770ee929af059b1b1b7f9b5f3327b692ac9587/.github/workflows/Publish%20Release.yml#L34)
-
-```yml
-- name: Install dependencies
-  run: |
-    python -m pip install --upgrade pip
-    pip install -r ./requirements.txt -t ./lib
-    zip -r Flow.Launcher.Plugin.HelloWorldPython.zip . -x '*.git*'
-```
-
 ### 2. Publish as zip
 The final step to the workflow file is this publish section, which will publish the zip file you generated, upload to GitHub Releases page and tag with the version generated from the previous step from your plugin.json file. Remember again to replace `Flow.Launcher.Plugin.HelloWorldPython` with the name of your plugin.
 ```yml
