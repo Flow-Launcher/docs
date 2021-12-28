@@ -13,6 +13,7 @@ sys.path.append(os.path.join(parent_folder_path, 'lib'))
 sys.path.append(os.path.join(parent_folder_path, 'plugin'))
 
 from flowlauncher import FlowLauncher
+import webbrowser
 
 
 class HelloWorld(FlowLauncher):
@@ -21,27 +22,30 @@ class HelloWorld(FlowLauncher):
         return [
             {
                 "Title": "Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
-                "SubTitle": "This is where your subtitle goes",
+                "SubTitle": "This is where your subtitle goes, press enter to open Flow's url",
                 "IcoPath": "Images/app.png",
                 "JsonRPCAction": {
-                    "method": "do_something_for_query",
-                    "parameters": [param1, param2]
+                    "method": "open_url",
+                    "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher"]
                 }
-                "ContextData": "ctxData",
             }
         ]
 
     def context_menu(self, data):
         return [
             {
-                "Title": "Context menu entry",
-                "SubTitle": "Data: {}".format(data),
-                "IcoPath": "Images/app.ico",
+                "Title": "Hello World Python's Context menu",
+                "SubTitle": "Press enter to open Flow the plugin's repo in GitHub",
+                "IcoPath": "Images/app.png",
+                "JsonRPCAction": {
+                    "method": "open_url",
+                    "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython"]
+                }
             }
         ]
 
-    def do_something_for_query(self, param1, param2):
-        pass
+    def open_url(self, url):
+        webbrowser.open(url)
 
 if __name__ == "__main__":
     HelloWorld()
@@ -59,14 +63,14 @@ This is the main entry to your plugin and the return block will be a list of the
 **JsonRPCAction**
 
 This is where you specify the method that will be executed when the user selects on the result.
-In this example, if the user selects the result, the `do_something_for_query` method will be called with the two parameters, it is then up to you to define what you want the method to do.
+In this example, if the user selects the result, the `open_url` method will be called with the url parameter that opens the Flow Launcher GitHub repo.
 
 ### 5. Create an additional context menu
 **def context_menu(self, data):**
 
-This method creates a context menu for your results, where the user can carry out additional tasks when the go to the context menue via pressing `Shift + Enter`. A context menu could be helpful if you want some tasks specific to your returned results, for example the Explorer plugin would return a list of file results, and when going to the context menu of one of the result users can select to copy the file. 
+This method creates a context menu for your results, where the user can carry out additional tasks when they go to the context menue via pressing `Shift + Enter`. A context menu could be helpful if you want some tasks specific to your returned results, for example the Explorer plugin would return a list of file results, and when going to the context menu of one of the result users can select to copy the file.
 
-To attach a method to your context menu result, do the same as for normal results where you define a JsonRPCAction item with the method and parameters you want to call and pass through.
+To attach a method to your context menu result, do the same as for normal results where you define a JsonRPCAction item with the method and parameters you want to call and pass through. In this case the context menu will simply open the HelloWorldPython plugin's GitHub repo.
 
 ### 6. Your plugin.json
 
