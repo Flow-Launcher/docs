@@ -1,52 +1,52 @@
-# Flow.Launcher.Plugin Namespace
+# Flow.Launcher.Plugin assembly
 
-## Class
+## Flow.Launcher.Plugin namespace
 
-- [ActionContext](Flow.Launcher.Plugin/actioncontext.md)
+| public type | description |
+| --- | --- |
+| class [ActionContext](./Flow.Launcher.Plugin/ActionContext.md) |  |
+| delegate [AfterFlowLauncherQueryEventHandler](./Flow.Launcher.Plugin/AfterFlowLauncherQueryEventHandler.md) |  |
+| static class [AllowedLanguage](./Flow.Launcher.Plugin/AllowedLanguage.md) |  |
+| class [BaseModel](./Flow.Launcher.Plugin/BaseModel.md) |  |
+| delegate [FlowLauncherGlobalKeyboardEventHandler](./Flow.Launcher.Plugin/FlowLauncherGlobalKeyboardEventHandler.md) | Global keyboard events |
+| class [FlowLauncherKeyDownEventArgs](./Flow.Launcher.Plugin/FlowLauncherKeyDownEventArgs.md) |  |
+| delegate [FlowLauncherKeyDownEventHandler](./Flow.Launcher.Plugin/FlowLauncherKeyDownEventHandler.md) |  |
+| class [FlowLauncherQueryEventArgs](./Flow.Launcher.Plugin/FlowLauncherQueryEventArgs.md) |  |
+| record [GlyphInfo](./Flow.Launcher.Plugin/GlyphInfo.md) |  |
+| interface [IAsyncPlugin](./Flow.Launcher.Plugin/IAsyncPlugin.md) | Asynchronous Plugin Model for Flow Launcher |
+| interface [IAsyncReloadable](./Flow.Launcher.Plugin/IAsyncReloadable.md) | This interface is to indicate and allow plugins to asyncronously reload their in memory data cache or other mediums when user makes a new change that is not immediately captured. For example, for BrowserBookmark and Program plugin does not automatically detect when a user added a new bookmark or program, so this interface's function is exposed to allow user manually do the reloading after those new additions. The command that allows user to manual reload is exposed via Plugin.Sys, and it will call the plugins that have implemented this interface. |
+| interface [IContextMenu](./Flow.Launcher.Plugin/IContextMenu.md) |  |
+| interface [IFeatures](./Flow.Launcher.Plugin/IFeatures.md) | Base Interface for Flow's special plugin feature interface |
+| interface [IPlugin](./Flow.Launcher.Plugin/IPlugin.md) | Synchronous Plugin Model for Flow Launcher |
+| interface [IPluginI18n](./Flow.Launcher.Plugin/IPluginI18n.md) | Represent plugins that support internationalization |
+| interface [IPublicAPI](./Flow.Launcher.Plugin/IPublicAPI.md) | Public APIs that plugin can use |
+| interface [IReloadable](./Flow.Launcher.Plugin/IReloadable.md) | This interface is to indicate and allow plugins to synchronously reload their in memory data cache or other mediums when user makes a new change that is not immediately captured. For example, for BrowserBookmark and Program plugin does not automatically detect when a user added a new bookmark or program, so this interface's function is exposed to allow user manually do the reloading after those new additions. The command that allows user to manual reload is exposed via Plugin.Sys, and it will call the plugins that have implemented this interface. |
+| interface [IResultUpdated](./Flow.Launcher.Plugin/IResultUpdated.md) |  |
+| interface [ISavable](./Flow.Launcher.Plugin/ISavable.md) | Save addtional plugin data. Inherit this interface if additional data e.g. cache needs to be saved, Otherwise if LoadSettingJsonStorage or SaveSettingJsonStorage has been callded, plugin settings will be automatically saved (see Flow.Launcher/PublicAPIInstance.SavePluginSettings) by Flow |
+| interface [ISettingProvider](./Flow.Launcher.Plugin/ISettingProvider.md) |  |
+| class [PluginInitContext](./Flow.Launcher.Plugin/PluginInitContext.md) |  |
+| class [PluginMetadata](./Flow.Launcher.Plugin/PluginMetadata.md) |  |
+| class [PluginPair](./Flow.Launcher.Plugin/PluginPair.md) |  |
+| class [Query](./Flow.Launcher.Plugin/Query.md) |  |
+| class [Result](./Flow.Launcher.Plugin/Result.md) |  |
+| delegate [ResultItemDropEventHandler](./Flow.Launcher.Plugin/ResultItemDropEventHandler.md) |  |
+| class [ResultUpdatedEventArgs](./Flow.Launcher.Plugin/ResultUpdatedEventArgs.md) |  |
+| delegate [ResultUpdatedEventHandler](./Flow.Launcher.Plugin/ResultUpdatedEventHandler.md) |  |
+| class [SpecialKeyState](./Flow.Launcher.Plugin/SpecialKeyState.md) |  |
 
-- [AllowedLanguage](Flow.Launcher.Plugin/allowedlanguage.md)
+## Flow.Launcher.Plugin.SharedCommands namespace
 
-- [BaseModel](Flow.Launcher.Plugin/basemodel.md)
+| public type | description |
+| --- | --- |
+| static class [FilesFolders](./Flow.Launcher.Plugin.SharedCommands/FilesFolders.md) |  |
+| static class [SearchWeb](./Flow.Launcher.Plugin.SharedCommands/SearchWeb.md) |  |
+| static class [ShellCommand](./Flow.Launcher.Plugin.SharedCommands/ShellCommand.md) |  |
 
-- [FlowLauncherKeyDownEventArgs](Flow.Launcher.Plugin/flowlauncherkeydowneventargs.md)
+## Flow.Launcher.Plugin.SharedModels namespace
 
-- [FlowLauncherQueryEventArgs](Flow.Launcher.Plugin/flowlauncherqueryeventargs.md)
+| public type | description |
+| --- | --- |
+| class [MatchResult](./Flow.Launcher.Plugin.SharedModels/MatchResult.md) |  |
+| enum [SearchPrecisionScore](./Flow.Launcher.Plugin.SharedModels/SearchPrecisionScore.md) |  |
 
-- [PluginInitContext](Flow.Launcher.Plugin/plugininitcontext.md)
-
-- [PluginMetadata](Flow.Launcher.Plugin/pluginmetadata.md)
-
-- [PluginPair](Flow.Launcher.Plugin/pluginpair.md)
-
-- [Query](Flow.Launcher.Plugin/query.md)
-
-- [Result](Flow.Launcher.Plugin/result.md)
-
-- [ResultUpdatedEventArgs](Flow.Launcher.Plugin/resultupdatedeventargs.md)
-
-- [SpecialKeyState](Flow.Launcher.Plugin/specialkeystate.md)
-
-
-## Interface
-
-- [IAsyncPlugin](Flow.Launcher.Plugin/iasyncplugin.md)
-
-- [IAsyncReloadable](Flow.Launcher.Plugin/iasyncreloadable.md)
-
-- [IContextMenu](Flow.Launcher.Plugin/icontextmenu.md)
-
-- [IFeatures](Flow.Launcher.Plugin/ifeatures.md)
-
-- [IPlugin](Flow.Launcher.Plugin/iplugin.md)
-
-- [IPluginI18n](Flow.Launcher.Plugin/iplugini18n.md)
-
-- [IPublicAPI](Flow.Launcher.Plugin/ipublicapi.md)
-
-- [IReloadable](Flow.Launcher.Plugin/ireloadable.md)
-
-- [IResultUpdated](Flow.Launcher.Plugin/iresultupdated.md)
-
-- [ISavable](Flow.Launcher.Plugin/isavable.md)
-
-- [ISettingProvider](Flow.Launcher.Plugin/isettingprovider.md)
+<!-- DO NOT EDIT: generated by xmldocmd for flow.launcher.plugin.dll -->

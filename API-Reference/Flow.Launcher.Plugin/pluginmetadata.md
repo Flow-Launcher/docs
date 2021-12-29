@@ -1,264 +1,37 @@
-# PluginMetadata
-
-Namespace: Flow.Launcher.Plugin
-
-
+# PluginMetadata class
 
 ```csharp
-public class PluginMetadata : BaseModel, System.ComponentModel.INotifyPropertyChanged
+public class PluginMetadata : BaseModel
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [BaseModel](basemodel.md) → [PluginMetadata](pluginmetadata.md)<br>
-Implements INotifyPropertyChanged
-
-## Properties
-
-### **ID**
-
-
-
-```csharp
-public string ID { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Name**
-
-
-
-```csharp
-public string Name { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Author**
-
-
-
-```csharp
-public string Author { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Version**
-
-
-
-```csharp
-public string Version { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Language**
-
-
-
-```csharp
-public string Language { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Description**
-
-
-
-```csharp
-public string Description { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Website**
-
-
-
-```csharp
-public string Website { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Disabled**
-
-
-
-```csharp
-public bool Disabled { get; set; }
-```
-
-#### Property Value
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br>
-
-### **ExecuteFilePath**
-
-
-
-```csharp
-public string ExecuteFilePath { get; private set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **ExecuteFileName**
-
-
-
-```csharp
-public string ExecuteFileName { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **PluginDirectory**
-
-
-
-```csharp
-public string PluginDirectory { get; internal set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **ActionKeyword**
-
-
-
-```csharp
-public string ActionKeyword { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **ActionKeywords**
-
-
-
-```csharp
-public List<string> ActionKeywords { get; set; }
-```
-
-#### Property Value
-
-[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br>
-
-### **IcoPath**
-
-
-
-```csharp
-public string IcoPath { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Priority**
-
-
-
-```csharp
-public int Priority { get; set; }
-```
-
-#### Property Value
-
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br>
-
-### **InitTime**
-
-Init time include both plugin load time and init time
-
-```csharp
-public long InitTime { get; set; }
-```
-
-#### Property Value
-
-[Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)<br>
-
-### **AvgQueryTime**
-
-
-
-```csharp
-public long AvgQueryTime { get; set; }
-```
-
-#### Property Value
-
-[Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64)<br>
-
-### **QueryCount**
-
-
-
-```csharp
-public int QueryCount { get; set; }
-```
-
-#### Property Value
-
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br>
-
-## Constructors
-
-### **PluginMetadata()**
-
-
-
-```csharp
-public PluginMetadata()
-```
-
-## Methods
-
-### **ToString()**
-
-
-
-```csharp
-public string ToString()
-```
-
-#### Returns
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-## Events
-
-### **PropertyChanged**
-
-
-
-```csharp
-public event PropertyChangedEventHandler PropertyChanged;
-```
+## Public Members
+
+| name | description |
+| --- | --- |
+| [PluginMetadata](PluginMetadata/PluginMetadata.md)() | The default constructor. |
+| [ActionKeyword](PluginMetadata/ActionKeyword.md) { get; set; } |  |
+| [ActionKeywords](PluginMetadata/ActionKeywords.md) { get; set; } |  |
+| [Author](PluginMetadata/Author.md) { get; set; } |  |
+| [AvgQueryTime](PluginMetadata/AvgQueryTime.md) { get; set; } |  |
+| [Description](PluginMetadata/Description.md) { get; set; } |  |
+| [Disabled](PluginMetadata/Disabled.md) { get; set; } |  |
+| [ExecuteFileName](PluginMetadata/ExecuteFileName.md) { get; set; } |  |
+| [ExecuteFilePath](PluginMetadata/ExecuteFilePath.md) { get; } |  |
+| [IcoPath](PluginMetadata/IcoPath.md) { get; set; } |  |
+| [ID](PluginMetadata/ID.md) { get; set; } |  |
+| [InitTime](PluginMetadata/InitTime.md) { get; set; } | Init time include both plugin load time and init time |
+| [Language](PluginMetadata/Language.md) { get; set; } |  |
+| [Name](PluginMetadata/Name.md) { get; set; } |  |
+| [PluginDirectory](PluginMetadata/PluginDirectory.md) { get; } |  |
+| [Priority](PluginMetadata/Priority.md) { get; set; } |  |
+| [QueryCount](PluginMetadata/QueryCount.md) { get; set; } |  |
+| [Version](PluginMetadata/Version.md) { get; set; } |  |
+| [Website](PluginMetadata/Website.md) { get; set; } |  |
+| override [ToString](PluginMetadata/ToString.md)() |  |
+
+## See Also
+
+* class [BaseModel](./BaseModel.md)
+* namespace [Flow.Launcher.Plugin](../Flow.Launcher.Plugin.md)
+
+<!-- DO NOT EDIT: generated by xmldocmd for flow.launcher.plugin.dll -->

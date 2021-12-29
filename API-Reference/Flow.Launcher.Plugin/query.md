@@ -1,181 +1,30 @@
-# Query
-
-Namespace: Flow.Launcher.Plugin
-
-
+# Query class
 
 ```csharp
 public class Query
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Query](query.md)
-
-## Fields
-
-### **TermSeperater**
-
-Query can be splited into multiple terms by whitespace
-
-```csharp
-public static string TermSeperater;
-```
-
-### **ActionKeywordSeperater**
-
-User can set multiple action keywords seperated by ';'
-
-```csharp
-public static string ActionKeywordSeperater;
-```
-
-### **GlobalPluginWildcardSign**
-
-'*' is used for System Plugin
-
-```csharp
-public static string GlobalPluginWildcardSign;
-```
-
-## Properties
-
-### **RawQuery**
-
-Raw query, this includes action keyword if it has
- We didn't recommend use this property directly. You should always use Search property.
-
-```csharp
-public string RawQuery { get; internal set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Search**
-
-Search part of a query.
- This will not include action keyword if exclusive plugin gets it, otherwise it should be same as RawQuery.
- Since we allow user to switch a exclusive plugin to generic plugin, 
- so this property will always give you the "real" query part of the query
-
-```csharp
-public string Search { get; internal set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **Terms**
-
-The raw query splited into a string array.
-
-```csharp
-public String[] Terms { get; set; }
-```
-
-#### Property Value
-
-[String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **ActionKeyword**
-
-
-
-```csharp
-public string ActionKeyword { get; set; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **FirstSearch**
-
-Return first search split by space if it has
-
-```csharp
-public string FirstSearch { get; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **SecondToEndSearch**
-
-strings from second search (including) to last search
-
-```csharp
-public string SecondToEndSearch { get; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **SecondSearch**
-
-Return second search split by space if it has
-
-```csharp
-public string SecondSearch { get; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-### **ThirdSearch**
-
-Return third search split by space if it has
-
-```csharp
-public string ThirdSearch { get; }
-```
-
-#### Property Value
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-## Constructors
-
-### **Query()**
-
-
-
-```csharp
-public Query()
-```
-
-### **Query(String, String, String[], String)**
-
-to allow unit tests for plug ins
-
-```csharp
-public Query(string rawQuery, string search, String[] terms, string actionKeyword)
-```
-
-#### Parameters
-
-`rawQuery` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-`search` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-`terms` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-`actionKeyword` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
-
-## Methods
-
-### **ToString()**
-
-
-
-```csharp
-public string ToString()
-```
-
-#### Returns
-
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
+## Public Members
+
+| name | description |
+| --- | --- |
+| [Query](Query/Query.md)() | The default constructor. |
+| [Query](Query/Query.md)(…) | to allow unit tests for plug ins |
+| [ActionKeyword](Query/ActionKeyword.md) { get; set; } |  |
+| [FirstSearch](Query/FirstSearch.md) { get; } | Return first search split by space if it has |
+| [RawQuery](Query/RawQuery.md) { get; } | Raw query, this includes action keyword if it has We didn't recommend use this property directly. You should always use Search property. |
+| [Search](Query/Search.md) { get; } | Search part of a query. This will not include action keyword if exclusive plugin gets it, otherwise it should be same as RawQuery. Since we allow user to switch a exclusive plugin to generic plugin, so this property will always give you the "real" query part of the query |
+| [SearchTerms](Query/SearchTerms.md) { get; set; } | The search string split into a string array. |
+| [SecondSearch](Query/SecondSearch.md) { get; } | Return second search split by space if it has |
+| [SecondToEndSearch](Query/SecondToEndSearch.md) { get; } | strings from second search (including) to last search |
+| [ThirdSearch](Query/ThirdSearch.md) { get; } | Return third search split by space if it has |
+| override [ToString](Query/ToString.md)() |  |
+| const [ActionKeywordSeparator](Query/ActionKeywordSeparator.md) | User can set multiple action keywords seperated by ';' |
+| const [GlobalPluginWildcardSign](Query/GlobalPluginWildcardSign.md) | '*' is used for System Plugin |
+| const [TermSeparator](Query/TermSeparator.md) | Query can be splited into multiple terms by whitespace |
+
+## See Also
+
+* namespace [Flow.Launcher.Plugin](../Flow.Launcher.Plugin.md)
+
+<!-- DO NOT EDIT: generated by xmldocmd for flow.launcher.plugin.dll -->
