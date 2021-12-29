@@ -2,16 +2,20 @@
   - Acronyms eg. `gk` or `gp` for GitKraken Preview.
   - Fuzzy eg. `acr` or `rea` for Acrobat Reader DC.
   - Single word eg.`code` or `visual` for Visual Studio Code.
-- Press `F5` while in the query window (available in 1.8.0 version) or type `reload plugin data` to reload all plugin data such as newly installed programs or added bookmarks.
+- Press `F5` while in the query window or type `reload plugin data` to reload all plugin data such as newly installed programs or added bookmarks.
 - Right click on a result will also take you to the context menu for additional actions.
-- Back up Flow's settings including installed plugins, simply back up your UserData folder located:
+- Flow's settings including installed plugin sare located at:
   - If using roaming: `%APPDATA%\FlowLauncher`
   - If using portable, by default: `%localappdata%\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData`
-- To restore your saved settings, ensure Flow is exited, simply delete the current UserData folder in the above location and copy yours in. Start Flow and all your settings will be setup. One exception however is your saved Quick Access files and folder paths in Explorer plugin you may need to update if the locations have changed.
+- To back up your Flow's settings including installed plugins, simply back up your UserData folder. You can locate it quickly via querying `flow launcher userdata`.
+- To restore your saved settings, ensure Flow is exited, simply delete the current UserData folder and copy yours in. Start Flow and all your settings will be setup. One exception however is your saved Quick Access files and folder paths in Explorer plugin you may need to update if the locations have changed.
 - Resetting Flow back to default settings is also easy, simply move/delete the UserData folder after closing the app and the defaults will be recreated.
-- The Program plugin runs indexing every 3 days, during which newly installed programs are added and uninstalled ones removed. You can also manually trigger this with pressing F5 while in the query window (available in 1.8.0 version) or type `reload plugin data`.
+- The Program plugin runs indexing every 3 days, during which newly installed programs are added and uninstalled ones removed. You can also manually trigger this with pressing F5 while in the query window or type `reload plugin data`.
 - If your plugin is not triggering, open Flow's settings and go to the Plugins tab, click on the plugin and check if it is set to a particular action keyword. You can set the plugin's action keyword to global: `*` but be wary sometimes a plugin sets a dedicated keyword is because it may return lots of results cluttering the result list.
 - For Explorer plugin results, you can press `Ctrl + Enter` to open the folder directly instead of navigating into the folder.
 - You can save your frequently used or favourite files/folder locations via Explorer plugin. Navigate to the file/location you want to save, then go to context menu and select `Add to Quick Access`. It will be particularly handy if you have set a custom action keyword instead of the default '*', which when used will display your list of saved Quick Access files and folders. You can change the default action keyword via the plugin's settings page.
 - Flow is published as a self-contained app, this means on Windows machines (7 and up) Flow can run straight away without needing to install .Net runtime and framework. Coupled with portable mode, it can be stored on Dropbox or cloud storage provider and run on any Windows machines. The slight drawback is that the installed package size is slightly bigger at around 250mb because it needs to bundle the required .Net components together.
 - Prioritize the plugin results order, this can be done by going to the plugin's settings page. Under the plugin's title and the description, click the number next to 'Priority', this is where you can assign weight to the plugin's result. The higher the weight is, the higher the selected plugin's results will be in Flow's result list.
+- Press ctrl + enter/click on a Shell plugin command will run it directly as admin.
+- In the plugins download list, you can press ctrl + enter/click to open the plugin's url.
+- Explorer's Search action keyword combines both Path and Index search, so you can use it without worrying about which action keyword to use for what, just put in what you need to search for. Path (searches a specific path) and Index (search a file or folder name) search allows users to do just their specific searches and are disabled by default.

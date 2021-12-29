@@ -19,11 +19,11 @@ A sample CSharp Plugin [here](https://github.com/Flow-Launcher/plugin-samples)
 
 The `Main`class that implements **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** or **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** will handle the query search with Flow.
 
-**[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** interface contains two required methods
+**[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** interface contains two required methods:
 1. `void Init(PluginInitContext context)`
     - [PluginInitContext](https://github.com/Flow-Launcher/Flow.Launcher/blob/master/API-Reference/Flow.Launcher.Plugin/PluginInitContext.cs) exposes some API from Flow and an metadata object for your plugin. 
-    - `Init`method will be invoked before the invocation of `Query`, so you can do some preparation here. 
-    - We recommand you do expensive operations in `Init`instead of Object Constructor because `Init`method will be executed in parallel with other plugin.
+    - It will be invoked before the invocation of `Query`, so you can do some preparation here. 
+    - We recommand you do expensive operations in this method instead of Object Constructor because this method will be executed in parallel with other plugins.
 2. `List<Result> Query(Query query)`
     - `Query` will be invoked when user activate this plugin with specific ActionKeyword.
     - A `List` of [Result](/API-Reference/Flow.Launcher.Plugin/result.md) object should be returned.
@@ -37,7 +37,7 @@ The `Main`class that implements **[IPlugin](API-Reference/Flow.Launcher.Plugin/i
 
 Besides the basic implementation of **IPlugin/IAsyncPlugin**, plugins can also implement a series of interfaces that belongs to **IFeatures** to control more communication with Flow. 
 
-**Remarks**: We requires you to implement these interfaces in the same class that implements **IPlugin/IAsyncPlugin**.
+**Remarks**: You should implement these interfaces in the same class that implements **IPlugin/IAsyncPlugin**.
 
 ### [IContextMenu](API-Reference/Flow.Launcher.Plugin/icontextmenu.md)
 
@@ -50,7 +50,7 @@ The return value of `LoadContextMenus` is similar to Results from `Query/QueryAs
 
 ### [IPluginI18n](/API-Reference/Flow.Launcher.Plugin/iplugini18n.md)
 
-**IPluginI18n** means the plugins has been internationalized. Therefore, Flow will load the additional lauguage resources from `/Language` when loading the plugin.
+**IPluginI18n** means the plugin has been internationalized. Therefore, Flow will load the additional lauguage resources from `/Languages` when loading the plugin.
 By implementing this interface with additional language files, Flow will be able to load plugin-sepcified localized language resources. You will be able to get the translated text with `IPublicAPI.GetTranslation(string key)`.
 
 #### Language Resource

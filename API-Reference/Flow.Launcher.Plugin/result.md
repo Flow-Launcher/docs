@@ -107,17 +107,16 @@ public IList<int> TitleHighlightData { get; set; }
 
 [IList&lt;Int32&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)<br>
 
-### **SubTitleHighlightData**
-
-A list of indexes for the characters to be highlighted in SubTitle
+### **AutoCompleteText**
+Full text display in the query window when autocomplete is triggered
 
 ```csharp
-public IList<int> SubTitleHighlightData { get; set; }
+public string AutoCompleteText { get; set; }
 ```
 
 #### Property Value
 
-[IList&lt;Int32&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1)<br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br>
 
 ### **PluginDirectory**
 
