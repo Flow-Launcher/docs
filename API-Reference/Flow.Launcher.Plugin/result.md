@@ -18,7 +18,7 @@ public class Result
 | [OriginQuery](Result/OriginQuery.md) { get; set; } | Query information associated with the result |
 | [PluginDirectory](Result/PluginDirectory.md) { get; set; } | Plugin directory |
 | [PluginID](Result/PluginID.md) { get; } | Plugin ID that generated this result |
-| [Score](Result/Score.md) { get; set; } | Priority of the current result |
+| [Score](Result/Score.md) { get; set; } | Priority of the current result default: 0 |
 | [SubTitle](Result/SubTitle.md) { get; set; } | Provides additional details for the result. This is optional |
 | [SubTitleHighlightData](Result/SubTitleHighlightData.md) { get; set; } | A list of indexes for the characters to be highlighted in SubTitle |
 | [SubTitleToolTip](Result/SubTitleToolTip.md) { get; set; } | Show message as ToolTip on result SubTitle hover over |
