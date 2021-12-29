@@ -1,6 +1,6 @@
 # Result.Glyph property
 
-Information for Glyph Icon
+Information for Glyph Icon (Prioritized than IcoPath/Icon if user enable Glyph Icons)
 
 ```csharp
 public GlyphInfo Glyph { get; set; }

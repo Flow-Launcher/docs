@@ -1,5 +1,7 @@
 # Result.IcoPath property
 
+Image Displayed on the result
+
 ```csharp
 public string IcoPath { get; set; }
 ```

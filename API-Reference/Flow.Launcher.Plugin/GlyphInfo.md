@@ -1,5 +1,7 @@
 # GlyphInfo record
 
+Text with FontFamily specified
+
 ```csharp
 public record GlyphInfo
 ```
@@ -8,7 +10,7 @@ public record GlyphInfo
 
 | name | description |
 | --- | --- |
-| [GlyphInfo](GlyphInfo/GlyphInfo.md)(…) |  |
+| [GlyphInfo](GlyphInfo/GlyphInfo.md)(…) | Text with FontFamily specified |
 | [FontFamily](GlyphInfo/FontFamily.md) { get; set; } |  |
 | [Glyph](GlyphInfo/Glyph.md) { get; set; } |  |
 

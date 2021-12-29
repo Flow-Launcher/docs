@@ -12,7 +12,7 @@
 | class [FlowLauncherKeyDownEventArgs](./Flow.Launcher.Plugin/FlowLauncherKeyDownEventArgs.md) |  |
 | delegate [FlowLauncherKeyDownEventHandler](./Flow.Launcher.Plugin/FlowLauncherKeyDownEventHandler.md) |  |
 | class [FlowLauncherQueryEventArgs](./Flow.Launcher.Plugin/FlowLauncherQueryEventArgs.md) |  |
-| record [GlyphInfo](./Flow.Launcher.Plugin/GlyphInfo.md) |  |
+| record [GlyphInfo](./Flow.Launcher.Plugin/GlyphInfo.md) | Text with FontFamily specified |
 | interface [IAsyncPlugin](./Flow.Launcher.Plugin/IAsyncPlugin.md) | Asynchronous Plugin Model for Flow Launcher |
 | interface [IAsyncReloadable](./Flow.Launcher.Plugin/IAsyncReloadable.md) | This interface is to indicate and allow plugins to asyncronously reload their in memory data cache or other mediums when user makes a new change that is not immediately captured. For example, for BrowserBookmark and Program plugin does not automatically detect when a user added a new bookmark or program, so this interface's function is exposed to allow user manually do the reloading after those new additions. The command that allows user to manual reload is exposed via Plugin.Sys, and it will call the plugins that have implemented this interface. |
 | interface [IContextMenu](./Flow.Launcher.Plugin/IContextMenu.md) |  |

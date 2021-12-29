@@ -1,6 +1,6 @@
 # Result.Action property
 
-return true to hide flowlauncher after select result
+Delegate activated when result is been selected  true to hide flowlauncher after select result
 
 ```csharp
 public Func<ActionContext, bool> Action { get; set; }

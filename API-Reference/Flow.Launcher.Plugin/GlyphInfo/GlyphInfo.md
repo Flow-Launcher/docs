@@ -1,8 +1,15 @@
 # GlyphInfo constructor
 
+Text with FontFamily specified
+
 ```csharp
 public GlyphInfo(string FontFamily, string Glyph)
 ```
+
+| parameter | description |
+| --- | --- |
+| FontFamily | Font Family of this Glyph |
+| Glyph | Text/Unicode of the Glyph |
 
 ## See Also
 

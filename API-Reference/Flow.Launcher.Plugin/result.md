@@ -9,19 +9,20 @@ public class Result
 | name | description |
 | --- | --- |
 | [Result](Result/Result.md)() | The default constructor. |
-| [Action](Result/Action.md) { get; set; } | return true to hide flowlauncher after select result |
+| [Action](Result/Action.md) { get; set; } | Delegate activated when result is been selected  true to hide flowlauncher after select result |
 | [ActionKeywordAssigned](Result/ActionKeywordAssigned.md) { get; set; } | This holds the action keyword that triggered the result. If result is triggered by global keyword: *, this should be empty. |
 | [AutoCompleteText](Result/AutoCompleteText.md) { get; set; } | This holds the text which can be provided by plugin to help Flow autocomplete text for user on the plugin result. If autocomplete action for example is tab, pressing tab will have the default constructed autocomplete text (result's Title), or the text provided here if not empty. |
-| [ContextData](Result/ContextData.md) { get; set; } | Additional data associate with this result |
-| [Glyph](Result/Glyph.md) { get; set; } | Information for Glyph Icon |
-| [IcoPath](Result/IcoPath.md) { get; set; } |  |
+| [ContextData](Result/ContextData.md) { get; set; } | Additional data associate with this result  As external information for ContextMenu |
+| [Glyph](Result/Glyph.md) { get; set; } | Information for Glyph Icon (Prioritized than IcoPath/Icon if user enable Glyph Icons) |
+| [IcoPath](Result/IcoPath.md) { get; set; } | Image Displayed on the result |
+| [OriginQuery](Result/OriginQuery.md) { get; set; } | Query information associated with the result |
 | [PluginDirectory](Result/PluginDirectory.md) { get; set; } | Plugin directory |
 | [PluginID](Result/PluginID.md) { get; } | Plugin ID that generated this result |
-| [Score](Result/Score.md) { get; set; } |  |
+| [Score](Result/Score.md) { get; set; } | Priority of the current result |
 | [SubTitle](Result/SubTitle.md) { get; set; } | Provides additional details for the result. This is optional |
 | [SubTitleHighlightData](Result/SubTitleHighlightData.md) { get; set; } | A list of indexes for the characters to be highlighted in SubTitle |
 | [SubTitleToolTip](Result/SubTitleToolTip.md) { get; set; } | Show message as ToolTip on result SubTitle hover over |
-| [Title](Result/Title.md) { get; set; } | Provides the title of the result. This is always required. |
+| [Title](Result/Title.md) { get; set; } | The title of the result. This is always required. |
 | [TitleHighlightData](Result/TitleHighlightData.md) { get; set; } | A list of indexes for the characters to be highlighted in Title |
 | [TitleToolTip](Result/TitleToolTip.md) { get; set; } | Show message as ToolTip on result Title hover over |
 | [Icon](Result/Icon.md) | Delegate to Get Image Source |

@@ -1,13 +1,14 @@
-# Result.Title property
+# Result.OriginQuery property
 
-The title of the result. This is always required.
+Query information associated with the result
 
 ```csharp
-public string Title { get; set; }
+public Query OriginQuery { get; set; }
 ```
 
 ## See Also
 
+* class [Query](../Query.md)
 * class [Result](../Result.md)
 * namespace [Flow.Launcher.Plugin](../../Flow.Launcher.Plugin.md)
 

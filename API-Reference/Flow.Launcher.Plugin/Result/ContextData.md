@@ -1,6 +1,6 @@
 # Result.ContextData property
 
-Additional data associate with this result
+Additional data associate with this result  As external information for ContextMenu
 
 ```csharp
 public object ContextData { get; set; }

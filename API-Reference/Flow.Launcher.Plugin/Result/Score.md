@@ -1,5 +1,7 @@
 # Result.Score property
 
+Priority of the current result
+
 ```csharp
 public int Score { get; set; }
 ```
