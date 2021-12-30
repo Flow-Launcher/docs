@@ -40,6 +40,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Windows Startup](https://github.com/Garulf/Windows-Startup)                                 |Control Windows start-up programs.                                        |Garulf                                        |1.0.1  |
 |[TenorGIF](https://github.com/Garulf/TenorGIF)                                               |Search Tenor for amazing GIFs!                                            |Garulf                                        |1.1.1  |
 |[Hello World Node.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS)|TypeScript/JavaScript plugin example using Node.js                        |Flow Launcher                                 |1.0.0  |
+|[Emoji+](https://github.com/Garulf/emoji-plus)                                               |Search and copy the right Emoji for any occasion.                         |Garulf                                        |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
