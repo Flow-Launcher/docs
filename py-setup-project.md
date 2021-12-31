@@ -1,19 +1,25 @@
 ### 1. Add GitHub workflow
 The workflow [file](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython/blob/main/.github/workflows/Publish%20Release.yml) will help build and deploy your project, it does the following things:
 1. `workflow_dispatch:` gives you the option to manually run your workflow from the Actions section of your project
+
 2. On pushes to main, it will kick off the workflow but ignore the push if it's only changes made to the workflow file.
+
 ```yml
 push:
     branches: [ main ]
     paths-ignore: 
       - .github/workflows/*
 ```
+
 3. It specifies the python version that will be used for building your project:
+
 ```yml
     env:
       python_ver: 3.8
 ```
+
 4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
+
 ```yml
 - name: get version
   id: version
@@ -22,9 +28,11 @@ push:
     path: 'plugin.json'
     prop_path: 'Version'
 ```
+
 5. The 'Install dependencies' section is where you will do most of your CI work. Notice it installs the requirements.txt and outputs it with the `-t` parameter to the `./lib` folder. This tells pip to dump all the installed modules to the local lib folder which you will zip up along with your project using the `zip -r Flow.Launcher.Plugin.HelloWorldPython.zip . -x '*.git*'`, where you replace this `Flow.Launcher.Plugin.HelloWorldPython` with the name of your plugin.
     
     You can also add additional steps here to unpack/install any additional depedencies your plugin requires, for example compiling additional translation files like [this](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency/blob/23770ee929af059b1b1b7f9b5f3327b692ac9587/.github/workflows/Publish%20Release.yml#L34)
+
 ```yml
 - name: Install dependencies
   run: |

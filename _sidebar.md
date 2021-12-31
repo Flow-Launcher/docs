@@ -12,6 +12,11 @@
       - [**Write the code**](/py-write-code.md)
       - [**Add your plugin to Flow**](/py-release-project.md)
       - [**Plugin references**](/py-plugin-references.md)
+	- JavaScript/TypeScript Plugins
+      - [**Before you start**](/nodejs-develop-plugins.md) 
+      - [**Set up your project**](/nodejs-setup-project.md)
+      - [**Write the code**](/nodejs-write-code.md)
+      - [**Add your plugin to Flow**](/nodejs-release-project.md)
     - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
     - [**Porting Plugins**](/port-plugins.md)
