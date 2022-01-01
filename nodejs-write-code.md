@@ -20,7 +20,8 @@ if (method === "query") {
                     "method": "do_something_for_query",
                     "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher"]
                 },
-				"IcoPath": "Images\\app.png"
+				"IcoPath": "Images\\app.png",
+                "score" : 0
 			}]
 		}
 	));
@@ -57,7 +58,10 @@ SET plugin_dir=%~dp0%
 node %plugin_dir%/main.js %*
 ```
 
-### 6. Your plugin.json
+### 6 Result score
+The `score` field provides the ability to assign a weight to your score, the higher the score is, the higher the result from the plugin would show in flow's result list. The range in which you assign the score is usually between 0-100. You can keep it as 0 if your plugin generally uses an action keyword to trigger, but if you are using a global action keyword - `*` then the average weight for a plugin would be 50. Additionally users can also tweak the score via Flow's plugin setting as well.
+
+### 7. Your plugin.json
 You will also need to if not yet already, create a plugin.json file that will instruct Flow on how to load your plugin.
 
 This file should be placed in the top level folder.
