@@ -5,7 +5,8 @@ It is a good practice that you create a branch for each of the new feature/fixes
 
 ### 2. main.py
 your main.py should look something like below:
-```
+
+```python
 import sys,os
 parent_folder_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.append(parent_folder_path)
@@ -21,26 +22,28 @@ class HelloWorld(FlowLauncher):
     def query(self, query):
         return [
             {
-                "Title": "Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
-                "SubTitle": "This is where your subtitle goes, press enter to open Flow's url",
-                "IcoPath": "Images/app.png",
-                "JsonRPCAction": {
+                "title": "Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
+                "subTitle": "This is where your subtitle goes, press enter to open Flow's url",
+                "icoPath": "Images/app.png",
+                "jsonRPCAction": {
                     "method": "open_url",
                     "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher"]
-                }
+                },
+                "score": 0 # An integer indicate the priority of the result
             }
         ]
 
     def context_menu(self, data):
         return [
             {
-                "Title": "Hello World Python's Context menu",
-                "SubTitle": "Press enter to open Flow the plugin's repo in GitHub",
-                "IcoPath": "Images/app.png",
-                "JsonRPCAction": {
+                "title": "Hello World Python's Context menu",
+                "subTitle": "Press enter to open Flow the plugin's repo in GitHub",
+                "icoPath": "Images/app.png", # related path to the image
+                "jsonRPCAction": {
                     "method": "open_url",
                     "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython"]
-                }
+                },
+                "score" : 0 # An integer indicate the priority of the result
             }
         ]
 
