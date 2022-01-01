@@ -29,7 +29,7 @@ class HelloWorld(FlowLauncher):
                     "method": "open_url",
                     "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher"]
                 },
-                "score": 0 # An integer indicate the priority of the result
+                "score": 0
             }
         ]
 
@@ -43,7 +43,7 @@ class HelloWorld(FlowLauncher):
                     "method": "open_url",
                     "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython"]
                 },
-                "score" : 0 # An integer indicate the priority of the result
+                "score" : 0
             }
         ]
 
@@ -75,7 +75,10 @@ This method creates a context menu for your results, where the user can carry ou
 
 To attach a method to your context menu result, do the same as for normal results where you define a JsonRPCAction item with the method and parameters you want to call and pass through. In this case the context menu will simply open the HelloWorldPython plugin's GitHub repo.
 
-### 6. Your plugin.json
+### 6 Result score
+The `score` field provides the ability to assign a weight to your score, the higher the score is, the higher the result from the plugin would show in flow's result list. The range in which you assign the score is usually between 0-100. You can keep it as 0 if your plugin generally uses an action keyword to trigger, but if you are using a global action keyword - `*` then the average weight for a plugin would be 50. Additionally users can also tweak the score via Flow's plugin setting as well.
+
+### 7. Your plugin.json
 
 You will also need to if not yet already, create a plugin.json file that will instruct Flow on how to load your plugin.
 

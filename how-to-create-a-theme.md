@@ -12,7 +12,7 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 (*There is a possibility of changing/deleting this part depending on the version.*)
 
-<img src="/assets/themelayout.png" style="zoom:50%;" />
+<img src="https://github.com/Flow-Launcher/docs/raw/main/assets/themelayout.png" style="zoom:50%;" />
 
 ##### WindowBorderStyle
 
