@@ -23,13 +23,13 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[isPrime](https://github.com/lvonkacsoh/Flow.Launcher.Plugin.IsPrime)                        |Checks if the given arguments are prime numbers                           |lvonkacsoh                                    |1.3.0  |
 |[RollDice](https://github.com/lvonkacsoh/Flow.Launcher.RollDice)                             |Rolls the given dices and evaluates the expression                        |lvonkacsoh                                    |1.0.1  |
 |[Fancy Emoji](https://github.com/Ma-ve/Flow.Launcher.Plugin.FancyEmoji)                      |Search for emoji and add to your clipboard automatically                  |Mave                                          |1.0.6  |
-|[Timestamp](https://github.com/Zeroto521/Flow.Launcher.Plugin.Timestamp)                     |Show system time and could copy that                                      |Zero <Zeroto521>                              |1.0.8  |
+|[Timestamp](https://github.com/Garulf/Flow.Launcher.Plugin.Timestamp)                        |Show system time and could copy that                                      |Zero <Zeroto521>                              |1.0.8  |
 |[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)           |General weights and measures converter                                    |deefrawley                                    |1.1.1  |
-|[HA-Commander](https://github.com/Garulf/HA-Commander)                                       |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |2.5.0  |
+|[HA-Commander](https://github.com/Garulf/HA-Commander)                                       |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |3.0.2  |
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                  |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
-|[Search-MDI](https://github.com/Garulf/Search-MDI)                                           |Search materialdesignicons.com                                            |Garulf                                        |2.2.6  |
+|[Search-MDI](https://github.com/Garulf/Search-MDI)                                           |Search materialdesignicons.com                                            |Garulf                                        |3.0.1  |
 |[Plexy](https://github.com/Garulf/plexy)                                                     |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.2  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                       |Search and launch your Steam Game library                                 |Garulf                                        |3.0.1  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                       |Search and launch your Steam Game library                                 |Garulf                                        |3.0.3  |
 |[Twitchy](https://github.com/Garulf/twitchy)                                                 |Search and stream twitch.tv                                               |Garulf                                        |1.1.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                    |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
 |[nexusmods-search](https://github.com/Garulf/nexusmods-search)                               |Search Nexusmods.com                                                      |Garulf                                        |0.2.1  |
@@ -40,7 +40,10 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Windows Startup](https://github.com/Garulf/Windows-Startup)                                 |Control Windows start-up programs.                                        |Garulf                                        |1.0.1  |
 |[TenorGIF](https://github.com/Garulf/TenorGIF)                                               |Search Tenor for amazing GIFs!                                            |Garulf                                        |1.1.1  |
 |[Hello World Node.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS)|TypeScript/JavaScript plugin example using Node.js                        |Flow Launcher                                 |1.0.0  |
-|[Emoji+](https://github.com/Garulf/emoji-plus)                                               |Search and copy the right Emoji for any occasion.                         |Garulf                                        |1.0.1  |
+|[Emoji+](https://github.com/Garulf/emoji-plus)                                               |Search and copy the right Emoji for any occasion.                         |Garulf                                        |1.0.2  |
+|[VS Code Workspaces](https://github.com/taooceros/Flow.Plugin.VSCodeWorkspace)               |Search and open the previously used VS Code workspaces                    |ricardosantos9521, taooceros                  |1.0.0  |
+|[Hello World Python](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython) |Python Hello World example plugin                                         |Flow Launcher                                 |1.0.0  |
+|[Epic Games Store Launcher](https://github.com/Garulf/Epic-Games-Store-Launcher)             |Launch your Epic Game Store games                                         |Garulf                                        |1.0.2  |
 
 <!--END_SECTION:plugin-->
 
