@@ -5,7 +5,7 @@
     - [**plugin.json**](/plugin.json.md)
     - Dotnet Plugins
       - [**Development Guide**](/develop-dotnet-plugins.md)
-      - [**API Reference**](API-Reference/)
+      - [**API Reference**](/API-Reference/Flow.Launcher.Plugin.md)
     - Python Plugins
       - [**Before you start**](/py-develop-plugins.md) 
       - [**Set up your project**](/py-setup-project.md)
