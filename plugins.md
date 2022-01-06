@@ -41,7 +41,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[TenorGIF](https://github.com/Garulf/TenorGIF)                                               |Search Tenor for amazing GIFs!                                            |Garulf                                        |1.1.1  |
 |[Hello World Node.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS)|TypeScript/JavaScript plugin example using Node.js                        |Flow Launcher                                 |1.0.0  |
 |[Emoji+](https://github.com/Garulf/emoji-plus)                                               |Search and copy the right Emoji for any occasion.                         |Garulf                                        |1.0.2  |
-|[VS Code Workspaces](https://github.com/taooceros/Flow.Plugin.VSCodeWorkspace)               |Search and open the previously used VS Code workspaces                    |ricardosantos9521, taooceros                  |1.0.0  |
+|[VS Code Workspaces](https://github.com/taooceros/Flow.Plugin.VSCodeWorkspace)               |Search and open the previously used VS Code workspaces                    |ricardosantos9521, taooceros                  |1.1.1  |
 |[Hello World Python](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython) |Python Hello World example plugin                                         |Flow Launcher                                 |1.0.0  |
 |[Epic Games Store Launcher](https://github.com/Garulf/Epic-Games-Store-Launcher)             |Launch your Epic Game Store games                                         |Garulf                                        |1.0.2  |
 
