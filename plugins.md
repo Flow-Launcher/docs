@@ -44,6 +44,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[VS Code Workspaces](https://github.com/taooceros/Flow.Plugin.VSCodeWorkspace)               |Search and open the previously used VS Code workspaces                    |ricardosantos9521, taooceros                  |1.1.1  |
 |[Hello World Python](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython) |Python Hello World example plugin                                         |Flow Launcher                                 |1.0.0  |
 |[Epic Games Store Launcher](https://github.com/Garulf/Epic-Games-Store-Launcher)             |Launch your Epic Game Store games                                         |Garulf                                        |1.0.2  |
+|[Obsidian Notes](https://github.com/Garulf/obsidian-notes)                                   |Search Obsidian notes                                                     |Garulf                                        |1.0.0  |
+|[Reddit Browser](https://github.com/Garulf/reddit-browser)                                   |Search and browse Reddit                                                  |Garulf                                        |1.0.2  |
 
 <!--END_SECTION:plugin-->
 
