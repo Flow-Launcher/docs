@@ -25,14 +25,14 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Fancy Emoji](https://github.com/Ma-ve/Flow.Launcher.Plugin.FancyEmoji)                       |Search for emoji and add to your clipboard automatically                  |Mave                                          |1.0.7  |
 |[Timestamp](https://github.com/Garulf/Flow.Launcher.Plugin.Timestamp)                         |Show system time and could copy that                                      |Zero <Zeroto521>                              |1.0.8  |
 |[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)            |General weights and measures converter                                    |deefrawley                                    |1.1.2  |
-|[HA-Commander](https://github.com/Garulf/HA-Commander)                                        |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |3.0.3  |
+|[HA-Commander](https://github.com/Garulf/HA-Commander)                                        |Search, and interact with Home Assistant using Wox or Flow Launcher.      |Garulf                                        |3.0.4  |
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                   |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
-|[Search-MDI](https://github.com/Garulf/Search-MDI)                                            |Search materialdesignicons.com                                            |Garulf                                        |3.0.2  |
+|[Search-MDI](https://github.com/Garulf/Search-MDI)                                            |Search materialdesignicons.com                                            |Garulf                                        |3.0.3  |
 |[Plexy](https://github.com/Garulf/plexy)                                                      |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.3  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                        |Search and launch your Steam Game library                                 |Garulf                                        |3.0.4  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                        |Search and launch your Steam Game library                                 |Garulf                                        |3.1.0  |
 |[Twitchy](https://github.com/Garulf/twitchy)                                                  |Search and stream twitch.tv                                               |Garulf                                        |1.1.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                     |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
-|[nexusmods-search](https://github.com/Garulf/nexusmods-search)                                |Search Nexusmods.com                                                      |Garulf                                        |0.2.1  |
+|[nexusmods-search](https://github.com/Garulf/nexusmods-search)                                |Search Nexusmods.com                                                      |Garulf                                        |0.2.2  |
 |[Favorites](https://github.com/stax76/Flow.Launcher.Plugin.Favorites)                         |Flow Launcher plugin to define favorite apps, files, folders and URLs.    |stax76                                        |1.4    |
 |[Number Converter](https://github.com/liberize/Flow.Launcher.Plugin.NumberConverter)          |Convert numbers between dec/oct/hex/bin                                   |liberize                                      |1.0.1  |
 |[Window Services](https://github.com/Garulf/window-services)                                  |Start and stop Windows services.                                          |Garulf                                        |1.1.4  |
@@ -48,7 +48,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Reddit Browser](https://github.com/Garulf/reddit-browser)                                    |Search and browse Reddit                                                  |Garulf                                        |1.0.2  |
 |[Playnite](https://github.com/Garulf/playnite-plugin)                                         |Search and launch your Playnite library.                                  |Garulf                                        |1.2.1  |
 |[Windows Terminal profiles](https://github.com/paradox00/Flow.Launcher.Plugin.WindowsTerminal)|Windows Terminal profiles launcher                                        |Aviv B.D.                                     |0.0.4  |
-|[Github Notifications](https://github.com/Garulf/github-notifications)                        |View your github notifications                                            |Garulf                                        |1.0.4  |
+|[Github Notifications](https://github.com/Garulf/github-notifications)                        |View your github notifications                                            |Garulf                                        |1.0.5  |
 
 <!--END_SECTION:plugin-->
 
