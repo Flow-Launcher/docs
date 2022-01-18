@@ -40,14 +40,14 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Windows Startup](https://github.com/Garulf/Windows-Startup)                                  |Control Windows start-up programs.                                        |Garulf                                        |1.0.2  |
 |[TenorGIF](https://github.com/Garulf/TenorGIF)                                                |Search Tenor for amazing GIFs!                                            |Garulf                                        |1.1.2  |
 |[Hello World Node.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS) |TypeScript/JavaScript plugin example using Node.js                        |Flow Launcher                                 |1.0.0  |
-|[Emoji+](https://github.com/Garulf/emoji-plus)                                                |Search and copy the right Emoji for any occasion.                         |Garulf                                        |1.3.0  |
+|[Emoji+](https://github.com/Garulf/emoji-plus)                                                |Search and copy the right Emoji for any occasion.                         |Garulf                                        |1.3.1  |
 |[VS Code Workspaces](https://github.com/taooceros/Flow.Plugin.VSCodeWorkspace)                |Search and open the previously used VS Code workspaces                    |ricardosantos9521, taooceros                  |1.1.1  |
 |[Hello World Python](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython)  |Python Hello World example plugin                                         |Flow Launcher                                 |1.0.0  |
 |[Epic Games Store Launcher](https://github.com/Garulf/Epic-Games-Store-Launcher)              |Launch your Epic Game Store games                                         |Garulf                                        |1.0.3  |
 |[Obsidian Notes](https://github.com/Garulf/obsidian-notes)                                    |Search Obsidian notes                                                     |Garulf                                        |1.0.1  |
 |[Reddit Browser](https://github.com/Garulf/reddit-browser)                                    |Search and browse Reddit                                                  |Garulf                                        |1.0.2  |
-|[Playnite](https://github.com/Garulf/playnite-plugin)                                         |Search and launch your Playnite library.                                  |Garulf                                        |1.2.1  |
-|[Windows Terminal profiles](https://github.com/paradox00/Flow.Launcher.Plugin.WindowsTerminal)|Windows Terminal profiles launcher                                        |Aviv B.D.                                     |0.0.7  |
+|[Playnite](https://github.com/Garulf/playnite-plugin)                                         |Search and launch your Playnite library.                                  |Garulf                                        |1.5.1  |
+|[Windows Terminal profiles](https://github.com/paradox00/Flow.Launcher.Plugin.WindowsTerminal)|Windows Terminal profiles launcher                                        |Aviv B.D.                                     |0.0.8  |
 |[Github Notifications](https://github.com/Garulf/github-notifications)                        |View your github notifications                                            |Garulf                                        |1.0.5  |
 
 <!--END_SECTION:plugin-->
