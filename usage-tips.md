@@ -19,3 +19,4 @@
 - Press ctrl + enter/click on a Shell plugin command will run it directly as admin.
 - In the plugins download list, you can press ctrl + enter/click to open the plugin's url.
 - Explorer's Search action keyword combines both Path and Index search, so you can use it without worrying about which action keyword to use for what, just put in what you need to search for. Path (searches a specific path) and Index (search a file or folder name) search allows users to do just their specific searches and are disabled by default.
+- Whilst in the query window and searching inside a directory, pressing `Ctrl + Backspace`  will go back up one level in the directory tree.
