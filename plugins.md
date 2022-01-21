@@ -29,7 +29,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                   |Search cppreference.com efficiently                                       |Peter Schussheim                              |1.0.1  |
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                            |Search materialdesignicons.com                                            |Garulf                                        |3.0.3  |
 |[Plexy](https://github.com/Garulf/plexy)                                                      |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.3  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                        |Search and launch your Steam Game library                                 |Garulf                                        |3.1.0  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                        |Search and launch your Steam Game library                                 |Garulf                                        |3.2.1  |
 |[Twitchy](https://github.com/Garulf/twitchy)                                                  |Search and stream twitch.tv                                               |Garulf                                        |1.1.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                     |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
 |[nexusmods-search](https://github.com/Garulf/nexusmods-search)                                |Search Nexusmods.com                                                      |Garulf                                        |0.2.2  |
@@ -49,6 +49,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Playnite](https://github.com/Garulf/playnite-plugin)                                         |Search and launch your Playnite library.                                  |Garulf                                        |1.5.1  |
 |[Windows Terminal profiles](https://github.com/paradox00/Flow.Launcher.Plugin.WindowsTerminal)|Windows Terminal profiles launcher                                        |Aviv B.D.                                     |0.0.8  |
 |[Github Notifications](https://github.com/Garulf/github-notifications)                        |View your github notifications                                            |Garulf                                        |1.0.5  |
+|[Github Quick Launcher](https://github.com/Garulf/github-quick-launcher)                      |Quickly access your personal repositories and stars.                      |Garulf                                        |1.0.1  |
+|[Spell Checker](https://github.com/Garulf/spell-checker)                                      |Quickly get spelling suggestions and word definitions.                    |Garulf                                        |0.0.4  |
 
 <!--END_SECTION:plugin-->
 
