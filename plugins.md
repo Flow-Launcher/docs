@@ -49,8 +49,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Playnite](https://github.com/Garulf/playnite-plugin)                                         |Search and launch your Playnite library.                                  |Garulf                                        |1.5.1  |
 |[Windows Terminal profiles](https://github.com/paradox00/Flow.Launcher.Plugin.WindowsTerminal)|Windows Terminal profiles launcher                                        |Aviv B.D.                                     |0.0.8  |
 |[Github Notifications](https://github.com/Garulf/github-notifications)                        |View your github notifications                                            |Garulf                                        |1.0.5  |
-|[Github Quick Launcher](https://github.com/Garulf/github-quick-launcher)                      |Quickly access your personal repositories and stars.                      |Garulf                                        |1.1.0  |
-|[Spell Checker](https://github.com/Garulf/spell-checker)                                      |Quickly get spelling suggestions and word definitions.                    |Garulf                                        |0.0.4  |
+|[Github Quick Launcher](https://github.com/Garulf/github-quick-launcher)                      |Quickly access your personal repositories and stars.                      |Garulf                                        |1.2.0  |
+|[Spell Checker](https://github.com/Garulf/spell-checker)                                      |Quickly get spelling suggestions and word definitions.                    |Garulf                                        |0.0.5  |
 |[Kitty](https://github.com/lostping/Flow.Launcher.Plugin.Kitty)                               |Launch Kitty Sessions.                                                    |LostPing                                      |1.0.5  |
 |[Desktop Cleanup](https://github.com/umi-uyura/Flow.Launcher.Plugin.DesktopCleanup)           |Clean files and folders on the desktop                                    |Umi Uyura                                     |1.0.1  |
 
