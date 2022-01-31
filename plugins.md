@@ -51,7 +51,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Github Notifications](https://github.com/Garulf/github-notifications)                        |View your github notifications                                            |Garulf                                        |1.0.5  |
 |[Github Quick Launcher](https://github.com/Garulf/github-quick-launcher)                      |Quickly access your personal repositories and stars.                      |Garulf                                        |1.3.0  |
 |[Spell Checker](https://github.com/Garulf/spell-checker)                                      |Quickly get spelling suggestions and word definitions.                    |Garulf                                        |0.0.5  |
-|[Kitty](https://github.com/lostping/Flow.Launcher.Plugin.Kitty)                               |Launch Kitty Sessions.                                                    |LostPing                                      |1.0.5  |
+|[Kitty](https://github.com/lostping/Flow.Launcher.Plugin.Kitty)                               |Launch Kitty Sessions.                                                    |LostPing                                      |1.0.6  |
 |[Desktop Cleanup](https://github.com/umi-uyura/Flow.Launcher.Plugin.DesktopCleanup)           |Clean files and folders on the desktop                                    |Umi Uyura                                     |1.0.1  |
 |[Sonarr Search](https://github.com/Garulf/sonarr-search)                                      |Search your Sonarr server library                                         |Garulf                                        |0.1.0  |
 
