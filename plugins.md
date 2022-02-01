@@ -9,7 +9,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[SpotifyPremium](https://github.com/fow5040/Flow.Launcher.Plugin.SpotifyPremium)              |Spotify Premium for Flow Launcher                                         |Frank W. (@fow5040)                           |1.1.0  |
 |[Clipboard History](https://github.com/liberize/Flow.Launcher.Plugin.ClipboardHistory)        |a Clipboard History Plugin for FlowLauncher                               |liberize,Xenolphthalein                       |1.1.1  |
 |[Window Walker](https://www.windowwalker.com/)                                                |Alt-Tab alternative enabling searching through your windows.              |betadele                                      |2.0.2  |
-|[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)                |Search Everything                                                         |qianlifeng, orzfly                            |1.5.6  |
+|[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)                |Search Everything                                                         |qianlifeng, orzfly                            |1.7.0  |
 |[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                         |Provides HEX and RGB color preview.                                       |qianlifeng, Vladimir Antos, bluray            |2.0.1  |
 |[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)             |Currency converter using the euro and rates at https://www.ecb.europa.eu/ |deefrawley                                    |1.2.2  |
 |[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                              |Shows your internal and external IP address                               |ishu3101                                      |1.2.1  |
@@ -30,7 +30,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                            |Search materialdesignicons.com                                            |Garulf                                        |3.0.3  |
 |[Plexy](https://github.com/Garulf/plexy)                                                      |Search and cast your Plex Media Server Library                            |Garulf                                        |0.5.3  |
 |[Steam Search](https://github.com/Garulf/Steam-Search)                                        |Search and launch your Steam Game library                                 |Garulf                                        |3.2.1  |
-|[Twitchy](https://github.com/Garulf/twitchy)                                                  |Search and stream twitch.tv                                               |Garulf                                        |1.1.0  |
+|[Twitchy](https://github.com/Garulf/twitchy)                                                  |Search and stream twitch.tv                                               |Garulf                                        |2.1.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                     |A plugin for uninstalling programs                                        |Hogan Lee                                     |2.0.0  |
 |[nexusmods-search](https://github.com/Garulf/nexusmods-search)                                |Search Nexusmods.com                                                      |Garulf                                        |0.2.2  |
 |[Favorites](https://github.com/stax76/Flow.Launcher.Plugin.Favorites)                         |Flow Launcher plugin to define favorite apps, files, folders and URLs.    |stax76                                        |1.4    |
@@ -54,6 +54,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Kitty](https://github.com/lostping/Flow.Launcher.Plugin.Kitty)                               |Launch Kitty Sessions.                                                    |LostPing                                      |1.0.6  |
 |[Desktop Cleanup](https://github.com/umi-uyura/Flow.Launcher.Plugin.DesktopCleanup)           |Clean files and folders on the desktop                                    |Umi Uyura                                     |1.0.1  |
 |[Sonarr Search](https://github.com/Garulf/sonarr-search)                                      |Search your Sonarr server library                                         |Garulf                                        |0.1.0  |
+|[BetterTTV Twitch Emotes](https://github.com/Garulf/Betterttv-twitch-emotes)                  |Search Twitch.tv emotes via BetterTTV                                     |Garulf                                        |0.0.2  |
 
 <!--END_SECTION:plugin-->
 
