@@ -55,6 +55,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Desktop Cleanup](https://github.com/umi-uyura/Flow.Launcher.Plugin.DesktopCleanup)           |Clean files and folders on the desktop                                    |Umi Uyura                                     |1.0.1  |
 |[Sonarr Search](https://github.com/Garulf/sonarr-search)                                      |Search your Sonarr server library                                         |Garulf                                        |0.1.0  |
 |[BetterTTV Twitch Emotes](https://github.com/Garulf/Betterttv-twitch-emotes)                  |Search Twitch.tv emotes via BetterTTV                                     |Garulf                                        |0.0.2  |
+|[DuckDuckGo !bang](https://github.com/JohnTheGr8/Flow.Plugin.Bang)                            |Search on thousands of sites directly, with DuckDuckGo bangs              |Ioannis G. (@JohnTheGr8)                      |1.2.0  |
 
 <!--END_SECTION:plugin-->
 
