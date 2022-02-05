@@ -56,6 +56,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Sonarr Search](https://github.com/Garulf/sonarr-search)                                      |Search your Sonarr server library                                         |Garulf                                        |0.1.0  |
 |[BetterTTV Twitch Emotes](https://github.com/Garulf/Betterttv-twitch-emotes)                  |Search Twitch.tv emotes via BetterTTV                                     |Garulf                                        |0.0.2  |
 |[DuckDuckGo !bang](https://github.com/JohnTheGr8/Flow.Plugin.Bang)                            |Search on thousands of sites directly, with DuckDuckGo bangs              |Ioannis G. (@JohnTheGr8)                      |1.2.0  |
+|[Browser History](https://github.com/Garulf/browser-history)                                  |Search your Web Browser history                                           |Garulf                                        |0.0.3  |
 
 <!--END_SECTION:plugin-->
 
