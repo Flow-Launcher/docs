@@ -58,7 +58,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[DuckDuckGo !bang](https://github.com/JohnTheGr8/Flow.Plugin.Bang)                            |Search on thousands of sites directly, with DuckDuckGo bangs              |Ioannis G. (@JohnTheGr8)                      |1.2.0  |
 |[Browser History](https://github.com/Garulf/browser-history)                                  |Search your Web Browser history                                           |Garulf                                        |0.1.0  |
 |[Heidi](https://github.com/lostping/Flow.Launcher.Plugin.Heidi)                               |Launch HeidiSQL Sessions.                                                 |LostPing                                      |1.0.0  |
-|[FlowYouTube](https://github.com/Garulf/FlowYouTube)                                          |Search YouTube.com                                                        |Garulf                                        |0.2.1  |
+|[FlowYouTube](https://github.com/Garulf/FlowYouTube)                                          |Search YouTube.com                                                        |Garulf                                        |0.2.2  |
 |[Base64](https://github.com/oSumAtrIX/Flow.Launcher.Plugin.Base64)                            |Encode or decode a string using Base64 encoding                           |oSumAtrIX                                     |1.0.0  |
 
 <!--END_SECTION:plugin-->
