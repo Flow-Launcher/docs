@@ -20,7 +20,7 @@ So we need to build a **common API** between Flow and Plugin.
 
 ## Flow Launcher API
 
-API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master/Flow.Launcher.Plugin/IPublicAPI.cs)
+API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master/Flow.Launcher.Plugin/Interfaces/IPublicAPI.cs)
 
 ### API List
 
