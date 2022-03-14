@@ -60,10 +60,10 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Heidi](https://github.com/lostping/Flow.Launcher.Plugin.Heidi)                               |Launch HeidiSQL Sessions.                                                         |LostPing                                      |1.0.0  |
 |[FlowYouTube](https://github.com/Garulf/FlowYouTube)                                          |Search YouTube.com                                                                |Garulf                                        |0.2.2  |
 |[Base64](https://github.com/oSumAtrIX/Flow.Launcher.Plugin.Base64)                            |Encode or decode a string using Base64 encoding                                   |oSumAtrIX                                     |1.0.0  |
-|[Base Converter](https://github.com/gissehel/BarLauncher-BaseConverter)                       |Convert values from one base to another (for example decimal to hexadecimal, etc.)|gissehel                                      |2.0.6  |
-|[Workspacer](https://github.com/gissehel/BarLauncher-Workspacer)                              |Create and manage workspaces                                                      |gissehel                                      |2.0.4  |
-|[WebApp launcher](https://github.com/gissehel/BarLauncher-WebApp)                             |Start a URL in a webapp mode                                                      |gissehel                                      |2.0.12 |
-|[Unit converter](https://github.com/gissehel/BarLauncher-UnitConverter)                       |Convert between physical units                                                    |gissehel                                      |2.0.4  |
+|[Base Converter](https://github.com/gissehel/BarLauncher-BaseConverter)                       |Convert values from one base to another (for example decimal to hexadecimal, etc.)|gissehel                                      |2.0.8  |
+|[Workspacer](https://github.com/gissehel/BarLauncher-Workspacer)                              |Create and manage workspaces                                                      |gissehel                                      |2.0.6  |
+|[WebApp launcher](https://github.com/gissehel/BarLauncher-WebApp)                             |Start a URL in a webapp mode                                                      |gissehel                                      |2.0.14 |
+|[Unit converter](https://github.com/gissehel/BarLauncher-UnitConverter)                       |Convert between physical units                                                    |gissehel                                      |2.0.6  |
 
 <!--END_SECTION:plugin-->
 
