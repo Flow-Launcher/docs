@@ -65,6 +65,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[WebApp launcher](https://github.com/gissehel/BarLauncher-WebApp)                               |Start a URL in a webapp mode                                                      |gissehel                                      |2.0.14 |
 |[Unit converter](https://github.com/gissehel/BarLauncher-UnitConverter)                         |Convert between physical units                                                    |gissehel                                      |2.0.6  |
 |[Wallpaper Engine Profile Selector](https://github.com/Garulf/wallpaper-engine-profile-selector)|Change your Wallpaper Engine Profile                                              |Garulf                                        |0.0.2  |
+|[FlowRaindrop](https://github.com/Garulf/flow-raindrop)                                         |Access Raindrop.io bookmarks with Flow Launcher/Wox                               |Garulf                                        |0.0.2  |
 
 <!--END_SECTION:plugin-->
 
