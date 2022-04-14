@@ -66,6 +66,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Unit converter](https://github.com/gissehel/BarLauncher-UnitConverter)                         |Convert between physical units                                                    |gissehel                                      |2.0.6  |
 |[Wallpaper Engine Profile Selector](https://github.com/Garulf/wallpaper-engine-profile-selector)|Change your Wallpaper Engine Profile                                              |Garulf                                        |0.0.2  |
 |[FlowRaindrop](https://github.com/Garulf/flow-raindrop)                                         |Access Raindrop.io bookmarks with Flow Launcher/Wox                               |Garulf                                        |0.0.2  |
+|[WordReference](https://github.com/LeoDupont/Flow.Launcher.Plugin.WordReference)                |WordReference translations (es, en, fr, it)                                       |LeoDupont                                     |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
