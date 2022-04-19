@@ -6,7 +6,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Google Search Plus](https://github.com/jjw24/Wox.Plugin.GoogleSearch)                          |Plugin for searching Google and navigating directly to the search results.        |mikemorain                                    |1.0.3  |
 |[Plugin Runner](https://github.com/jjw24/Wox.Plugin.Runner)                                     |Create simple command shortcuts                                                   |Jesse Barocio (@jessebarocio)                 |2.2.3  |
 |[Dictionary](https://github.com/harrynull/Flow.Launcher.Dictionary)                             |English dictionary, word correction and synonym.                                  |Harry Yu                                      |2.2.3  |
-|[SpotifyPremium](https://github.com/fow5040/Flow.Launcher.Plugin.SpotifyPremium)                |Spotify Premium for Flow Launcher                                                 |Frank W. (@fow5040)                           |1.1.0  |
+|[SpotifyPremium](https://github.com/fow5040/Flow.Launcher.Plugin.SpotifyPremium)                |Spotify Premium for Flow Launcher                                                 |Frank W. (@fow5040)                           |1.1.2  |
 |[Clipboard History](https://github.com/liberize/Flow.Launcher.Plugin.ClipboardHistory)          |a Clipboard History Plugin for FlowLauncher                                       |liberize,Xenolphthalein                       |1.1.1  |
 |[Window Walker](https://www.windowwalker.com/)                                                  |Alt-Tab alternative enabling searching through your windows.                      |betadele                                      |2.0.2  |
 |[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)                  |Search Everything                                                                 |qianlifeng, orzfly                            |1.7.2  |
@@ -67,6 +67,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Wallpaper Engine Profile Selector](https://github.com/Garulf/wallpaper-engine-profile-selector)|Change your Wallpaper Engine Profile                                              |Garulf                                        |0.0.2  |
 |[FlowRaindrop](https://github.com/Garulf/flow-raindrop)                                         |Access Raindrop.io bookmarks with Flow Launcher/Wox                               |Garulf                                        |0.0.2  |
 |[WordReference](https://github.com/LeoDupont/Flow.Launcher.Plugin.WordReference)                |WordReference translations (es, en, fr, it)                                       |LeoDupont                                     |1.0.0  |
+|[DateDiff](https://github.com/LeoDupont/Flow.Launcher.Plugin.DateDiff)                          |Difference between two dates (documentation on website)                           |LeoDupont                                     |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
