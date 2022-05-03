@@ -29,7 +29,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                     |Search cppreference.com efficiently                                               |Peter Schussheim                              |1.0.1  |
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                              |Search materialdesignicons.com                                                    |Garulf                                        |3.0.3  |
 |[Plexy](https://github.com/Garulf/plexy)                                                        |Search and cast your Plex Media Server Library                                    |Garulf                                        |1.1.0  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                          |Search and launch your Steam Game library                                         |Garulf                                        |4.0.3  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                          |Search and launch your Steam Game library                                         |Garulf                                        |4.0.4  |
 |[Twitchy](https://github.com/Garulf/twitchy)                                                    |Search and stream twitch.tv                                                       |Garulf                                        |2.1.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                       |A plugin for uninstalling programs                                                |Hogan Lee                                     |2.0.0  |
 |[nexusmods-search](https://github.com/Garulf/nexusmods-search)                                  |Search Nexusmods.com                                                              |Garulf                                        |0.2.3  |
@@ -70,7 +70,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[DateDiff](https://github.com/LeoDupont/Flow.Launcher.Plugin.DateDiff)                          |Difference between two dates (documentation on website)                           |LeoDupont                                     |1.1.0  |
 |[Workflowy](https://github.com/brunolm/workflowy-wf)                                            |Save notes directly into Workflowy                                                |BrunoLM                                       |1.0.0  |
 |[DropboxFinder](https://github.com/AmeenAltajer/FlowLauncher.DropboxFinder)                     |A plugin for Flow Launcher to search files directly within Dropbox.               |Ameen Altajer                                 |1.1.0  |
-|[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.0  |
+|[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.1  |
 
 <!--END_SECTION:plugin-->
 
