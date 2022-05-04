@@ -70,7 +70,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[DateDiff](https://github.com/LeoDupont/Flow.Launcher.Plugin.DateDiff)                          |Difference between two dates (documentation on website)                           |LeoDupont                                     |1.1.0  |
 |[Workflowy](https://github.com/brunolm/workflowy-wf)                                            |Save notes directly into Workflowy                                                |BrunoLM                                       |1.0.0  |
 |[DropboxFinder](https://github.com/AmeenAltajer/FlowLauncher.DropboxFinder)                     |A plugin for Flow Launcher to search files directly within Dropbox.               |Ameen Altajer                                 |1.1.0  |
-|[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.1  |
+|[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.4  |
 
 <!--END_SECTION:plugin-->
 
