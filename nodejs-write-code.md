@@ -3,7 +3,7 @@ Since we have created a CI for your plugin in the [previous step](https://flow-l
 
 It is a good practice that you create a branch for each of the new feature/fixes you are releasing for your plugin, if you are not sure how to do so then follow this [video tutorial](https://www.gitkraken.com/learn/git/problems/create-git-branch). Once you have fully finished developing your plugin with your new branch, then you can merge it into the 'main' branch, which will consequently create a new release for your plugin with a version from your `plugin.json`.
 
-### 2. main.py
+### 2. main.js
 your main.js should look something like below:
 ```
 const open = require('./node_modules/open')
