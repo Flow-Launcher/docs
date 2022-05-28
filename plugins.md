@@ -71,7 +71,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Workflowy](https://github.com/brunolm/workflowy-wf)                                            |Save notes directly into Workflowy                                                |BrunoLM                                       |1.0.0  |
 |[DropboxFinder](https://github.com/AmeenAltajer/FlowLauncher.DropboxFinder)                     |A plugin for Flow Launcher to search files directly within Dropbox.               |Ameen Altajer                                 |1.1.0  |
 |[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.5  |
-|[AWS Toolkit](https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit)                     |Open the AWS Console for services in your web browser                             |mikemorain, mjtimblin                         |1.0.1  |
+|[AWS Toolkit](https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit)                     |Open the AWS Console for services in your web browser                             |mikemorain, mjtimblin                         |1.0.3  |
 
 <!--END_SECTION:plugin-->
 
