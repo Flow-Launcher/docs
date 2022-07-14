@@ -2,7 +2,7 @@
 
 Plugins written in TypeScript/JavaScript use the [JSON-RPC](https://flow-launcher.github.io/docs/#/json-rpc) protocol to communicate with Flow via JSON structured calls.
 
-Although not a hard requirement, this guide will use Node.js to run the TypeScript/JavaScript. We will refere to TypeScript/JavaScript plugin as Node.js plugin from here on.
+Although not a hard requirement, this guide will use Node.js to run the TypeScript/JavaScript. We will refer to TypeScript/JavaScript plugin as Node.js plugin from here on.
 
 When building a Node.js plugins there are several things to be mindful of:
 
