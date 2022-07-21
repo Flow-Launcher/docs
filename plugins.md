@@ -12,7 +12,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)                  |Search Everything                                                                 |qianlifeng, orzfly                            |1.7.2  |
 |[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                           |Provides HEX and RGB color preview.                                               |qianlifeng, Vladimir Antos, bluray            |2.0.1  |
 |[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)               |Currency converter using the euro and rates at https://www.ecb.europa.eu/         |deefrawley                                    |2.0.3  |
-|[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                                |Shows your internal and external IP address                                       |ishu3101                                      |1.2.1  |
+|[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                                |Shows your internal and external IP address                                       |ishu3101                                      |1.2.2  |
 |[Flow.Plugin.UrlEncode](https://github.com/cxfksword/Wox.Plugin.UrlEncode)                      |urlencode or urldecode a string                                                   |cxfksword                                     |1.0    |
 |[Putty](https://github.com/jjw24/Flow.Launcher.Plugin.Putty)                                    |Launch Putty Sessions                                                             |Konstantin Zaitcev, Kai Eichinger (@cH40zLord)|2.1.3  |
 |[LibreTranslate](https://github.com/taooceros/Flow.LibreTranslate)                              |a translation plugin for Flow-Launcher                                            |taooceros                                     |1.0.1  |
@@ -72,7 +72,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[DropboxFinder](https://github.com/AmeenAltajer/FlowLauncher.DropboxFinder)                     |A plugin for Flow Launcher to search files directly within Dropbox.               |Ameen Altajer                                 |1.1.0  |
 |[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.5  |
 |[AWS Toolkit](https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit)                     |Open the AWS Console for services in your web browser                             |mikemorain, mjtimblin                         |1.0.3  |
-|[Unity 3D Helper](https://github.com/falldeaf/unity-flowlauncher)                               |Unity3D project list/launcher                                                     |falldeaf                                      |1.0.1  |
+|[Unity 3D Helper](https://github.com/falldeaf/unity-flowlauncher)                               |Unity3D project list/launcher                                                     |falldeaf                                      |1.0.2  |
 
 <!--END_SECTION:plugin-->
 
