@@ -73,6 +73,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Notion Search](https://github.com/danielduckworth/Flow.Launcher.Plugin.NotionSearch)           |Search notion pages and databases                                                 |Duckworth                                     |0.1.5  |
 |[AWS Toolkit](https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit)                     |Open the AWS Console for services in your web browser                             |mikemorain, mjtimblin                         |1.0.3  |
 |[Unity 3D Helper](https://github.com/falldeaf/unity-flowlauncher)                               |Unity3D project list/launcher                                                     |falldeaf                                      |1.0.2  |
+|[Email To](https://github.com/Echostorm44/FlowLauncherPluginEmailTo)                            |Launch new email in default client eg Outlook                                     |Echostorm44                                    |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
