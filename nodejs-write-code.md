@@ -55,7 +55,7 @@ The [node.bat](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldN
 ```
 @echo off
 SET plugin_dir=%~dp0%
-node %plugin_dir%/main.js %*
+node "%plugin_dir%/main.js" %*
 ```
 
 ### 6 Result score
