@@ -75,6 +75,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Unity 3D Helper](https://github.com/falldeaf/unity-flowlauncher)                               |Unity3D project list/launcher                                                     |falldeaf                                      |1.0.2  |
 |[Search npm](https://github.com/gabrielcarloto/flow-search-npm)                                 |Search npm packages                                                               |Gabriel Carloto                               |1.0.2  |
 |[EmailTo](https://github.com/Echostorm44/FlowLauncherPluginEmailTo)                             |Flow plugin to spawn a new email in the system default client                     |Adam Marciniec                                |1.0.0  |
+|[CyberChef](https://github.com/gamous/Flow.Launcher.Plugin.CyberChef)                           |Send your input to the CyberChef                                                  |Gamous                                        |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
