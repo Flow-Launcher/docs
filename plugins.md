@@ -76,6 +76,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Search npm](https://github.com/gabrielcarloto/flow-search-npm)                                 |Search npm packages                                                               |Gabriel Carloto                               |1.0.2  |
 |[EmailTo](https://github.com/Echostorm44/FlowLauncherPluginEmailTo)                             |Flow plugin to spawn a new email in the system default client                     |Adam Marciniec                                |1.0.0  |
 |[CyberChef](https://github.com/gamous/Flow.Launcher.Plugin.CyberChef)                           |Send your input to the CyberChef                                                  |Gamous                                        |1.0.0  |
+|[Search MDN](https://github.com/gabrielcarloto/flow-search-mdn)                                 |Search MDN Web Docs                                                               |Gabriel Carloto                               |1.0.0  |
+|[Translate Tool](https://github.com/qjcXu/Flow.Launcher.Translation)                            |a plugin of translation                                                           |qjc                                           |0.1.0  |
 
 <!--END_SECTION:plugin-->
 
