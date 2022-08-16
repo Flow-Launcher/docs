@@ -19,9 +19,7 @@
       - [**Add your plugin to Flow**](/nodejs-release-project.md)
     - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
-      - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Porting Plugins**](/port-plugins.md)
 - Plugin Templates
   - [**Python Template**](/pytemplate.md)
-    - [**Porting Plugins**](/port-plugins.md)
 - [**How To Create a Theme**](/how-to-create-a-theme.md)
