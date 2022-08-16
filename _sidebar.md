@@ -5,10 +5,23 @@
     - [**plugin.json**](/plugin.json.md)
     - Dotnet Plugins
       - [**Development Guide**](/develop-dotnet-plugins.md)
-      - [**API Reference**](API-Reference/)
-    - JSONRPC Plugins
+      - [**API Reference**](/API-Reference/Flow.Launcher.Plugin.md)
+    - Python Plugins
+      - [**Before you start**](/py-develop-plugins.md) 
+      - [**Set up your project**](/py-setup-project.md)
+      - [**Write the code**](/py-write-code.md)
+      - [**Add your plugin to Flow**](/py-release-project.md)
+      - [**Plugin references**](/py-plugin-references.md)
+	- JavaScript/TypeScript Plugins
+      - [**Before you start**](/nodejs-develop-plugins.md) 
+      - [**Set up your project**](/nodejs-setup-project.md)
+      - [**Write the code**](/nodejs-write-code.md)
+      - [**Add your plugin to Flow**](/nodejs-release-project.md)
+    - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
       - [**Develop Python Plugins**](/develop-py-plugins.md)
     - [**Porting Plugins**](/port-plugins.md)
 - Plugin Templates
   - [**Python Template**](/pytemplate.md)
+    - [**Porting Plugins**](/port-plugins.md)
+- [**How To Create a Theme**](/how-to-create-a-theme.md)

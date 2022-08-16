@@ -69,3 +69,6 @@ Implementing **IResultUpdated** provides a way to return part of the query resul
 
 To early return a result to Flow, you will need to invoke `ResultUpdated` event with an `ResultUpdatedEventArgs`, which includes the current `Query` object and the List of `Result` objects similar to the return value in `Query(Async)`.
 
+### [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable) *Flow 1.8.0 or higher*
+
+Implementing **IDisposable** to dispose unmanaged resource in the plugin. `Dispose()` will be called when Flow exit.
