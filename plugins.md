@@ -80,6 +80,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Translate Tool](https://github.com/qjcXu/Flow.Launcher.Translation)                            |a plugin of translation                                                                            |qjc                                           |0.1.1  |
 |[MyIPs](https://github.com/Echostorm44/FlowLauncherPluginMyIPs)                                 |A plugin to tell you your internal and public IP excluding any coming from VM programs and the like|Adam Marciniec                                |1.0.1  |
 |[Unity Engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine)                    |Launch Unity Projects                                                                              |LeLocTai                                      |1.0.1  |
+|[CurrencyPP](https://github.com/LeLocTai/Flow.Launcher.Plugin.CurrencyPP)                       |A better currency converter                                                                        |Le Loc Tai                                    |3.0.1  |
 
 <!--END_SECTION:plugin-->
 
