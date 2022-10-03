@@ -9,7 +9,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[SpotifyPremium](https://github.com/fow5040/Flow.Launcher.Plugin.SpotifyPremium)                |Spotify Premium for Flow Launcher                                                                  |Frank W. (@fow5040)                           |1.1.2  |
 |[Clipboard History](https://github.com/liberize/Flow.Launcher.Plugin.ClipboardHistory)          |a Clipboard History Plugin for FlowLauncher                                                        |liberize,Xenolphthalein                       |1.1.1  |
 |[Window Walker](https://www.windowwalker.com/)                                                  |Alt-Tab alternative enabling searching through your windows.                                       |betadele                                      |2.2.0  |
-|[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)                  |Search Everything                                                                                  |qianlifeng, orzfly                            |1.7.4  |
+|[Everything](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Everything)                  |Search Everything                                                                                  |qianlifeng, orzfly                            |1.7.5  |
 |[Colors](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.Color)                           |Provides HEX and RGB color preview.                                                                |qianlifeng, Vladimir Antos, bluray            |2.0.1  |
 |[Currency Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency)               |Currency converter using the euro and rates at https://www.ecb.europa.eu/                          |deefrawley                                    |2.0.4  |
 |[IP Address](https://github.com/taooceros/Flow.Plugin.IPAddress)                                |Shows your internal and external IP address                                                        |ishu3101                                      |1.2.2  |
@@ -81,6 +81,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[MyIPs](https://github.com/Echostorm44/FlowLauncherPluginMyIPs)                                 |A plugin to tell you your internal and public IP excluding any coming from VM programs and the like|Adam Marciniec                                |1.0.1  |
 |[Unity Engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine)                    |Launch Unity Projects                                                                              |LeLocTai                                      |1.0.1  |
 |[CurrencyPP](https://github.com/LeLocTai/Flow.Launcher.Plugin.CurrencyPP)                       |A better currency converter                                                                        |Le Loc Tai                                    |3.0.1  |
+|[Poi Poi Clipboard](https://github.com/PikkamanV/Flow.Launcher.Plugin.PoiPoiClipboard)          |Clear clipboard quickly to prevent password leakage                                                |PikkamanV                                     |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
