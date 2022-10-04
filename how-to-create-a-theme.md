@@ -4,7 +4,9 @@ If you make a theme for the first time, refer to the existing theme. Copy the **
 
 [sublime.xaml]: https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml
 
+## ⛔ Caution ⛔ ##
 
+Place the theme you created in the Theme folder located in **Roaming**. Flow read two theme directory Local and Roaming. Local has default themes. But don't put your themes in Local. This is because Local folder is affected by the update.
 
 ### The elements of the theme.
 
