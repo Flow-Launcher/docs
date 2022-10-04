@@ -4,7 +4,9 @@ If you make a theme for the first time, refer to the existing theme. Copy the **
 
 [sublime.xaml]: https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml
 
+## ⛔ Caution ⛔ ##
 
+Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at **%APPDATA%\\FlowLauncher\\Themes\\** and for portable it is by default **%localappdata%\\FlowLauncher\app-\\<VersionOfYourFlowLauncher\>\\UserData\\Themes\\** . Flow will read from both theme locations in UserData and app data (the one outside of UserData directory), so make sure you do not place in the location outside of UserData because it will be erased along with the default theme files after an update.
 
 ### The elements of the theme.
 
