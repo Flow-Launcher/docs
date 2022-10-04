@@ -6,7 +6,7 @@ If you make a theme for the first time, refer to the existing theme. Copy the **
 
 ## ⛔ Caution ⛔ ##
 
-Place the theme you created in the Theme folder located in **Roaming**. Flow read two theme directory Local and Roaming. Local has default themes. But don't put your themes in Local. This is because Local folder is affected by the update.
+Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at **%APPDATA%\\FlowLauncher\\Themes\\** and for portable it is by default **%localappdata%\\FlowLauncher\app-\\<VersionOfYourFlowLauncher\>\\UserData\\Themes\\** . Flow will read from both theme locations in UserData and app data (the one outside of UserData directory), so make sure you do not place in the location outside of UserData because it will be erased along with the default theme files after an update.
 
 ### The elements of the theme.
 
