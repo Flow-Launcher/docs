@@ -243,3 +243,9 @@ Specifies the color of the glyph icon.
         <Setter Property="Foreground" Value="#5bafb0" />
 </Style>
 ```   
+
+## Let's share it!
+Once you have crafted your perfect theme, why not share it with the community:
+
+[Theme Gallery](
+https://github.com/Flow-Launcher/Flow.Launcher/discussions/1438)
