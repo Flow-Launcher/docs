@@ -25,7 +25,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Fancy Emoji](https://github.com/Ma-ve/Flow.Launcher.Plugin.FancyEmoji)                         |Search for emoji and add to your clipboard automatically                                           |Mave                                          |1.0.8  |
 |[Timestamp](https://github.com/Garulf/Flow.Launcher.Plugin.Timestamp)                           |Show system time and could copy that                                                               |Zero <Zeroto521>                              |1.0.8  |
 |[General Converter](https://github.com/deefrawley/Flow.Launcher.Plugin.GenConvert)              |General weights and measures converter                                                             |deefrawley                                    |1.1.2  |
-|[HA-Commander](https://github.com/Garulf/HA-Commander)                                          |Search, and interact with Home Assistant using Wox or Flow Launcher.                               |Garulf                                        |3.2.1  |
+|[HA-Commander](https://github.com/Garulf/HA-Commander)                                          |Search, and interact with Home Assistant using Wox or Flow Launcher.                               |Garulf                                        |4.0.0  |
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                     |Search cppreference.com efficiently                                                                |Peter Schussheim                              |1.0.1  |
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                              |Search materialdesignicons.com                                                                     |Garulf                                        |3.0.3  |
 |[Plexy](https://github.com/Garulf/plexy)                                                        |Search and cast your Plex Media Server Library                                                     |Garulf                                        |2.0.0  |
@@ -82,6 +82,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Unity Engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine)                    |Launch Unity Projects                                                                              |LeLocTai                                      |1.0.1  |
 |[CurrencyPP](https://github.com/LeLocTai/Flow.Launcher.Plugin.CurrencyPP)                       |A better currency converter                                                                        |Le Loc Tai                                    |3.0.1  |
 |[Poi Poi Clipboard](https://github.com/PikkamanV/Flow.Launcher.Plugin.PoiPoiClipboard)          |Clear clipboard quickly to prevent password leakage                                                |PikkamanV                                     |1.0.0  |
+|[Translation](https://github.com/cenyG/flow-launch-translate-plugin)                            |Node.js Translation plugin with Google Translate                                                   |cenygg                                        |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
