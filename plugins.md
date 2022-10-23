@@ -78,11 +78,11 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Search MDN](https://github.com/gabrielcarloto/flow-search-mdn)                                 |Search MDN Web Docs                                                                                |Gabriel Carloto                               |1.0.0  |
 |[Translation Tool](https://github.com/qjcXu/Flow.Launcher.Translation)                          |A translation plugin by Baidu Translate                                                            |qjc                                           |1.0.0  |
 |[MyIPs](https://github.com/Echostorm44/FlowLauncherPluginMyIPs)                                 |A plugin to tell you your internal and public IP excluding any coming from VM programs and the like|Adam Marciniec                                |1.0.1  |
-|[Unity Engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine)                    |Launch Unity Projects                                                                              |LeLocTai                                      |1.0.1  |
+|[Unity Engine](https://github.com/LeLocTai/Flow.Launcher.Plugin.UnityEngine)                    |Launch Unity Projects                                                                              |LeLocTai                                      |1.0.2  |
 |[CurrencyPP](https://github.com/LeLocTai/Flow.Launcher.Plugin.CurrencyPP)                       |A better currency converter                                                                        |Le Loc Tai                                    |3.0.1  |
 |[Poi Poi Clipboard](https://github.com/PikkamanV/Flow.Launcher.Plugin.PoiPoiClipboard)          |Clear clipboard quickly to prevent password leakage                                                |PikkamanV                                     |1.0.0  |
 |[Translation](https://github.com/cenyG/flow-launch-translate-plugin)                            |Node.js Translation plugin with Google Translate                                                   |cenygg                                        |1.0.0  |
-|[Cider](https://github.com/Monochromish/Flow.Launcher.Plugin.Cider)                             |Control Cider and it's playback with Flow Launcher                                                 |Monochromish                                  |1.0.0  |
+|[Cider](https://github.com/Monochromish/Flow.Launcher.Plugin.Cider)                             |Control Cider and it's playback with Flow Launcher                                                 |Monochromish                                  |1.1.0  |
 
 <!--END_SECTION:plugin-->
 
