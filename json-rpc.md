@@ -2,7 +2,7 @@
 
 > [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) is a remote procedure call protocol encoded in JSON.
 
-In Flow Launcher, we use JSON-RPC as a **local** procedure call protocol to bind Flow and other program languages.
+In Flow Launcher, we use JSON-RPC as a **local** procedure call protocol to bind Flow and other program languages ([**Python plugin**](/py-develop-plugins.md) and [**JavaScript/TypeScript plugin**](/nodejs-develop-plugins.md)).
 
 So we need to build a **common API** between Flow and Plugin.
 
@@ -33,7 +33,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 - `Flow.Launcher.HideApp`: hide flow launcher
 - `Flow.Launcher.ShowApp`: show flow launcher
 - `Flow.Launcher.ShowMsg`: show messagebox
-- `Flow.Launcher.GetTranslation`:  get translation of current language
+- `Flow.Launcher.GetTranslation`: get translation of current language
 - `Flow.Launcher.OpenSettingDialog`: open setting dialog
 - `Flow.Launcher.GetAllPlugins`: get all loaded plugins
 - `Flow.Launcher.StartLoadingBar`: start loading animation in flow launcher
@@ -44,8 +44,8 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 
 ```json
 {
-    "method": "Flow Launcher API Name",
-    "parameters": []
+  "method": "Flow Launcher API Name",
+  "parameters": []
 }
 ```
 

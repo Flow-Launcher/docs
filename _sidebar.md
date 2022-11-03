@@ -2,6 +2,7 @@
 - [**Usage Tips**](/usage-tips.md)
 - [**Plugin Directory**](/plugins.md)
 - Plugin Development
+    - [**Get Started**](/plugin-dev.md)
     - [**plugin.json**](/plugin.json.md)
     - Dotnet Plugins
       - [**Development Guide**](/develop-dotnet-plugins.md)
@@ -17,7 +18,10 @@
       - [**Set up your project**](/nodejs-setup-project.md)
       - [**Write the code**](/nodejs-write-code.md)
       - [**Add your plugin to Flow**](/nodejs-release-project.md)
+    - Testing Plugins
+      - [**Testing Guide**](/testing.md)
     - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
-    - [**Porting Plugins**](/port-plugins.md)
+    - Porting Plugins
+      - [**Porting Plugins Guide**](/port-plugins.md)
 - [**How To Create a Theme**](/how-to-create-a-theme.md)
