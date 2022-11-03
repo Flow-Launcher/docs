@@ -1,6 +1,7 @@
 ### Testing your plugin
 
-After successfully building a plugin, it can be tested locally by moving the output files into Flow Launcher's `FlowLauncher\Plugins` directory accessible via the `userdata` command in Flow Launcher.
+After successfully building a plugin, it can be tested locally by moving the output files into Flow Launcher's `FlowLauncher\Plugins` directory accessible via the `userdata` command in Flow Launcher. Alternatively, if you are building .Net (C# or F#) plugins you can have your IDE build the artefact directly to that location (remember not to check this build output path into Git though). 
+
 
 ### Detail Steps
 
