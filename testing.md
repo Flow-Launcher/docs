@@ -10,3 +10,5 @@ After successfully building a plugin, it can be tested locally by moving the out
 3. Move exisiting plugin with the same `Plugin ID` as specify in `plugin.json` away from the folder (_**if more than one plugin have the same `Plugin ID`, none of them will be loaded**_).
 4. Copy and paste the newly built plugin folder into this folder.
 5. Execute `Restart Flow Launcher` to reload the new plugin.
+
+Tip: .Net plugins (e.g. C# and F#) will require you to restart flow every time you make a change and build a new artefact to reload the plugin, but Python and JS/TS plugins you can edit the plugin directly.  
