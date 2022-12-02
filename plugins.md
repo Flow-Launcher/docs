@@ -84,6 +84,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Translation](https://github.com/cenyG/flow-launch-translate-plugin)                            |Node.js Translation plugin with Google Translate                                                   |cenygg                                        |1.0.0  |
 |[Cider](https://github.com/Monochromish/Flow.Launcher.Plugin.Cider)                             |Control Cider and it's playback with Flow Launcher                                                 |Monochromish                                  |1.1.0  |
 |[Google Translate](https://github.com/ralosant/FlowLauncher.Google.Translator)                  |Simple Plugin to use Google Translate in FlowLauncher                                              |Raúl Losantos                                 |1.0.0  |
+|[Google Calendar](https://github.com/ivanipenburg/Flow.Launcher.Plugin.GoogleCalendar)          |Add events to your Google Calendar                                                                 |Ilja van Ipenburg                             |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
