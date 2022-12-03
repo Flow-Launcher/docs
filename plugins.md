@@ -48,7 +48,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Reddit Browser](https://github.com/Garulf/reddit-browser)                                      |Search and browse Reddit                                                                           |Garulf                                        |1.0.2  |
 |[Playnite](https://github.com/Garulf/playnite-plugin)                                           |Search and launch your Playnite library.                                                           |Garulf                                        |2.0.0  |
 |[Windows Terminal profiles](https://github.com/paradox00/Flow.Launcher.Plugin.WindowsTerminal)  |Windows Terminal profiles launcher                                                                 |Aviv B.D.                                     |0.0.8  |
-|[Github Notifications](https://github.com/Garulf/github-notifications)                          |View your github notifications                                                                     |Garulf                                        |3.0.9  |
+|[Github Notifications](https://github.com/Garulf/github-notifications)                          |View your github notifications                                                                     |Garulf                                        |3.0.10 |
 |[Github Quick Launcher](https://github.com/Garulf/github-quick-launcher)                        |Quickly access your personal repositories and stars.                                               |Garulf                                        |1.5.0  |
 |[Kitty](https://github.com/lostping/Flow.Launcher.Plugin.Kitty)                                 |Launch Kitty Sessions.                                                                             |LostPing                                      |1.0.6  |
 |[Desktop Cleanup](https://github.com/umi-uyura/Flow.Launcher.Plugin.DesktopCleanup)             |Clean files and folders on the desktop                                                             |Umi Uyura                                     |1.0.1  |
@@ -84,7 +84,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Translation](https://github.com/cenyG/flow-launch-translate-plugin)                            |Node.js Translation plugin with Google Translate                                                   |cenygg                                        |1.0.0  |
 |[Cider](https://github.com/Monochromish/Flow.Launcher.Plugin.Cider)                             |Control Cider and it's playback with Flow Launcher                                                 |Monochromish                                  |1.1.0  |
 |[Google Translate](https://github.com/ralosant/FlowLauncher.Google.Translator)                  |Simple Plugin to use Google Translate in FlowLauncher                                              |Raúl Losantos                                 |1.0.0  |
-|[Google Calendar](https://github.com/ivanipenburg/Flow.Launcher.Plugin.GoogleCalendar)          |Add events to your Google Calendar                                                                 |Ilja van Ipenburg                             |1.0.0  |
+|[Google Calendar](https://github.com/ivanipenburg/Flow.Launcher.Plugin.GoogleCalendar)          |Add events to your Google Calendar                                                                 |Ilja van Ipenburg                             |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
