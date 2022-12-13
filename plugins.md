@@ -86,6 +86,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Google Translate](https://github.com/ralosant/FlowLauncher.Google.Translator)                  |Simple Plugin to use Google Translate in FlowLauncher                                              |Raúl Losantos                                 |1.0.0  |
 |[Google Calendar](https://github.com/ivanipenburg/Flow.Launcher.Plugin.GoogleCalendar)          |Add events to your Google Calendar                                                                 |Ilja van Ipenburg                             |1.0.1  |
 |[Discord timestamps](https://github.com/Jessuhh/discord-timestamps-flowlauncher-plugin)         |Generate discord timestamps                                                                        |Jessuh                                        |1.0.0  |
+|[DevToys Launcher](https://github.com/umi-uyura/Flow.Launcher.Plugin.DevToysLauncher)           |Launch DevToys tools                                                                               |Umi Uyura                                     |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
