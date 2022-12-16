@@ -87,6 +87,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Google Calendar](https://github.com/ivanipenburg/Flow.Launcher.Plugin.GoogleCalendar)          |Add events to your Google Calendar                                                                 |Ilja van Ipenburg                             |1.1.0  |
 |[Discord timestamps](https://github.com/Jessuhh/discord-timestamps-flowlauncher-plugin)         |Generate discord timestamps                                                                        |Jessuh                                        |1.0.0  |
 |[DevToys Launcher](https://github.com/umi-uyura/Flow.Launcher.Plugin.DevToysLauncher)           |Launch DevToys tools                                                                               |Umi Uyura                                     |1.0.0  |
+|[Minecraft Multi Launcher](https://github.com/Garulf/mc_multi_launcher)                         |Launcher your Minecraft instances using MultiMC, PolyMC, and PrismLauncher                         |Garulf                                        |1.0.3  |
 
 <!--END_SECTION:plugin-->
 
