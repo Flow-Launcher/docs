@@ -89,6 +89,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Minecraft Multi Launcher](https://github.com/Garulf/mc_multi_launcher)                             |Launch your Minecraft instances using MultiMC, PolyMC, and PrismLauncher                           |Garulf                                        |1.1.0  |
 |[Audio Device Selector](https://github.com/attilakapostyak/Flow.Launcher.Plugin.AudioDeviceSelector)|Easily change your playback device                                                                 |AttilaKapostyak                               |1.0.1  |
 |[OneNote](https://github.com/Odotocodot/Flow.Launcher.Plugin.OneNote)                               |Search your OneNote notes                                                                          |Odotocodot                                    |1.0.1  |
+|[UUID Generator](https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.UUID)                  |Generate uuid4 and  add to your clipboard.                                                         |Vladislav Atakhanov @vladislav-atakhanov      |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
