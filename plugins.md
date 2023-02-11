@@ -90,6 +90,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Audio Device Selector](https://github.com/attilakapostyak/Flow.Launcher.Plugin.AudioDeviceSelector)|Easily change your playback device                                                                 |AttilaKapostyak                               |1.0.1  |
 |[OneNote](https://github.com/Odotocodot/Flow.Launcher.Plugin.OneNote)                               |Search your OneNote notes                                                                          |Odotocodot                                    |1.0.1  |
 |[UUID Generator](https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.UUID)                  |Generate uuid4 and  add to your clipboard.                                                         |Vladislav Atakhanov @vladislav-atakhanov      |1.0.0  |
+|[Hacker News](https://github.com/Joehoel/flow-hacker-news)                                          |Flow Launcher plugin for viewing the front page of Hacker News                                     |Joël Kuijper                                  |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
