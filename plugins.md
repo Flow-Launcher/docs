@@ -28,7 +28,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[CPPreference](https://github.com/peterschussheim/CPPreference-flow-plugin)                         |Search cppreference.com efficiently                                                                |Peter Schussheim                              |1.0.1  |
 |[Search-MDI](https://github.com/Garulf/Search-MDI)                                                  |Search materialdesignicons.com                                                                     |Garulf                                        |3.0.3  |
 |[Plexy](https://github.com/Garulf/plexy)                                                            |Search and cast your Plex Media Server Library                                                     |Garulf                                        |2.0.0  |
-|[Steam Search](https://github.com/Garulf/Steam-Search)                                              |Search and launch your Steam Game library                                                          |Garulf                                        |7.1.1  |
+|[Steam Search](https://github.com/Garulf/Steam-Search)                                              |Search and launch your Steam Game library                                                          |Garulf                                        |8.0.0  |
 |[Twitchy](https://github.com/Garulf/twitchy)                                                        |Search and stream twitch.tv                                                                        |Garulf                                        |7.0.0  |
 |[Quick Uninstaller](https://github.com/jjw24/Wox.Plugin.QuickUninstaller)                           |A plugin for uninstalling programs                                                                 |Hogan Lee                                     |2.0.0  |
 |[nexusmods-search](https://github.com/Garulf/nexusmods-search)                                      |Search Nexusmods.com                                                                               |Garulf                                        |0.2.3  |
@@ -91,6 +91,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[OneNote](https://github.com/Odotocodot/Flow.Launcher.Plugin.OneNote)                               |Search your OneNote notes                                                                          |Odotocodot                                    |1.0.1  |
 |[UUID Generator](https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.UUID)                  |Generate uuid4 and  add to your clipboard.                                                         |Vladislav Atakhanov @vladislav-atakhanov      |1.0.0  |
 |[Hacker News](https://github.com/Joehoel/flow-hacker-news)                                          |Flow Launcher plugin for viewing the front page of Hacker News                                     |Joël Kuijper                                  |1.0.0  |
+|[Vercel](https://github.com/guilherssousa/flow-launcher-vercel-plugin)                              |View your Vercel projects.                                                                         |Guilherme S. Sousa (@krteazy)                 |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
