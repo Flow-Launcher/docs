@@ -92,6 +92,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[UUID Generator](https://github.com/vladislav-atakhanov/Flow.Launcher.Plugin.UUID)                  |Generate uuid4 and  add to your clipboard.                                                         |Vladislav Atakhanov @vladislav-atakhanov      |1.0.0  |
 |[Hacker News](https://github.com/Joehoel/flow-hacker-news)                                          |Flow Launcher plugin for viewing the front page of Hacker News                                     |Joël Kuijper                                  |1.0.0  |
 |[Vercel](https://github.com/guilherssousa/flow-launcher-vercel-plugin)                              |View your Vercel projects.                                                                         |Guilherme S. Sousa (@krteazy)                 |1.0.0  |
+|[How Long To Beat](https://github.com/Tueska/fl-howlongtobeat)                                      |Searches for the provided Name and returns the Playtime from HowLongToBeat                         |Tueska                                        |1.0.0  |
+|[JetBrainsIDEProjects](https://github.com/kenty02/Flow.Launcher.Plugin.JetBrainsIDEProjects)        |Search projects in JetBrains IDEs                                                                  |kenty02                                       |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
