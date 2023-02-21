@@ -1,6 +1,4 @@
-# DotNet plugins Development Guide
-
-Flow is written in C#, so plugins written in dotnet platform can directly communicate with Flow without extra protocols.
+Flow is written in C#, so plugins written in .Net platform can directly communicate with Flow without extra protocols.
 
 ## Initialization
 
@@ -33,7 +31,7 @@ The `Main`class that implements **[IPlugin](API-Reference/Flow.Launcher.Plugin/i
  - `QueryAsync` provides a `CancellationToken token` to allow you to check whether user has typed a new query.
 
 
-## Additional Interface
+## Additional interfaces
 
 Besides the basic implementation of **IPlugin/IAsyncPlugin**, plugins can also implement a series of interfaces that belongs to **IFeatures** to control more communication with Flow. 
 
