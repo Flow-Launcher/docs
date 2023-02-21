@@ -1,8 +1,8 @@
 ## Bookmark Locations
 
-- This is the information used by the bookmark plug-in. 
-- Typical bookmark location for each browser. Each location is not the correct path, but you will be able to refer to the approximate location.
-- If you are using a special browser, please edit this document. It will help others.
+This page contains the information for setting custom browser locations for the Bookmark plugin that are not included by default. 
+- These locations may not be the exact path, but they are the typical bookmark location for each browser, you can use them as a reference guide.
+- If you are using a browser that is not listed here, please update this document. It will help others.
 
 ----
 
