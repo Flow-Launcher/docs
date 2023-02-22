@@ -35,7 +35,7 @@ Window border thickness is recommended from 1 or 2. Corner radius recommends 0, 
 
 </br>
 
-#### QueryBoxStyle
+### QueryBoxStyle
 
 This is the style of the basic search window. You can set the font size, color of cursor, font color, input window height. If the font size is reduced, the height of the window is also reduced, so the height must be specified.
 
