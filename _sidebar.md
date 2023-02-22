@@ -24,5 +24,5 @@
       - [**JSON RPC Introduction**](/json-rpc.md)
     - Porting Plugins
       - [**Porting Plugins Guide**](/port-plugins.md)
-- [**How To Create a Theme**](/how-to-create-a-theme.md)
+- [**How To Create A Theme**](/how-to-create-a-theme.md)
 - [**Bookmark Locations**](/bookmark-custom-locations.md)

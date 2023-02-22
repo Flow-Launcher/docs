@@ -1,14 +1,14 @@
-## How to Create a Theme
+## Overview
 
 If you make a theme for the first time, refer to the existing theme. Copy the **sublime.xaml** (This is one of the basic theme files.) in the theme folder of Flow and make it a new file.  Or you can download it here.
 
 [sublime.xaml]: https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml
 
-## ⛔ Caution ⛔ ##
+## ⛔ Caution ⛔
 
 Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at **%APPDATA%\\FlowLauncher\\Themes\\** (AppData Roaming path) and for portable it is by default **%localappdata%\\FlowLauncher\app-\\<VersionOfYourFlowLauncher\>\\UserData\\Themes\\** (AppData Local path). Flow will read from the UserData directory for custom themes and its own app directory for default themes, so make sure you do not place in the location outside of UserData because it will be erased along with the default theme files after an update.
 
-### The elements of the theme.
+## Theme elements
 
 The theme file allows you to set the following parts. Each style has a key, and there are items that can be modified. If theme have a key that is not described in this document, we recommend you not to modify it separately.
 
@@ -16,7 +16,9 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 <img src="https://github.com/Flow-Launcher/docs/raw/main/assets/themelayout.png" style="zoom:50%;" />
 
-##### WindowBorderStyle
+</br>
+
+#### WindowBorderStyle
 
 In this item, you can set the color, border size, border color, and corner radius of the basic window.
 
@@ -31,9 +33,9 @@ In this item, you can set the color, border size, border color, and corner radiu
 
 Window border thickness is recommended from 1 or 2. Corner radius recommends 0, 5 or less.
 
+</br>
 
-
-##### QueryBoxStyle
+#### QueryBoxStyle
 
 This is the style of the basic search window. You can set the font size, color of cursor, font color, input window height. If the font size is reduced, the height of the window is also reduced, so the height must be specified.
 
@@ -48,9 +50,9 @@ This is the style of the basic search window. You can set the font size, color o
 </Style>
 ``` 
 
+</br>
 
-
-##### QuerySuggestionBoxStyle
+#### QuerySuggestionBoxStyle
 
 This is the style of the recommended search word that appears after the search word. The font size & Height should be the same as the QueryBoxStyle, and a more translucent color is recommended.
 
@@ -63,9 +65,9 @@ This is the style of the recommended search word that appears after the search w
 </Style>
 ```
 
+</br>
 
-
-##### PendingLineStyle
+#### PendingLineStyle
 
 It is possible to set the color of the loading bar that is sometimes displayed.
 
@@ -75,9 +77,9 @@ It is possible to set the color of the loading bar that is sometimes displayed.
 </Style>
 ```
 
+</br>
 
-
-##### SearchIconStyle
+#### SearchIconStyle
 
 This is the style of the magnifying glass icon displayed on the right side of the search window. Color & Size can be changed or hidden. (The picture change will be updated later.)
 
@@ -95,9 +97,9 @@ If you want to hide it, you can add the following code.
 <Setter Property="Visibility" Value="Collapsed" />
 ```
 
+</br>
 
-
-##### ItemTitleStyle
+#### ItemTitleStyle
 
 This is the title part of the search result. The font size and color can be adjusted.
 
@@ -108,9 +110,9 @@ This is the title part of the search result. The font size and color can be adju
 </Style>
 ```
 
- 
+ </br>
 
-##### ItemTitleSelectedStyle
+#### ItemTitleSelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemTitleStyle.
 
@@ -120,9 +122,9 @@ You can specify a color that changes when the item is focused. The font size sho
 </Style>
 ```
 
+</br>
 
-
-##### ItemSubTitleStyle
+#### ItemSubTitleStyle
 
 This is the filepath part of the search result. The font size and color can be adjusted.
 
@@ -133,9 +135,9 @@ This is the filepath part of the search result. The font size and color can be a
 </Style>
 ```
 
+</br>
 
-
-##### ItemSubTitleSelectedStyle
+#### ItemSubTitleSelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemSubTitleStyle.
 
@@ -146,9 +148,9 @@ You can specify a color that changes when the item is focused. The font size sho
 </Style>
 ```    
 
+</br>
 
-
-##### ItemHotkeyStyle
+#### ItemHotkeyStyle
 
 Specifies the color and size of the Hotkey font.
 
@@ -159,9 +161,9 @@ Specifies the color and size of the Hotkey font.
 </Style>
 ```
 
+</br>
 
-
-##### ItemHotkeySelectedStyle
+#### ItemHotkeySelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemHotkeyStyle.
 
@@ -172,15 +174,17 @@ You can specify a color that changes when the item is focused. The font size sho
 </Style>
 ```    
 
-##### ItemSelectedBackgroundColor
+</br>
+
+#### ItemSelectedBackgroundColor
 
 This is the background color that is emphasized when the item is selected.
 
 ```<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>```
 
+</br>
 
-
-##### HighlightStyle
+#### HighlightStyle
 
 It emphasizes the part where the search word matches the result. Color and Font Weight can be set.
 
@@ -191,9 +195,9 @@ It emphasizes the part where the search word matches the result. Color and Font 
 </Style>
 ```    
 
+</br>
 
-
-##### ThumbStyle
+#### ThumbStyle
 
 Specifies the color and size of the scroll bar.
 
@@ -214,9 +218,9 @@ Specifies the color and size of the scroll bar.
     </Style>
 ```    
 
+</br>
 
-
-###### SeparatorStyle
+#### SeparatorStyle
 
 Set the size, height, color, and margin of the horizontal line.If you don't think you need it, you can get rid of it.
 
@@ -232,9 +236,9 @@ If you want to hide it, you can add the following code.
 
 `<Setter Property="Visibility" Value="Collapsed" />`
 
+</br>
 
-
-##### ItemGlyph
+#### ItemGlyph
 
 Specifies the color of the glyph icon.
 
