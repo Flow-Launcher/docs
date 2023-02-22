@@ -18,7 +18,7 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 </br>
 
-#### WindowBorderStyle
+### WindowBorderStyle
 
 In this item, you can set the color, border size, border color, and corner radius of the basic window.
 
