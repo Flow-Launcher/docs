@@ -11,7 +11,7 @@ When building a Node.js plugins there are several things to be mindful of:
     2. Publish all as a zip- zip up your project including a lib directory that contains the modules and publish it to GitHub Releases page.
     3. Point your module path to the node_modules directory- reference all the modules to that directory.
 
-* Currently we will require users to install Node.js on the computer in order to use the plugin, so you will need to explain how to do so in your plugin readme.
+* Users can use their own system installed Node.js with Flow Launcher. But in most circumstances they will most likely be using Flow Launcher's own embedded Node.js executable. The portable [Node.js version](https://nodejs.org/dist/v16.18.0/node-v16.18.0-win-x64.zip) that will be installed is isolated from the users system and can be simply removed.
 
 ### Simple Example
 Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CICD for the project. Moving out of that folder you can go into the [main.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/main.js) file, this is the entry file for your plugin.
