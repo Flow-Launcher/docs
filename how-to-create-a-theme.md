@@ -18,7 +18,7 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 </br>
 
-#### WindowBorderStyle
+### WindowBorderStyle
 
 In this item, you can set the color, border size, border color, and corner radius of the basic window.
 
@@ -35,7 +35,7 @@ Window border thickness is recommended from 1 or 2. Corner radius recommends 0, 
 
 </br>
 
-#### QueryBoxStyle
+### QueryBoxStyle
 
 This is the style of the basic search window. You can set the font size, color of cursor, font color, input window height. If the font size is reduced, the height of the window is also reduced, so the height must be specified.
 
@@ -52,7 +52,7 @@ This is the style of the basic search window. You can set the font size, color o
 
 </br>
 
-#### QuerySuggestionBoxStyle
+### QuerySuggestionBoxStyle
 
 This is the style of the recommended search word that appears after the search word. The font size & Height should be the same as the QueryBoxStyle, and a more translucent color is recommended.
 
@@ -67,7 +67,7 @@ This is the style of the recommended search word that appears after the search w
 
 </br>
 
-#### PendingLineStyle
+### PendingLineStyle
 
 It is possible to set the color of the loading bar that is sometimes displayed.
 
@@ -79,7 +79,7 @@ It is possible to set the color of the loading bar that is sometimes displayed.
 
 </br>
 
-#### SearchIconStyle
+### SearchIconStyle
 
 This is the style of the magnifying glass icon displayed on the right side of the search window. Color & Size can be changed or hidden. (The picture change will be updated later.)
 
@@ -99,7 +99,7 @@ If you want to hide it, you can add the following code.
 
 </br>
 
-#### ItemTitleStyle
+### ItemTitleStyle
 
 This is the title part of the search result. The font size and color can be adjusted.
 
@@ -112,7 +112,7 @@ This is the title part of the search result. The font size and color can be adju
 
  </br>
 
-#### ItemTitleSelectedStyle
+### ItemTitleSelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemTitleStyle.
 
@@ -124,7 +124,7 @@ You can specify a color that changes when the item is focused. The font size sho
 
 </br>
 
-#### ItemSubTitleStyle
+### ItemSubTitleStyle
 
 This is the filepath part of the search result. The font size and color can be adjusted.
 
@@ -137,7 +137,7 @@ This is the filepath part of the search result. The font size and color can be a
 
 </br>
 
-#### ItemSubTitleSelectedStyle
+### ItemSubTitleSelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemSubTitleStyle.
 
@@ -150,7 +150,7 @@ You can specify a color that changes when the item is focused. The font size sho
 
 </br>
 
-#### ItemHotkeyStyle
+### ItemHotkeyStyle
 
 Specifies the color and size of the Hotkey font.
 
@@ -163,7 +163,7 @@ Specifies the color and size of the Hotkey font.
 
 </br>
 
-#### ItemHotkeySelectedStyle
+### ItemHotkeySelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemHotkeyStyle.
 
@@ -176,7 +176,7 @@ You can specify a color that changes when the item is focused. The font size sho
 
 </br>
 
-#### ItemSelectedBackgroundColor
+### ItemSelectedBackgroundColor
 
 This is the background color that is emphasized when the item is selected.
 
@@ -184,7 +184,7 @@ This is the background color that is emphasized when the item is selected.
 
 </br>
 
-#### HighlightStyle
+### HighlightStyle
 
 It emphasizes the part where the search word matches the result. Color and Font Weight can be set.
 
@@ -197,7 +197,7 @@ It emphasizes the part where the search word matches the result. Color and Font 
 
 </br>
 
-#### ThumbStyle
+### ThumbStyle
 
 Specifies the color and size of the scroll bar.
 
@@ -220,7 +220,7 @@ Specifies the color and size of the scroll bar.
 
 </br>
 
-#### SeparatorStyle
+### SeparatorStyle
 
 Set the size, height, color, and margin of the horizontal line.If you don't think you need it, you can get rid of it.
 
@@ -238,7 +238,7 @@ If you want to hide it, you can add the following code.
 
 </br>
 
-#### ItemGlyph
+### ItemGlyph
 
 Specifies the color of the glyph icon.
 

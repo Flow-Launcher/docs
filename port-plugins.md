@@ -3,7 +3,7 @@
 ### Notes
 
 - When porting, please keep the author's commit history
-- Flow Launcher targets .Net 5, so plugins should also be upgraded to keep the continuity of future developments
+- Flow Launcher targets minimum .Net 5, so older plugins should be upgraded to keep the continuity of their future developments
 - All dll libraries used by the plugin should be outputted and included in the final build, to do this, set the attribute CopyLocalLockFileAssemblies in your project file to true
 
 ### Steps
