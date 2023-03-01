@@ -2,7 +2,7 @@
 
 Synchronous Plugin Model for Flow Launcher
 
-If the Querying or Init method requires high IO transmission or performaing CPU intense jobs (performing better with cancellation), please try the IAsyncPlugin interface
+If the Querying or Init method requires high IO transmission or performing CPU intense jobs (performing better with cancellation), please try the IAsyncPlugin interface
 
 ```csharp
 public interface IPlugin : IAsyncPlugin

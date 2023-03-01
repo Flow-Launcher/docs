@@ -1,6 +1,6 @@
 # IPublicAPI.ReloadAllPluginData method
 
-Reloads any Plugins that have the IReloadable implemented. It refeshes Plugin's in memory data with new content added by user.
+Reloads any Plugins that have the IReloadable implemented. It refreshes Plugin's in memory data with new content added by user.
 
 ```csharp
 public Task ReloadAllPluginData()

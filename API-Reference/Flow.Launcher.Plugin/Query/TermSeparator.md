@@ -1,6 +1,6 @@
 # Query.TermSeparator field
 
-Query can be splited into multiple terms by whitespace
+Query can be splitted into multiple terms by whitespace
 
 ```csharp
 public const string TermSeparator;

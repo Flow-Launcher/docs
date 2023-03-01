@@ -40,7 +40,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 - `Flow.Launcher.StopLoadingBar`: stop loading animation in flow launcher
 - `Flow.Launcher.ReloadAllPluginData`: reload all flow launcher plugins
 
-### JSON RPC Formating
+### JSON RPC Formatting
 
 ```json
 {

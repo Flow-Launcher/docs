@@ -2,7 +2,7 @@
 
 Querying when user's search changes
 
-This method will be called within a Task.Run, so please avoid synchrously wait for long.
+This method will be called within a Task.Run, so please avoid synchronously wait for long.
 
 ```csharp
 public List<Result> Query(Query query)

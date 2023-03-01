@@ -1,6 +1,6 @@
 # IPublicAPI.HttpGetStringAsync method
 
-Http download the spefic url and return as string
+Http download the specific url and return as string
 
 ```csharp
 public Task<string> HttpGetStringAsync(string url, CancellationToken token = default)

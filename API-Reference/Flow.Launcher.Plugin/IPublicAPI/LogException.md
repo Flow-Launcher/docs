@@ -1,6 +1,6 @@
 # IPublicAPI.LogException method
 
-Log an Exception. Will throw if in debug mode so developer will be aware, otherwise logs the eror message. This is the primary logging method used for Flow
+Log an Exception. Will throw if in debug mode so developer will be aware, otherwise logs the error message. This is the primary logging method used for Flow
 
 ```csharp
 public void LogException(string className, string message, Exception e, 

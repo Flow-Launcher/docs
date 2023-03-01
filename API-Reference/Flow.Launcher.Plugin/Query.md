@@ -19,9 +19,9 @@ public class Query
 | [SecondToEndSearch](Query/SecondToEndSearch.md) { get; } | strings from second search (including) to last search |
 | [ThirdSearch](Query/ThirdSearch.md) { get; } | Return third search split by space if it has |
 | override [ToString](Query/ToString.md)() |  |
-| const [ActionKeywordSeparator](Query/ActionKeywordSeparator.md) | User can set multiple action keywords seperated by ';' |
+| const [ActionKeywordSeparator](Query/ActionKeywordSeparator.md) | User can set multiple action keywords separated by ';' |
 | const [GlobalPluginWildcardSign](Query/GlobalPluginWildcardSign.md) | '*' is used for System Plugin |
-| const [TermSeparator](Query/TermSeparator.md) | Query can be splited into multiple terms by whitespace |
+| const [TermSeparator](Query/TermSeparator.md) | Query can be splitted into multiple terms by whitespace |
 
 ## See Also
 
