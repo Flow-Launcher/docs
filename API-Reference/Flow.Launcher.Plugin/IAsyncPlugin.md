@@ -10,7 +10,7 @@ public interface IAsyncPlugin
 
 | name | description |
 | --- | --- |
-| [InitAsync](IAsyncPlugin/InitAsync.md)(…) | Initialize plugin asynchrously (will still wait finish to continue) |
+| [InitAsync](IAsyncPlugin/InitAsync.md)(…) | Initialize plugin asynchronously (will still wait finish to continue) |
 | [QueryAsync](IAsyncPlugin/QueryAsync.md)(…) | Asynchronous Querying |
 
 ## See Also

@@ -2,11 +2,11 @@ Flow is written in C#, so plugins written in .Net platform can directly communic
 
 ## Initialization
 
-For C# Plugins, We recommand you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template.
+For C# Plugins, We recommend you use the [dotnet template](https://github.com/Flow-Launcher/dotnet-template) to generate a plugin template.
 
-In order to be recongized as a Flow DotNet plugin, the directory needs to have at least two files
+In order to be recognized as a Flow DotNet plugin, the directory needs to have at least two files
 1. [`plugin.json`](plugin.json.md)
-2. A Dotnet Assembly that implements **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** or **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** (remember to refrence [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a `Main.cs` that implements `IPlugin`.
+2. A Dotnet Assembly that implements **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)** or **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** (remember to reference [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a `Main.cs` that implements `IPlugin`.
 
 Find our API Reference [here](API-Reference/)
 
@@ -21,13 +21,13 @@ The `Main`class that implements **[IPlugin](API-Reference/Flow.Launcher.Plugin/i
 1. `void Init(PluginInitContext context)`
     - [PluginInitContext](https://github.com/Flow-Launcher/Flow.Launcher/blob/master/API-Reference/Flow.Launcher.Plugin/PluginInitContext.cs) exposes some API from Flow and an metadata object for your plugin. 
     - It will be invoked before the invocation of `Query`, so you can do some preparation here. 
-    - We recommand you do expensive operations in this method instead of Object Constructor because this method will be executed in parallel with other plugins.
+    - We recommend you do expensive operations in this method instead of Object Constructor because this method will be executed in parallel with other plugins.
 2. `List<Result> Query(Query query)`
     - `Query` will be invoked when user activate this plugin with specific ActionKeyword.
     - A `List` of [Result](/API-Reference/Flow.Launcher.Plugin/result.md) object should be returned.
  
  **[IAsyncPlugin](API-Reference/Flow.Launcher.Plugin/iasyncplugin.md)** is the async version of **[IPlugin](API-Reference/Flow.Launcher.Plugin/iplugin.md)**
- - Instead of implmenting `Init` and `Query`, you will need to implement `InitAsync`and `QueryAsync`, which use `Task`,`Task<List<Result>` as return value to allow  using `async/await` strategy
+ - Instead of implementing `Init` and `Query`, you will need to implement `InitAsync`and `QueryAsync`, which use `Task`,`Task<List<Result>` as return value to allow  using `async/await` strategy
  - `QueryAsync` provides a `CancellationToken token` to allow you to check whether user has typed a new query.
 
 
@@ -48,8 +48,8 @@ The return value of `LoadContextMenus` is similar to Results from `Query/QueryAs
 
 ### [IPluginI18n](/API-Reference/Flow.Launcher.Plugin/iplugini18n.md)
 
-**IPluginI18n** means the plugin has been internationalized. Therefore, Flow will load the additional lauguage resources from `/Languages` when loading the plugin.
-By implementing this interface with additional language files, Flow will be able to load plugin-sepcified localized language resources. You will be able to get the translated text with `IPublicAPI.GetTranslation(string key)`.
+**IPluginI18n** means the plugin has been internationalized. Therefore, Flow will load the additional language resources from `/Languages` when loading the plugin.
+By implementing this interface with additional language files, Flow will be able to load plugin-specific localized language resources. You will be able to get the translated text with `IPublicAPI.GetTranslation(string key)`.
 
 #### Language Resource
 

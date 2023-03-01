@@ -1,6 +1,6 @@
 # IAsyncPlugin.InitAsync method
 
-Initialize plugin asynchrously (will still wait finish to continue)
+Initialize plugin asynchronously (will still wait finish to continue)
 
 ```csharp
 public Task InitAsync(PluginInitContext context)

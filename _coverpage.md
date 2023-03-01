@@ -11,7 +11,7 @@
 > Fast and fluid productivity tool of choice that helps your workflow.
 
 - Search Everything
-- Plugin Suppport
+- Plugin Support
 - Native Shell Support
 
 [GitHub](https://github.com/Flow-Launcher/Flow.Launcher)

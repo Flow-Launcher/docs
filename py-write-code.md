@@ -1,5 +1,5 @@
 ### 1. Start with a branch
-Since we have created a CI for your plugin in the [previous step](https://flow-launcher.github.io/docs/#/py-setup-project), which includes creating a release when you push/merge to the 'main' branch, it is then neccessary to create another git branch separate to your 'main' branch so you can continue to work on your plugin with git commits and pushes without creating a new release each time.
+Since we have created a CI for your plugin in the [previous step](https://flow-launcher.github.io/docs/#/py-setup-project), which includes creating a release when you push/merge to the 'main' branch, it is then necessary to create another git branch separate to your 'main' branch so you can continue to work on your plugin with git commits and pushes without creating a new release each time.
 
 It is a good practice that you create a branch for each of the new feature/fixes you are releasing for your plugin, if you are not sure how to do so then follow this [video tutorial](https://www.gitkraken.com/learn/git/problems/create-git-branch). Once you have fully finished developing your plugin with your new branch, then you can merge it into the 'main' branch, which will consequently create a new release for your plugin with a version from your `plugin.json`.
 

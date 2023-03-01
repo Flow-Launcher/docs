@@ -31,7 +31,7 @@ push:
 
 5. The 'Install dependencies' section is where you will do most of your CI work. Notice it installs the requirements.txt and outputs it with the `-t` parameter to the `./lib` folder. This tells pip to dump all the installed modules to the local lib folder which you will zip up along with your project using the `zip -r Flow.Launcher.Plugin.HelloWorldPython.zip . -x '*.git*'`, where you replace this `Flow.Launcher.Plugin.HelloWorldPython` with the name of your plugin.
     
-    You can also add additional steps here to unpack/install any additional depedencies your plugin requires, for example compiling additional translation files like [this](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency/blob/23770ee929af059b1b1b7f9b5f3327b692ac9587/.github/workflows/Publish%20Release.yml#L34)
+    You can also add additional steps here to unpack/install any additional dependencies your plugin requires, for example compiling additional translation files like [this](https://github.com/deefrawley/Flow.Launcher.Plugin.Currency/blob/23770ee929af059b1b1b7f9b5f3327b692ac9587/.github/workflows/Publish%20Release.yml#L34)
 
 ```yml
 - name: Install dependencies
@@ -54,7 +54,7 @@ The final step to the workflow file is this publish section, which will publish 
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-to-build-your-first-github-actions-workflow) which does a simple explaination of how to use GitHub Actions Workflow.
+Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-to-build-your-first-github-actions-workflow) which does a simple explanation of how to use GitHub Actions Workflow.
 
 ### 3. Use lib directory
 Once the lib folder is included in your zip release, it can then be used without needing the user to manually pip install. You just have to tell during runtime to find those modules in your local lib folder. Do this by using this exact copy of the following block of code:

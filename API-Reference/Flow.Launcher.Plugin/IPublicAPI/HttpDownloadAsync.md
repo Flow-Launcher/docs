@@ -1,6 +1,6 @@
 # IPublicAPI.HttpDownloadAsync method
 
-Download the specific url to a cretain file path
+Download the specific url to a certain file path
 
 ```csharp
 public Task HttpDownloadAsync(string url, string filePath, CancellationToken token = default)

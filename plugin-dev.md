@@ -6,7 +6,7 @@ Welcome to the comprehensive guide to plugin development in Flow Launcher.
 
 While Flow Launcher is written in C#, plugins can be written natively or in other languages.
 
-### Natively (no intergration needed)
+### Natively (no integration needed)
 
 - [**C# (.NET framework)**](/develop-dotnet-plugins.md)
 

@@ -15,8 +15,8 @@
 	- fix <TargetFramework> to net5.0-windows
 	- set the output location as 'Output\Release\<name of the project>'
 	- add `<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>` and `<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>` to the csproj file
-	- bump version to 2.0.0 and fix up any missing attributes if neccessary
-5. Update code and fix plugin's setting layout if neccessary
+	- bump version to 2.0.0 and fix up any missing attributes if necessary
+5. Update code and fix plugin's setting layout if necessary
 6. Update readme to indicate where this port is from and the original author of the project
 
 ## Wox Python Plugins

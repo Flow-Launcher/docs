@@ -53,7 +53,7 @@ The final step to the workflow file is this publish section, which will publish 
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-to-build-your-first-github-actions-workflow) which does a simple explaination of how to use GitHub Actions Workflow.
+Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-to-build-your-first-github-actions-workflow) which does a simple explanation of how to use GitHub Actions Workflow.
 
 ### 3. Use node_modules directory
 Once the 'node_modules' folder is included in your zip release, it can then be used without needing the user to manually npm install the plugin's dependencies. You just have to tell the plugin during runtime to find those modules in your local node_modules directory. Do this by using this exact copy of the following block of code in your [main.js](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS/blob/main/main.js):

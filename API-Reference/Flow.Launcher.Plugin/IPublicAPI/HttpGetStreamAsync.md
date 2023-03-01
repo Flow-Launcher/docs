@@ -1,6 +1,6 @@
 # IPublicAPI.HttpGetStreamAsync method
 
-Http download the spefic url and return as stream
+Http download the specific url and return as stream
 
 ```csharp
 public Task<Stream> HttpGetStreamAsync(string url, CancellationToken token = default)
