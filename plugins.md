@@ -95,7 +95,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Vercel](https://github.com/guilherssousa/flow-launcher-vercel-plugin)                              |View your Vercel projects.                                                                         |Guilherme S. Sousa (@krteazy)                 |1.0.1      |
 |[How Long To Beat](https://github.com/Tueska/fl-howlongtobeat)                                      |Searches for the provided Name and returns the Playtime from HowLongToBeat                         |Tueska                                        |1.0.0      |
 |[JetBrainsIDEProjects](https://github.com/kenty02/Flow.Launcher.Plugin.JetBrainsIDEProjects)        |Search projects in JetBrains IDEs                                                                  |kenty02                                       |1.0.2      |
-|[Youtube Downloader](https://github.com/DeepVoyager253/FlowLauncherYTDownload)                      |A youtube downloader                                                                               |LordOfTheEel                                  |v1.0.0-beta|
+|[Youtube Downloader](https://github.com/DeepVoyager253/FlowLauncherYTDownload)                      |A youtube downloader                                                                               |LordOfTheEel; Eyal.Br                         |v1.0.0-beta|
 
 <!--END_SECTION:plugin-->
 
