@@ -1,6 +1,6 @@
 ## Explorer Plugin
 
-The Explorer plugin is a default plugin that installs with Flow Launcher. Previously there was an Explorer Plugin and an Everything Plugin but these were merged and you can now choose which search engine will search for what through Flow. Note the Everything is not installed with Flow Launcher so you will need to go to the [VoidTools website](https://www.voidtools.com/) and download and install this separately if you wish to use it. Flow Launcher currently only supports v1.4.x of Everything and not the 1.5 alpha branch.
+The Explorer plugin is a default plugin that installs with Flow Launcher. Previously there was an Explorer Plugin and an Everything Plugin but these were merged and you can now choose which search engine will search for what through Flow. Note the Everything is not installed with Flow Launcher so you will need to go to the [VoidTools website](https://www.voidtools.com/) and download and install this separately if you wish to use it. Flow Launcher currently only supports v1.4.x of Everything and not the 1.5 alpha branch. (For 1.5 alpha support please refer to [this](https://github.com/Flow-Launcher/Flow.Launcher/issues/1716) link)
 
 Here is how to configure this plugin:
 
@@ -36,7 +36,7 @@ For example to set up this plugin so you can open any directory in Visual Studio
 ----
 ![Customise Action Keywords tab](/assets/explorer_3.png)
 
-- For each option here you can choose a custom keyword to trigger that specific type of search. Anything with a `*` is searched for when you type anything in Flow Launcher or if you give the Explorere plugin a global keyword. For example the default to search within documents is set to `doc:` (this is done as searching the contents of documents is slow and so should only trigger when that is definitely what you want to do).
+- For each option here you can choose a custom keyword to trigger that specific type of search. Anything with a `*` is searched for when you type anything in Flow Launcher or if you give the Explorer plugin a global keyword. For example the default to search within documents is set to `doc:` (this is done as searching the contents of documents is slow and so should only trigger when that is definitely what you want to do). If you don't care about exactly what type of search is executed, just use the 'Search' keyword.
 
 #### Quick Access Links tab
 ----
