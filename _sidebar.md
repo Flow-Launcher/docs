@@ -1,6 +1,7 @@
 - [**Introduction**](/README.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**Plugin Directory**](/plugins.md)
+    - [**Explorer Plugin**](/plugin-explorer-usage.md)
 - Plugin Development
     - [**Get Started**](/plugin-dev.md)
     - [**plugin.json**](/plugin.json.md)
