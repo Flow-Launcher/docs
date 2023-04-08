@@ -99,6 +99,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Youtube Downloader](https://github.com/DeepVoyager253/FlowLauncherYTDownload)                      |A youtube downloader                                                                               |LordOfTheEel; Eyal.Br                         |v1.0.0-beta|
 |[7TV Emotes](https://github.com/WaterBoiledPizza/7TV-Emotes)                                        |Search emotes from 7TV                                                                             |Water Boiled Pizza                            |0.0.3      |
 |[ChatGPT](https://github.com/MichielvanBeers/Flow.Launcher.Plugin.ChatGPT)                          |Plugin to use OpenAI's ChatGPT in Flow Launcher                                                    |MichielvanBeers                               |1.1.1      |
+|[Bitly](https://github.com/sibies/Flow.Launcher.Plugin.Bitly)                                       |Plugin for short links using bitly.com                                                             |totpero                                       |1.0.0      |
 
 <!--END_SECTION:plugin-->
 
