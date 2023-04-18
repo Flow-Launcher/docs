@@ -80,7 +80,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 
 ```json
 {
-    "method": "Flow.Launcher.ChangeQuery",
+    "method": "Flow.Launcher.ShowMsg",
     "parameters": [title, sub_title, ico_path]
 }
 ```
