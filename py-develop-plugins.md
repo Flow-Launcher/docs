@@ -11,6 +11,8 @@ When building a Python plugins there are several things to be mindful of:
 
 * Users can use their own system-installed Python with Flow Launcher, but in most circumstances they will most likely be using Flow Launcher's download of [Embedded Python](https://docs.python.org/3/using/windows.html#the-embeddable-package). This download is isolated from the users system and does not prepend the scripts run directory to the system `PATH`.<sup>[ref](https://bugs.python.org/issue28245)</sup> If you need to import external files please follow the example below.
 
+* It should also be noted that external libraries that include compiled code can pose compatibility issues with different versions of Python. This is because the compiled code is platform-specific and tied to a specific version of Python. If you *must* use an external library with compiled code you may look at alternative packaging methods such as: [nuitka](http://nuitka.net/), or [pyinstaller](https://pyinstaller.org/en/stable/).
+
 ### Simple Example
 Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CI/CD for the project. 
 
