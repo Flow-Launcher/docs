@@ -59,11 +59,12 @@ Feel free to also have a read of this [blog post](https://blog.ipswitch.com/how-
 ### 3. Use lib directory
 Once the lib folder is included in your zip release, it can then be used without needing the user to manually pip install. You just have to tell during runtime to find those modules in your local lib folder. Do this by using this exact copy of the following block of code:
 ```python
-import sys,os
-parent_folder_path = os.path.abspath(os.path.dirname(__file__))
-sys.path.append(parent_folder_path)
-sys.path.append(os.path.join(parent_folder_path, 'lib'))
-sys.path.append(os.path.join(parent_folder_path, 'plugin'))
+import sys
+from pathlib import Path
+
+plugindir = Path.absolute(Path(__file__).parent)
+paths = (".", "lib", "plugin")
+sys.path = [str(plugindir / p) for p in paths] + sys.path
 
 ```
 Add the above code into your init file at the top, usually this is the [main.py](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython/blob/main/main.py) file. This block of code appends the path of your lib and plugin directories on the user's machine to `sys.path`. `sys.path` is a built-in variable within the sys module, which contains a list of directories that the Python interpreter will search in for the required module. Effectively we are telling the interpreter if the required modules in your plugin are not found among its built-in modules then look through the list of directories defined by sys.path, which should have all the modules installed by your GitHub workflow in the 'lib' folder.
