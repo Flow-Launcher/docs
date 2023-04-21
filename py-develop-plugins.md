@@ -25,3 +25,59 @@ plugindir = Path.absolute(Path(__file__).parent)
 paths = (".", "lib", "plugin")
 sys.path = [str(plugindir / p) for p in paths] + sys.path
 ```
+
+Now that we've added our `lib` folder to the sys.path we can now import our external libraries like so:
+```python
+from flowlauncher import FlowLauncher #external library
+import webbrowser #Not external
+```
+
+We inherit from the FlowLauncher class provided by the FlowLauncher library we imported. This will allow our plugin to communicate with FlowLauncher.
+
+```python
+class HelloWorld(FlowLauncher):
+```
+
+When a user activates our plugin we can retrieve their query by providing a `query` method. Flow Launcher provides the argument `query` with the users text.
+
+To send a response back we need to return a list of dictonaries like as shown below. The `JsonRPCAction` dict allows you to provide a method that will be called by Flow Launcher with the parameters you provided. This method *must* be part of your plugin class.
+
+```python
+    def query(self, query):
+        return [
+            {
+                "Title": "Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
+                "SubTitle": "This is where your subtitle goes, press enter to open Flow's url",
+                "IcoPath": "Images/app.png",
+                "ContextData": ["foo", "bar"]
+                "JsonRPCAction": {
+                    "method": "open_url",
+                    "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher"]
+                }
+            }
+        ]
+```
+
+This method will be called when a user selects our result:
+
+```python
+    def open_url(self, url):
+        webbrowser.open(url)
+```
+
+The context menu is activated when the user uses <kbd>shift</kbd>+<kbd>Enter</kbd> or right clicks on a result. The context menu is similar to the `query` method except it does not receive a `query` argument but a `data` from the result selected.
+
+```python
+    def context_menu(self, data):
+        return [
+            {
+                "Title": "Hello World Python's Context menu",
+                "SubTitle": "Press enter to open Flow the plugin's repo in GitHub",
+                "IcoPath": "Images/app.png",
+                "JsonRPCAction": {
+                    "method": "open_url",
+                    "parameters": ["https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython"]
+                }
+            }
+        ]
+```
