@@ -12,7 +12,9 @@ When building a Python plugins there are several things to be mindful of:
 * Users can use their own system-installed Python with Flow Launcher, but in most circumstances they will most likely be using Flow Launcher's download of [Embedded Python](https://docs.python.org/3/using/windows.html#the-embeddable-package). This download is isolated from the users system and does not prepend the scripts run directory to the system `PATH`.<sup>[ref](https://bugs.python.org/issue28245)</sup> If you need to import external files please follow the example below.
 
 ### Simple Example
-Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CI/CD for the project. Moving out of that folder you can go into the [main.py](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython/blob/main/main.py) file, this is the entry file for your plugin. Notice it has this code block:
+Have a look at this simple example plugin [here](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython), notice it has a folder called '.github/workflows' and a file called 'Publish Release.yml'. This is the workflow file that GitHub Workflow uses to run the CI/CD for the project. 
+
+Moving out of that folder you can go into the [main.py](https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldPython/blob/main/main.py) file, this is the entry file for your plugin. Notice it has this code block:
 ```python
 import sys
 from pathlib import Path
