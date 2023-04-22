@@ -40,7 +40,7 @@ class HelloWorld(FlowLauncher):
 
 When a user activates our plugin we can retrieve their query by providing a `query` method. Flow Launcher provides the argument `query` with the users text.
 
-To send a response back we need to return a list of dictonaries like as shown below. The `JsonRPCAction` dict allows you to provide a method that will be called by Flow Launcher with the parameters you provided. This method *must* be part of your plugin class.
+To send a response back we need to return a list of dictonaries as shown below. The `JsonRPCAction` dict allows you to provide a method that will be called by Flow Launcher with the parameters you provided. This method *must* be part of your plugin class.
 
 ```python
     def query(self, query):
