@@ -65,7 +65,7 @@ This method will be called when a user selects our result:
         webbrowser.open(url)
 ```
 
-The context menu is activated when the user uses <kbd>shift</kbd>+<kbd>Enter</kbd> or right clicks on a result. The context menu is similar to the `query` method except it does not receive a `query` argument but a `data` from the result selected.
+The context menu is activated when the user uses <kbd>shift</kbd>+<kbd>Enter</kbd> or right clicks on a result. The context menu is similar to the `query` method except it does not receive a `query` argument but a `data` argument with a list of values from the result selected.
 
 ```python
     def context_menu(self, data):
