@@ -102,6 +102,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[StringUtils](https://github.com/t-tan/Flow.Launcher.Plugin.StringUtils)                            |A multi-purpose plugin that supports UUID/GUID/random string generation, base64/URL encoding and decoding|t-tan                                         |1.0.0      |
 |[Anilist](https://github.com/DiekoMA/Flow.Launcher.Plugin.Anilist)                                  |an anilist plugin for Flow-Launcher                                                                      |DiekoMA                                       |1.0.0      |
 |[RemoveUSB](https://github.com/jonasw234/FlowLauncher.Plugin.RemoveUSB)                             |Removes USB drives                                                                                       |Jonas A. Wendorf                              |1.0.0      |
+|[ClipboardR](https://github.com/rainyl/Flow.Launcher.Plugin.ClipboardR)                             |A clipboard plugin for Flow.Launcher, support pictures!                                                  |Rainyl                                        |0.1.5      |
 
 <!--END_SECTION:plugin-->
 
