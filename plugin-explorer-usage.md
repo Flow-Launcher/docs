@@ -9,6 +9,7 @@ Here is how to configure this plugin:
 ![General Setting tab](/assets/explorer_1.png)
 
 - *Use search result's location as the working directory of the executable* : tick this so Flow will set the working directory of any application you run through the Explorer plugin to the directory of the executable
+- *Hit enter to open folder in Default File Manager* : tick this box to have the ENTER key open the current directory in the default file manager rather than have Flow go into this directory for further browsing.
 - *File editor path* and *Folder editor path* : These two options allow you to set a program to open either files or folders, when you right mouse click / SHIFT + ENTER context menu a search result. Note these options will only appear in the context menu if you have set them here.
 For example to set up this plugin so you can open any directory in Visual Studio Code, first add the path to your Visual Studio Code install in the Folder editor path setting:
 
