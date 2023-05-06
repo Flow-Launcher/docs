@@ -1,6 +1,6 @@
 ## Explorer Plugin
 
-The Explorer plugin is a default plugin that installs with Flow Launcher. Previously there was an Explorer Plugin and an Everything Plugin but these were merged and you can now choose which search engine will search for what through Flow. Note the Everything is not installed with Flow Launcher so you will need to go to the [VoidTools website](https://www.voidtools.com/) and download and install this separately if you wish to use it. Flow Launcher currently only supports v1.4.x of Everything and not the 1.5 alpha branch. (For 1.5 alpha support please refer to [this](https://github.com/Flow-Launcher/Flow.Launcher/issues/1716) link)
+The Explorer plugin is a default plugin that installs with Flow Launcher. Previously there was an Explorer Plugin and an Everything Plugin but these were merged and you can now choose which search engine will search for what through Flow. If you don't already have the Everything search tool from Voidtools installed, Flow will automatically download and install it if you choose it as your search index engine. Flow Launcher currently only supports v1.4.x of Everything and not the 1.5 alpha branch. (For 1.5 alpha support please refer to [this](https://github.com/Flow-Launcher/Flow.Launcher/issues/1716) link)
 
 Here is how to configure this plugin:
 
