@@ -110,6 +110,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[DdFlow](https://github.com/asmpro7/DdFlow)                                                         |Plugin for Get the day from the date                                                                     |Ahmed ElSaeed                                 |1.0.0      |
 |[Toggl Track](https://github.com/JamesNZL/flow-toggl-plugin)                                        |A time tracking plugin for Flow Launcher using Toggl Track                                               |JamesNZL                                      |2.1.6      |
 |[When to Expect](https://github.com/jonasw234/FlowLauncher.Plugin.WhenToExpect)                     |Calculates how many tries are needed to expect an event (by default with ≥ 50 % probability).            |Jonas A. Wendorf                              |1.0.0      |
+|[ElementFlow](https://github.com/asmpro7/ElementFlow)                                               |Data for all Chemical Elements                                                                           |Ahmed ElSaeed                                 |1.0.2      |
 
 <!--END_SECTION:plugin-->
 
