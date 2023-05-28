@@ -108,10 +108,11 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[DeepFlow](https://github.com/DavidG33k/Flow.Launcher.Plugin.DeepFlow)                              |Plugin to use DeepL in FlowLauncher                                                                      |Davide Gena                                   |1.0.0      |
 |[QrFlow](https://github.com/asmpro7/QrFlow)                                                         |Plugin to generate QR code                                                                               |Ahmed ElSaeed                                 |1.1.0      |
 |[DdFlow](https://github.com/asmpro7/DdFlow)                                                         |Plugin for Get the day from the date                                                                     |Ahmed ElSaeed                                 |1.0.0      |
-|[Toggl Track](https://github.com/JamesNZL/flow-toggl-plugin)                                        |A time tracking plugin for Flow Launcher using Toggl Track                                               |JamesNZL                                      |2.3.2      |
+|[Toggl Track](https://github.com/JamesNZL/flow-toggl-plugin)                                        |A time tracking plugin for Flow Launcher using Toggl Track                                               |JamesNZL                                      |2.4.0      |
 |[When to Expect](https://github.com/jonasw234/FlowLauncher.Plugin.WhenToExpect)                     |Calculates how many tries are needed to expect an event (by default with ≥ 50 % probability).            |Jonas A. Wendorf                              |1.0.0      |
 |[ElementFlow](https://github.com/asmpro7/ElementFlow)                                               |Data for all Chemical Elements                                                                           |Ahmed ElSaeed                                 |1.0.2      |
 |[WinsFlow](https://github.com/asmpro7/WinsFlow)                                                     |Plugin to control your windows                                                                           |Ahmed ElSaeed                                 |1.0.0      |
+|[VolumeFlow](https://github.com/asmpro7/VolumeFlow)                                                 |Plugin for control your Sound Volume                                                                     |Ahmed ElSaeed                                 |1.0.0      |
 
 <!--END_SECTION:plugin-->
 
