@@ -29,15 +29,9 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 - `Flow.Launcher.SaveAppAllSettings`: save all Flow Launcher settings
 - `Flow.Launcher.CheckForNewUpdate`: check for new Flow Launcher update
 - `Flow.Launcher.ShellRun`: run shell commands
-- `Flow.Launcher.CloseApp`: close flow launcher
-- `Flow.Launcher.HideApp`: hide flow launcher
-- `Flow.Launcher.ShowApp`: show flow launcher
+- `Flow.Launcher.ShowMainWindow`: show flow launcher
 - `Flow.Launcher.ShowMsg`: show messagebox
-- `Flow.Launcher.GetTranslation`: get translation of current language
 - `Flow.Launcher.OpenSettingDialog`: open setting dialog
-- `Flow.Launcher.GetAllPlugins`: get all loaded plugins
-- `Flow.Launcher.StartLoadingBar`: start loading animation in flow launcher
-- `Flow.Launcher.StopLoadingBar`: stop loading animation in flow launcher
 - `Flow.Launcher.ReloadAllPluginData`: reload all flow launcher plugins
 
 ### JSON RPC Formatting
