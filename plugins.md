@@ -114,6 +114,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[WinsFlow](https://github.com/asmpro7/WinsFlow)                                                     |Plugin to control your windows                                                                           |Ahmed ElSaeed                                 |1.0.0      |
 |[VolumeFlow](https://github.com/asmpro7/VolumeFlow)                                                 |Plugin for control your Sound Volume                                                                     |Ahmed ElSaeed                                 |1.1.0      |
 |[Registry](https://github.com/JohnTheGr8/Flow.Plugin.RegJump)                                       |Navigate the registry and jump to specific keys in Registry Editor.                                      |Ioannis G. (@JohnTheGr8)                      |1.0.0      |
+|[Gitmoji](https://github.com/Galedrim/Flow.Launcher.Plugin.Gitmoji)                                 |Search and copy the right Gitmoji.                                                                       |Galedrim                                      |1.0.0      |
 
 <!--END_SECTION:plugin-->
 
