@@ -116,6 +116,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Registry](https://github.com/JohnTheGr8/Flow.Plugin.RegJump)                                       |Navigate the registry and jump to specific keys in Registry Editor.                                      |Ioannis G. (@JohnTheGr8)                      |1.0.0      |
 |[AntdOpenBrowser](https://github.com/HenryTSZ/Flow.Launcher.AntdOpenBrowser)                        |Quickly open the antd component                                                                          |HenryTSZ                                      |1.0.2      |
 |[Gitmoji](https://github.com/Galedrim/Flow.Launcher.Plugin.Gitmoji)                                 |Search and copy the right Gitmoji.                                                                       |Galedrim                                      |1.0.0      |
+|[Shortcuts](https://github.com/mantasjasikenas/flow-launcher-shortcuts-plugin)                      |Open user defined shortcut quickly from Flow Launcher                                                    |Mantelis                                      |1.0.4      |
 
 <!--END_SECTION:plugin-->
 
