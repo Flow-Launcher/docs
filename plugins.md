@@ -4,7 +4,6 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |                                                Name                                                |                                               Description                                               |                    Author                    |  Version  |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------|-----------|
 |[FendCalculator](https://github.com/IsaacTay/Flow.Launcher.Plugin.FendCalculator)                   |Arbitrary-precision unit-aware calculator. https://printfn.github.io/fend/                               |IsaacTay                                      |1.0.2      |
-|[Google Search Plus](https://github.com/jjw24/Wox.Plugin.GoogleSearch)                              |Plugin for searching Google and navigating directly to the search results.                               |mikemorain                                    |2.0.0      |
 |[Tailwindcss](https://github.com/areeburrub/tailwindcss-flow-launcher-plugin)                       |Search tailwindcss Docs                                                                                  |Areeb ur Rub                                  |1.0.0      |
 |[Plugin Runner](https://github.com/jjw24/Wox.Plugin.Runner)                                         |Create simple command shortcuts                                                                          |Jesse Barocio (@jessebarocio)                 |2.3.0      |
 |[Dictionary](https://github.com/harrynull/Flow.Launcher.Dictionary)                                 |English dictionary, word correction and synonym.                                                         |Harry Yu                                      |2.3.2      |
@@ -117,6 +116,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[AntdOpenBrowser](https://github.com/HenryTSZ/Flow.Launcher.AntdOpenBrowser)                        |Quickly open the antd component                                                                          |HenryTSZ                                      |1.0.2      |
 |[Gitmoji](https://github.com/Galedrim/Flow.Launcher.Plugin.Gitmoji)                                 |Search and copy the right Gitmoji.                                                                       |Galedrim                                      |1.0.0      |
 |[Shortcuts](https://github.com/mantasjasikenas/flow-launcher-shortcuts-plugin)                      |Open user defined shortcut quickly from Flow Launcher                                                    |Mantelis                                      |1.0.4      |
+|[GamesLauncher](https://github.com/KrystianLesniak/Flow.Launcher.Plugin.GamesLauncher)              |Search and launch games from multiple platforms like Steam, Epic Games etc.                              |KrystianLesniak                               |1.1.0      |
 
 <!--END_SECTION:plugin-->
 
