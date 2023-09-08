@@ -120,6 +120,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Snippets](https://github.com/Fermiz/Flow.Launcher.Snippets)                                        |Simple plugin to save key/value snippets and copy to clipboard                                           |Fermi Shuangqi Li                             |1.0.1      |
 |[Visual Studio Launcher](https://github.com/Odotocodot/VisualStudio4Flow)                           |Open your recent solutions, projects and files in Visual Studio                                          |Odotocodot                                    |1.0.0      |
 |[Add2Path](https://github.com/HorridModz/Flow.Launcher.Plugin.Add2Path)                             |Manage your PATH environment variable                                                                    |HorridModz                                    |1.0.0      |
+|[Bulk URL Opener](https://github.com/tarikjaber/Bulk-URL-Opener)                                    |Opens groups of tabs                                                                                     |Tarik Jaber                                   |1.0.3      |
 
 <!--END_SECTION:plugin-->
 
