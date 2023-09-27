@@ -15,7 +15,7 @@ push:
 
 ```yml
     env:
-      python_ver: 3.8
+      python_ver: 3.11
 ```
 
 4. The project's release version is obtained from your plugin.json automatically by the ci, so when built it will be appended to the zip file later:
