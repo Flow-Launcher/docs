@@ -135,6 +135,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[URL](https://github.com/Flow-Launcher/Flow.Launcher)                                               |Open the typed URL from Flow Launcher                                                                    |qianlifeng                                    |3.0.3      |
 |[Web Searches](https://github.com/Flow-Launcher/Flow.Launcher)                                      |Provide the web search ability                                                                           |qianlifeng                                    |3.0.5      |
 |[Windows Settings](https://github.com/Flow-Launcher/Flow.Launcher)                                  |Search settings inside Control Panel and Settings App                                                    |TobiasSekan                                   |4.0.5      |
+|[Godot](https://github.com/DiekoMA/Flow.Launcher.Plugin.Godot)                                      |Quickly launch your Godot projects from flow launcher                                                    |DiekoMA                                       |1.0.1      |
 
 <!--END_SECTION:plugin-->
 
