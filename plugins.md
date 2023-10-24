@@ -136,6 +136,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Web Searches](https://github.com/Flow-Launcher/Flow.Launcher)                                      |Provide the web search ability                                                                           |qianlifeng                                    |3.0.5      |
 |[Windows Settings](https://github.com/Flow-Launcher/Flow.Launcher)                                  |Search settings inside Control Panel and Settings App                                                    |TobiasSekan                                   |4.0.5      |
 |[Godot](https://github.com/DiekoMA/Flow.Launcher.Plugin.Godot)                                      |Quickly launch your Godot projects from flow launcher                                                    |DiekoMA                                       |1.0.2      |
+|[RDP](https://github.com/MBeggiato/Flow.Launcher.Plugin.RDP)                                        |RDP plugin for Flow Launcher                                                                             |MBeggiato                                     |1.0.15     |
 
 <!--END_SECTION:plugin-->
 
