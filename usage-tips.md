@@ -9,6 +9,7 @@
   - If using portable, by default: `%localappdata%\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData`
 - To back up your Flow's settings including installed plugins, simply back up your UserData folder. You can locate it quickly via querying `flow launcher userdata`.
 - To restore your saved settings, ensure Flow is exited, simply delete the current UserData folder and copy yours in. Start Flow and all your settings will be setup. One exception however is your saved Quick Access files and folder paths in Explorer plugin you may need to update if the locations have changed.
+- When migrating from a system with a high screen resolution to one with a lower resolution, it may be necessary to adjust "SettingWindowWidth", "SettingWindowHeight" "SettingWindowTop" and "SettingWindowLeft" as the settings may otherwise appear outside the visible area. Default values for 1920x1080: 1000, 700, 0, 0.
 - Resetting Flow back to default settings is also easy, simply move/delete the UserData folder after closing the app and the defaults will be recreated.
 - Both Program and Bookmarks plugin will automatically detect new changes, so your newly installed apps or bookmarks will be available soon after they are added.
 - If your plugin is not triggering, open Flow's settings and go to the Plugins tab, click on the plugin and check if it is set to a particular action keyword. You can set the plugin's action keyword to global: `*` but be wary sometimes a plugin sets a dedicated keyword is because it may return lots of results cluttering the result list.
