@@ -118,7 +118,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Shortcuts](https://github.com/mantasjasikenas/flow-launcher-shortcuts-plugin)                      |Open user defined shortcut quickly from Flow Launcher                                                    |Mantelis                                      |1.1.0  |
 |[GamesLauncher](https://github.com/KrystianLesniak/Flow.Launcher.Plugin.GamesLauncher)              |Search and launch games from multiple platforms like Steam, Epic Games etc.                              |KrystianLesniak                               |1.7.2  |
 |[Snippets](https://github.com/Fermiz/Flow.Launcher.Snippets)                                        |Simple plugin to save key/value snippets and copy to clipboard                                           |Fermi Shuangqi Li                             |1.1.1  |
-|[Visual Studio Launcher](https://github.com/Odotocodot/VisualStudio4Flow)                           |Open your recent solutions, projects and files in Visual Studio                                          |Odotocodot                                    |1.0.1  |
+|[Visual Studio Launcher](https://github.com/Odotocodot/VisualStudio4Flow)                           |Open your recent solutions, projects and files in Visual Studio                                          |Odotocodot                                    |1.0.2  |
 |[Add2Path](https://github.com/HorridModz/Flow.Launcher.Plugin.Add2Path)                             |Manage your PATH environment variable                                                                    |HorridModz                                    |1.0.0  |
 |[Bulk URL Opener](https://github.com/tarikjaber/Bulk-URL-Opener)                                    |Opens groups of tabs                                                                                     |Tarik Jaber                                   |1.1.0  |
 |[ryot](https://github.com/bretthysuik/Flow.Launcher.Plugin.Ryot)                                    |Search your ryot tracker                                                                                 |bretthysuik                                   |1.1.0  |
@@ -140,6 +140,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Amazing Marvin](https://github.com/rrFlowLauncher/amazing_marvin)                                  |Communication with Amazing Marvin over API                                                               |RrobertRr                                     |0.2.0  |
 |[IpMacAddress](https://github.com/seanmars/Flow.Launcher.Plugin.IpMacAddress)                       |Get ip and mac address of current machine                                                                |seanmars                                      |1.0.0  |
 |[WireGuard](https://github.com/flooxo/Flow.Lancher.Plugin.WireGuard)                                |Connect to VPN via WireGuard VPN interfaces                                                              |flooxo                                        |1.0.0  |
+|[EasySSH](https://github.com/Melv1no/Flow.Launcher.Plugin.easyssh)                                  |ssh with Flow-Launcher                                                                                   |Melv1no                                       |1.1.1.0|
 
 <!--END_SECTION:plugin-->
 
