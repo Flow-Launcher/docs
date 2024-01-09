@@ -139,7 +139,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[RDP](https://github.com/MBeggiato/Flow.Launcher.Plugin.RDP)                                        |RDP plugin for Flow Launcher                                                                             |MBeggiato                                     |1.0.15 |
 |[Amazing Marvin](https://github.com/rrFlowLauncher/amazing_marvin)                                  |Communication with Amazing Marvin over API                                                               |RrobertRr                                     |0.2.0  |
 |[IpMacAddress](https://github.com/seanmars/Flow.Launcher.Plugin.IpMacAddress)                       |Get ip and mac address of current machine                                                                |seanmars                                      |1.0.0  |
-|[WireGuard](https://github.com/flooxo/Flow.Lancher.Plugin.WireGuard)                                |Connect to VPN via WireGuard VPN interfaces                                                              |flooxo                                        |1.0.0  |
+|[WireGuard](https://github.com/flooxo/Flow.Lancher.Plugin.WireGuard)                                |Connect to VPN via WireGuard VPN interfaces                                                              |flooxo                                        |1.0.1  |
 |[EasySSH](https://github.com/Melv1no/Flow.Launcher.Plugin.easyssh)                                  |ssh with Flow-Launcher                                                                                   |Melv1no                                       |1.1.1.0|
 
 <!--END_SECTION:plugin-->
