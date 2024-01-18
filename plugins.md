@@ -141,7 +141,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[WireGuard](https://github.com/flooxo/Flow.Lancher.Plugin.WireGuard)                                |Connect to VPN via WireGuard VPN interfaces                                                              |flooxo                                        |1.0.2  |
 |[EasySSH](https://github.com/Melv1no/Flow.Launcher.Plugin.easyssh)                                  |ssh with Flow-Launcher                                                                                   |Melv1no                                       |1.1.1.1|
 |[Mcfunction ANSI highlighter](https://github.com/SuperAnt220/mcf-ansi-highlighter-flow)             |highlights your minecraft command with ansi encoding to fancify them in your discord messages            |SuperAnt_                                     |1.0.0  |
-|[Notion Search](https://github.com/MinYn/flow-launcher-notion-plugin)                               |Notion Search API                                                                                        |MinYn                                         |1.0.1  |
+|[Notion Search](https://github.com/MinYn/flow-launcher-notion-plugin)                               |Notion Search API                                                                                        |MinYn                                         |1.0.2  |
 
 <!--END_SECTION:plugin-->
 
