@@ -139,9 +139,10 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Amazing Marvin](https://github.com/rrFlowLauncher/amazing_marvin)                                  |Communication with Amazing Marvin over API                                                               |RrobertRr                                     |0.2.0  |
 |[IpMacAddress](https://github.com/seanmars/Flow.Launcher.Plugin.IpMacAddress)                       |Get ip and mac address of current machine                                                                |seanmars                                      |1.0.0  |
 |[WireGuard](https://github.com/flooxo/Flow.Lancher.Plugin.WireGuard)                                |Connect to VPN via WireGuard VPN interfaces                                                              |flooxo                                        |1.0.2  |
-|[EasySSH](https://github.com/Melv1no/Flow.Launcher.Plugin.easyssh)                                  |ssh with Flow-Launcher                                                                                   |Melv1no                                       |1.1.1.1|
+|[EasySSH](https://github.com/Melv1no/Flow.Launcher.Plugin.easyssh)                                  |ssh with Flow-Launcher                                                                                   |Melv1no                                       |1.1.1.2|
 |[Mcfunction ANSI highlighter](https://github.com/SuperAnt220/mcf-ansi-highlighter-flow)             |highlights your minecraft command with ansi encoding to fancify them in your discord messages            |SuperAnt_                                     |1.0.0  |
 |[Notion Search](https://github.com/MinYn/flow-launcher-notion-plugin)                               |Notion Search API                                                                                        |MinYn                                         |1.0.2  |
+|[One-time Password](https://github.com/GoodbyeNJN/Flow.Launcher.Plugin.OneTimePassword)             |Manage and generate time-based one-time passwords                                                        |GoodbyeNJN                                    |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
