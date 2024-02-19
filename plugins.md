@@ -150,6 +150,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[URL Shortener](https://github.com/z1nc0r3/URL-Shortener-Plugin)                                    |Plugin to shorten URLs                                                                                   |z1nc0r3                                       |1.0.0  |
 |[Unicode Finder](https://github.com/z1nc0r3/Unicode-Finder-Plugin)                                  |Find Unicode characters by name.                                                                         |z1nc0r3                                       |1.0.0  |
 |[Notion](https://github.com/AminSallah/Flow.Launcher.Plugin.Notion)                                 |A Plugin For Search, Create, Edit and Delete Notion Pages.                                               |Amin Salah                                    |1.1.0  |
+|[Azan](https://github.com/AminSallah/Flow.Launcher.Plugin.Azan)                                     |A plugin to display prayer times.                                                                        |Amin Salah                                    |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
