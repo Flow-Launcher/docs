@@ -151,6 +151,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Unicode Finder](https://github.com/z1nc0r3/Unicode-Finder-Plugin)                                  |Find Unicode characters by name.                                                                         |z1nc0r3                                       |1.0.0  |
 |[Notion](https://github.com/AminSallah/Flow.Launcher.Plugin.Notion)                                 |A Plugin For Search, Create, Edit and Delete Notion Pages.                                               |Amin Salah                                    |1.1.0  |
 |[Azan](https://github.com/AminSallah/Flow.Launcher.Plugin.Azan)                                     |A plugin to display prayer times.                                                                        |Amin Salah                                    |1.0.0  |
+|[Win Hotkey](https://github.com/AminSallah/Flow.Launcher.Plugin.WinHotkey)                          |Trigger Flow Launcher by Win Key.                                                                        |Amin Salah                                    |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
