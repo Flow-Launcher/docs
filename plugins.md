@@ -152,6 +152,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Notion](https://github.com/AminSallah/Flow.Launcher.Plugin.Notion)                                 |A Plugin For Search, Create, Edit and Delete Notion Pages.                                               |Amin Salah                                    |1.1.0  |
 |[Azan](https://github.com/AminSallah/Flow.Launcher.Plugin.Azan)                                     |A plugin to display prayer times.                                                                        |Amin Salah                                    |2.0.0  |
 |[Win Hotkey](https://github.com/AminSallah/Flow.Launcher.Plugin.WinHotkey)                          |Trigger Flow Launcher by Win Key.                                                                        |Amin Salah                                    |2.1.0  |
+|[TinyUrlPlugin](https://github.com/DevHJS/TinyUrlPlugin)                                            |a plugin that use tinyurl api, it's very basic but powerful                                              |haider                                        |1.0.5  |
 
 <!--END_SECTION:plugin-->
 
