@@ -24,6 +24,7 @@
       - [**Testing Guide**](/testing.md)
     - JSONRPC
       - [**JSON RPC Introduction**](/json-rpc.md)
+      - [**JSON RPC Plugin Settings**](/json-rpc-settings.md)
     - Porting Plugins
       - [**Porting Plugins Guide**](/port-plugins.md)
 - [**How To Create A Theme**](/how-to-create-a-theme.md)
