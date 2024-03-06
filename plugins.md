@@ -102,7 +102,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[AudFlow](https://github.com/asmpro7/AudFlow)                                                       |Text to speech Plugin                                                                                    |Ahmed ElSaeed                                 |2.1.1  |
 |[Statis](https://github.com/asmpro7/StatisFlow)                                                     |Useful statistics plugin                                                                                 |Ahmed ElSaeed                                 |1.1.0  |
 |[CkFlow](https://github.com/asmpro7/CkFlow)                                                         |Plugin to check internet access and get the speed of download and upload                                 |Ahmed ElSaeed                                 |1.0.0  |
-|[DeepFlow](https://github.com/DavidG33k/Flow.Launcher.Plugin.DeepFlow)                              |Plugin to use DeepL in FlowLauncher                                                                      |Davide Gena                                   |1.0.0  |
+|[DeepFlow](https://github.com/DavidG33k/Flow.Launcher.Plugin.DeepFlow)                              |Plugin to use DeepL in FlowLauncher                                                                      |Davide Gena                                   |1.0.1  |
 |[QrFlow](https://github.com/asmpro7/QrFlow)                                                         |Plugin to generate QR code                                                                               |Ahmed ElSaeed                                 |1.1.0  |
 |[DdFlow](https://github.com/asmpro7/DdFlow)                                                         |Plugin for Get the day from the date                                                                     |Ahmed ElSaeed                                 |2.0.0  |
 |[Toggl Track](https://github.com/JamesNZL/flow-toggl-plugin)                                        |A time tracking plugin for Flow Launcher using Toggl Track                                               |JamesNZL                                      |4.1.0  |
@@ -153,6 +153,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Azan](https://github.com/AminSallah/Flow.Launcher.Plugin.Azan)                                     |A plugin to display prayer times.                                                                        |Amin Salah                                    |2.0.0  |
 |[Win Hotkey](https://github.com/AminSallah/Flow.Launcher.Plugin.WinHotkey)                          |Trigger Flow Launcher by Win Key.                                                                        |Amin Salah                                    |2.1.0  |
 |[TinyUrlPlugin](https://github.com/DevHJS/TinyUrlPlugin)                                            |a plugin that use tinyurl api, it's very basic but powerful                                              |haider                                        |1.0.5  |
+|[Fake Data](https://github.com/Yusyuriv/Flow.Launcher.Plugin.FakeData/tree/main)                    |Generates a variety of fake data using the Bogus library                                                 |Yusyuriv                                      |1.0.0  |
 
 <!--END_SECTION:plugin-->
 
