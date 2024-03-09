@@ -1,8 +1,10 @@
-<p align="center">
-  <a href="https://flow-launcher.github.io">
-	<img width="250px" src="https://raw.githubusercontent.com/Flow-Launcher/Flow.Launcher/5ba4514f31e624c679628d4dfe89036c0e24006c/Doc/Logo/resources/flow-header-square-transparent.png">
-  </a>
-</p>
+<a href="https://www.flowlauncher.com/">
+    <img
+        width="250"
+        src="https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher@5ba4514f31e624c679628d4dfe89036c0e24006c/Doc/Logo/resources/flow-header-square-transparent.png"
+        alt="Flow Launcher logo"
+    >
+</a>
 
 # Flow Launcher
 

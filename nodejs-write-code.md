@@ -5,10 +5,10 @@ It is a good practice that you create a branch for each of the new feature/fixes
 
 ### 2. main.js
 your main.js should look something like below:
-```
-const open = require('./node_modules/open')
+```js
+const open = require('./node_modules/open');
 
-const { method, parameters } = JSON.parse(process.argv[2])
+const { method, parameters } = JSON.parse(process.argv[2]);
 
 if (method === "query") {
 	console.log(JSON.stringify(
@@ -28,8 +28,8 @@ if (method === "query") {
 }
 
 if (method === "do_something_for_query") {
-	url = parameters[0]
-	do_something_for_query(url)
+	url = parameters[0];
+	do_something_for_query(url);
 }
 
 function do_something_for_query(url) {
@@ -42,7 +42,7 @@ function do_something_for_query(url) {
 ### 3. Query entry point 
 **if (method === "query")**
 
-This if statement captures the args passed via JsonRPC defined as `const { method, parameters } = JSON.parse(process.argv[2])`, so if 'method' is 'query' then the console.log's code block will be run. As result is an array, you can also specify a single or multiple results.  
+This if statement captures the args passed via JSON-RPC defined as `const { method, parameters } = JSON.parse(process.argv[2])`, so if `method` is `'query'` then the console.log's code block will be run. As the `result` property is an array, you can also specify a single or multiple results.  
 
 ### 4. Assigning an action to your results  
 **JsonRPCAction**
@@ -59,11 +59,11 @@ node "%plugin_dir%/main.js" %*
 ```
 
 ### 6 Result score
-The `score` field provides the ability to assign a weight to your score, the higher the score is, the higher the result from the plugin would show in flow's result list. The range in which you assign the score is usually between 0-100. You can keep it as 0 if your plugin generally uses an action keyword to trigger, but if you are using a global action keyword - `*` then the average weight for a plugin would be 50. Additionally users can also tweak the score via Flow's plugin setting as well.
+The `score` field provides the ability to assign a weight to your score; the higher the score is, the higher the result from the plugin would show in flow's result list. The range in which you assign the score is usually between 0–100. You can keep it as 0 if your plugin generally uses an action keyword to trigger, but if you are using a global action keyword - `*` then the average weight for a plugin would be 50. Additionally, users can tweak the score via Flow's plugin setting as well.
 
 ### 7. Your plugin.json
-You will also need to if not yet already, create a plugin.json file that will instruct Flow on how to load your plugin.
+You will also need to, if not yet already, create a plugin.json file that will instruct Flow on how to load your plugin.
 
 This file should be placed in the top level folder.
 
-To revisit what to include in your plugin.json, visit [here](https://flow-launcher.github.io/docs/#/plugin.json)
+To revisit what to include in your plugin.json, visit [here](/plugin.json.md)

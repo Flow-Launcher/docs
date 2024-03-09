@@ -1,6 +1,6 @@
 ### Testing your plugin
 
-After successfully building a plugin, it can be tested locally by moving the output files into Flow Launcher's `FlowLauncher\Plugins` directory accessible via the `userdata` command in Flow Launcher. Alternatively, if you are building .Net (C# or F#) plugins you can have your IDE build the artefact directly to that location (remember not to check this build output path into Git though). 
+After successfully building a plugin, it can be tested locally by moving the output files into Flow Launcher's `FlowLauncher\Plugins` directory accessible via the `userdata` command in Flow Launcher. Alternatively, if you are building .NET (C# or F#) plugins, you can have your IDE build the artifact directly to that location (remember not to check this build output path into Git though). 
 
 
 ### Detail Steps
@@ -11,4 +11,4 @@ After successfully building a plugin, it can be tested locally by moving the out
 4. Copy and paste the newly built plugin folder into this folder.
 5. Execute `Restart Flow Launcher` to reload the new plugin.
 
-Tip: .Net plugins (e.g. C# and F#) will require you to restart flow every time you make a change and build a new artefact to reload the plugin, but Python and JS/TS plugins you can edit the plugin directly.  
+Tip: .NET plugins (e.g. C# and F#) will require you to restart flow every time you make a change and build a new artifact to reload the plugin, but Python and JS/TS plugins you can edit the plugin directly.  

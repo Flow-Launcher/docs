@@ -3,7 +3,7 @@
 `plugin.json` is the manifest files of your plugin. It is required for Flow to understand how to communicate with your plugin. 
 It must be in the plugin root directory.
 
-```json
+```js
 {
   "ID":"",             //Plugin ID，32 bit UUID
   "ActionKeyword":"",  //Plugin default action keyword (* means no specific action keyword)
