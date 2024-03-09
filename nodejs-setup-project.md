@@ -31,7 +31,7 @@ push:
     prop_path: 'Version'
 ```
 
-5. The 'Install dependencies' section is where you will do most of your CI work. It will run `npm install`, which will output all the dependencies specified in package.json into the 'node_modules' directory. The workflow will then zip them up along with your project using `zip -r Flow.Launcher.Plugin.HelloWorldNodeJS.zip . -x '*.git*'`, where you replace this `Flow.Launcher.Plugin.HelloWorldNodeJS` with the name of your plugin.
+5. The **Install dependencies** section is where you will do most of your CI work. It will run `npm install`, which will output all the dependencies specified in package.json into the 'node_modules' directory. The workflow will then zip them up along with your project using `zip -r Flow.Launcher.Plugin.HelloWorldNodeJS.zip . -x '*.git*'`, where you replace this `Flow.Launcher.Plugin.HelloWorldNodeJS` with the name of your plugin.
 
 ```yml
 - name: Install dependencies
@@ -41,7 +41,7 @@ push:
 ```
 
 ### 2. Publish as zip
-The final step to the workflow file is this `Publish` section, which will publish the zip file you generated, upload to GitHub Releases page and tag with the version generated from the previous step from your plugin.json file. Remember again to replace `Flow.Launcher.Plugin.HelloWorldNodeJS` with the name of your plugin.
+The final step to the workflow file is this **Publish** section, which will publish the zip file you generated, upload to GitHub Releases page and tag with the version generated from the previous step from your plugin.json file. Remember again to replace `Flow.Launcher.Plugin.HelloWorldNodeJS` with the name of your plugin.
 
 ```yml
 - name: Publish
