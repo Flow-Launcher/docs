@@ -6,15 +6,15 @@ If you make a theme for the first time, refer to the existing theme. Copy the **
 
 ## ⛔ Caution ⛔
 
-Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at `%APPDATA%\FlowLauncher\Themes\` (AppData Roaming path) and for portable it is by default `%localappdata%\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData\Themes\` (AppData Local path). Flow will read from the UserData directory for custom themes and its own app directory for default themes. Make sure you do not place in the location outside of UserData because it will be erased along with the default theme files after an update.
+Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at `%APPDATA%\FlowLauncher\Themes\` (AppData Roaming path) and for portable it is by default `%localappdata%\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData\Themes\` (AppData Local path). Flow will read from the UserData directory for custom themes and its own app directory for default themes. Make sure you do not place in the location outside UserData because it will be erased along with the default theme files after an update.
 
 ## Theme elements
 
-The theme file allows you to set the following parts. Each style has a key, and there are items that can be modified. If theme have a key that is not described in this document, we recommend you not to modify it separately.
+The theme file allows you to set the following parts. Each style has a key, and there are items that can be modified. If theme has a key not described in this document, we recommend you not to modify it separately.
 
 (*There is a possibility of changing/deleting this part depending on the version.*)
 
-![Flow Launcher screenshot](https://cdn.jsdelivr.net/gh/Flow-Launcher/docs@raw/main/assets/themelayout.png)
+![Flow Launcher screenshot](https://cdn.jsdelivr.net/gh/Flow-Launcher/docs@main/assets/themelayout.png)
 
 <br>
 
