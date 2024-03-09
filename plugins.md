@@ -154,6 +154,8 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Win Hotkey](https://github.com/AminSallah/Flow.Launcher.Plugin.WinHotkey)                          |Trigger Flow Launcher by Win Key.                                                                        |Amin Salah                                    |3.1.0  |
 |[TinyUrlPlugin](https://github.com/DevHJS/TinyUrlPlugin)                                            |a plugin that use tinyurl api, it's very basic but powerful                                              |haider                                        |1.0.5  |
 |[Fake Data](https://github.com/Yusyuriv/Flow.Launcher.Plugin.FakeData/tree/main)                    |Generates a variety of fake data using the Bogus library                                                 |Yusyuriv                                      |1.0.0  |
+|[Pokedex](https://github.com/Galedrim/Flow.Launcher.Plugin.Pokedex/tree/main)                       |Search Pokemon                                                                                           |Galedrim                                      |1.0.0  |
+|[Date Calculator](https://github.com/jasonz3157/Flow.Plugin.DateCalculator)                         |Date Calculator using Flow's embedded python                                                             |jasonz3157                                    |0.1.6  |
 
 <!--END_SECTION:plugin-->
 
