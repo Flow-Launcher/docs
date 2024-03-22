@@ -6,21 +6,21 @@ In Flow Launcher, we use JSON-RPC as a **local** procedure call protocol to bind
 
 So we need to build a **common API** between Flow and Plugin.
 
-![JSON RPC](/assets/jsonrpc.png)
+![JSON-RPC](/assets/jsonrpc.png)
 
 ### Example
 
 - `-->` denotes data sent to FLow.
 - `<--` denotes data coming from Flow.
 
-```json
+```js
 --> {"method": "query", "parameters": [""]}
 <-- {"Title": "title", "SubTitle": "sub title", "IconPath": "favicon.ico"}
 ```
 
 ## Flow Launcher API
 
-API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master/Flow.Launcher.Plugin/Interfaces/IPublicAPI.cs)
+API is located [here](/API-Reference/Flow.Launcher.Plugin/IPublicAPI.md)
 
 ### API List
 
@@ -42,7 +42,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 
 ### JSON RPC Formatting
 
-```json
+```js
 {
   "method": "Flow Launcher API Name",
   "parameters": []
@@ -54,7 +54,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 - `query`, string
 - `requery`, bool
 
-```json
+```js
 {
     "method": "Flow.Launcher.ChangeQuery",
     "parameters": [query, requery]
@@ -65,7 +65,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 
 - `cmd`, string
 
-```json
+```js
 {
     "method": "Flow.Launcher.ShellRun",
     "parameters": [cmd]
@@ -78,7 +78,7 @@ API is located [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/master
 - `sub_title`, string
 - `ico_path`, string(path)
 
-```json
+```js
 {
     "method": "Flow.Launcher.ShowMsg",
     "parameters": [title, sub_title, ico_path]
