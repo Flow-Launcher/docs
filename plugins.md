@@ -4,6 +4,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |                                                Name                                                |                                               Description                                               |                    Author                    |Version|
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------|-------|
 |[FendCalculator](https://github.com/IsaacTay/Flow.Launcher.Plugin.FendCalculator)                   |Arbitrary-precision unit-aware calculator. https://printfn.github.io/fend/                               |IsaacTay                                      |1.1.1  |
+|[Smart Timestamps](https://github.com/DustofShadows/smart-timestamps-flowlauncher-plugin)           |Generate smarter timestamps, look up dates, and copy them to your clipboard.                             |DustofShadows                                 |1.0.0  |
 |[Tailwindcss](https://github.com/areeburrub/tailwindcss-flow-launcher-plugin)                       |Search tailwindcss Docs                                                                                  |Areeb ur Rub                                  |1.0.0  |
 |[Plugin Runner](https://github.com/jjw24/Wox.Plugin.Runner)                                         |Create simple command shortcuts                                                                          |Jesse Barocio (@jessebarocio)                 |2.3.1  |
 |[Dictionary](https://github.com/harrynull/Flow.Launcher.Dictionary)                                 |English dictionary, word correction and synonym.                                                         |Harry Yu                                      |2.3.2  |
@@ -156,6 +157,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Fake Data](https://github.com/Yusyuriv/Flow.Launcher.Plugin.FakeData/tree/main)                    |Generates a variety of fake data using the Bogus library                                                 |Yusyuriv                                      |1.0.0  |
 |[Pokedex](https://github.com/Galedrim/Flow.Launcher.Plugin.Pokedex/tree/main)                       |Search Pokemon                                                                                           |Galedrim                                      |1.0.0  |
 |[Date Calculator](https://github.com/jasonz3157/Flow.Plugin.DateCalculator)                         |Date Calculator using Flow's embedded python                                                             |jasonz3157                                    |0.1.6  |
+|[Astro](https://github.com/palmiak/astro-flow-launcher-plugin)                                      |Search Astro Docs                                                                                        |palmiak                                       |0.0.2  |
 
 <!--END_SECTION:plugin-->
 
