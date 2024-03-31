@@ -158,6 +158,7 @@ Here are some plugins to add to the functionality of Flow-Launcher.
 |[Pokedex](https://github.com/Galedrim/Flow.Launcher.Plugin.Pokedex/tree/main)                       |Search Pokemon                                                                                           |Galedrim                                      |1.0.0  |
 |[Date Calculator](https://github.com/jasonz3157/Flow.Plugin.DateCalculator)                         |Date Calculator using Flow's embedded python                                                             |jasonz3157                                    |0.1.6  |
 |[Astro](https://github.com/palmiak/astro-flow-launcher-plugin)                                      |Search Astro Docs                                                                                        |palmiak                                       |0.0.2  |
+|[Remove.bg](https://github.com/z1nc0r3/remove.bg)                                                   |Remove backgrounds from images                                                                           |z1nc0r3                                       |1.0.1  |
 
 <!--END_SECTION:plugin-->
 
