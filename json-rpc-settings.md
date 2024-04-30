@@ -4,7 +4,7 @@ You might need to have some settings in your plugins that are easily changeable 
 
 
 ### SettingsTemplate.yaml
-This is a YAML files that contains the settings page layout for your plugin. It contains an object with a single property called `body`. The `body` property contains an array of objects that define the layout of the settings page. Each object in the `body` array is a section of the settings page. Each section takes up the entire width of the page, which means you can't have one input on the left and one on the right. The layout of each section is always static: input description on the left, input on the right. Every object in the `body` array has the same structure: a `type` property that defines the type of this input (text input, textarea etc.), and an `attributes` property that contains everything else the object needs to render, such as label, description, or default value. The following is a list of the different types of inputs that can be used in the `SettingsTemplate.yaml` file.
+This is a YAML file that contains the settings page layout for your plugin. It contains an object with a single property called `body`. The `body` property contains an array of objects that define the layout of the settings page. Each object in the `body` array is a section of the settings page. Each section takes up the entire width of the page, which means you can't have one input on the left and one on the right. The layout of each section is always static: input description on the left, input on the right. Every object in the `body` array has the same structure: a `type` property that defines the type of this input (text input, textarea etc.), and an `attributes` property that contains everything else the object needs to render, such as label, description, or default value. The following is a list of the different input types that can be used in the `SettingsTemplate.yaml` file.
 
 ---
 
@@ -15,6 +15,8 @@ type: textBlock
 attributes:
   description: This is a block of text. 
 ```
+<settings-component-demo type="textBlock" description="This is a block of text."></settings-component-demo>
+
 | Property name | Property description |
 |---------------|----------------------|
 | `description` | The text to display. |
@@ -29,6 +31,8 @@ attributes:
   description: Description of the input
   defaultValue: Hello there
 ```
+<settings-component-demo type="input" label="This is a text input" description="Description of the input" value="Hello there"></settings-component-demo>
+
 | Property name  | Property description                                                                                                                                   |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                      |
@@ -46,6 +50,8 @@ attributes:
   description: Description of the input
   defaultValue: Hello there
 ```
+<settings-component-demo type="inputWithFileBtn" label="This is a text input with a Browse button" description="Description of the input" value="Hello there"></settings-component-demo>
+
 | Property name  | Property description                                                                                                                                   |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                      |
@@ -64,6 +70,8 @@ attributes:
   description: Description of the input
   defaultValue: Hello there
 ```
+<settings-component-demo type="textarea" label="This is a multiline text input" description="Description of the input" value="Hello there"></settings-component-demo>
+
 | Property name  | Property description                                                                                                                                 |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                    |
@@ -81,6 +89,8 @@ attributes:
   description: Description of the input
   defaultValue: secret password
 ```
+<settings-component-demo type="passwordBox" label="This is a password input" description="Description of the input" value="secret password"></settings-component-demo>
+
 | Property name  | Property description                                                                                                                                   |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                      |
@@ -102,6 +112,8 @@ attributes:
     - Option 2
     - Option 3
 ```
+<settings-component-demo type="dropdown" label="This is a dropdown input" description="Description of the input" value="Option 1" options='["Option 1", "Option 2", "Option 3"]'></settings-component-demo>
+
 | Property name  | Property description                                                                                                                                                                                                        |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                                                                                           |
@@ -120,6 +132,8 @@ attributes:
   description: Description of the checkbox
   defaultValue: true
 ```
+<settings-component-demo type="checkbox" label="This is a checkbox" description="Description of the checkbox" value="true"></settings-component-demo>
+
 | Property name  | Property description                                                                                                    |
 |----------------|-------------------------------------------------------------------------------------------------------------------------|
 | `name`         | The name of the checkbox. This is the key that you will use to access the value of the checkbox in the settings object. |
@@ -158,10 +172,27 @@ body:
         - "C#"
   - type: checkbox
     attributes:
-      name: Prefer shorter answers
+      name: preferShorterAnswers
+      label: Prefer shorter answers
       description: If checked, the plugin will try to give answer much shorter than the usual ones.
       defaultValue: false
 ```
+<settings-component-demo type="textBlock" description="Welcome to the settings page for my plugin. Here you can configure the plugin to your liking."></settings-component-demo>
+<settings-component-demo type="input" label="How should I call you?" value="the user"></settings-component-demo>
+<settings-component-demo type="textarea" label="Text to prepend to result output" description='This text will be added to the beginning of the result output. For example, if you set this to "The result is: ", and the result is "42", the output will be "The result is: 42".'></settings-component-demo>
+<settings-component-demo type="dropdown" label="Programming language to prefer for answers" value="TypeScript" options='["JavaScript", "TypeScript", "Python", "C#"]'></settings-component-demo>
+<settings-component-demo type="checkbox" label="Prefer shorter answers" description="If checked, the plugin will try to give answer much shorter than the usual ones."></settings-component-demo>
 
 ### Visual editor for `SettingsTemplate.yaml`
-You can use a [visual editor](https://flow-launcher-plugin-settings-generator.pages.dev/) for creating the `SettingsTemplate.yaml` file. When you're done editing, click the `Generate SettingsTemplate.yaml` file and copy-paste its contents into your `SettingsTemplate.yaml` file. Optionally, you can also copy the generated typings for your settings object in your preferred programming language.
+You can use a [visual editor](#/json-rpc-visual-settingstemplate-editor) for creating the `SettingsTemplate.yaml` file. When you're done editing, click the `Generate SettingsTemplate.yaml` file and copy-paste its contents into your `SettingsTemplate.yaml` file. Optionally, you can also copy the generated typings for your settings object in your preferred programming language.
+
+<script>
+const element = document.querySelector('#__settings-script__');
+if (!element) {
+    const script = document.createElement('script');
+    script.id = '__settings-script__';
+    script.src = 'https://www.flowlauncher.com/docs/webcomponents/dist/flow-launcher-docs-web-components.js';
+    script.type = 'module';
+    document.body.appendChild(script);
+}
+</script>
