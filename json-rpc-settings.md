@@ -184,7 +184,7 @@ body:
 <settings-component-demo type="checkbox" label="Prefer shorter answers" description="If checked, the plugin will try to give answer much shorter than the usual ones."></settings-component-demo>
 
 ### Visual editor for `SettingsTemplate.yaml`
-You can use a [visual editor](https://flow-launcher-plugin-settings-generator.pages.dev/) for creating the `SettingsTemplate.yaml` file. When you're done editing, click the `Generate SettingsTemplate.yaml` file and copy-paste its contents into your `SettingsTemplate.yaml` file. Optionally, you can also copy the generated typings for your settings object in your preferred programming language.
+You can use a [visual editor](#/json-rpc-visual-settingstemplate-editor) for creating the `SettingsTemplate.yaml` file. When you're done editing, click the `Generate SettingsTemplate.yaml` file and copy-paste its contents into your `SettingsTemplate.yaml` file. Optionally, you can also copy the generated typings for your settings object in your preferred programming language.
 
 <script>
 const element = document.querySelector('#__settings-script__');
