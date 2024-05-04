@@ -10,6 +10,7 @@ on:
       - webcomponents/**.ts
       - webcomponents/**.json
       - webcomponents/**.svelte
+      - "!webcomponents/dist/**"
 
 jobs:
   build-webcomponents:
