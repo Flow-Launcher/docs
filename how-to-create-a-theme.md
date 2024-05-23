@@ -6,40 +6,40 @@ If you make a theme for the first time, refer to the existing theme. Copy the **
 
 ## ⛔ Caution ⛔
 
-Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at **%APPDATA%\\FlowLauncher\\Themes\\** (AppData Roaming path) and for portable it is by default **%localappdata%\\FlowLauncher\app-\\<VersionOfYourFlowLauncher\>\\UserData\\Themes\\** (AppData Local path). Flow will read from the UserData directory for custom themes and its own app directory for default themes, so make sure you do not place in the location outside of UserData because it will be erased along with the default theme files after an update.
+Place the theme you created in the Theme folder inside the UserData directory, for roaming this is located at `%APPDATA%\FlowLauncher\Themes\` (AppData Roaming path) and for portable it is by default `%localappdata%\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData\Themes\` (AppData Local path). Flow will read from the UserData directory for custom themes and its own app directory for default themes. Make sure you do not place in the location outside UserData because it will be erased along with the default theme files after an update.
 
 ## Theme elements
 
-The theme file allows you to set the following parts. Each style has a key, and there are items that can be modified. If theme have a key that is not described in this document, we recommend you not to modify it separately.
+The theme file allows you to set the following parts. Each style has a key, and there are items that can be modified. If theme has a key not described in this document, we recommend you not to modify it separately.
 
 (*There is a possibility of changing/deleting this part depending on the version.*)
 
-<img src="https://github.com/Flow-Launcher/docs/raw/main/assets/themelayout.png" style="zoom:50%;" />
+![Flow Launcher screenshot](https://cdn.jsdelivr.net/gh/Flow-Launcher/docs@main/assets/themelayout.png)
 
-</br>
+<br>
 
 ### WindowBorderStyle
 
 In this item, you can set the color, border size, border color, and corner radius of the basic window.
 
-```
+```xml
 <Style x:Key="WindowBorderStyle" BasedOn="{StaticResource BaseWindowBorderStyle}" TargetType="{x:Type Border}">
         <Setter Property="BorderThickness" Value="2" />
         <Setter Property="BorderBrush" Value="#6c7279" /> 
         <Setter Property="CornerRadius" Value="5" />
         <Setter Property="Background" Value="#303840" />
  </Style>
- ```
+```
 
-Window border thickness is recommended from 1 or 2. Corner radius recommends 0, 5 or less.
+Window border thickness is recommended from 1 or 2. Recommended corner radius is 0, 5 or less.
 
-</br>
+<br>
 
 ### QueryBoxStyle
 
 This is the style of the basic search window. You can set the font size, color of cursor, font color, input window height. If the font size is reduced, the height of the window is also reduced, so the height must be specified.
 
-```
+```xml
 <Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
         <Setter Property="FontSize" Value="24" />
         <Setter Property="Background" Value="#303840" />  <!-- Set it to the same color as the window. -->
@@ -50,13 +50,13 @@ This is the style of the basic search window. You can set the font size, color o
 </Style>
 ``` 
 
-</br>
+<br>
 
 ### QuerySuggestionBoxStyle
 
 This is the style of the recommended search word that appears after the search word. The font size & Height should be the same as the QueryBoxStyle, and a more translucent color is recommended.
 
-```
+```xml
 <Style x:Key="QuerySuggestionBoxStyle" BasedOn="{StaticResource BaseQuerySuggestionBoxStyle}" TargetType="{x:Type TextBox}">
         <Setter Property="Background" Value="#303840" />
         <Setter Property="Foreground" Value="#798189" /> <!-- Font Color -->
@@ -65,25 +65,25 @@ This is the style of the recommended search word that appears after the search w
 </Style>
 ```
 
-</br>
+<br>
 
 ### PendingLineStyle
 
 It is possible to set the color of the loading bar that is sometimes displayed.
 
-```
+```xml
 <Style x:Key="PendingLineStyle" BasedOn="{StaticResource BasePendingLineStyle}" TargetType="{x:Type Line}">
         <Setter Property="Stroke" Value="#FFAA47" /> <!-- Bar Color -->
 </Style>
 ```
 
-</br>
+<br>
 
 ### SearchIconStyle
 
 This is the style of the magnifying glass icon displayed on the right side of the search window. Color & Size can be changed or hidden. (The picture change will be updated later.)
 
-```
+```xml
 <Style x:Key="SearchIconStyle" TargetType="{x:Type Path}" BasedOn="{StaticResource BaseSearchIconStyle}">
         <Setter Property="Fill" Value="#3c454e" /> <!-- Color -->
         <Setter Property="Width" Value="32" /> <!-- Size. Default is 32. -->
@@ -93,115 +93,117 @@ This is the style of the magnifying glass icon displayed on the right side of th
 
 If you want to hide it, you can add the following code.
 
-```
+```xml
 <Setter Property="Visibility" Value="Collapsed" />
 ```
 
-</br>
+<br>
 
 ### ItemTitleStyle
 
 This is the title part of the search result. The font size and color can be adjusted.
 
-```
+```xml
 <Style x:Key="ItemTitleStyle"  BasedOn="{StaticResource BaseItemTitleStyle}" TargetType="{x:Type TextBlock}">
 	<Setter Property="Foreground" Value="#5989b2" /> 
 	<Setter Property="FontSize" Value="13" /> <!-- Default is 16 -->
 </Style>
 ```
 
- </br>
+<br>
 
 ### ItemTitleSelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemTitleStyle.
 
-```
+```xml
 <Style x:Key="ItemTitleSelectedStyle" BasedOn="{StaticResource BaseItemTitleSelectedStyle}"  TargetType="{x:Type TextBlock}" >
         <Setter Property="Foreground" Value="#5bafb0" />
 </Style>
 ```
 
-</br>
+<br>
 
 ### ItemSubTitleStyle
 
 This is the filepath part of the search result. The font size and color can be adjusted.
 
-```
+```xml
 <Style x:Key="ItemSubTitleStyle" BasedOn="{StaticResource BaseItemSubTitleStyle}" TargetType="{x:Type TextBlock}" >
         <Setter Property="Foreground" Value="#7b858f" />
         <Setter Property="FontSize" Value="13" /> <!-- Default is 13 -->
 </Style>
 ```
 
-</br>
+<br>
 
 ### ItemSubTitleSelectedStyle
 
 You can specify a color that changes when the item is focused. The font size should be the same as ItemSubTitleStyle.
 
-```
+```xml
 <Style x:Key="ItemSubTitleSelectedStyle" BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}" TargetType="{x:Type TextBlock}" >
         <Setter Property="Cursor" Value="Arrow" />
         <Setter Property="Foreground" Value="#cc8ec8" />
 </Style>
 ```    
 
-</br>
+<br>
 
 ### ItemHotkeyStyle
 
 Specifies the color and size of the Hotkey font.
 
-```
+```xml
 <Style x:Key="ItemHotkeyStyle" TargetType="{x:Type TextBlock}">
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Foreground" Value="#5bafb0" />
 </Style>
 ```
 
-</br>
+<br>
 
 ### ItemHotkeySelectedStyle
 
-You can specify a color that changes when the item is focused. The font size should be the same as ItemHotkeyStyle.
+You can specify a color that changes when the item is focused. The font size should be the same as `ItemHotkeyStyle`.
 
-```
+```xml
 <Style x:Key="ItemHotkeySelectedStyle" TargetType="{x:Type TextBlock}">
         <Setter Property="FontSize" Value="13" />
         <Setter Property="Foreground" Value="#ea7354" />
 </Style>
 ```    
 
-</br>
+<br>
 
 ### ItemSelectedBackgroundColor
 
-This is the background color that is emphasized when the item is selected.
+This is the background color emphasized when the item is selected.
 
-```<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>```
+```xml
+<SolidColorBrush x:Key="ItemSelectedBackgroundColor">#3c454e</SolidColorBrush>
+```
 
-</br>
+<br>
 
 ### HighlightStyle
 
 It emphasizes the part where the search word matches the result. Color and Font Weight can be set.
 
-```
+```xml
 <Style x:Key="HighlightStyle">
         <Setter Property="Inline.Foreground" Value="#ea7354" />
         <Setter Property="Inline.FontWeight" Value="Bold" />
 </Style>
 ```    
 
-</br>
+<br>
 
 ### ThumbStyle
 
 Specifies the color and size of the scroll bar.
 
-```
+```xml
 <Style x:Key="ThumbStyle" BasedOn="{StaticResource BaseThumbStyle}" TargetType="{x:Type Thumb}">
         <Setter Property="SnapsToDevicePixels" Value="True"/>
         <Setter Property="OverridesDefaultStyle" Value="true"/>
@@ -218,13 +220,13 @@ Specifies the color and size of the scroll bar.
     </Style>
 ```    
 
-</br>
+<br>
 
 ### SeparatorStyle
 
-Set the size, height, color, and margin of the horizontal line.If you don't think you need it, you can get rid of it.
+Set the size, height, color, and margin of the horizontal line. If you don't think you need it, you can get rid of it.
 
-```
+```xml
 <Style x:Key="SeparatorStyle" BasedOn="{StaticResource BaseSeparatorStyle}" TargetType="{x:Type Rectangle}">
         <Setter Property="Fill" Value="#3c454e"/>
         <Setter Property="Height" Value="1"/> 
@@ -234,15 +236,17 @@ Set the size, height, color, and margin of the horizontal line.If you don't thin
 
 If you want to hide it, you can add the following code.
 
-`<Setter Property="Visibility" Value="Collapsed" />`
+```xml
+<Setter Property="Visibility" Value="Collapsed" />
+```
 
-</br>
+<br>
 
 ### ItemGlyph
 
 Specifies the color of the glyph icon.
 
-```
+```xml
 <Style x:Key="ItemGlyph"  BasedOn="{StaticResource BaseGlyphStyle}" TargetType="{x:Type TextBlock}">
         <Setter Property="Foreground" Value="#5bafb0" />
 </Style>
@@ -251,5 +255,4 @@ Specifies the color of the glyph icon.
 ## Let's share it!
 Once you have crafted your perfect theme, why not share it with the community:
 
-[Theme Gallery](
-https://github.com/Flow-Launcher/Flow.Launcher/discussions/1438)
+[Theme Gallery](https://github.com/Flow-Launcher/Flow.Launcher/discussions/1438)

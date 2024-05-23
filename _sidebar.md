@@ -22,9 +22,9 @@
       - [**Plugin references**](/nodejs-plugin-references.md)
     - Testing Plugins
       - [**Testing Guide**](/testing.md)
-    - JSONRPC
-      - [**JSON RPC Introduction**](/json-rpc.md)
-      - [**JSON RPC Plugin Settings**](/json-rpc-settings.md)
+    - JSON-RPC
+      - [**Introduction**](/json-rpc.md)
+      - [**Plugin Settings**](/json-rpc-settings.md)
       - [**Visual SettingsTemplate.yaml editor**](/json-rpc-visual-settingstemplate-editor.md)
     - Porting Plugins
       - [**Porting Plugins Guide**](/port-plugins.md)
