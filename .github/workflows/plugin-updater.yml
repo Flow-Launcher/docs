@@ -1,41 +1,45 @@
 name: Plugin Updater
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - webcomponents/**.js
+      - webcomponents/**.ts
+      - webcomponents/**.json
+      - webcomponents/**.svelte
+      - "!webcomponents/dist/**"
 
 jobs:
-  Update:
+  build-webcomponents:
+    name: Build web components
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.UPDATER }}
-
-      - uses: actions/setup-python@v2
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.x"
-
-      - name: Install Dependencies
-        run: pip install -r ./ci/envs/requirements-plugin.txt
-
-      - name: Update Plugin Informations
-        run: python ./ci/src/plugin_updater.py
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: "Flow-Launcher/Flow.Launcher.PluginsManifest"
-          PLUGIN_JSON: "plugins.json"
-          PLUGIN_MARKDOWN: "plugins.md"
-          PLUGIN_NAME: "Name"
-          PLUGIN_AUTHOR: "Author"
-          PLUGIN_DESCRIPTION: "Description"
-          PLUGIN_VERSION: "Version"
-          PLUGIN_WEBSITE: "Website"
-
-      - name: Commit & Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+          node-version: 20
+      - name: Get version
+        id: version
+        run: |
+          version=$(jq -r .version webcomponents/package.json)
+          echo "version=$version" >> $GITHUB_OUTPUT
+      - name: Build
+        run: |
+          cd webcomponents
+          npm install
+          npm run build
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git commit -m "Update web components build artifact"
+      - name: Put new build into the repo
+        uses: ad-m/github-push-action@master
         with:
-          commit_message: "DOC: update plugin list"
-          push_options: --force
-          branch: main
+          github_token: ${{ secrets.UPDATER }}
+          branch: ${{ github.ref }}

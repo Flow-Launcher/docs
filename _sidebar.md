@@ -25,6 +25,7 @@
     - JSON-RPC
       - [**Introduction**](/json-rpc.md)
       - [**Plugin Settings**](/json-rpc-settings.md)
+      - [**Visual SettingsTemplate.yaml editor**](/json-rpc-visual-settingstemplate-editor.md)
     - Porting Plugins
       - [**Porting Plugins Guide**](/port-plugins.md)
 - [**How To Create A Theme**](/how-to-create-a-theme.md)
