@@ -57,7 +57,7 @@ $: {
       if (trimmedSearch.length === 0) {
         return true;
       }
-      return v.Name.toLowerCase().includes(trimmedSearch) || v.Description.toLowerCase().includes(trimmedSearch) || v.Author.toLowerCase().includes(trimmedSearch);
+      return v.Name.toLowerCase().includes(trimmedSearch) || v.Description?.toLowerCase().includes(trimmedSearch) || v.Author?.toLowerCase().includes(trimmedSearch);
     })
     .sort((a, b) => {
       switch (sorting) {
@@ -66,9 +66,9 @@ $: {
         case 'nameDesc':
           return b.Name.localeCompare(a.Name);
         case 'authorAsc':
-          return a.Author.localeCompare(b.Author);
+          return a.Author?.localeCompare(b?.Author) ?? -1;
         case 'authorDesc':
-          return b.Author.localeCompare(a.Author);
+          return b.Author?.localeCompare(a?.Author) ?? 1;
         case 'dateAsc':
           return a.DateAdded.localeCompare(b.DateAdded);
         case 'dateDesc':

@@ -13,9 +13,9 @@ export let plugin: FlowPlugin;
       </a>
     </div>
   </td>
-  <td>{plugin.Description}</td>
-  <td>{plugin.Author}</td>
-  <td>{plugin.Version}</td>
+  <td>{plugin.Description ?? ""}</td>
+  <td>{plugin.Author ?? ""}</td>
+  <td>{plugin.Version ?? ""}</td>
 </tr>
 
 <style>
