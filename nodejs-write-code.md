@@ -8,7 +8,7 @@ your main.js should look something like below:
 ```js
 const open = require('./node_modules/open');
 
-const { method, parameters } = JSON.parse(process.argv[2]);
+const { method, parameters, settings } = JSON.parse(process.argv[2]);
 
 if (method === "query") {
 	console.log(JSON.stringify(
