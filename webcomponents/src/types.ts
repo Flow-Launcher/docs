@@ -2,6 +2,7 @@ export type ComponentType =
   | 'textBlock'
   | 'input'
   | 'inputWithFileBtn'
+  | 'inputWithFolderBtn'
   | 'textarea'
   | 'passwordBox'
   | 'dropdown'

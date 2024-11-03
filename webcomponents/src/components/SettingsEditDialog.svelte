@@ -47,7 +47,8 @@ $: {
 const inputTypes: Record<ComponentType, string> = {
   textBlock: "Block of text",
   input: "Text input",
-  inputWithFileBtn: "Text input with 'Browse' button",
+  inputWithFileBtn: "Text input with 'Browse' button for selecting a file",
+  inputWithFolderBtn: "Text input with 'Browse' button for selecting a folder",
   textarea: "Textarea",
   passwordBox: "Password input",
   dropdown: "Dropdown",
@@ -145,7 +146,7 @@ $: {
             <SettingsCheckbox {theme} bind:value={checkbox}/>
           {/if}
         </div>
-        {#if data.type === 'input' || data.type === 'inputWithFileBtn' || data.type === 'passwordBox'}
+        {#if data.type === 'input' || data.type === 'inputWithFileBtn' || data.type === 'inputWithFolderBtn' || data.type === 'passwordBox'}
           <SettingsInput {theme} bind:value={data.attributes.defaultValue}/>
         {:else if data.type === 'textarea'}
           <SettingsInput {theme} multiline bind:value={data.attributes.defaultValue}/>

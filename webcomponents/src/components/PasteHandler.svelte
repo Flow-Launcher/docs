@@ -7,7 +7,7 @@ const emit = createEventDispatcher<{
   setData: ComponentData[];
 }>();
 
-const types: ComponentType[] = ['textBlock', 'input', 'inputWithFileBtn', 'passwordBox', 'textarea', 'dropdown', 'checkbox'];
+const types: ComponentType[] = ['textBlock', 'input', 'inputWithFileBtn', 'inputWithFolderBtn', 'passwordBox', 'textarea', 'dropdown', 'checkbox'];
 function verifyData(parsed: { body?: ComponentData[] }): boolean {
   return parsed?.body && Array.isArray(parsed.body) && parsed.body.every(v => types.includes(v.type) && v.attributes);
 }
