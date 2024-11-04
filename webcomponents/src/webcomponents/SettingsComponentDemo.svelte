@@ -48,12 +48,12 @@ $: full = type === 'textBlock';
   {#if type !== 'textBlock'}
     <div
       class="right"
-      class:with-button={type === 'inputWithFileBtn'}
+      class:with-button={type === 'inputWithFileBtn' || type === 'inputWithFolderBtn'}
       class:checkbox={type === 'checkbox'}
     >
       {#if type === 'input'}
         <SettingsInput {theme} {readonly} bind:value={value}/>
-      {:else if type === 'inputWithFileBtn'}
+      {:else if type === 'inputWithFileBtn' || type === 'inputWithFolderBtn'}
         <SettingsInput {theme} {readonly} bind:value={value}/>
         <SettingsButton {theme}>Browse</SettingsButton>
       {:else if type === 'passwordBox'}

@@ -40,8 +40,8 @@ attributes:
 | `description`  | The description for the input. If set, it's displayed to the left of the input, right below the label.                                                 |
 | `defaultValue` | The default value for the input. It's the value your plugin will receive in the settings for that input until the user changes that value in settings. |
 
-#### `inputWithFileBtn`
-This is a text input with a "Browse" button for selecting a file.
+#### `inputWithFileBtn` and `inputWithFolderBtn`
+This is a text input with a "Browse" button for selecting a file or a folder respectively. They look the same, the only difference is that one only allows selecting a file and the other only allows selecting a folder.
 ```yaml
 type: inputWithFileBtn
 attributes:
