@@ -17,3 +17,16 @@ It must be in the plugin root directory.
   "ExecuteFileName":"" //Execution entry. dll extension for C#/F# plugin, .py for python plugin, .js/.ts for JS/TS plugins and .exe or other executable for executable plugin. Path examples include "main.py" or "./dist/main.js"
 }
 ```
+
+## JSON Schema 
+Additionally, you can add a property called `$schema` to enable validation and auto-completion in your IDE. This works in JetBrains IDEs (i.e., WebStorm, PhpStorm, Rider, etc.), Visual Studio, and Visual Studio Code. Add this property to the top of the JSON file:
+
+```js
+{
+  "$schema": "https://www.flowlauncher.com/schemas/plugin.schema.json",
+  // the rest of the plugin.json file
+  // ...
+}
+```
+
+Now you should have auto-completion and file validation available for you in your IDE.
