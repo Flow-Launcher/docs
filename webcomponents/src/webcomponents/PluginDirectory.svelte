@@ -40,7 +40,7 @@ let searched: FlowPlugin[] = [];
 let pluginPromise: Promise<FlowPlugin[]>;
 
 function downloadPlugins() {
-  pluginPromise = fetch('https://cdn.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json')
+  pluginPromise = fetch('https://fastly.jsdelivr.net/gh/Flow-Launcher/Flow.Launcher.PluginsManifest@plugin_api_v2/plugins.json')
     .then(response => response.json() as unknown as FlowPlugin[])
     .then(data => plugins = data.map((v, i) => {
       v.defaultIndex = i;
