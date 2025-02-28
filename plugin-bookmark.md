@@ -1,4 +1,6 @@
-## Custom location list
+## Bookmark Plugin
+
+### Custom location list
 
 This page contains the information for setting custom browser locations for the Bookmark plugin that are not included by default. 
 - These locations may not be the exact path, but they are the typical bookmark location for each browser; you can use them as a reference guide.
