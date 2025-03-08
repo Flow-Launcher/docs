@@ -1,9 +1,12 @@
 - [**Introduction**](/README.md)
+- [**Installation**](/installation.md)
+- [**Settings**](/settings.md)
 - [**Usage Tips**](/usage-tips.md)
+- [**Support**](/support.md)
 - [**Plugin Directory**](/plugins.md)
-    - [**Explorer Plugin**](/plugin-explorer-usage.md)
-- Plugin Development
-    - [**Get Started**](/plugin-dev.md)
+    - [**Explorer Plugin**](/plugin-explorer.md)
+    - [**Bookmark Plugin**](/plugin-bookmark.md)
+- [**Plugin Development**](/plugin-dev.md)
     - [**plugin.json**](/plugin.json.md)
     - Dotnet Plugins
       - [**Development Guide**](/develop-dotnet-plugins.md)
@@ -29,4 +32,3 @@
     - Porting Plugins
       - [**Porting Plugins Guide**](/port-plugins.md)
 - [**How To Create A Theme**](/how-to-create-a-theme.md)
-- [**Bookmark Locations**](/bookmark-custom-locations.md)
