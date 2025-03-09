@@ -3,7 +3,7 @@
 - [**Settings**](/settings.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**Support**](/support.md)
-- [**Plugin Directory**](/plugins.md)
+- [**Plugin Store**](https://www.flowlauncher.com/plugins/)
     - [**Explorer Plugin**](/plugin-explorer.md)
     - [**Bookmark Plugin**](/plugin-bookmark.md)
 - [**Plugin Development**](/plugin-dev.md)
