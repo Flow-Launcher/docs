@@ -1,6 +1,7 @@
 - [**Introduction**](/README.md)
 - [**Installation**](/installation.md)
 - [**Settings**](/settings.md)
+- [**File Manager**](/filemanager.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**Support**](/support.md)
 - [**Plugin Store**](https://www.flowlauncher.com/plugins/)
