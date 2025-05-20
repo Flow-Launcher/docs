@@ -20,7 +20,7 @@ Arg For File : /cmd Go "%f" NEW
 ```
 
 ### Total Commander
-docs: https://www.gpsoft.com.au/help/opus11/index.html#!Documents/Go1.htm
+docs: https://www.ghisler.ch/wiki/index.php/Command_line_parameters
 ```
 Path : (installed path)TOTALCMD64.exe
 Arg For Folder : /O /A /S /T "%d"
