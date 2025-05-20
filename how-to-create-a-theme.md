@@ -16,8 +16,6 @@ The theme file allows you to set the following parts. Each style has a key, and 
 
 ![Flow Launcher screenshot](https://cdn.jsdelivr.net/gh/Flow-Launcher/docs@main/assets/themelayout.png)
 
-<br>
-
 ### WindowBorderStyle
 
 In this item, you can set the color, border size, border color, and corner radius of the basic window.
@@ -251,6 +249,77 @@ Specifies the color of the glyph icon.
         <Setter Property="Foreground" Value="#5bafb0" />
 </Style>
 ```   
+
+----
+### Theme Info
+You can add the following theme information at the top of the file: the theme name, whether blur is supported, and whether dark mode is supported. This value is displayed as an icon in Flow's theme list.
+```
+<!--
+    Name: Windows 11
+    IsDark: True
+    HasBlur: True
+-->
+```
+
+## How to Make Blur theme
+The following values must be added within the theme file.
+
+```
+    <system:Boolean x:Key="ThemeBlurEnabled">True</system:Boolean>
+    <system:String x:Key="SystemBG">Auto</system:String>
+    <Color x:Key="LightBG">#BFFAFAFA</Color>
+    <Color x:Key="DarkBG">#DD202020</Color>
+```
+Set `ThemeBlurEnabled` to `True` for themes that support blur, and False otherwise.
+`SystemBG` selects the default window background color drawn by the system when blur is enabled. It can be set to `Light`, `Dark`, or `Auto`.
+`Auto` automatically switches between `Light` and `Dark` based on Flow's ColorScheme setting.
+`LightBG` is the window color used in `Light` mode, and `DarkBG` is the window color used in `Dark` mode.
+
+When the blur effect is enabled, users cannot disable window shadows, and the window corner radius is determined by the system. In other words, any values specified by the theme designer for these properties will be ignored.
+
+### Blur Effects
+
+Windows 11 users can choose from four types of blur effects, each with the following characteristics:
+
+
+#### **None**
+
+No blur effect is applied. The window background color is determined in the following order of priority:
+
+1. The `LightBG` or `DarkBG` color with the alpha (transparency) value removed.  
+2. If `LightBG`/`DarkBG` is not set, the background color from `WindowBorderStyle` is used.
+
+
+#### **Acrylic**
+
+1. The system-defined Light/Dark background is applied first.  
+2. Then, the colors defined in `LightBG` and `DarkBG` are drawn on top. (Like Tint)
+3. The `LightBG` and `DarkBG` values should include some level of alpha (transparency), and the colors should not differ too drastically from the system-applied base color.
+
+In other words, you should avoid specifying background colors that differ too much in tone from the default window colors drawn by Windows.
+
+#### **Mica / Mica Alt**
+
+- The user-defined `LightBG` and `DarkBG` are completely ignored.  
+- The background color is automatically determined based on the user's desktop wallpaper.  
+- It uses either a Light or Dark variant, selected according to the `SystemBG` setting.
+
+#### 💡 Design Recommendation
+
+Since the window background can change significantly depending on the user's blur settings,  it is **recommended to design Blur themes by adjusting text and element opacity based on black or white colors** to ensure good contrast and readability.
+<br>
+
+----
+
+## How to Make Auto Dark Mode theme
+- By default, if the SystemBG property is set to Auto and both LightBG and DarkBG color values are specified, the theme will function automatically as intended.
+- The colors of control elements for Light and Dark modes should be based on Flow's resource definitions to ensure they switch automatically with the theme. (Currently, these cannot be defined separately within the theme itself.)
+Refer to the built-in Windows11 theme as a reference, and check the provided link
+
+- https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Win11Light.xaml
+- https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Resources/Light.xaml
+- https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Resources/Dark.xaml
+----
 
 ## Let's share it!
 Once you have crafted your perfect theme, why not share it with the community:
