@@ -15,4 +15,8 @@ This page contains the information for setting custom browser locations for the 
 
 **LibreWolf**
 - Firefox Engine
-- C:\Users\username\AppData\RoamingRoaming\librewolf\Profiles\1tyx98jn.default-default
+- C:\Users\username\AppData\Roaming\librewolf\Profiles\1tyx98jn.default-default
+
+**Zen Browser (Twilight)**
+- Firefox Engine
+- C:\Users\username\AppData\Roaming\zen\Profiles\profile.Default (twilight)
