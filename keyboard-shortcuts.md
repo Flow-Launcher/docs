@@ -26,7 +26,6 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 | `Esc` | Close Flow |
 | `F5` | Reload all plugin data |
 | `Ctrl + R` | Toggle result ordering between relevance and most-recently-used |
-| `Ctrl + O` | (Explorer results) Open in Explorer |
 
 ---
 
