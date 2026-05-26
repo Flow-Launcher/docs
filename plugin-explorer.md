@@ -37,7 +37,7 @@ and then choose the *Open With Editor* option
 **NOTE**
 If you let Flow download Everything for you, it will use the latest stable release on the 1.4 branch. If you want to use the Everything 1.5 alpha branch you will need to do the following:
 
-Completely exit out of Everything (right click the Everything system tray icon and click Exit)
+Completely exit out of Everything (right-click the Everything system tray icon and click Exit)
 Open your Everything-1.5a.ini file in the same location as your Everything64.exe
 Add the following line to the end of the file:
 alpha_instance=0

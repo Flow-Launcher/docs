@@ -20,7 +20,7 @@ That's it at its core — but plugins can also:
 
 Every time the user types in the search bar, Flow calls your plugin's `query` method with the current search string. Your plugin returns results. Flow renders them.
 
-```
+```text
 User types query
       │
       ▼
@@ -109,7 +109,7 @@ Whether you're writing C#, Python, or JavaScript, you return the same conceptual
 
 All plugins share this general layout:
 
-```
+```text
 MyPlugin/
 ├── plugin.json          ← required: plugin metadata
 ├── main.py              ← your entry point (language-dependent name)

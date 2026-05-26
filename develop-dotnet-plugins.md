@@ -8,10 +8,10 @@ To be recognized as a Flow .NET plugin, the directory needs to have at least two
 1. [`plugin.json`](/plugin.json.md)
 2. A .NET Assembly that implements **[IPlugin](/API-Reference/Flow.Launcher.Plugin/IPlugin.md)** or **[IAsyncPlugin](/API-Reference/Flow.Launcher.Plugin/IAsyncPlugin.md)** (remember to reference [Flow.Launcher.Plugin](https://www.nuget.org/packages/Flow.Launcher.Plugin/) by Nuget). The plugin template will add the reference and create  a `Main.cs` that implements `IPlugin`.
 
-Find our API Reference [here](/API-Reference/Flow.Launcher.Plugin.md)
+Find the [Flow Launcher Plugin API Reference](/API-Reference/Flow.Launcher.Plugin.md)
 
 
-A sample C# Plugin [here](https://github.com/Flow-Launcher/plugin-samples) 
+See the [Flow Launcher C# plugin samples](https://github.com/Flow-Launcher/plugin-samples).
 
 ## IPlugin/IAsyncPlugin
 

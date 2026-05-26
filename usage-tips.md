@@ -1,7 +1,7 @@
 ### Usage Tips
 
 #### Installation
-- Flow is published as a self-contained app, this means Flow can run straight away without needing to install .NET runtime and framework. Coupled with portable mode, it can be stored on Dropbox or another cloud storage provider and run. The trade off is that the installed package size is slightly bigger at around 250 MB because it needs to bundle the required .NET components together.
+- Flow is published as a self-contained app, which means it can run straight away without needing to install .NET runtime and framework. Coupled with portable mode, it can be stored on Dropbox or another cloud storage provider and run. The trade-off is that the installed package size is slightly bigger (around 250 MB) because it bundles the required .NET components together.
 
 #### Searching
 - Search for  items using:
@@ -21,7 +21,7 @@
 - Press `Ctrl + Enter/Click` on a Shell plugin command to run it directly as an Administrator.
 - In the plugins download list, you can press ctrl + enter/click to open the plugin's url.
 - Explorer's Search action keyword combines both Path and Index search, so you can use it without worrying about which action keyword to use for what, just enter what you need to search for. Path (searches a specific path) and Index (search a file or folder name) search allows users to do just their specific searches and are disabled by default.
-- Whilst in the query window and searching inside a directory, pressing `Ctrl + Backspace` to go back up one level in the directory tree.
+- Whilst in the query window and searching inside a directory, press `Ctrl + Backspace` to go back one level in the directory tree.
 
 #### Settings
 - Flow's settings including installed plugins are located at:

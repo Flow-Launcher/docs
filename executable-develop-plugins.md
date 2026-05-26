@@ -321,7 +321,7 @@ fn main() {
 
 ## Folder structure
 
-```
+```text
 MyPlugin/
 ├── plugin.json
 ├── my-plugin.exe     ← your compiled binary
@@ -334,7 +334,7 @@ MyPlugin/
 ## Installing for development
 
 Copy your plugin folder to:
-```
+```powershell
 %APPDATA%\FlowLauncher\Plugins\MyPlugin\
 ```
 

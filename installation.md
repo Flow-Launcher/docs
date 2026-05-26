@@ -4,7 +4,7 @@ Flow Launcher can be installed several ways, including Windows package managers 
 
 #### Minimum Requirement
 
-Note that as of Flow version 2.0, Windows 10 is the minimum requirement.
+Note that as of Flow version 2.0+, Windows 10 is the minimum requirement.
 
 #### Security
 
