@@ -2,6 +2,10 @@
 
 Flow Launcher can be installed several ways, including Windows package managers Winget, Scoop, and Chocolatey. The most popular method is to download the installer file from the main Flow Launcher website. This downloads the latest release package from the Flow Launcher GitHub repository (repo).
 
+#### Minimum Requirement
+
+Note that as of Flow version 2.0, Windows 10 is the minimum requirement.
+
 #### Security
 
 When installing Flow Launcher, you will get the Microsoft Defender SmartScreen installer window warning:

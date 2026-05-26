@@ -1,15 +1,17 @@
 - [**Introduction**](/README.md)
 - [**Installation**](/installation.md)
+- [**Quick Start**](/quickstart.md)
 - [**Settings**](/settings.md)
 - [**File Manager**](/filemanager.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**Support**](/support.md)
+- [**Frequently Asked Questions**](/faq.md)
 - [**Plugin Store**](https://www.flowlauncher.com/plugins/)
     - [**Explorer Plugin**](/plugin-explorer.md)
     - [**Bookmark Plugin**](/plugin-bookmark.md)
 - [**Plugin Development**](/plugin-dev.md)
     - [**plugin.json**](/plugin.json.md)
-    - Dotnet Plugins
+    - .NET Plugins
       - [**Development Guide**](/develop-dotnet-plugins.md)
       - [**API Reference**](/API-Reference/Flow.Launcher.Plugin.md)
     - Python Plugins

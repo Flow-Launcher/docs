@@ -33,6 +33,19 @@ and then choose the *Open With Editor* option
 - *Search full path* : use the Everything option to search the full path and not just the filename. Equivalent to the `path:` modifier within Everything.
 - *Sort Option* : dropdown list to show how the search results are sorted.
 - *Everything Path* : If you have Everything installed, Flow Launcher will try and find the installation to use, but if you are having issues, or it is installed in a non-standard directory, you can specify it explicitly here.
+
+**NOTE**
+If you let Flow download Everything for you, it will use the latest stable release on the 1.4 branch. If you want to use the Everything 1.5 alpha branch you will need to do the following:
+
+Completely exit out of Everything (right click the Everything system tray icon and click Exit)
+Open your Everything-1.5a.ini file in the same location as your Everything64.exe
+Add the following line to the end of the file:
+alpha_instance=0
+Save changes and restart Everything.
+Everything will no longer use an instance name for window classes (IPC)
+Everything will continue to use the 1.5a instance name for settings, data and the Everything Service.
+(source - https://github.com/Flow-Launcher/Flow.Launcher/issues/1716)
+
 #### Customised Action Keywords tab
 ----
 ![Customise Action Keywords tab](/assets/explorer_3.png)
