@@ -1,7 +1,7 @@
 - [**Introduction**](/README.md)
 - [**Installation**](/installation.md)
 - [**Quick Start**](/quickstart.md)
-- [**Keyboard Shortcuts**](/keyboard-shortcuts.md)  
+- [**Keyboard Shortcuts**](/keyboard-shortcuts.md)
 - [**Settings**](/settings.md)
 - [**File Manager**](/filemanager.md)
 - [**Usage Tips**](/usage-tips.md)
