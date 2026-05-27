@@ -89,7 +89,10 @@ Check Flow's logs (`open log location`). Common causes:
 
 ### How do I access settings in my plugin?
 
-See the [plugin settings guide](json-rpc-settings.md). Define settings in `SettingsTemplate.yaml` and they'll appear in Flow's Settings UI. Read them at runtime via the public API or from the settings JSON directly.
+It depends on your plugin type:
+
+- **JSON-RPC plugins** (Python, Node.js, and similar): see the [plugin settings guide](json-rpc-settings.md). Define settings in `SettingsTemplate.yaml` and they'll appear in Flow's Settings UI. Read them at runtime from the settings object or settings JSON.
+- **C# (.NET) plugins**: implement [ISettingProvider](/API-Reference/Flow.Launcher.Plugin/ISettingProvider.md) to return a custom settings panel from `CreateSettingPanel()`. Your plugin can store its options in a serializable settings model that Flow persists and loads at runtime.
 
 ### How do I test my plugin without reinstalling it each time?
 

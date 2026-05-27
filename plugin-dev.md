@@ -47,7 +47,7 @@ For .NET plugins this is a direct in-process method call. For all other language
 | **C# / F# (.NET)** | In-process | Fastest | Full | Anything. The most capable option. |
 | **Python** | JSON-RPC (subprocess) | Good | Core API | Scripting, data tasks, rapid prototyping |
 | **JavaScript / TypeScript** | JSON-RPC (Node.js) | Good | Core API | Web API calls, JS-native tooling |
-| **Executable** (any language) | JSON-RPC (subprocess) | Fastest for scripts | Core API | Go, Rust, compiled TypeScript, or any binary |
+| **Executable** (any language) | JSON-RPC (subprocess) | Faster than scripted languages | Core API | Go, Rust, compiled TypeScript, or any binary |
 
 **Not sure?** Use this decision guide:
 
@@ -129,19 +129,14 @@ Pick your language and follow the step-by-step guide:
 - [Develop a .NET plugin](develop-dotnet-plugins.md)
 
 ### Python
-- [1. Set up your project](py-setup-project.md)
-- [2. Write your plugin code](py-write-code.md)
-- [3. Release your plugin](py-release-project.md)
-- [Reference](py-plugin-references.md)
+- [Develop a Python plugin](develop-python-plugins.md)
+
 
 ### JavaScript / TypeScript (Node.js)
-- [1. Set up your project](nodejs-setup-project.md)
-- [2. Write your plugin code](nodejs-write-code.md)
-- [3. Release your plugin](nodejs-release-project.md)
-- [Reference](nodejs-plugin-references.md)
+- [Develop a Nodejs plugin](develop-nodejs-plugins.md)
 
 ### Executable (Go, Rust, or any compiled language)
-- [Develop an executable plugin](executable-develop-plugins.md) ← new
+- [Develop an executable plugin](develop-executable-plugins.md) ← new
 
 ---
 

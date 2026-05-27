@@ -13,12 +13,12 @@ This is a good choice when you want:
 
 When a user triggers your plugin, Flow:
 
-1. Launches your executable as a subprocess (once, on startup)
+1. Launches your executable as a subprocess
 2. Sends a JSON-RPC request to the process's **stdin**
 3. Reads the JSON-RPC response from the process's **stdout**
 4. Renders the returned results
 
-Your process stays alive for the lifetime of the Flow session. It must read from stdin in a loop and write responses to stdout.
+Your process stays alive for the lifetime of the Flow session with JsonRPC v2 (for v1 it runs when called and then exits). It must read from stdin in a loop and write responses to stdout.
 
 > **Important:** Only write JSON-RPC responses to stdout. Any debug output must go to **stderr** or a log file, or Flow will fail to parse it.
 

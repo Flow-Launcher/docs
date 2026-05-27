@@ -55,7 +55,7 @@ Key things to configure early:
 |---|---|
 | Change the hotkey | General → Hotkey |
 | Change the theme | Appearance → Theme |
-| Add or remove plugins | Plugins tab |
+| Add or remove plugins | Plugin Store tab |
 | Set a plugin's action keyword | Plugins → [plugin name] → Action Keyword |
 | Prioritise a plugin's results | Plugins → [plugin name] → Priority |
 
@@ -74,13 +74,13 @@ Key things to configure early:
 - `pm uninstall <plugin name>`
 - `pm update <plugin name>`
 
-**Portable mode** — Flow is self-contained and can run from a USB drive or cloud folder (like Dropbox). Type `flow user data` to see where your settings are stored.
+**Portable mode** — Flow is self-contained and can run from a USB drive or cloud folder (like Dropbox). Type `Flow Launcher UserData Folder` to see where your settings are stored.
 
-**Back up your settings** — Copy the `UserData` folder (found via `flow user data`) to back up everything: settings, plugins, themes, and history.
+**Back up your settings** — Copy the `UserData` folder (found via `Flow Launcher UserData Folder`) to back up everything: settings, plugins, themes, and history.
 
 ## Next steps
 
 - Browse the [Plugin Store](plugins.md) to extend Flow
 - Read [Usage Tips](usage-tips.md) for power-user tricks
-- Explore [Settings](settings.md) for full configuration reference
+- Explore [Settings](settings.md)
 - Build your own plugin → [Plugin Development](plugin-dev.md)

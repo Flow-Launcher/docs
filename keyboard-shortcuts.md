@@ -17,15 +17,13 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 
 | Shortcut | Action |
 |---|---|
-| `↑` / `↓` | Move between results |
+| `↑` / `↓` and `Tab` | Move between results |
 | `Enter` | Run the selected result's default action |
 | `Ctrl + Enter` | (Explorer results) Open the containing folder in File Explorer |
 | `Ctrl + Shift + Enter` | Run the selected result as Administrator |
 | `→` or `Shift + Enter` | Open the context menu for the selected result |
-| `Tab` | Autocomplete (where supported by the plugin) |
-| `Esc` | Close Flow |
+| `Esc` | Hide Flow search box |
 | `F5` | Reload all plugin data |
-| `Ctrl + R` | Toggle result ordering between relevance and most-recently-used |
 
 ---
 
