@@ -17,13 +17,27 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 
 | Shortcut | Action |
 |---|---|
-| `↑` / `↓` and `Tab` | Move between results |
+| `Alt + Space` | Open the search window (default and configurable) |
+| `↑` / `↓`, `Tab`, `Shift + Tab` | Move between results |
 | `Enter` | Run the selected result's default action |
-| `Ctrl + Enter` | (Explorer results) Open the containing folder in File Explorer |
+| `Ctrl + Enter` | Open the containing folder for explorer results |
 | `Ctrl + Shift + Enter` | Run the selected result as Administrator |
-| `→` or `Shift + Enter` | Open the context menu for the selected result |
-| `Esc` | Hide Flow search box |
+| `←` / `→` | Back to result / open the context menu |
+| `Ctrl + O`, `Shift + Enter` | Open the context menu for the selected result |
+| `Ctrl + Tab` | Autocomplete |
+| `F1` | Toggle the Preview Panel |
+| `Esc` | Back to results / hide the search window |
+| `Ctrl + C` | Copy the selected folder or file |
+| `Ctrl + Shift + C` | Copy the selected folder or file path |
+| `Ctrl + I` | Open Flow settings |
+| `Ctrl + R` | Run the current query again and refresh results |
 | `F5` | Reload all plugin data |
+| `Ctrl + F12` | Toggle Game Mode while in the search window |
+| `Ctrl + +`, `Ctrl + -` | Adjust the maximum results shown |
+| `Ctrl + [` / `Ctrl + ]` | Adjust the search window width |
+| `Ctrl + H` | Open search history |
+| `Ctrl + Backspace` | Go back to the previous directory |
+| `PageUp` / `PageDown` | Move to the previous or next page |
 
 ---
 
@@ -33,7 +47,7 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 |---|---|
 | `↑` / `↓` | Move between context menu actions |
 | `Enter` | Run the selected context action |
-| `Esc` | Close the context menu and return to results |
+| `Esc` or `←` | Close the context menu and return to results |
 
 ---
 
