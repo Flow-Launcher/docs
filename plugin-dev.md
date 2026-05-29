@@ -16,6 +16,28 @@ That's it at its core — but plugins can also:
 
 ---
 
+## Before starting work on a Plugin
+
+Before you start, check the Plugin Store for similar plugins. If one exists, consider reaching out to its author about extending it together—this gets features to users faster and maintains plugin quality. Only create a new plugin if the author doesn't respond, declines, or if your idea requires vastly different features, performance, or architecture.
+
+---
+
+## Plugin Store policy
+
+Plugins that facilitate or contain any of the following will not be allowed:
+
+- Malicious code
+- Piracy
+- Deceptive use
+- Inappropriate content
+- Illegal activities
+- Impersonation
+- Abuse
+- Fraud
+- Spam
+
+---
+
 ## How Flow calls your plugin
 
 Every time the user types in the search bar, Flow calls your plugin's `query` method with the current search string. Your plugin returns results. Flow renders them.
@@ -83,7 +105,13 @@ See the [plugin.json reference](plugin.json.md) for all available fields.
 
 ## What a result looks like
 
-Whether you're writing C#, Python, or JavaScript, you return the same conceptual structure:
+All plugins return a list of Result objects after a query.  
+
+Each Result represents one row in Flow Launcher and controls:  
+- How that row looks  
+- How the user can interact with it  
+
+It has many properties, but these are the core ones:  
 
 ```json
 {
@@ -107,17 +135,14 @@ Whether you're writing C#, Python, or JavaScript, you return the same conceptual
 
 ## Plugin folder structure
 
-All plugins share this general layout:
+Plugin structure varies by language, so the best way to get started is to use a template or sample:
 
-```text
-MyPlugin/
-├── plugin.json          ← required: plugin metadata
-├── main.py              ← your entry point (language-dependent name)
-├── SettingsTemplate.yaml  ← optional: defines settings shown in Flow's UI
-├── Images/
-│   └── icon.png         ← plugin icon
-└── lib/                 ← optional: bundled dependencies
-```
+- **.NET**: Use `dotnet new flow-plugin` to scaffold from a template
+- **Other languages**: Check the [plugin samples](plugins.md) for real examples
+
+Every plugin needs a **plugin.json** file. This file tells Flow how to load your plugin and must specify, details can be found above.
+
+Beyond these essentials, you have flexibility in how you organize your code. See the language-specific development guides for examples.
 
 ---
 
@@ -137,6 +162,12 @@ Pick your language and follow the step-by-step guide:
 
 ### Executable (Go, Rust, or any compiled language)
 - [Develop an executable plugin](develop-executable-plugins.md) ← new
+
+---
+
+## Releasing your Plugin to the Plugin Store
+
+When you are ready to release your plugin for people to enjoy, head over to Flow's [plugin repo](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest) and follow the instructions there in the readme. Note that each new submission needs to be reviewed and approved before it is available to all Flow users in the Plugin Store. This is done on a volunteer basis by the Flow Launcher Team so may take some time after initial submission. If it has taken a week or two, you can jump into the Flow Discord (https://discord.gg/n3vANeaxty) and let the team know the submission has been there for a while and we are sure a friendly team member will escalate the review. We appreciate the effort Plugin authors put in to extending the functionality of Flow Launcher and we will do our best to ensure Plugin submissions are reviewed in a timely manner.
 
 ---
 
