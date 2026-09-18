@@ -1,5 +1,7 @@
 # PluginMetadata.AvgQueryTime property
 
+Average query time.
+
 ```csharp
 public long AvgQueryTime { get; set; }
 ```

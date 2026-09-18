@@ -1,6 +1,6 @@
 # Query.SearchTerms property
 
-The search string split into a string array.
+The search string split into a string array. Does not include the [`ActionKeyword`](./ActionKeyword.md).
 
 ```csharp
 public string[] SearchTerms { get; set; }

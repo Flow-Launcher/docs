@@ -1,8 +1,14 @@
 # FilesFolders.FileExists method
 
+Checks if a file exists
+
 ```csharp
 public static bool FileExists(this string filePath)
 ```
+
+| parameter | description |
+| --- | --- |
+| filePath |  |
 
 ## See Also
 

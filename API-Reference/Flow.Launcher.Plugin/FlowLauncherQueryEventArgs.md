@@ -1,5 +1,7 @@
 # FlowLauncherQueryEventArgs class
 
+Arguments container for the Query event
+
 ```csharp
 public class FlowLauncherQueryEventArgs
 ```
@@ -9,7 +11,7 @@ public class FlowLauncherQueryEventArgs
 | name | description |
 | --- | --- |
 | [FlowLauncherQueryEventArgs](FlowLauncherQueryEventArgs/FlowLauncherQueryEventArgs.md)() | The default constructor. |
-| [Query](FlowLauncherQueryEventArgs/Query.md) { get; set; } |  |
+| [Query](FlowLauncherQueryEventArgs/Query.md) { get; set; } | The actual query |
 
 ## See Also
 

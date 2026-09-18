@@ -1,7 +1,9 @@
-# AllowedLanguage.Python property
+# AllowedLanguage.Python field
+
+Python
 
 ```csharp
-public static string Python { get; }
+public const string Python;
 ```
 
 ## See Also

@@ -1,5 +1,7 @@
 # ResultUpdatedEventArgs class
 
+Event arguments for the ResultsUpdated event
+
 ```csharp
 public class ResultUpdatedEventArgs : EventArgs
 ```
@@ -9,9 +11,9 @@ public class ResultUpdatedEventArgs : EventArgs
 | name | description |
 | --- | --- |
 | [ResultUpdatedEventArgs](ResultUpdatedEventArgs/ResultUpdatedEventArgs.md)() | The default constructor. |
-| [Token](ResultUpdatedEventArgs/Token.md) { get; set; } |  |
-| [Query](ResultUpdatedEventArgs/Query.md) |  |
-| [Results](ResultUpdatedEventArgs/Results.md) |  |
+| [Token](ResultUpdatedEventArgs/Token.md) { get; set; } | Token that can be used to cancel the update |
+| [Query](ResultUpdatedEventArgs/Query.md) | Query that triggered the update |
+| [Results](ResultUpdatedEventArgs/Results.md) | List of results that should be displayed |
 
 ## See Also
 

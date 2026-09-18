@@ -1,6 +1,6 @@
 # PluginInitContext constructor (1 of 2)
 
-The default constructor.
+Default constructor.
 
 ```csharp
 public PluginInitContext()
@@ -15,9 +15,16 @@ public PluginInitContext()
 
 # PluginInitContext constructor (2 of 2)
 
+Constructor.
+
 ```csharp
 public PluginInitContext(PluginMetadata currentPluginMetadata, IPublicAPI api)
 ```
+
+| parameter | description |
+| --- | --- |
+| currentPluginMetadata |  |
+| api |  |
 
 ## See Also
 

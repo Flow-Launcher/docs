@@ -1,8 +1,14 @@
 # FilesFolders.LocationExists method
 
+Checks if a directory exists
+
 ```csharp
 public static bool LocationExists(this string path)
 ```
+
+| parameter | description |
+| --- | --- |
+| path |  |
 
 ## See Also
 

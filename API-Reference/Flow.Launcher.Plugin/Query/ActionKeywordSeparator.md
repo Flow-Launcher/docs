@@ -1,6 +1,6 @@
 # Query.ActionKeywordSeparator field
 
-User can set multiple action keywords separated by ';'
+User can set multiple action keywords seperated by whitespace
 
 ```csharp
 public const string ActionKeywordSeparator;

@@ -1,5 +1,7 @@
 # PluginMetadata.Author property
 
+Plugin author.
+
 ```csharp
 public string Author { get; set; }
 ```

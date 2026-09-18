@@ -1,9 +1,9 @@
-# Query.RawQuery property
+# Query.IsHomeQuery property
 
-Raw query, this includes action keyword if it has We didn't recommend use this property directly. You should always use Search property.
+Determines whether the query is a home query.
 
 ```csharp
-public string RawQuery { get; }
+public bool IsHomeQuery { get; }
 ```
 
 ## See Also

@@ -1,5 +1,7 @@
 # FlowLauncherQueryEventArgs.Query property
 
+The actual query
+
 ```csharp
 public Query Query { get; set; }
 ```

@@ -1,5 +1,7 @@
 # SpecialKeyState.ShiftPressed property
 
+True if the Shift key is pressed.
+
 ```csharp
 public bool ShiftPressed { get; set; }
 ```

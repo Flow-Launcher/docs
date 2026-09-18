@@ -1,5 +1,7 @@
 # PluginMetadata.ActionKeyword property
 
+The first action keyword of plugin.
+
 ```csharp
 public string ActionKeyword { get; set; }
 ```

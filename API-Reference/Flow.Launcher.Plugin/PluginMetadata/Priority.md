@@ -1,5 +1,7 @@
 # PluginMetadata.Priority property
 
+Plugin priority.
+
 ```csharp
 public int Priority { get; set; }
 ```

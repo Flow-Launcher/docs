@@ -1,5 +1,7 @@
 # PluginMetadata.ToString method
 
+Convert [`PluginMetadata`](../PluginMetadata.md) to string.
+
 ```csharp
 public override string ToString()
 ```

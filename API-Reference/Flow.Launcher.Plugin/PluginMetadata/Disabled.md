@@ -1,5 +1,7 @@
 # PluginMetadata.Disabled property
 
+Whether plugin is disabled.
+
 ```csharp
 public bool Disabled { get; set; }
 ```

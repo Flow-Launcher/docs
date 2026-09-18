@@ -1,7 +1,9 @@
-# AllowedLanguage.FSharp property
+# AllowedLanguage.FSharp field
+
+F#
 
 ```csharp
-public static string FSharp { get; }
+public const string FSharp;
 ```
 
 ## See Also

@@ -1,5 +1,7 @@
 # ShellCommand class
 
+Contains methods for running shell commands
+
 ```csharp
 public static class ShellCommand
 ```
@@ -9,9 +11,9 @@ public static class ShellCommand
 | name | description |
 | --- | --- |
 | static [Execute](ShellCommand/Execute.md)(…) | Runs a windows command using the provided ProcessStartInfo (2 methods) |
-| static [RunAsDifferentUser](ShellCommand/RunAsDifferentUser.md)(…) |  |
-| static [SetProcessStartInfo](ShellCommand/SetProcessStartInfo.md)(…) |  |
-| delegate [EnumThreadDelegate](ShellCommand.EnumThreadDelegate.md) |  |
+| static [RunAsDifferentUser](ShellCommand/RunAsDifferentUser.md)(…) | Runs a windows command using the provided ProcessStartInfo |
+| static [SetProcessStartInfo](ShellCommand/SetProcessStartInfo.md)(…) | Runs a windows command using the provided ProcessStartInfo |
+| delegate [EnumThreadDelegate](ShellCommand.EnumThreadDelegate.md) | Delegate for EnumThreadWindows |
 
 ## See Also
 

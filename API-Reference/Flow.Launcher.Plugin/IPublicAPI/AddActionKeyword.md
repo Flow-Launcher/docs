@@ -1,6 +1,6 @@
 # IPublicAPI.AddActionKeyword method
 
-Add ActionKeyword for specific plugin
+Add ActionKeyword and update action keyword metadata for specific plugin. Before adding, please check if action keyword is already assigned by [`ActionKeywordAssigned`](./ActionKeywordAssigned.md)
 
 ```csharp
 public void AddActionKeyword(string pluginId, string newActionKeyword)
@@ -10,6 +10,10 @@ public void AddActionKeyword(string pluginId, string newActionKeyword)
 | --- | --- |
 | pluginId | ID for plugin that needs to add action keyword |
 | newActionKeyword | The actionkeyword that is supposed to be added |
+
+## Remarks
+
+If new action keyword contains any whitespace, FL will still add it but it will not work for users. So plugin should check the whitespace before calling this function.
 
 ## See Also
 

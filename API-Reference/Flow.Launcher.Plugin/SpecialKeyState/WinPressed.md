@@ -1,5 +1,7 @@
 # SpecialKeyState.WinPressed property
 
+True if the Windows key is pressed.
+
 ```csharp
 public bool WinPressed { get; set; }
 ```

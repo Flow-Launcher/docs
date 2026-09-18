@@ -6,6 +6,10 @@ Get all loaded plugins
 public List<PluginPair> GetAllPlugins()
 ```
 
+## Remarks
+
+Will also return any plugins not fully initialized yet
+
 ## See Also
 
 * class [PluginPair](../PluginPair.md)

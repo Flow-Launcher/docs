@@ -1,5 +1,7 @@
 # BaseModel.PropertyChanged event
 
+Property changed event handler
+
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged;
 ```

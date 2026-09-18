@@ -1,5 +1,7 @@
 # SpecialKeyState class
 
+Contains the press state of certain special keys.
+
 ```csharp
 public class SpecialKeyState
 ```
@@ -9,10 +11,12 @@ public class SpecialKeyState
 | name | description |
 | --- | --- |
 | [SpecialKeyState](SpecialKeyState/SpecialKeyState.md)() | The default constructor. |
-| [AltPressed](SpecialKeyState/AltPressed.md) { get; set; } |  |
-| [CtrlPressed](SpecialKeyState/CtrlPressed.md) { get; set; } |  |
-| [ShiftPressed](SpecialKeyState/ShiftPressed.md) { get; set; } |  |
-| [WinPressed](SpecialKeyState/WinPressed.md) { get; set; } |  |
+| static readonly [Default](SpecialKeyState/Default.md) | Default [`SpecialKeyState`](./SpecialKeyState.md) object with all keys not pressed. |
+| [AltPressed](SpecialKeyState/AltPressed.md) { get; set; } | True if the Alt key is pressed. |
+| [CtrlPressed](SpecialKeyState/CtrlPressed.md) { get; set; } | True if the Ctrl key is pressed. |
+| [ShiftPressed](SpecialKeyState/ShiftPressed.md) { get; set; } | True if the Shift key is pressed. |
+| [WinPressed](SpecialKeyState/WinPressed.md) { get; set; } | True if the Windows key is pressed. |
+| [ToModifierKeys](SpecialKeyState/ToModifierKeys.md)() | Get this object represented as a ModifierKeys flag combination. |
 
 ## See Also
 

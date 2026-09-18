@@ -1,10 +1,14 @@
 # Query.FirstSearch property
 
-Return first search split by space if it has
+Splits [`SearchTerms`](./SearchTerms.md) by spaces and returns the first item.
 
 ```csharp
 public string FirstSearch { get; }
 ```
+
+## Remarks
+
+returns an empty string when [`SearchTerms`](./SearchTerms.md) does not have enough items.
 
 ## See Also
 

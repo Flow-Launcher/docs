@@ -1,5 +1,7 @@
 # PluginInitContext class
 
+Carries data passed to a plugin when it gets initialized.
+
 ```csharp
 public class PluginInitContext
 ```
@@ -8,10 +10,10 @@ public class PluginInitContext
 
 | name | description |
 | --- | --- |
-| [PluginInitContext](PluginInitContext/PluginInitContext.md)() | The default constructor. |
-| [PluginInitContext](PluginInitContext/PluginInitContext.md)(…) |  |
+| [PluginInitContext](PluginInitContext/PluginInitContext.md)() | Default constructor. |
+| [PluginInitContext](PluginInitContext/PluginInitContext.md)(…) | Constructor. |
 | [API](PluginInitContext/API.md) { get; set; } | Public APIs for plugin invocation |
-| [CurrentPluginMetadata](PluginInitContext/CurrentPluginMetadata.md) { get; } |  |
+| [CurrentPluginMetadata](PluginInitContext/CurrentPluginMetadata.md) { get; } | The metadata of the plugin being initialized. |
 
 ## See Also
 

@@ -1,8 +1,15 @@
 # ShellCommand.EnumThreadDelegate delegate
 
+Delegate for EnumThreadWindows
+
 ```csharp
 public delegate bool EnumThreadDelegate(IntPtr hwnd, IntPtr lParam);
 ```
+
+| parameter | description |
+| --- | --- |
+| hwnd |  |
+| lParam |  |
 
 ## See Also
 

@@ -1,7 +1,9 @@
-# AllowedLanguage.Executable property
+# AllowedLanguage.Executable field
+
+Standard .exe
 
 ```csharp
-public static string Executable { get; }
+public const string Executable;
 ```
 
 ## See Also

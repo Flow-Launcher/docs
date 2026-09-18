@@ -1,5 +1,7 @@
 # PluginInitContext.CurrentPluginMetadata property
 
+The metadata of the plugin being initialized.
+
 ```csharp
 public PluginMetadata CurrentPluginMetadata { get; }
 ```

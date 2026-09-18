@@ -1,6 +1,6 @@
 # IPublicAPI.RegisterGlobalKeyboardCallback method
 
-Register a callback for Global Keyboard Event
+Registers a callback function for global keyboard events.
 
 ```csharp
 public void RegisterGlobalKeyboardCallback(Func<int, int, SpecialKeyState, bool> callback)
@@ -8,7 +8,11 @@ public void RegisterGlobalKeyboardCallback(Func<int, int, SpecialKeyState, bool>
 
 | parameter | description |
 | --- | --- |
-| callback |  |
+| callback | The callback function to invoke when a global keyboard event occurs. |
+
+## Remarks
+
+This callback will be invoked for all keyboard events system-wide. Use with caution as intercepting system keys may affect normal system operation.
 
 ## See Also
 

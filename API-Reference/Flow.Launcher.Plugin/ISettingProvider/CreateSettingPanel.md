@@ -1,5 +1,7 @@
 # ISettingProvider.CreateSettingPanel method
 
+Create settings panel control for .Net plugins
+
 ```csharp
 public Control CreateSettingPanel()
 ```

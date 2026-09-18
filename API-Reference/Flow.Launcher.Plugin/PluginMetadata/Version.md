@@ -1,5 +1,7 @@
 # PluginMetadata.Version property
 
+Plugin version.
+
 ```csharp
 public string Version { get; set; }
 ```

@@ -1,10 +1,20 @@
 # ShellCommand.SetProcessStartInfo method
 
+Runs a windows command using the provided ProcessStartInfo
+
 ```csharp
 public static ProcessStartInfo SetProcessStartInfo(this string fileName, 
     string workingDirectory = "", string arguments = "", string verb = "", 
     bool createNoWindow = false)
 ```
+
+| parameter | description |
+| --- | --- |
+| fileName |  |
+| workingDirectory |  |
+| arguments |  |
+| verb |  |
+| createNoWindow |  |
 
 ## See Also
 

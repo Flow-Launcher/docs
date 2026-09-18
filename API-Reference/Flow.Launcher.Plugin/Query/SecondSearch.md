@@ -1,10 +1,14 @@
 # Query.SecondSearch property
 
-Return second search split by space if it has
+Splits [`SearchTerms`](./SearchTerms.md) by spaces and returns the second item.
 
 ```csharp
 public string SecondSearch { get; }
 ```
+
+## Remarks
+
+returns an empty string when [`SearchTerms`](./SearchTerms.md) does not have enough items.
 
 ## See Also
 

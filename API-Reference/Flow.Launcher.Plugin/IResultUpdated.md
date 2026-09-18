@@ -1,5 +1,7 @@
 # IResultUpdated interface
 
+Interface for plugins that want to manually update their results
+
 ```csharp
 public interface IResultUpdated : IFeatures
 ```
@@ -8,7 +10,7 @@ public interface IResultUpdated : IFeatures
 
 | name | description |
 | --- | --- |
-| event [ResultsUpdated](IResultUpdated/ResultsUpdated.md) |  |
+| event [ResultsUpdated](IResultUpdated/ResultsUpdated.md) | Event that is triggered when the results are updated |
 
 ## See Also
 
