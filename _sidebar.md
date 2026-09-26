@@ -4,6 +4,7 @@
 - [**Keyboard Shortcuts**](/keyboard-shortcuts.md)
 - [**Settings**](/settings.md)
 - [**File Manager**](/filemanager.md)
+- [**Dialog Jump**](/dialog-jump.md)
 - [**Usage Tips**](/usage-tips.md)
 - [**Support**](/support.md)
 - [**Frequently Asked Questions**](/faq.md)
