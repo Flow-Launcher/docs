@@ -1,0 +1,54 @@
+name: Regenerate API Docs
+
+on:
+  repository_dispatch:
+    types: [regenerate-api-docs]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout docs@main
+        uses: actions/checkout@v7
+        with:
+          path: docs
+          ref: main
+
+      - name: Checkout Flow.Launcher@master
+        uses: actions/checkout@v7
+        with:
+          repository: Flow-Launcher/Flow.Launcher
+          ref: master
+          path: Flow.Launcher
+          persist-credentials: false
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Setup just
+        uses: extractions/setup-just@v3
+
+      - name: Regenerate API docs
+        working-directory: docs
+        run: just generate-api-docs
+
+      - name: Commit and push
+        working-directory: docs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -A -- API-Reference
+          if git diff --cached --quiet; then
+            echo "::notice::API docs are already up to date. Nothing to do."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Regenerate API docs"
+          git push origin main
