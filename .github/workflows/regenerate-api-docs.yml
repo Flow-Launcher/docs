@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   regenerate:
@@ -35,17 +36,36 @@ jobs:
         working-directory: docs
         run: dotnet run --project Flow.Launcher.DocsGen -c Release -- Flow.Launcher.Plugin API-Reference --clean
 
-      - name: Commit and push
+      - name: Create or update pull request
         working-directory: docs
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.event.client_payload.release_tag }}
+          RELEASE_URL: ${{ github.event.client_payload.release_url }}
         run: |
           set -euo pipefail
+          branch=automation/regenerate-api-docs
+
           git add -A -- API-Reference
           if git diff --cached --quiet; then
             echo "::notice::API docs are already up to date. Nothing to do."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Regenerate API docs"
-          git push origin main
+          git checkout -B "$branch"
+          git commit -m "Regenerate API Docs for ${RELEASE_TAG:-master}
+
+          $RELEASE_URL
+          https://github.com/Flow-Launcher/Flow.Launcher/commit/$(git -C ../Flow.Launcher rev-parse HEAD)"
+          git push --force origin "$branch"
+
+          # Reuse the PR from a previous run if it is still open
+          pr=$(gh pr list --head "$branch" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --title "$(git log -1 --format=%s)" --body "$(git log -1 --format=%b)"
+          else
+            gh pr create --base main --fill
+          fi
