@@ -1,3 +1,7 @@
+# Run these commands with just: `winget install Casey.Just`
+[windows]
+set shell := ["cmd.exe", "/c"]
+
 @list:
   just --list --unsorted
 
