@@ -36,7 +36,7 @@ jobs:
 
       - name: Regenerate API docs
         working-directory: docs
-        run: just generate-api-docs
+        run: dotnet run --project Flow.Launcher.DocsGen -c Release -- Flow.Launcher.Plugin API-Reference --clean
 
       - name: Commit and push
         working-directory: docs
