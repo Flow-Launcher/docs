@@ -31,6 +31,6 @@ Flow Launcher installs with a set of "core" plugins that are maintained by the F
 - System Commands
 - URL
 - Web Searches
-- Window Settings
+- Windows Settings
 
 There are also over 200 third-party plugins that extend Flow Launcher's functionality and these can be browsed and installed in the Plugin Store settings page.

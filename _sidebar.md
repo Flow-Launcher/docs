@@ -17,17 +17,11 @@
       - [**Development Guide**](/develop-dotnet-plugins.md)
       - [**API Reference**](/API-Reference/Flow.Launcher.Plugin.md)
     - Python Plugins
-      - [**Before you start**](/py-develop-plugins.md) 
-      - [**Set up your project**](/py-setup-project.md)
-      - [**Write the code**](/py-write-code.md)
-      - [**Add your plugin to Flow**](/py-release-project.md)
-      - [**Plugin references**](/py-plugin-references.md)
+      - [**Development Guide**](/develop-python-plugins.md)
     - JavaScript/TypeScript Plugins
-      - [**Before you start**](/nodejs-develop-plugins.md) 
-      - [**Set up your project**](/nodejs-setup-project.md)
-      - [**Write the code**](/nodejs-write-code.md)
-      - [**Add your plugin to Flow**](/nodejs-release-project.md)
-      - [**Plugin references**](/nodejs-plugin-references.md)
+      - [**Development Guide**](/develop-nodejs-plugins.md)
+    - Executable Plugins
+      - [**Development Guide**](/develop-executable-plugins.md)
     - Testing Plugins
       - [**Testing Guide**](/testing.md)
     - JSON-RPC

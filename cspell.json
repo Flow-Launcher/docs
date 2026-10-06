@@ -1,9 +1,41 @@
 {
     "version": "0.2",
-    "ignorePaths": [],
+    "language": "en,en-GB",
+    "ignorePaths": [
+        "API-Reference/**",
+        "Flow.Launcher.DocsGen/**",
+        "node_modules/**"
+    ],
     "dictionaryDefinitions": [],
     "dictionaries": [],
-    "words": [],
+    "words": [
+        "abspath",
+        "dontHideAfterAction",
+        "dont_hide",
+        "dopusrt",
+        "eprintln",
+        "flowlauncher",
+        "Fprintln",
+        "librewolf",
+        "localappdata",
+        "messagebox",
+        "notiz",
+        "nuitka",
+        "pathlib",
+        "plugindir",
+        "Println",
+        "pyinstaller",
+        "Reloadable",
+        "serde",
+        "softprops",
+        "TOTALCMD",
+        "Unmarshal",
+        "Voidtools",
+        "webbrowser",
+        "Winget",
+        "writeln",
+        "WRONLY"
+    ],
     "ignoreWords": [],
     "import": []
 }
