@@ -11,6 +11,9 @@ permissions:
 
 jobs:
   regenerate:
+    concurrency:
+      group: regenerate-api-docs
+      cancel-in-progress: false
     runs-on: windows-latest
     steps:
       - name: Checkout docs@main
