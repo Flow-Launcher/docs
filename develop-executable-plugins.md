@@ -1,6 +1,6 @@
 # Executable Plugins
 
-Executable plugins let you build a Flow Launcher plugin in **any language that can produce a binary** — Go, Rust, C, compiled TypeScript, Zig, or anything else. Flow treats the executable as a subprocess and communicates with it over JSON-RPC via stdin/stdout.
+Executable plugins let you build a Flow Launcher plugin in **any language that can produce a binary** — Go, Rust, C, compiled TypeScript, Zig, or anything else. Flow treats the executable as a subprocess and communicates with it over JSON-RPC.
 
 This is a good choice when you want:
 - Minimal startup latency (no interpreter to boot)
@@ -14,13 +14,13 @@ This is a good choice when you want:
 When a user triggers your plugin, Flow:
 
 1. Launches your executable as a subprocess
-2. Sends a JSON-RPC request to the process's **stdin**
+2. Passes a JSON-RPC request as the process's first **command-line argument**
 3. Reads the JSON-RPC response from the process's **stdout**
 4. Renders the returned results
 
-Your process stays alive for the lifetime of the Flow session with JsonRPC v2 (for v1 it runs when called and then exits). It must read from stdin in a loop and write responses to stdout.
+Your process runs when called and then exits. It must write its response to stdout.
 
-> **Important:** Only write JSON-RPC responses to stdout. Any debug output must go to **stderr** or a log file, or Flow will fail to parse it.
+> **Important:** Only write JSON-RPC responses to stdout. Any debug output must go to a log file. Flow treats any output on **stderr** as an error and will not parse the response.
 
 ---
 
@@ -47,25 +47,9 @@ Set `"Language": "executable"` and point `"ExecuteFileName"` at your binary:
 
 ## JSON-RPC protocol
 
-Flow sends newline-delimited JSON to your process. Each message has a `method` and a `parameters` array.
+Flow passes the request as JSON in the first command-line argument. It has a `method` and a `parameters` array.
 
 ### Methods Flow will call
-
-#### `initialize`
-
-Called once when Flow starts. Use this to perform any startup work.
-
-**Request:**
-```json
-{"method": "initialize", "parameters": [{"currentPluginMetadata": {...}}]}
-```
-
-**Response:** An empty result is acceptable.
-```json
-{"result": []}
-```
-
----
 
 #### `query`
 
@@ -99,11 +83,11 @@ Called each time the user types in the search bar (after the action keyword, if 
 
 #### `context_menu`
 
-Called when the user opens the context menu on a result (right-arrow or right-click). Return a list of additional actions.
+Called when the user opens the context menu on a result (right-arrow or right-click). The only parameter is the result's `ContextData`. Return a list of additional actions.
 
 **Request:**
 ```json
-{"method": "context_menu", "parameters": [{"Title": "First result", ...}]}
+{"method": "context_menu", "parameters": [["any", "data"]]}
 ```
 
 **Response:** Same format as `query`.
@@ -126,15 +110,14 @@ Called when the user opens the context menu on a result (right-arrow or right-cl
 
 ### Built-in actions (JsonRPCAction.method)
 
-These are handled by Flow directly — you don't need to implement them yourself:
+These are handled by Flow directly — you don't need to implement them yourself. Pass every parameter, including optional ones, or Flow ignores the call:
 
 | method | parameters | Effect |
 |---|---|---|
-| `Flow.Launcher.OpenUrl` | `[url]` | Opens a URL in the default browser |
-| `Flow.Launcher.OpenDirectory` | `[path]` | Opens a folder in Explorer |
-| `Flow.Launcher.OpenFile` | `[path]` | Opens a file with its default app |
-| `Flow.Launcher.CopyToClipboard` | `[text]` | Copies text to the clipboard |
-| `Flow.Launcher.ShellRun` | `[command]` | Runs a shell command |
+| `Flow.Launcher.OpenUrl` | `[url, false]` | Opens a URL in the default browser |
+| `Flow.Launcher.OpenDirectory` | `[path, fileToSelect]` | Opens a folder in Explorer |
+| `Flow.Launcher.CopyToClipboard` | `[text, false, true]` | Copies text to the clipboard |
+| `Flow.Launcher.ShellRun` | `[command, "cmd.exe"]` | Runs a shell command |
 
 For custom actions (ones you implement yourself), use any method name not prefixed with `Flow.Launcher.`. Flow will send it back to your process as a new method call.
 
@@ -148,11 +131,9 @@ Here's a complete working plugin in Go that returns a single result for any quer
 package main
 
 import (
-	"bufio"
 	"encoding/json"
 	"fmt"
 	"os"
-	"strings"
 )
 
 type Request struct {
@@ -161,9 +142,9 @@ type Request struct {
 }
 
 type Action struct {
-	Method             string   `json:"method"`
-	Parameters         []string `json:"parameters"`
-	DontHideAfterAction bool    `json:"dontHideAfterAction"`
+	Method              string `json:"method"`
+	Parameters          []any  `json:"parameters"`
+	DontHideAfterAction bool   `json:"dontHideAfterAction"`
 }
 
 type Result struct {
@@ -188,7 +169,7 @@ func handleQuery(query string) Response {
 				Score:    100,
 				JsonRPCAction: Action{
 					Method:     "Flow.Launcher.OpenUrl",
-					Parameters: []string{"https://example.com"},
+					Parameters: []any{"https://example.com", false},
 				},
 			},
 		},
@@ -196,37 +177,29 @@ func handleQuery(query string) Response {
 }
 
 func main() {
-	scanner := bufio.NewScanner(os.Stdin)
-	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		if line == "" {
-			continue
-		}
-
-		var req Request
-		if err := json.Unmarshal([]byte(line), &req); err != nil {
-			continue
-		}
-
-		var resp Response
-
-		switch req.Method {
-		case "query":
-			var params []string
-			json.Unmarshal(req.Parameters[0], &params)
-			query := ""
-			if len(params) > 0 {
-				query = params[0]
-			}
-			resp = handleQuery(query)
-
-		case "initialize", "context_menu":
-			resp = Response{Result: []Result{}}
-		}
-
-		out, _ := json.Marshal(resp)
-		fmt.Println(string(out))
+	if len(os.Args) < 2 {
+		return
 	}
+
+	var req Request
+	if err := json.Unmarshal([]byte(os.Args[1]), &req); err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
+
+	resp := Response{Result: []Result{}}
+
+	switch req.Method {
+	case "query":
+		var query string
+		if len(req.Parameters) > 0 {
+			json.Unmarshal(req.Parameters[0], &query)
+		}
+		resp = handleQuery(query)
+	}
+
+	out, _ := json.Marshal(resp)
+	fmt.Println(string(out))
 }
 ```
 
@@ -237,20 +210,20 @@ Build with `go build -o my-plugin.exe .` and place the binary in your plugin fol
 ## Minimal example in Rust
 
 ```rust
-use std::io::{self, BufRead, Write};
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
+use serde_json::{json, Value};
 
 #[derive(Deserialize)]
 struct Request {
     method: String,
+    #[serde(default)]
     parameters: Vec<Value>,
 }
 
 #[derive(Serialize)]
 struct Action {
     method: String,
-    parameters: Vec<String>,
+    parameters: Vec<Value>,
     #[serde(rename = "dontHideAfterAction")]
     dont_hide: bool,
 }
@@ -275,45 +248,37 @@ struct Response {
 }
 
 fn main() {
-    let stdin = io::stdin();
-    let stdout = io::stdout();
-    let mut out = stdout.lock();
+    let Some(arg) = std::env::args().nth(1) else { return };
 
-    for line in stdin.lock().lines() {
-        let line = line.unwrap();
-        if line.trim().is_empty() { continue; }
+    let req: Request = match serde_json::from_str(&arg) {
+        Ok(r) => r,
+        Err(e) => {
+            eprintln!("{e}");
+            std::process::exit(1);
+        }
+    };
 
-        let req: Request = match serde_json::from_str(&line) {
-            Ok(r) => r,
-            Err(_) => continue,
-        };
-
-        let resp = match req.method.as_str() {
-            "query" => {
-                let query = req.parameters.get(0)
-                    .and_then(|v| v.as_str())
-                    .unwrap_or("");
-                Response {
-                    result: vec![Result {
-                        title: format!("You searched: {}", query),
-                        subtitle: "Press Enter to open example.com".into(),
-                        ico_path: "Images/icon.png".into(),
-                        score: 100,
-                        action: Action {
-                            method: "Flow.Launcher.OpenUrl".into(),
-                            parameters: vec!["https://example.com".into()],
-                            dont_hide: false,
-                        },
-                    }],
-                }
+    let resp = match req.method.as_str() {
+        "query" => {
+            let query = req.parameters.first().and_then(Value::as_str).unwrap_or("");
+            Response {
+                result: vec![Result {
+                    title: format!("You searched: {}", query),
+                    subtitle: "Press Enter to open example.com".into(),
+                    ico_path: "Images/icon.png".into(),
+                    score: 100,
+                    action: Action {
+                        method: "Flow.Launcher.OpenUrl".into(),
+                        parameters: vec![json!("https://example.com"), json!(false)],
+                        dont_hide: false,
+                    },
+                }],
             }
-            _ => Response { result: vec![] },
-        };
+        }
+        _ => Response { result: vec![] },
+    };
 
-        let json = serde_json::to_string(&resp).unwrap();
-        writeln!(out, "{}", json).unwrap();
-        out.flush().unwrap();
-    }
+    println!("{}", serde_json::to_string(&resp).unwrap());
 }
 ```
 
@@ -359,7 +324,7 @@ You can also view Flow's own logs by typing `open log location` in Flow.
 
 ## Publishing
 
-See the [Publishing guide](port-plugins.md) for instructions on releasing to the Plugin Store, including the required GitHub Actions workflow for automated builds.
+See the [plugin manifest repo](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest) for instructions on releasing to the Plugin Store, including the required GitHub Actions workflow for automated builds.
 
 **SECURITY NOTE**
 New binary plugin submissions will only be accepted to the Plugin Store after the source code and GitHub CI action have been reviewed and verified. Users will be warned in other parts of Flow documentation that binary plugins represent the greatest security risk as they are one step removed from direct source code.

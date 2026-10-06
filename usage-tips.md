@@ -12,13 +12,13 @@
 
 #### Plugins
 - Typing `?` in the search bar will show you the keywords currently active. This can be refined by typing the first letter or two of the keywords you are after.
-- The plugin results order can be prioritised. This can be done by going to the plugin's settings page and under the plugin's title and the description, click the number next to 'Priority'; this is where you can assign weight to the plugin's result. The higher the weight is, the higher the selected plugin's results will be in Flow's result list.
+- The plugin results order can be prioritised. On the plugin's settings page, under the plugin's title and description, click the number next to 'Priority' to assign weight to the plugin's results. The higher the weight is, the higher the selected plugin's results will be in Flow's result list.
 - Press `F5` while in the query window or type `reload plugin data` to reload all plugin data.
 - Both Program and Bookmarks plugin will automatically detect new changes, so your newly installed apps or bookmarks will be available soon after they are added.
 - If your plugin is not triggering, open Flow's settings, navigate to the Plugins tab, and check if the plugin is set to a specific action keyword. Note that sometimes a dedicated keyword is used to limit the number of results and avoid cluttering the list.
 - For Explorer plugin results, you can press `Ctrl + Enter` to open the folder directly instead of navigating into the folder.
 - You can save your frequently used or favourite files/folder locations via Explorer plugin. Navigate to the file/location you want to save, then go to the context menu and select `Add to Quick Access`. It is particularly handy if you have set a custom action keyword instead of the default '*', which when used will display your list of saved Quick Access files and folders. You can change the default action keyword via the plugin's settings page.
-- Press `Ctrl + Enter/Click` on a Shell plugin command to run it directly as an Administrator.
+- Press `Ctrl + Shift + Enter/Click` on a Shell plugin command to run it directly as an Administrator.
 - In the plugins download list, you can press ctrl + enter/click to open the plugin's url.
 - Explorer's Search action keyword combines both Path and Index search, so you can use it without worrying about which action keyword to use for what, just enter what you need to search for. Path (searches a specific path) and Index (search a file or folder name) search allows users to do just their specific searches and are disabled by default.
 - Whilst in the query window and searching inside a directory, press `Ctrl + Backspace` to go back one level in the directory tree.

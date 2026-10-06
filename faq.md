@@ -9,7 +9,7 @@ Answers to common questions for both **Flow users** and **plugin developers**.
 ### Flow won't open when I press the hotkey
 
 - Check that Flow is running — look for its icon in the system tray
-- Another application may have claimed the same hotkey. Try changing it in **Settings → General → Hotkey**
+- Another application may have claimed the same hotkey. Try changing it in **Settings → Hotkeys → Open Flow Launcher**
 - If you're in a game, Flow's hotkey detection may be suppressed. Press `Ctrl + F12` in the search window to toggle game mode on/off
 
 ### A plugin isn't showing results
@@ -23,7 +23,7 @@ Answers to common questions for both **Flow users** and **plugin developers**.
 ### Flow is slow to open or results are slow to appear
 
 - Some plugins do network calls or heavy file I/O on every query. Identify which ones by temporarily disabling plugins one at a time
-- Check if **Everything** search is running — Flow's file search can slow down if Everything isn't active. Look for a warning result in Flow when you search
+- If the Explorer plugin uses **Everything** as its search engine, check that Everything is running. Look for a warning result in Flow when you search
 - Reduce the number of global (`*`) keyword plugins — they all run on every query
 
 ### My newly installed app doesn't appear in results
@@ -40,9 +40,10 @@ To restore: exit Flow, replace the UserData folder with your backup, then restar
 
 ### Flow shows up in the wrong place on screen / is too small or large
 
-If you've moved between monitors with different resolutions, the window position may be saved offscreen. Open `%APPDATA%\FlowLauncher\Settings\Settings.json` and reset `SettingWindowTop`, `SettingWindowLeft`, `SettingWindowWidth`, and `SettingWindowHeight`.
+If you've moved between monitors with different resolutions, the window position may be saved offscreen. Exit Flow, open `%APPDATA%\FlowLauncher\Settings\Settings.json`, and reset:
 
-Sensible defaults for 1080p: `top: 0, left: 0, width: 1000, height: 700`.
+- Search window: `WindowLeft`, `WindowTop`, and `WindowSize` (width, default `580`)
+- Settings window: `SettingWindowLeft`, `SettingWindowTop`, `SettingWindowWidth` (default `1000`), and `SettingWindowHeight` (default `700`)
 
 ### Windows says Flow is unsafe to run
 
@@ -58,16 +59,15 @@ Similarly, antivirus false positives can occur. If you've confirmed you download
 
 - Confirm the plugin folder is in `%APPDATA%\FlowLauncher\Plugins\`
 - Check that `plugin.json` exists in the root of the plugin folder and is valid JSON
-- Check that the `Language` field in `plugin.json` exactly matches one of: `csharp`, `fsharp`, `python`, `nodejs`, `executable`
+- Check that the `Language` field in `plugin.json` is one of (case-insensitive): `CSharp`, `FSharp`, `Python`, `Python_v2`, `JavaScript`, `JavaScript_V2`, `TypeScript`, `TypeScript_V2`, `Executable`, `Executable_V2`
 - Restart Flow or type `reload plugin data`
 - Check Flow's logs: type `open log location` in Flow and look for errors related to your plugin name
 
 ### Flow shows my plugin in the list but returns no results
 
 For JSON-RPC plugins (Python, Node, Executable):
-- Check that your process is actually writing to **stdout** (not stderr)
-- Make sure each response is a single line of JSON followed by a newline — Flow reads line by line
-- Test your process manually: run it, type a JSON-RPC request into stdin, and verify the stdout output looks correct
+- Check that your process is actually writing to **stdout** (not stderr). For v1 plugins, any output on stderr makes Flow discard the response
+- Test your process manually: v1 plugins receive the request as a command-line argument, e.g. `python main.py '{"method": "query", "parameters": ["test"]}'`. Verify the stdout output looks correct
 - Confirm you're not accidentally mixing debug output into stdout
 
 For .NET plugins:
@@ -84,14 +84,14 @@ Check Flow's logs (`open log location`). Common causes:
 ### Query is called but results don't appear in Flow
 
 - Check that your `result` array is non-empty and correctly structured
-- Confirm `Title` (capital T) is present on each result — it's required
+- Confirm `Title` is present on each result — it's required
 - Verify `IcoPath` points to a file that actually exists relative to your plugin folder, or use a valid data URI
 
 ### How do I access settings in my plugin?
 
 It depends on your plugin type:
 
-- **JSON-RPC plugins** (Python, Node.js, and similar): see the [plugin settings guide](json-rpc-settings.md). Define settings in `SettingsTemplate.yaml` and they'll appear in Flow's Settings UI. Read them at runtime from the settings object or settings JSON.
+- **JSON-RPC plugins** (Python, Node.js, and similar): see the [plugin settings guide](/json-rpc-settings.md). Define settings in `SettingsTemplate.yaml` and they'll appear in Flow's Settings UI. Read them at runtime from the settings object or settings JSON.
 - **C# (.NET) plugins**: implement [ISettingProvider](/API-Reference/Flow.Launcher.Plugin/ISettingProvider.md) to return a custom settings panel from `CreateSettingPanel()`. Your plugin can store its options in a serializable settings model that Flow persists and loads at runtime.
 
 ### How do I test my plugin without reinstalling it each time?
@@ -106,9 +106,9 @@ Type `open log location` in Flow to open the logs folder. Each plugin gets its o
 
 Common causes:
 - Bundled dependencies are missing in the release archive — confirm your build/release workflow includes everything in `lib/`
-- The release ZIP doesn't have the plugin folder at the root level — the structure should be `PluginName/plugin.json`, not `plugin.json` at the archive root
+- The release ZIP doesn't contain `plugin.json` either at the archive root or inside a single top-level folder
 - `ExecuteFileName` in `plugin.json` doesn't match the actual filename in the release
 
 ### What's the difference between IPlugin and IAsyncPlugin?
 
-`IAsyncPlugin` is preferred. It allows your `Query` method to be `async`, which is important if you make network requests or do any I/O — doing blocking work in `IPlugin.Query` will freeze Flow's UI while your query runs.
+`IAsyncPlugin` is preferred. It allows your `Query` method to be `async` and receive a `CancellationToken`, which is important if you make network requests or do any I/O. Flow runs `IPlugin.Query` inside `Task.Run`, so blocking work there doesn't freeze the UI, but it ties up a thread and can't be cancelled.
