@@ -31,9 +31,6 @@ jobs:
         with:
           dotnet-version: 9.0.x
 
-      - name: Setup just
-        uses: extractions/setup-just@v3
-
       - name: Regenerate API docs
         working-directory: docs
         run: dotnet run --project Flow.Launcher.DocsGen -c Release -- Flow.Launcher.Plugin API-Reference --clean
