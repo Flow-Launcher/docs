@@ -1,0 +1,31 @@
+// markdownlint config for `just lint-md`.
+// Formatting-only rules are off to avoid churning every page. Rules that affect
+// rendering, links, or readability stay on.
+// _coverpage.md is ignored: index.html sets coverpage: false.
+{
+  "config": {
+    "default": true,
+
+    // Formatting only
+    "MD004": false, // ul-style
+    "MD007": false, // ul-indent
+    "MD009": false, // no-trailing-spaces
+    "MD012": false, // no-multiple-blanks
+    "MD013": false, // line-length
+    "MD022": false, // blanks-around-headings
+    "MD031": false, // blanks-around-fences
+    "MD032": false, // blanks-around-lists
+    "MD047": false, // single-trailing-newline
+    "MD060": false, // table-column-style
+    "MD029": false, // ol-prefix: numbered steps are split by screenshots
+
+    // Conflicts with docsify conventions
+    "MD033": false, // no-inline-html: docsify pages use HTML
+    "MD034": false, // no-bare-urls: docsify autolinks them
+    "MD041": false, // first-line-heading: pages start with ### titles
+
+    "MD010": { "code_blocks": false }, // no-hard-tabs, except in code (e.g. Go)
+    "MD024": { "siblings_only": true } // no-duplicate-heading
+  },
+  "ignores": ["API-Reference/**", "Flow.Launcher.DocsGen/**", "node_modules/**", "CONTRIBUTING.md", "_coverpage.md"]
+}
