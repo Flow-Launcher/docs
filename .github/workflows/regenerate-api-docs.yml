@@ -1,0 +1,71 @@
+name: Regenerate API Docs
+
+on:
+  repository_dispatch:
+    types: [regenerate-api-docs]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  regenerate:
+    concurrency:
+      group: regenerate-api-docs
+      cancel-in-progress: false
+    runs-on: windows-latest
+    steps:
+      - name: Checkout docs@main
+        uses: actions/checkout@v7
+        with:
+          path: docs
+          ref: main
+
+      - name: Checkout Flow.Launcher@master
+        uses: actions/checkout@v7
+        with:
+          repository: Flow-Launcher/Flow.Launcher
+          ref: master
+          path: Flow.Launcher
+          persist-credentials: false
+
+      - name: Setup .Net for DocsGen
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Regenerate API docs
+        working-directory: docs
+        run: dotnet run --project Flow.Launcher.DocsGen -c Release -- Flow.Launcher.Plugin API-Reference --clean
+
+      - name: Create or update pull request
+        working-directory: docs
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          branch=automation/regenerate-api-docs
+
+          git add -A -- API-Reference
+          if git diff --cached --quiet; then
+            echo "::notice::API docs are already up to date. Nothing to do."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git commit -m "Regenerate API Docs: $(git -C ../Flow.Launcher log -1 --format=%s)
+
+          https://github.com/Flow-Launcher/Flow.Launcher/commit/$(git -C ../Flow.Launcher rev-parse HEAD)"
+          git push --force origin "$branch"
+
+          # Reuse the PR from a previous run if it is still open
+          pr=$(gh pr list --head "$branch" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --title "$(git log -1 --format=%s)" --body "$(git log -1 --format=%b)"
+          else
+            gh pr create --base main --fill
+          fi

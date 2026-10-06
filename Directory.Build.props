@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <!--
+      Path to a local clone of https://github.com/Flow-Launcher/Flow.Launcher
+    -->
+    <FlowLauncherRepo>$(MSBuildThisFileDirectory)..\Flow.Launcher</FlowLauncherRepo>
+  </PropertyGroup>
+</Project>
