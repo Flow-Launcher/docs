@@ -41,8 +41,6 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
-          RELEASE_TAG: ${{ github.event.client_payload.release_tag }}
-          RELEASE_URL: ${{ github.event.client_payload.release_url }}
         run: |
           set -euo pipefail
           branch=automation/regenerate-api-docs
@@ -56,9 +54,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "$branch"
-          git commit -m "Regenerate API Docs for ${RELEASE_TAG:-master}
+          git commit -m "Regenerate API Docs: $(git -C ../Flow.Launcher log -1 --format=%s)
 
-          $RELEASE_URL
           https://github.com/Flow-Launcher/Flow.Launcher/commit/$(git -C ../Flow.Launcher rev-parse HEAD)"
           git push --force origin "$branch"
 
