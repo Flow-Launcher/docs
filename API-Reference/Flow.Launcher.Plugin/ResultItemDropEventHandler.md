@@ -1,9 +1,17 @@
 # ResultItemDropEventHandler delegate
 
+Delegate for drop events [unused?]
+
 ```csharp
 public delegate void ResultItemDropEventHandler(Result result, IDataObject dropObject, 
     DragEventArgs e);
 ```
+
+| parameter | description |
+| --- | --- |
+| result |  |
+| dropObject |  |
+| e |  |
 
 ## See Also
 

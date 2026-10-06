@@ -1,5 +1,7 @@
 # MatchResult.SearchPrecision property
 
+The search precision score used to filter the search results.
+
 ```csharp
 public SearchPrecisionScore SearchPrecision { get; set; }
 ```

@@ -1,8 +1,17 @@
 # FilesFolders.VerifyBothFolderFilesEqual method
 
+Check if the files and directories are identical between *fromPath* and *toPath*
+
 ```csharp
-public static bool VerifyBothFolderFilesEqual(this string fromPath, string toPath)
+public static bool VerifyBothFolderFilesEqual(this string fromPath, string toPath, 
+    Func<string, MessageBoxResult> messageBoxExShow = null)
 ```
+
+| parameter | description |
+| --- | --- |
+| fromPath |  |
+| toPath |  |
+| messageBoxExShow |  |
 
 ## See Also
 

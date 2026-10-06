@@ -1,8 +1,14 @@
 # AfterFlowLauncherQueryEventHandler delegate
 
+Delegate for query event
+
 ```csharp
 public delegate void AfterFlowLauncherQueryEventHandler(FlowLauncherQueryEventArgs e);
 ```
+
+| parameter | description |
+| --- | --- |
+| e |  |
 
 ## See Also
 

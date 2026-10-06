@@ -1,10 +1,14 @@
 # Result.Action property
 
-Delegate. An action to take in the form of a function call when the result has been selected  true to hide flowlauncher after select result
+An action to take in the form of a function call when the result has been selected.
 
 ```csharp
 public Func<ActionContext, bool> Action { get; set; }
 ```
+
+## Remarks
+
+The function is invoked with an [`ActionContext`](../ActionContext.md) as the only parameter. Its result determines what happens to Flow Launcher's query form: when true, the form will be hidden; when false, it will stay in focus.
 
 ## See Also
 

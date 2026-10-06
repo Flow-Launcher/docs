@@ -1,5 +1,7 @@
 # PluginMetadata.Website property
 
+Plugin website.
+
 ```csharp
 public string Website { get; set; }
 ```

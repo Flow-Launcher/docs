@@ -1,8 +1,14 @@
 # BaseModel.OnPropertyChanged method
 
+Invoked when a property changes
+
 ```csharp
 protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
 ```
+
+| parameter | description |
+| --- | --- |
+| propertyName |  |
 
 ## See Also
 

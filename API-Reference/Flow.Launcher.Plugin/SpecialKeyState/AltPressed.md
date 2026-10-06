@@ -1,5 +1,7 @@
 # SpecialKeyState.AltPressed property
 
+True if the Alt key is pressed.
+
 ```csharp
 public bool AltPressed { get; set; }
 ```

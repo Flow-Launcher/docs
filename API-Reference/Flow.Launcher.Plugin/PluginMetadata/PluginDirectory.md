@@ -1,5 +1,7 @@
 # PluginMetadata.PluginDirectory property
 
+Plugin source directory.
+
 ```csharp
 public string PluginDirectory { get; }
 ```

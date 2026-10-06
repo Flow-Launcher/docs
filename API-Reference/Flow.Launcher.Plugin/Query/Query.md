@@ -1,25 +1,9 @@
-# Query constructor (1 of 2)
+# Query constructor
 
 The default constructor.
 
 ```csharp
 public Query()
-```
-
-## See Also
-
-* class [Query](../Query.md)
-* namespace [Flow.Launcher.Plugin](../../Flow.Launcher.Plugin.md)
-
----
-
-# Query constructor (2 of 2)
-
-to allow unit tests for plug ins
-
-```csharp
-public Query(string rawQuery, string search, string[] terms, string[] searchTerms, 
-    string actionKeyword = "")
 ```
 
 ## See Also

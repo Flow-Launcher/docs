@@ -1,6 +1,6 @@
 # IPublicAPI.ChangeQuery method
 
-Change Flow.Launcher query
+Change Flow.Launcher query. When current results are from context menu or history, it will go back to query results before changing query.
 
 ```csharp
 public void ChangeQuery(string query, bool requery = false)
@@ -9,7 +9,7 @@ public void ChangeQuery(string query, bool requery = false)
 | parameter | description |
 | --- | --- |
 | query | query text |
-| requery | force requery By default, Flow Launcher will not fire query if your query is same with existing one. Set this to true to force Flow Launcher requerying |
+| requery | Force requery. By default, Flow Launcher will not fire query if your query is same with existing one. Set this to `true` to force Flow Launcher re-querying |
 
 ## See Also
 

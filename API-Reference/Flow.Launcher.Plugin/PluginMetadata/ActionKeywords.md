@@ -1,5 +1,7 @@
 # PluginMetadata.ActionKeywords property
 
+All action keywords of plugin.
+
 ```csharp
 public List<string> ActionKeywords { get; set; }
 ```

@@ -1,5 +1,7 @@
 # PluginMetadata.QueryCount property
 
+Query count.
+
 ```csharp
 public int QueryCount { get; set; }
 ```

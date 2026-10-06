@@ -1,14 +1,17 @@
 # IPublicAPI.CopyToClipboard method
 
-Copy Text to clipboard
+Copies the passed in text and shows a message indicating whether the operation was completed successfully. When directCopy is set to true and passed in text is the path to a file or directory, the actual file/directory will be copied to clipboard. Otherwise the text itself will still be copied to clipboard.
 
 ```csharp
-public void CopyToClipboard(string text)
+public void CopyToClipboard(string text, bool directCopy = false, 
+    bool showDefaultNotification = true)
 ```
 
 | parameter | description |
 | --- | --- |
-| Text | Text to save on clipboard |
+| text | Text to save on clipboard |
+| directCopy | When true it will directly copy the file/folder from the path specified in text |
+| showDefaultNotification | Whether to show the default notification from this method after copy is done. It will show file/folder/text is copied successfully. Turn this off to show your own notification after copy is done. |
 
 ## See Also
 

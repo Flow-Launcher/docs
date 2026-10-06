@@ -1,5 +1,7 @@
 # PluginMetadata class
 
+Plugin metadata
+
 ```csharp
 public class PluginMetadata : BaseModel
 ```
@@ -9,25 +11,31 @@ public class PluginMetadata : BaseModel
 | name | description |
 | --- | --- |
 | [PluginMetadata](PluginMetadata/PluginMetadata.md)() | The default constructor. |
-| [ActionKeyword](PluginMetadata/ActionKeyword.md) { get; set; } |  |
-| [ActionKeywords](PluginMetadata/ActionKeywords.md) { get; set; } |  |
-| [Author](PluginMetadata/Author.md) { get; set; } |  |
-| [AvgQueryTime](PluginMetadata/AvgQueryTime.md) { get; set; } |  |
-| [Description](PluginMetadata/Description.md) { get; set; } |  |
-| [Disabled](PluginMetadata/Disabled.md) { get; set; } |  |
-| [ExecuteFileName](PluginMetadata/ExecuteFileName.md) { get; set; } |  |
-| [ExecuteFilePath](PluginMetadata/ExecuteFilePath.md) { get; } |  |
-| [IcoPath](PluginMetadata/IcoPath.md) { get; set; } |  |
-| [ID](PluginMetadata/ID.md) { get; set; } |  |
-| [InitTime](PluginMetadata/InitTime.md) { get; set; } | Init time include both plugin load time and init time |
-| [Language](PluginMetadata/Language.md) { get; set; } |  |
-| [Name](PluginMetadata/Name.md) { get; set; } |  |
-| [PluginDirectory](PluginMetadata/PluginDirectory.md) { get; } |  |
-| [Priority](PluginMetadata/Priority.md) { get; set; } |  |
-| [QueryCount](PluginMetadata/QueryCount.md) { get; set; } |  |
-| [Version](PluginMetadata/Version.md) { get; set; } |  |
-| [Website](PluginMetadata/Website.md) { get; set; } |  |
-| override [ToString](PluginMetadata/ToString.md)() |  |
+| [ActionKeyword](PluginMetadata/ActionKeyword.md) { get; set; } | The first action keyword of plugin. |
+| [ActionKeywords](PluginMetadata/ActionKeywords.md) { get; set; } | All action keywords of plugin. |
+| [AssemblyName](PluginMetadata/AssemblyName.md) { get; } | Plugin assembly name. Only available for .Net plugins. |
+| [Author](PluginMetadata/Author.md) { get; set; } | Plugin author. |
+| [AvgQueryTime](PluginMetadata/AvgQueryTime.md) { get; set; } | Average query time. |
+| [Description](PluginMetadata/Description.md) { get; set; } | Plugin description. |
+| [Disabled](PluginMetadata/Disabled.md) { get; set; } | Whether plugin is disabled. |
+| [ExecuteFileName](PluginMetadata/ExecuteFileName.md) { get; set; } | Plugin execute file name. |
+| [ExecuteFilePath](PluginMetadata/ExecuteFilePath.md) { get; } | Plugin execute file path. |
+| [HideActionKeywordPanel](PluginMetadata/HideActionKeywordPanel.md) { get; set; } | Hide plugin keyword setting panel. |
+| [HomeDisabled](PluginMetadata/HomeDisabled.md) { get; set; } | Whether plugin is disabled in home query. |
+| [IcoPath](PluginMetadata/IcoPath.md) { get; set; } | Plugin icon path. |
+| [ID](PluginMetadata/ID.md) { get; set; } | Plugin ID. |
+| [InitTime](PluginMetadata/InitTime.md) { get; set; } | Init time include both plugin load time and init time. |
+| [Language](PluginMetadata/Language.md) { get; set; } | Plugin language. See [`AllowedLanguage`](./AllowedLanguage.md) |
+| [Name](PluginMetadata/Name.md) { get; set; } | Plugin name. |
+| [PluginCacheDirectoryPath](PluginMetadata/PluginCacheDirectoryPath.md) { get; } | The path to the plugin cache directory which is not validated. It is used to store cache files. When plugin is deleted, this directory will be deleted as well. |
+| [PluginDirectory](PluginMetadata/PluginDirectory.md) { get; } | Plugin source directory. |
+| [PluginSettingsDirectoryPath](PluginMetadata/PluginSettingsDirectoryPath.md) { get; } | The path to the plugin settings directory which is not validated. It is used to store plugin settings files and data files. When plugin is deleted, FL will ask users whether to keep its settings. If users do not want to keep, this directory will be deleted. |
+| [Priority](PluginMetadata/Priority.md) { get; set; } | Plugin priority. |
+| [QueryCount](PluginMetadata/QueryCount.md) { get; set; } | Query count. |
+| [SearchDelayTime](PluginMetadata/SearchDelayTime.md) { get; set; } | Plugin search delay time in ms. Null means use default search delay time. |
+| [Version](PluginMetadata/Version.md) { get; set; } | Plugin version. |
+| [Website](PluginMetadata/Website.md) { get; set; } | Plugin website. |
+| override [ToString](PluginMetadata/ToString.md)() | Convert [`PluginMetadata`](./PluginMetadata.md) to string. |
 
 ## See Also
 

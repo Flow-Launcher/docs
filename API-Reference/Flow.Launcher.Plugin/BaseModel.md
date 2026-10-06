@@ -1,5 +1,7 @@
 # BaseModel class
 
+Base model for plugin classes
+
 ```csharp
 public class BaseModel : INotifyPropertyChanged
 ```
@@ -9,13 +11,13 @@ public class BaseModel : INotifyPropertyChanged
 | name | description |
 | --- | --- |
 | [BaseModel](BaseModel/BaseModel.md)() | The default constructor. |
-| event [PropertyChanged](BaseModel/PropertyChanged.md) |  |
+| event [PropertyChanged](BaseModel/PropertyChanged.md) | Property changed event handler |
 
 ## Protected Members
 
 | name | description |
 | --- | --- |
-| [OnPropertyChanged](BaseModel/OnPropertyChanged.md)(…) |  |
+| [OnPropertyChanged](BaseModel/OnPropertyChanged.md)(…) | Invoked when a property changes |
 
 ## See Also
 

@@ -1,5 +1,7 @@
 # PluginMetadata.Language property
 
+Plugin language. See [`AllowedLanguage`](../AllowedLanguage.md)
+
 ```csharp
 public string Language { get; set; }
 ```

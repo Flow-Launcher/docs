@@ -3,13 +3,15 @@
 Copies the folder and all of its files and folders including subfolders to the target location
 
 ```csharp
-public static void CopyAll(this string sourcePath, string targetPath)
+public static void CopyAll(this string sourcePath, string targetPath, 
+    Func<string, MessageBoxResult> messageBoxExShow = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | sourcePath |  |
 | targetPath |  |
+| messageBoxExShow |  |
 
 ## See Also
 

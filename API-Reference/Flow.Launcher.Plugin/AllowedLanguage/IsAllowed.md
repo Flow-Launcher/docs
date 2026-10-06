@@ -1,8 +1,14 @@
 # AllowedLanguage.IsAllowed method
 
+Determines if this language is supported
+
 ```csharp
 public static bool IsAllowed(string language)
 ```
+
+| parameter | description |
+| --- | --- |
+| language |  |
 
 ## See Also
 

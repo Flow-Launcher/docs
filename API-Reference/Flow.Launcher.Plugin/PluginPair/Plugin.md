@@ -1,5 +1,7 @@
 # PluginPair.Plugin property
 
+Plugin instance
+
 ```csharp
 public IAsyncPlugin Plugin { get; }
 ```

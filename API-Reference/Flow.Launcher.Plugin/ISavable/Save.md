@@ -1,5 +1,7 @@
 # ISavable.Save method
 
+Save additional plugin data.
+
 ```csharp
 public void Save()
 ```

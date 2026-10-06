@@ -12,7 +12,7 @@ public interface IReloadable : IFeatures
 
 | name | description |
 | --- | --- |
-| [ReloadData](IReloadable/ReloadData.md)() |  |
+| [ReloadData](IReloadable/ReloadData.md)() | Synchronously reload plugin data |
 
 ## See Also
 

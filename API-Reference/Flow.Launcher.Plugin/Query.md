@@ -1,5 +1,7 @@
 # Query class
 
+Represents a query that is sent to a plugin.
+
 ```csharp
 public class Query
 ```
@@ -9,19 +11,21 @@ public class Query
 | name | description |
 | --- | --- |
 | [Query](Query/Query.md)() | The default constructor. |
-| [Query](Query/Query.md)(…) | to allow unit tests for plug ins |
-| [ActionKeyword](Query/ActionKeyword.md) { get; set; } |  |
-| [FirstSearch](Query/FirstSearch.md) { get; } | Return first search split by space if it has |
-| [RawQuery](Query/RawQuery.md) { get; } | Raw query, this includes action keyword if it has We didn't recommend use this property directly. You should always use Search property. |
-| [Search](Query/Search.md) { get; } | Search part of a query. This will not include action keyword if exclusive plugin gets it, otherwise it should be same as RawQuery. Since we allow user to switch a exclusive plugin to generic plugin, so this property will always give you the "real" query part of the query |
-| [SearchTerms](Query/SearchTerms.md) { get; set; } | The search string split into a string array. |
-| [SecondSearch](Query/SecondSearch.md) { get; } | Return second search split by space if it has |
+| [ActionKeyword](Query/ActionKeyword.md) { get; set; } | The action keyword part of this query. For global plugins this value will be empty. |
+| [FirstSearch](Query/FirstSearch.md) { get; } | Splits [`SearchTerms`](./Query/SearchTerms.md) by spaces and returns the first item. |
+| [IsHomeQuery](Query/IsHomeQuery.md) { get; } | Determines whether the query is a home query. |
+| [IsReQuery](Query/IsReQuery.md) { get; } | Determines whether the query was forced to execute again. For example, the value will be true when the user presses Ctrl + R. When this property is true, plugins handling this query should avoid serving cached results. |
+| [OriginalQuery](Query/OriginalQuery.md) { get; } | Original query, exactly how the user has typed into the search box. We don't recommend using this property directly. You should always use Search property. |
+| [Search](Query/Search.md) { get; } | Search part of a query. This will not include action keyword if exclusive plugin gets it, otherwise it should be same as TrimmedQuery. Since we allow user to switch a exclusive plugin to generic plugin, so this property will always give you the "real" query part of the query |
+| [SearchTerms](Query/SearchTerms.md) { get; set; } | The search string split into a string array. Does not include the [`ActionKeyword`](./Query/ActionKeyword.md). |
+| [SecondSearch](Query/SecondSearch.md) { get; } | Splits [`SearchTerms`](./Query/SearchTerms.md) by spaces and returns the second item. |
 | [SecondToEndSearch](Query/SecondToEndSearch.md) { get; } | strings from second search (including) to last search |
-| [ThirdSearch](Query/ThirdSearch.md) { get; } | Return third search split by space if it has |
+| [ThirdSearch](Query/ThirdSearch.md) { get; } | Splits [`SearchTerms`](./Query/SearchTerms.md) by spaces and returns the third item. |
+| [TrimmedQuery](Query/TrimmedQuery.md) { get; } | Original query but with trimmed whitespace. Includes action keyword. It has handled built-in custom query hotkeys and build-in shortcuts. If you need the exact original query from the search box, use OriginalQuery property instead. We don't recommend using this property directly. You should always use Search property. |
 | override [ToString](Query/ToString.md)() |  |
-| const [ActionKeywordSeparator](Query/ActionKeywordSeparator.md) | User can set multiple action keywords separated by ';' |
-| const [GlobalPluginWildcardSign](Query/GlobalPluginWildcardSign.md) | '*' is used for System Plugin |
-| const [TermSeparator](Query/TermSeparator.md) | Query can be splitted into multiple terms by whitespace |
+| const [ActionKeywordSeparator](Query/ActionKeywordSeparator.md) | User can set multiple action keywords seperated by whitespace |
+| const [GlobalPluginWildcardSign](Query/GlobalPluginWildcardSign.md) | Wildcard action keyword. Plugins using this value will be queried on every search. |
+| const [TermSeparator](Query/TermSeparator.md) | Query can be splited into multiple terms by whitespace |
 
 ## See Also
 

@@ -1,9 +1,24 @@
-# IPublicAPI.OpenUrl method
+# IPublicAPI.OpenUrl method (1 of 2)
 
-Opens the url. The browser and mode used is based on what's configured in Flow's default browser settings.
+Opens the URL with the given string in browser if scheme is Http or Https. If the URL is a local file, it will instead be opened with the default application for that file type. The browser and mode used is based on what's configured in Flow's default browser settings. Non-C# plugins should use this method.
 
 ```csharp
 public void OpenUrl(string url, bool? inPrivate = null)
+```
+
+## See Also
+
+* interface [IPublicAPI](../IPublicAPI.md)
+* namespace [Flow.Launcher.Plugin](../../Flow.Launcher.Plugin.md)
+
+---
+
+# IPublicAPI.OpenUrl method (2 of 2)
+
+Opens the URL with the given Uri object in browser if scheme is Http or Https. If the URL is a local file, it will instead be opened with the default application for that file type. The browser and mode used is based on what's configured in Flow's default browser settings.
+
+```csharp
+public void OpenUrl(Uri url, bool? inPrivate = null)
 ```
 
 ## See Also

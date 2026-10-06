@@ -1,8 +1,15 @@
 # MatchResult constructor (1 of 2)
 
+Initializes a new instance of the [`MatchResult`](../MatchResult.md) class.
+
 ```csharp
 public MatchResult(bool success, SearchPrecisionScore searchPrecision)
 ```
+
+| parameter | description |
+| --- | --- |
+| success |  |
+| searchPrecision |  |
 
 ## See Also
 
@@ -14,10 +21,19 @@ public MatchResult(bool success, SearchPrecisionScore searchPrecision)
 
 # MatchResult constructor (2 of 2)
 
+Initializes a new instance of the [`MatchResult`](../MatchResult.md) class.
+
 ```csharp
 public MatchResult(bool success, SearchPrecisionScore searchPrecision, List<int> matchData, 
     int rawScore)
 ```
+
+| parameter | description |
+| --- | --- |
+| success |  |
+| searchPrecision |  |
+| matchData |  |
+| rawScore |  |
 
 ## See Also
 

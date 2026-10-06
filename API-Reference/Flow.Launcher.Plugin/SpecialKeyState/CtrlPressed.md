@@ -1,5 +1,7 @@
 # SpecialKeyState.CtrlPressed property
 
+True if the Ctrl key is pressed.
+
 ```csharp
 public bool CtrlPressed { get; set; }
 ```

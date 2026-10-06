@@ -3,13 +3,13 @@
 Open directory in an explorer configured by user via Flow's Settings. The default is Windows Explorer
 
 ```csharp
-public void OpenDirectory(string DirectoryPath, string FileName = null)
+public void OpenDirectory(string DirectoryPath, string FileNameOrFilePath = null)
 ```
 
 | parameter | description |
 | --- | --- |
 | DirectoryPath | Directory Path to open |
-| FileName | Extra FileName Info |
+| FileNameOrFilePath | Extra FileName Info |
 
 ## See Also
 

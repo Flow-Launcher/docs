@@ -1,5 +1,7 @@
 # AllowedLanguage class
 
+Allowed plugin languages
+
 ```csharp
 public static class AllowedLanguage
 ```
@@ -8,12 +10,21 @@ public static class AllowedLanguage
 
 | name | description |
 | --- | --- |
-| static [CSharp](AllowedLanguage/CSharp.md) { get; } |  |
-| static [Executable](AllowedLanguage/Executable.md) { get; } |  |
-| static [FSharp](AllowedLanguage/FSharp.md) { get; } |  |
-| static [Python](AllowedLanguage/Python.md) { get; } |  |
-| static [IsAllowed](AllowedLanguage/IsAllowed.md)(…) |  |
-| static [IsDotNet](AllowedLanguage/IsDotNet.md)(…) |  |
+| const [CSharp](AllowedLanguage/CSharp.md) | C# |
+| const [Executable](AllowedLanguage/Executable.md) | Standard .exe |
+| const [ExecutableV2](AllowedLanguage/ExecutableV2.md) | Standard .exe |
+| const [FSharp](AllowedLanguage/FSharp.md) | F# |
+| const [JavaScript](AllowedLanguage/JavaScript.md) | JavaScript |
+| const [JavaScriptV2](AllowedLanguage/JavaScriptV2.md) | JavaScript |
+| const [Python](AllowedLanguage/Python.md) | Python |
+| const [PythonV2](AllowedLanguage/PythonV2.md) | Python V2 |
+| const [TypeScript](AllowedLanguage/TypeScript.md) | TypeScript |
+| const [TypeScriptV2](AllowedLanguage/TypeScriptV2.md) | TypeScript |
+| static [IsAllowed](AllowedLanguage/IsAllowed.md)(…) | Determines if this language is supported |
+| static [IsDotNet](AllowedLanguage/IsDotNet.md)(…) | Determines if this language is a .NET language |
+| static [IsExecutable](AllowedLanguage/IsExecutable.md)(…) | Determines if this language is a executable language |
+| static [IsNodeJs](AllowedLanguage/IsNodeJs.md)(…) | Determines if this language is a Node.js language |
+| static [IsPython](AllowedLanguage/IsPython.md)(…) | Determines if this language is a Python language |
 
 ## See Also
 

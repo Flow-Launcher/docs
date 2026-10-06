@@ -1,5 +1,7 @@
 # ActionContext class
 
+Context provided as a parameter when invoking a [`Action`](./Result/Action.md) or [`AsyncAction`](./Result/AsyncAction.md)
+
 ```csharp
 public class ActionContext
 ```
@@ -9,7 +11,7 @@ public class ActionContext
 | name | description |
 | --- | --- |
 | [ActionContext](ActionContext/ActionContext.md)() | The default constructor. |
-| [SpecialKeyState](ActionContext/SpecialKeyState.md) { get; set; } |  |
+| [SpecialKeyState](ActionContext/SpecialKeyState.md) { get; set; } | Contains the press state of certain special keys. |
 
 ## See Also
 

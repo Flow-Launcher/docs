@@ -1,6 +1,6 @@
 # Result.Icon field
 
-Delegate to Get Image Source
+Delegate to load an icon for this result.
 
 ```csharp
 public IconDelegate Icon;
