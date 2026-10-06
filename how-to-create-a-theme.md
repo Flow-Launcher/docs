@@ -1,6 +1,6 @@
 ## Overview
 
-If you make a theme for the first time, refer to the existing theme. Copy the **sublime.xaml** (This is one of the basic theme files.) in the theme folder of Flow and make it a new file.  Or you can download it [here](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml).
+If you make a theme for the first time, refer to the existing theme. Copy the **sublime.xaml** (This is one of the basic theme files.) in the theme folder of Flow and make it a new file.  Or you can download [Sublime.xaml](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml).
 
 ## ⛔ Caution ⛔
 
@@ -37,7 +37,6 @@ This is the style of the basic search window. You can set the font size, color o
 
 ```xml
 <Style x:Key="QueryBoxStyle" BasedOn="{StaticResource BaseQueryBoxStyle}" TargetType="{x:Type TextBox}">
-        <Setter Property="FontSize" Value="24" />
         <Setter Property="Background" Value="#303840" />  <!-- Set it to the same color as the window. -->
         <Setter Property="Foreground" Value="#d2d8e5" /> <!-- Font Color -->
         <Setter Property="CaretBrush" Value="#FFAA47" /> <!-- Cursor Color -->
@@ -251,7 +250,7 @@ Specifies the color of the glyph icon.
 ----
 ### Theme Info
 You can add the following theme information at the top of the file: the theme name, whether blur is supported, and whether dark mode is supported. This value is displayed as an icon in Flow's theme list.
-```
+```xml
 <!--
     Name: Windows 11
     IsDark: True
@@ -262,7 +261,7 @@ You can add the following theme information at the top of the file: the theme na
 ## How to Make Blur theme
 The following values must be added within the theme file.
 
-```
+```xml
     <system:Boolean x:Key="ThemeBlurEnabled">True</system:Boolean>
     <system:String x:Key="SystemBG">Auto</system:String>
     <Color x:Key="LightBG">#BFFAFAFA</Color>
@@ -319,7 +318,7 @@ Refer to the built-in Windows11 theme as a reference, and check the provided lin
 - https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Resources/Dark.xaml
 ----
 
-## Let's share it!
+## Let's share it
 Once you have crafted your perfect theme, why not share it with the community:
 
 [Theme Gallery](https://github.com/Flow-Launcher/Flow.Launcher/discussions/1438)

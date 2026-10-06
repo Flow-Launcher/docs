@@ -77,7 +77,7 @@ attributes:
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                    |
 | `label`        | The label for the input. If set, it's displayed to the left of the input.                                                                            |
 | `description`  | The description for the input. If set, it's displayed to the left of the input, right below the label.                                               |
-| `defaultValue` | The default value for the input. It the value your plugin will receive in the settings for that input until the user changes that value in settings. |
+| `defaultValue` | The default value for the input. It's the value your plugin will receive in the settings for that input until the user changes that value in settings. |
 
 #### `passwordBox`
 This is a password input. The user will see dots instead of the actual characters they type.

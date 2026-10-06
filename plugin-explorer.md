@@ -1,4 +1,4 @@
-## Explorer Plugin
+### Explorer Plugin
 
 The Explorer plugin is a default plugin that installs with Flow Launcher and is used to search for files and folders on your filesystem. You can now choose which search engine will search for what type of item through Flow. You can use the built-in Windows Search Index which is default and is part of the Windows operating system or you can use a popular third-party tool called [Everything](https://www.voidtools.com/). Everything tends to be a faster search and offers more search options than Windows Index however you do need to download and install it to use it. If you don't already have Everything installed, Flow will automatically download and install it if you choose it as your search index engine. To trigger automatic install, fire a search and click the "Warning: Everything is not running" result. 
 
@@ -64,8 +64,8 @@ Everything will continue to use the 1.5a instance name for settings, data and th
 ----
 ![Index Search Excluded Paths tab](/assets/explorer_5.png)
 
-- Adding a directory here will exclude it from the Flow Launcher search, over-riding any settings you maye have in Windows Indexing or Everything.
+- Adding a directory here will exclude it from the Flow Launcher search, over-riding any settings you may have in Windows Indexing or Everything.
 
-### Using Everything
+#### Using Everything
 
 If you do choose to use Everything to search, [these Everything commands](https://www.voidtools.com/support/everything/searching/) may be useful to reference.
