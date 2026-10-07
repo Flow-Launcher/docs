@@ -1,6 +1,6 @@
 # Pass: facts
 
-Source of truth: the Flow Launcher source, checked out at `../Flow.Launcher` (a sibling of this repo). The docs describe the released version, so read files from `origin/master`, e.g. `git -C ../Flow.Launcher show origin/master:<path>`. If the checkout is missing, stop and ask the user where it is.
+Source of truth: the Flow Launcher source, checked out at `../Flow.Launcher` (a sibling of this repo). The docs describe the released version, so read files from `origin/master`, e.g. `git -C ../Flow.Launcher show origin/master:<path>`. If the checkout is missing, clone it and the sample repos as described in [docs-audit/setup.md](../docs-audit/setup.md). Record the `origin/master` SHA for source links.
 
 1. List every factual claim on the page: default action keywords, hotkeys, setting names, menu and button labels, file paths, version numbers, default behaviors, and which plugins ship by default.
 2. Check each claim. Where to look:
