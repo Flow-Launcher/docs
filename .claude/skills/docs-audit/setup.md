@@ -46,7 +46,7 @@ Release notes (for version claims): `gh release view <tag> -R Flow-Launcher/Flow
 
 ## Testing behavior
 
-When the source isn't conclusive, write a small throwaway program in the scratch/notes directory, not in the docs repo. Examples from past audits:
+When the source isn't conclusive, write a small throwaway program in `<notes>/` (gitignored), not elsewhere in the docs repo. Examples from past audits:
 
 - A .NET program calling `Type.GetMethod` showed that JSON-RPC v1 `Flow.Launcher.*` actions need every parameter.
 - A StreamJsonRpc harness (same package version as Flow) captured the real v2 wire format.

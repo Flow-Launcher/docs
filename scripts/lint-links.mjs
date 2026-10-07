@@ -12,7 +12,7 @@ import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { join, dirname, relative, posix, sep } from "node:path";
 
 const root = join(dirname(new URL(import.meta.url).pathname.replace(/^\/(\w:)/, "$1")), "..");
-const IGNORED_DIRS = new Set([".git", ".github", ".claude", "node_modules", "ci", "scripts", "Flow.Launcher.DocsGen"]);
+const IGNORED_DIRS = new Set([".git", ".github", ".claude", ".audit", "node_modules", "ci", "scripts", "Flow.Launcher.DocsGen"]);
 const ENTRY_PAGES = ["README.md", "_sidebar.md", "_coverpage.md"];
 // Stub pages kept so old links still work; they may be unlinked.
 const LEGACY_PAGES = new Set(["plugins.md"]);

@@ -27,5 +27,5 @@
     "MD010": { "code_blocks": false }, // no-hard-tabs, except in code (e.g. Go)
     "MD024": { "siblings_only": true } // no-duplicate-heading
   },
-  "ignores": ["API-Reference/**", "Flow.Launcher.DocsGen/**", "node_modules/**", "CONTRIBUTING.md", "_coverpage.md"]
+  "ignores": [".audit/**", "API-Reference/**", "Flow.Launcher.DocsGen/**", "node_modules/**", "CONTRIBUTING.md", "_coverpage.md"]
 }

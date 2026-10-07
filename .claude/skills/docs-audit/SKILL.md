@@ -6,7 +6,7 @@ argument-hint: "[PR number or branch to audit]"
 
 # docs-audit
 
-The full workflow. Phases run in order; most phases end with the user reviewing your work. Keep a checklist of the phases in the notes directory and tick items off as you go.
+The full workflow. Phases run in order; most phases end with the user reviewing your work. Keep a checklist of the phases in `<notes>/phases.md` and tick items off as you go.
 
 The editing passes themselves are in the [docs-review](../docs-review/SKILL.md) skill. The final self-review is in the [pr-self-review](../pr-self-review/SKILL.md) skill.
 
@@ -15,7 +15,7 @@ The editing passes themselves are in the [docs-review](../docs-review/SKILL.md) 
 Ask the user:
 
 - What to audit: a docs PR (e.g. `#101`), or the whole site.
-- The notes directory: findings and the PR draft live **outside** the docs repo, so they're never committed. Default: `../tasks/<audit-name>/`.
+- A name for the audit. Notes (findings, PR draft, review comments, test programs) go in `.audit/<audit-name>/` in the docs repo, referred to below as `<notes>`. `.audit/` is gitignored and excluded from `just lint`, so notes are never committed.
 
 ## 1. Setup
 
@@ -36,7 +36,7 @@ Run `/docs-review all` (see that skill). The changes go into separate commits, s
 - **Commit B**: fixes to everything else.
 - **Commit C**: tooling changes (skills, `justfile`, `scripts/`, lint configs), if any.
 
-The editing policy is strict (see docs-review's wording.md). Only factual fixes, typos and grammar, removing extraneous words, more confident phrasing, lint fixes, broken links, and changes the user asked for. Human reviewers reject unneeded rephrasing.
+The editing policy is strict (see docs-review's wording.md). Only factual fixes, typos and grammar, removing extraneous words, more confident phrasing, lint fixes, broken links, and changes the user asked for. Human reviewers reject unneeded rephrasing. For a rephrasing pass (clarity, concision, tone), the user can run the separate, opt-in [docs-rephrase](../docs-rephrase/SKILL.md) skill. Never run it as part of this workflow unless asked, and keep its changes in their own commit or PR.
 
 Run `just lint` before each commit. Don't push or open anything on GitHub yet.
 

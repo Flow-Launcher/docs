@@ -8,3 +8,6 @@ __pycache__/
 
 # config
 .env
+
+# Local audit notes (docs-audit skill)
+/.audit/
