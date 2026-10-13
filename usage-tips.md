@@ -16,7 +16,7 @@
 - Press `F5` while in the query window or type `reload plugin data` to reload all plugin data.
 - Both Program and Bookmarks plugin will automatically detect new changes, so your newly installed apps or bookmarks will be available soon after they are added.
 - If your plugin is not triggering, open Flow's settings, navigate to the Plugins tab, and check if the plugin is set to a specific action keyword. Note that sometimes a dedicated keyword is used to limit the number of results and avoid cluttering the list.
-- For Explorer plugin results, you can press `Ctrl + Shift + Enter` to open the folder directly instead of navigating into the folder.
+- For Explorer plugin results, you can press `Ctrl + Enter` to open the containing folder or `Ctrl + Shift + Enter` to open the folder directly instead of navigating into the folder.
 - You can save your frequently used or favourite files/folder locations via Explorer plugin. Navigate to the file/location you want to save, then go to the context menu and select `Add to Quick Access`. It is particularly handy if you have set a custom action keyword instead of the default '*', which when used will display your list of saved Quick Access files and folders. You can change the default action keyword via the plugin's settings page.
 - Press `Ctrl + Shift + Enter/Click` on a Shell plugin command to run it directly as an Administrator.
 - In the plugins download list, you can press ctrl + enter/click to open the plugin's url.
