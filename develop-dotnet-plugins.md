@@ -54,7 +54,7 @@ By implementing this interface with additional language files, Flow will be able
 #### Language Resource
 
 A Language Resource file will have name of the specific Language Code with suffix `.xaml`. The information of the Language Code can be found here [AvailableLanguages.cs](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher.Core/Resource/AvailableLanguages.cs).
-The Language Resource file will need to be a list of **key/value** pair. Follow the examples found in [en.xaml](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Languages/en.xaml).
+The Language Resource file is a list of **key/value** pairs. Follow the examples in [Flow Launcher's own english resource file, en.xaml](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Languages/en.xaml).
 
 #### Remark
 
