@@ -1,5 +1,7 @@
 # IReloadable.ReloadData method
 
+Synchronously reload plugin data
+
 ```csharp
 public void ReloadData()
 ```

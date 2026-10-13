@@ -1,8 +1,16 @@
 # FilesFolders.OpenPath method
 
+Open a directory window (using the OS's default handler, usually explorer)
+
 ```csharp
-public static void OpenPath(string fileOrFolderPath)
+public static void OpenPath(string fileOrFolderPath, 
+    Func<string, MessageBoxResult> messageBoxExShow = null)
 ```
+
+| parameter | description |
+| --- | --- |
+| fileOrFolderPath |  |
+| messageBoxExShow |  |
 
 ## See Also
 

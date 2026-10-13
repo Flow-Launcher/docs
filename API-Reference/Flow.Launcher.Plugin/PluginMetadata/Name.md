@@ -1,5 +1,7 @@
 # PluginMetadata.Name property
 
+Plugin name.
+
 ```csharp
 public string Name { get; set; }
 ```

@@ -1,7 +1,9 @@
-# AllowedLanguage.CSharp property
+# AllowedLanguage.CSharp field
+
+C#
 
 ```csharp
-public static string CSharp { get; }
+public const string CSharp;
 ```
 
 ## See Also

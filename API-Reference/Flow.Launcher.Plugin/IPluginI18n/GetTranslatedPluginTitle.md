@@ -1,5 +1,7 @@
 # IPluginI18n.GetTranslatedPluginTitle method
 
+Get a localised version of the plugin's title
+
 ```csharp
 public string GetTranslatedPluginTitle()
 ```

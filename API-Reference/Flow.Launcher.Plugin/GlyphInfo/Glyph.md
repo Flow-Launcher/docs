@@ -1,5 +1,7 @@
 # GlyphInfo.Glyph property
 
+Text/Unicode of the Glyph
+
 ```csharp
 public string Glyph { get; set; }
 ```

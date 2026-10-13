@@ -1,8 +1,15 @@
 # ResultUpdatedEventHandler delegate
 
+Delegate for the ResultsUpdated event
+
 ```csharp
 public delegate void ResultUpdatedEventHandler(IResultUpdated sender, ResultUpdatedEventArgs e);
 ```
+
+| parameter | description |
+| --- | --- |
+| sender |  |
+| e |  |
 
 ## See Also
 

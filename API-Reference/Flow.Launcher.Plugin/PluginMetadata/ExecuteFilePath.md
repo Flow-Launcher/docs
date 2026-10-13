@@ -1,5 +1,7 @@
 # PluginMetadata.ExecuteFilePath property
 
+Plugin execute file path.
+
 ```csharp
 public string ExecuteFilePath { get; }
 ```

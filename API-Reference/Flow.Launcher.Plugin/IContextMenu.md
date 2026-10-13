@@ -1,5 +1,7 @@
 # IContextMenu interface
 
+Adds support for presenting additional options for a given [`Result`](./Result.md) from a context menu.
+
 ```csharp
 public interface IContextMenu : IFeatures
 ```
@@ -8,7 +10,7 @@ public interface IContextMenu : IFeatures
 
 | name | description |
 | --- | --- |
-| [LoadContextMenus](IContextMenu/LoadContextMenus.md)(…) |  |
+| [LoadContextMenus](IContextMenu/LoadContextMenus.md)(…) | Load context menu items for the given result. |
 
 ## See Also
 

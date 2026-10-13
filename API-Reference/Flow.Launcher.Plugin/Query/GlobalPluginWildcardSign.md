@@ -1,6 +1,6 @@
 # Query.GlobalPluginWildcardSign field
 
-'*' is used for System Plugin
+Wildcard action keyword. Plugins using this value will be queried on every search.
 
 ```csharp
 public const string GlobalPluginWildcardSign;

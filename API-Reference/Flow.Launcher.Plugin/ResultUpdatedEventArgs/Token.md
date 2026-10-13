@@ -1,5 +1,7 @@
 # ResultUpdatedEventArgs.Token property
 
+Token that can be used to cancel the update
+
 ```csharp
 public CancellationToken Token { get; set; }
 ```
