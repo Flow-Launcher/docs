@@ -1,5 +1,7 @@
 # SearchWeb class
 
+Contains methods to open a search in a new browser window or tab.
+
 ```csharp
 public static class SearchWeb
 ```

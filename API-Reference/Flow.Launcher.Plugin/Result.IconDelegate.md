@@ -1,5 +1,7 @@
 # Result.IconDelegate delegate
 
+Delegate function that produces an ImageSource
+
 ```csharp
 public delegate ImageSource IconDelegate();
 ```

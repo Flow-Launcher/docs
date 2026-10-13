@@ -1,6 +1,6 @@
 # PluginMetadata.InitTime property
 
-Init time include both plugin load time and init time
+Init time include both plugin load time and init time.
 
 ```csharp
 public long InitTime { get; set; }

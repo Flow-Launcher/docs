@@ -8,7 +8,7 @@ public void RemoveGlobalKeyboardCallback(Func<int, int, SpecialKeyState, bool> c
 
 | parameter | description |
 | --- | --- |
-| callback |  |
+| callback | The callback function to invoke when a global keyboard event occurs. |
 
 ## See Also
 

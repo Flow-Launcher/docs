@@ -16,7 +16,7 @@ public void ShellRun(string cmd, string filename = "cmd.exe")
 | exception | condition |
 | --- | --- |
 | FileNotFoundException | Thrown when unable to find the file specified in the command |
-| !:Win32Exception | Thrown when error occurs during the execution of the command |
+| Win32Exception | Thrown when error occurs during the execution of the command |
 
 ## See Also
 

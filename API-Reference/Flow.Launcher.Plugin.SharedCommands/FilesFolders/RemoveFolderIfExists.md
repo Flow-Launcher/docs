@@ -1,8 +1,16 @@
 # FilesFolders.RemoveFolderIfExists method
 
+Deletes a folder if it exists
+
 ```csharp
-public static void RemoveFolderIfExists(this string path)
+public static void RemoveFolderIfExists(this string path, 
+    Func<string, MessageBoxResult> messageBoxExShow = null)
 ```
+
+| parameter | description |
+| --- | --- |
+| path |  |
+| messageBoxExShow |  |
 
 ## See Also
 

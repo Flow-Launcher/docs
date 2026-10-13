@@ -1,5 +1,7 @@
 # MatchResult.RawScore property
 
+The raw calculated search score without any search precision filtering applied.
+
 ```csharp
 public int RawScore { get; set; }
 ```

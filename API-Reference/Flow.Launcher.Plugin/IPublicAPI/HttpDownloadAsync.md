@@ -1,14 +1,17 @@
 # IPublicAPI.HttpDownloadAsync method
 
-Download the specific url to a certain file path
+Download the specific url to a cretain file path
 
 ```csharp
-public Task HttpDownloadAsync(string url, string filePath, CancellationToken token = default)
+public Task HttpDownloadAsync(string url, string filePath, Action<double> reportProgress = null, 
+    CancellationToken token = default)
 ```
 
 | parameter | description |
 | --- | --- |
 | url | URL to download file |
+| filePath | path to save downloaded file |
+| reportProgress | Action to report progress. The input of the action is the progress value which is a double value between 0 and 100. It will be called if url support range request and the reportProgress is not null. |
 | token | place to store file |
 
 ## Return Value

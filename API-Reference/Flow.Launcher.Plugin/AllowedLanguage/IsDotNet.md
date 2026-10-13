@@ -1,8 +1,14 @@
 # AllowedLanguage.IsDotNet method
 
+Determines if this language is a .NET language
+
 ```csharp
 public static bool IsDotNet(string language)
 ```
+
+| parameter | description |
+| --- | --- |
+| language |  |
 
 ## See Also
 

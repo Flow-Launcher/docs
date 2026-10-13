@@ -1,5 +1,7 @@
 # PluginPair.ToString method
 
+Convert to string
+
 ```csharp
 public override string ToString()
 ```

@@ -1,6 +1,6 @@
 # IPublicAPI.RemoveActionKeyword method
 
-Remove ActionKeyword for specific plugin
+Remove ActionKeyword and update action keyword metadata for specific plugin
 
 ```csharp
 public void RemoveActionKeyword(string pluginId, string oldActionKeyword)
@@ -9,7 +9,7 @@ public void RemoveActionKeyword(string pluginId, string oldActionKeyword)
 | parameter | description |
 | --- | --- |
 | pluginId | ID for plugin that needs to remove action keyword |
-| newActionKeyword | The actionkeyword that is supposed to be removed |
+| oldActionKeyword | The actionkeyword that is supposed to be removed |
 
 ## See Also
 
