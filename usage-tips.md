@@ -11,7 +11,7 @@
 - Right-click with the mouse, or press right-arrow on the keyboard, on a result to access the context menu for additional actions. The context menu is specific to the plugin providing the result.
 
 #### Plugins
-- Typing `?` in the search bar will show you the action keywords currently active. This can be refined by typing the first letter or two of the keywords you are after.
+- Typing `?` in the search bar will show you action keywords from your active plugins. This can be refined by typing the first letter or two of the keywords you are after.
 - The plugin results order can be prioritised. On the plugin's settings page, under the plugin's title and description, click the number next to 'Priority' to assign weight to the plugin's results. The higher the weight is, the higher the selected plugin's results will be in Flow's result list.
 - Press `F5` while in the query window or type `reload plugin data` to reload all plugin data.
 - Both Program and Bookmarks plugin will automatically detect new changes, so your newly installed apps or bookmarks will be available soon after they are added.
