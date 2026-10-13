@@ -134,7 +134,7 @@ This is where you specify the method that will be executed when the user selects
 In this example, if the user selects the result, the `do_something_for_query` method will be called with the url parameter which opens the Flow Launcher GitHub repo.
 
 ### Result score
-The `score` field provides the ability to assign a weight to your score; the higher the score is, the higher the result from the plugin would show in flow's result list. The range in which you assign the score is usually between 0–100. You can keep it as 0 if your plugin generally uses an action keyword to trigger, but if you are using a global action keyword - `*` then the average weight for a plugin would be 50. Additionally, users can tweak the score via Flow's plugin setting as well. Flow's own fuzzy search scores range from 0 to 100, so plugins using the global action keyword should stay in that range to blend in with other results. Flow also raises the score of results the user has selected before, matching them by `Title` and `SubTitle`, so keep those consistent between queries.
+The `score` field provides the ability to assign a weight to your score; the higher the score is, the higher the result from the plugin would show in flow's result list. Flow's own fuzzy search scores range from 0 to 100, so assign scores in that range. You can keep it as 0 if your plugin generally uses an action keyword to trigger, but if you are using a global action keyword - `*` - then the average weight for a plugin would be 50, which blends in with other results. Flow also raises the score of results the user has selected before, matching them by `Title` and `SubTitle`, so keep those consistent between queries. Additionally, users can tweak the score via Flow's plugin setting as well.
 
 ### Your plugin.json
 You will also need to, if not yet already, create a plugin.json file that will instruct Flow on how to load your plugin.
@@ -145,7 +145,7 @@ To revisit what to include in your plugin.json, visit the [plugin.json reference
 
 ## Release your plugin to Flow's Plugin Store 
 
-To release your plugin, follow the instructions in Flow's [plugin repo](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest).
+When you are ready to share your plugin, head to Flow's [plugin repo](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest) and follow the instructions in the readme.
 
 ## Good references to follow
 

@@ -12,12 +12,12 @@ By default, Flow is triggered with `Alt + Space`. You can change this under **Se
 
 ## Step 2 — Search for anything
 
-Start typing. Flow searches across:
+Just start typing. Flow searches across:
 
 - **Applications** — type `chr` to launch Chrome, `vs` for Visual Studio Code, etc.
 - **Files and folders** — type part of a filename and Flow finds it
 - **Calculator** — type `14 * 3` and see the result immediately
-- **Web searches** — type `cats` and select the Google result to search Google for "cats" (or whichever search engine you've configured)
+- **Web searches** — type `cats` and select the Google result to search Google for "cats"
 - **System commands** — type `shutdown`, `lock`, `restart`, or `sleep`
 
 ## Step 3 — Understand action keywords

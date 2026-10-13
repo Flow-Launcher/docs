@@ -167,7 +167,7 @@ Pick your language and follow the step-by-step guide:
 
 ## Releasing your Plugin to the Plugin Store
 
-To release your plugin, follow the instructions in Flow's [plugin repo](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest). Note that each new submission needs to be reviewed and approved before it is available to all Flow users in the Plugin Store. This is done on a volunteer basis by the Flow Launcher Team so may take some time after initial submission. If it has taken a week or two, you can jump into the Flow Discord (https://discord.gg/n3vANeaxty) and let the team know the submission has been there for a while and we are sure a friendly team member will escalate the review. We appreciate the effort Plugin authors put in to extending the functionality of Flow Launcher and we will do our best to ensure Plugin submissions are reviewed in a timely manner.
+When you are ready to share your plugin, head to Flow's [plugin repo](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest) and follow the instructions in the readme. Note that each new submission needs to be reviewed and approved before it is available to all Flow users in the Plugin Store. This is done on a volunteer basis by the Flow Launcher Team so may take some time after initial submission. If it has taken a week or two, you can jump into the Flow Discord (https://discord.gg/n3vANeaxty) and let the team know the submission has been there for a while and we are sure a friendly team member will escalate the review. We appreciate the effort Plugin authors put in to extending the functionality of Flow Launcher and we will do our best to ensure Plugin submissions are reviewed in a timely manner.
 
 ---
 

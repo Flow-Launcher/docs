@@ -83,7 +83,7 @@ Called each time the user types in the search bar (after the action keyword, if 
 
 #### `context_menu`
 
-Called when the user opens the context menu on a result (right-arrow or right-click). The only parameter is the result's `ContextData`. Return a list of additional actions.
+Called when the user opens the context menu on a result (right-arrow or right-click). The only parameter is the result's `ContextData`. Returns a list of results.
 
 **Request:**
 ```json

@@ -1,6 +1,6 @@
 ## Welcome
 
-If you have just started using Flow, this documentation gets you started and familiarises you with settings and customisation. 
+This documentation covers getting started with Flow, its settings, and customisation.
 
 Start with the [**Quick Start**](/quickstart.md) guide for your first steps, then dive into more detail from there. For help with any issues, see the [**Support**](/support.md) page. Browse the many community-created [**Plugins**](https://www.flowlauncher.com/plugins/) to extend Flow to do just about anything.
 
