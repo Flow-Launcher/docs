@@ -1,6 +1,6 @@
 ## Overview
 
-If you make a theme for the first time, refer to the existing theme. Copy the **sublime.xaml** (This is one of the basic theme files.) in the theme folder of Flow and make it a new file.  Or you can download [Sublime.xaml](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml).
+If you're making a theme for the first time, use [Sublime.xaml](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Themes/Sublime.xaml) as a reference (this is one of the pre-installed themes, which you can find in Flow's `Themes` folder).
 
 ## ⛔ Caution ⛔
 
