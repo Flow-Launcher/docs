@@ -40,7 +40,7 @@ To restore: exit Flow, replace the UserData folder with your backup, then restar
 
 ### Flow shows up in the wrong place on screen / is too small or large
 
-If you've moved between monitors with different resolutions, the window position may be saved offscreen. Exit Flow, open `%APPDATA%\FlowLauncher\Settings\Settings.json`, and reset:
+If you've moved between monitors with different resolutions, the saved window position may be offscreen. To fix this, exit Flow, open `%APPDATA%\FlowLauncher\Settings\Settings.json`, and reset:
 
 - Search window: `WindowLeft`, `WindowTop`, and `WindowSize` (width, default `580`)
 - Settings window: `SettingWindowLeft`, `SettingWindowTop`, `SettingWindowWidth` (default `1000`), and `SettingWindowHeight` (default `700`)
