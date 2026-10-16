@@ -1,5 +1,7 @@
 # IAsyncReloadable.ReloadDataAsync method
 
+Reload plugin data
+
 ```csharp
 public Task ReloadDataAsync()
 ```

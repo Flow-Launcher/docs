@@ -1,6 +1,6 @@
 # IPublicAPI.SaveSettingJsonStorage&lt;T&gt; method
 
-Save JsonStorage for current plugin's setting. This is the method used to save settings to json in Flow.Launcher This method will save the original instance loaded with LoadJsonStorage. This API call is for manually Save. Flow will automatically save all setting type that has called LoadSettingJsonStorage or SaveSettingJsonStorage previously.
+Save JsonStorage for current plugin's setting. This is the method used to save settings to json in Flow. This method will save the original instance loaded with LoadJsonStorage. This API call is for manually Save. Flow will automatically save all setting type that has called [`LoadSettingJsonStorage`](./LoadSettingJsonStorage.md) or `SaveSettingJsonStorage` previously.
 
 ```csharp
 public void SaveSettingJsonStorage<T>()

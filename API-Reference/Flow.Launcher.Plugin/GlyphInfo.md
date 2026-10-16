@@ -11,8 +11,8 @@ public record GlyphInfo
 | name | description |
 | --- | --- |
 | [GlyphInfo](GlyphInfo/GlyphInfo.md)(…) | Text with FontFamily specified |
-| [FontFamily](GlyphInfo/FontFamily.md) { get; set; } |  |
-| [Glyph](GlyphInfo/Glyph.md) { get; set; } |  |
+| [FontFamily](GlyphInfo/FontFamily.md) { get; set; } | Font Family of this Glyph |
+| [Glyph](GlyphInfo/Glyph.md) { get; set; } | Text/Unicode of the Glyph |
 
 ## See Also
 

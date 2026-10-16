@@ -1,5 +1,7 @@
 # FlowLauncherKeyDownEventArgs class
 
+Arguments container for the Key Down event
+
 ```csharp
 public class FlowLauncherKeyDownEventArgs
 ```
@@ -9,8 +11,8 @@ public class FlowLauncherKeyDownEventArgs
 | name | description |
 | --- | --- |
 | [FlowLauncherKeyDownEventArgs](FlowLauncherKeyDownEventArgs/FlowLauncherKeyDownEventArgs.md)() | The default constructor. |
-| [keyEventArgs](FlowLauncherKeyDownEventArgs/keyEventArgs.md) { get; set; } |  |
-| [Query](FlowLauncherKeyDownEventArgs/Query.md) { get; set; } |  |
+| [keyEventArgs](FlowLauncherKeyDownEventArgs/keyEventArgs.md) { get; set; } | Relevant key events for this event |
+| [Query](FlowLauncherKeyDownEventArgs/Query.md) { get; set; } | The actual query |
 
 ## See Also
 

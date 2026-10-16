@@ -1,8 +1,14 @@
 # PluginPair.Equals method
 
+Compare by plugin metadata ID
+
 ```csharp
 public override bool Equals(object obj)
 ```
+
+| parameter | description |
+| --- | --- |
+| obj |  |
 
 ## See Also
 

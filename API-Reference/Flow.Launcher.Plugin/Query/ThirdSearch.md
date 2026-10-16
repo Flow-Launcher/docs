@@ -1,10 +1,14 @@
 # Query.ThirdSearch property
 
-Return third search split by space if it has
+Splits [`SearchTerms`](./SearchTerms.md) by spaces and returns the third item.
 
 ```csharp
 public string ThirdSearch { get; }
 ```
+
+## Remarks
+
+returns an empty string when [`SearchTerms`](./SearchTerms.md) does not have enough items.
 
 ## See Also
 

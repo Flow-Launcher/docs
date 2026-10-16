@@ -8,8 +8,8 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 
 | Shortcut | Action |
 |---|---|
-| `Alt + Space` | Open Flow (default — customisable in Settings → General) |
-| `Ctrl + F12` | Toggle game mode (suppresses hotkey activation) |
+| `Alt + Space` | Open Flow (default — customisable in Settings → Hotkeys) |
+| `Alt + G` | With an Open/Save As dialog focused, [jump](/dialog-jump.md) to the path of the active File Explorer window |
 
 ---
 
@@ -17,11 +17,12 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 
 | Shortcut | Action |
 |---|---|
-| `Alt + Space` | Open the search window (default and configurable) |
 | `↑` / `↓`, `Tab`, `Shift + Tab` | Move between results |
 | `Enter` | Run the selected result's default action |
 | `Ctrl + Enter` | Open the containing folder for explorer results |
-| `Ctrl + Shift + Enter` | Run the selected result as Administrator |
+| `Ctrl + Shift + Enter` | Run the selected result as Administrator, or open a folder result in the file manager |
+| `Alt + 1` … `Alt + 9`, `Alt + 0` | Run the 1st … 9th, 10th result |
+| `Alt + Home` / `Alt + End` | Select the first / last result |
 | `←` / `→` | Back to result / open the context menu |
 | `Ctrl + O`, `Shift + Enter` | Open the context menu for the selected result |
 | `Ctrl + Tab` | Autocomplete |
@@ -36,6 +37,7 @@ A complete reference for keyboard shortcuts in Flow Launcher.
 | `Ctrl + +`, `Ctrl + -` | Adjust the maximum results shown |
 | `Ctrl + [` / `Ctrl + ]` | Adjust the search window width |
 | `Ctrl + H` | Open search history |
+| `Alt + ↑` / `Alt + ↓` | Cycle through previous queries |
 | `Ctrl + Backspace` | Go back to the previous directory |
 | `PageUp` / `PageDown` | Move to the previous or next page |
 
@@ -66,4 +68,4 @@ These are typed commands rather than keyboard shortcuts, but included here for d
 ## Tips
 
 - Typing **`?`** shows all currently active action keywords. Narrow them by typing the first character or two of the keyword you're looking for.
-- Most shortcuts can't be customised individually — only the global activation hotkey is user-configurable.
+- Many shortcuts can be customised individually in **Settings → Hotkeys**, not only the global activation hotkey.

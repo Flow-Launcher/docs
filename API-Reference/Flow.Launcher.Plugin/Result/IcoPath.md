@@ -1,10 +1,18 @@
 # Result.IcoPath property
 
-Image Displayed on the result Relative Path to the Image FileGlyphInfo is prioritized if not null
+The image to be displayed for the result.
 
 ```csharp
 public string IcoPath { get; set; }
 ```
+
+## Property Value
+
+Can be a local file path or a URL.
+
+## Remarks
+
+GlyphInfo is prioritized if not null
 
 ## See Also
 

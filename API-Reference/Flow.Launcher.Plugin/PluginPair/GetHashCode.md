@@ -1,5 +1,7 @@
 # PluginPair.GetHashCode method
 
+Get hash code
+
 ```csharp
 public override int GetHashCode()
 ```

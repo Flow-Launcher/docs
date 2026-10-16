@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--
+      Q: Why are we building and running our own CLI instead of
+      `dotnet tool install xmldocmd`?
+      A: Because it is the recommended workflow, documented by xmldocmd:
+      https://ejball.com/XmlDocMarkdown/#usage
+      See also: past PR discussion:
+      https://github.com/Flow-Launcher/docs/pull/42#issuecomment-1005742765
+    -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(FlowLauncherRepo)\Flow.Launcher.Plugin\Flow.Launcher.Plugin.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XmlDocMarkdown.Core" Version="2.9.0" />
+  </ItemGroup>
+
+</Project>

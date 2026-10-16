@@ -1,5 +1,7 @@
 # MatchResult class
 
+Represents the result of a match operation.
+
 ```csharp
 public class MatchResult
 ```
@@ -8,13 +10,13 @@ public class MatchResult
 
 | name | description |
 | --- | --- |
-| [MatchResult](MatchResult/MatchResult.md)(…) |  (2 constructors) |
+| [MatchResult](MatchResult/MatchResult.md)(…) | Initializes a new instance of the [`MatchResult`](./MatchResult.md) class. (2 constructors) |
 | [MatchData](MatchResult/MatchData.md) { get; set; } | Matched data to highlight. |
-| [RawScore](MatchResult/RawScore.md) { get; set; } |  |
+| [RawScore](MatchResult/RawScore.md) { get; set; } | The raw calculated search score without any search precision filtering applied. |
 | [Score](MatchResult/Score.md) { get; } | The final score of the match result with search precision filters applied. |
-| [SearchPrecision](MatchResult/SearchPrecision.md) { get; set; } |  |
-| [Success](MatchResult/Success.md) { get; set; } |  |
-| [IsSearchPrecisionScoreMet](MatchResult/IsSearchPrecisionScoreMet.md)() |  |
+| [SearchPrecision](MatchResult/SearchPrecision.md) { get; set; } | The search precision score used to filter the search results. |
+| [Success](MatchResult/Success.md) { get; set; } | Whether the match operation was successful. |
+| [IsSearchPrecisionScoreMet](MatchResult/IsSearchPrecisionScoreMet.md)() | Determines if the search precision score is met. |
 
 ## See Also
 
