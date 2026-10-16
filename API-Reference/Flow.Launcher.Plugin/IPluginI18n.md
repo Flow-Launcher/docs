@@ -10,8 +10,8 @@ public interface IPluginI18n : IFeatures
 
 | name | description |
 | --- | --- |
-| [GetTranslatedPluginDescription](IPluginI18n/GetTranslatedPluginDescription.md)() |  |
-| [GetTranslatedPluginTitle](IPluginI18n/GetTranslatedPluginTitle.md)() |  |
+| [GetTranslatedPluginDescription](IPluginI18n/GetTranslatedPluginDescription.md)() | Get a localised version of the plugin's description |
+| [GetTranslatedPluginTitle](IPluginI18n/GetTranslatedPluginTitle.md)() | Get a localised version of the plugin's title |
 | [OnCultureInfoChanged](IPluginI18n/OnCultureInfoChanged.md)(…) | The method will be invoked when language of flow changed |
 
 ## See Also

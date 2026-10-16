@@ -10,8 +10,8 @@ public static void Execute(ProcessStartInfo info)
 
 | exception | condition |
 | --- | --- |
-| !:FileNotFoundException | Thrown when unable to find the file specified in the command |
-| !:Win32Exception | Thrown when error occurs during the execution of the command |
+| FileNotFoundException | Thrown when unable to find the file specified in the command |
+| Win32Exception | Thrown when error occurs during the execution of the command |
 
 ## See Also
 
@@ -30,14 +30,15 @@ public static void Execute(Func<ProcessStartInfo, Process> startProcess, Process
 
 | parameter | description |
 | --- | --- |
-| Func startProcessstartProcess | allows you to pass in a custom command execution function |
+| startProcess | allows you to pass in a custom command execution function |
+| info | allows you to pass in the info that will be passed to startProcess |
 
 ## Exceptions
 
 | exception | condition |
 | --- | --- |
-| !:FileNotFoundException | Thrown when unable to find the file specified in the command |
-| !:Win32Exception | Thrown when error occurs during the execution of the command |
+| FileNotFoundException | Thrown when unable to find the file specified in the command |
+| Win32Exception | Thrown when error occurs during the execution of the command |
 
 ## See Also
 

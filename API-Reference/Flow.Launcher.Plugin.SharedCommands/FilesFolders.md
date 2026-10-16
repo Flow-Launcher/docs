@@ -1,5 +1,7 @@
 # FilesFolders class
 
+Commands that are useful to run on files... and folders!
+
 ```csharp
 public static class FilesFolders
 ```
@@ -9,15 +11,23 @@ public static class FilesFolders
 | name | description |
 | --- | --- |
 | static [CopyAll](FilesFolders/CopyAll.md)(…) | Copies the folder and all of its files and folders including subfolders to the target location |
-| static [FileExists](FilesFolders/FileExists.md)(…) |  |
+| static [EnsureTrailingSlash](FilesFolders/EnsureTrailingSlash.md)(…) | Returns path ended with "\" |
+| static [FileExists](FilesFolders/FileExists.md)(…) | Checks if a file exists |
+| static [FileOrLocationExists](FilesFolders/FileOrLocationExists.md)(…) | Checks if a file or directory exists |
 | static [GetPreviousExistingDirectory](FilesFolders/GetPreviousExistingDirectory.md)(…) | Gets the previous level directory from a path string. Checks that previous level directory exists and returns it as a path string, or empty string if doesn't exist |
 | static [IsLocationPathString](FilesFolders/IsLocationPathString.md)(…) | This checks whether a given string is a directory path or network location string. It does not check if location actually exists. |
-| static [LocationExists](FilesFolders/LocationExists.md)(…) |  |
-| static [OpenContainingFolder](FilesFolders/OpenContainingFolder.md)(…) |  |
-| static [OpenPath](FilesFolders/OpenPath.md)(…) |  |
-| static [RemoveFolderIfExists](FilesFolders/RemoveFolderIfExists.md)(…) |  |
+| static [IsZipFilePath](FilesFolders/IsZipFilePath.md)(…) | This checks whether a given string is a zip file path. By default does not check if the zip file actually exist on disk, can do so by setting checkFileExists = true. |
+| static [LocationExists](FilesFolders/LocationExists.md)(…) | Checks if a directory exists |
+| static [OpenFile](FilesFolders/OpenFile.md)(…) | Open a file with associated application |
+| static [OpenPath](FilesFolders/OpenPath.md)(…) | Open a directory window (using the OS's default handler, usually explorer) |
+| static [PathContains](FilesFolders/PathContains.md)(…) | Returns if *parentPath* contains *subPath*. Equal paths are not considered to be contained by default. From https://stackoverflow.com/a/66877016 |
+| static [RemoveFolderIfExists](FilesFolders/RemoveFolderIfExists.md)(…) | Deletes a folder if it exists |
+| static [ResolveAbsolutePath](FilesFolders/ResolveAbsolutePath.md)(…) | Resolves a path that may be relative to an absolute path. If the path is already absolute, returns it as-is. If the path is not rooted (as determined by String)), resolves it relative to ProgramDirectory. |
 | static [ReturnPreviousDirectoryIfIncompleteString](FilesFolders/ReturnPreviousDirectoryIfIncompleteString.md)(…) | Returns the previous level directory if path incomplete (does not end with '\'). Does not check if previous level directory exists. Returns passed in string if is complete path |
-| static [VerifyBothFolderFilesEqual](FilesFolders/VerifyBothFolderFilesEqual.md)(…) |  |
+| static [TryDeleteDirectoryRobust](FilesFolders/TryDeleteDirectoryRobust.md)(…) | Attempts to delete a directory robustly with retry logic for locked files. This method tries to delete files individually with retries, then removes empty directories. Returns true if the directory was completely deleted, false if some files/folders remain. |
+| static [ValidateDataDirectory](FilesFolders/ValidateDataDirectory.md)(…) | Validates a data directory, synchronizing it by ensuring all files from a bundled source directory exist in it. If files are missing or outdated, they are copied from the bundled directory to the data directory. |
+| static [ValidateDirectory](FilesFolders/ValidateDirectory.md)(…) | Validates a directory, creating it if it doesn't exist |
+| static [VerifyBothFolderFilesEqual](FilesFolders/VerifyBothFolderFilesEqual.md)(…) | Check if the files and directories are identical between *fromPath* and *toPath* |
 
 ## See Also
 

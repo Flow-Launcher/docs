@@ -1,5 +1,7 @@
 # ActionContext.SpecialKeyState property
 
+Contains the press state of certain special keys.
+
 ```csharp
 public SpecialKeyState SpecialKeyState { get; set; }
 ```

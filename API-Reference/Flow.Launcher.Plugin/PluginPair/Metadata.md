@@ -1,5 +1,7 @@
 # PluginPair.Metadata property
 
+Plugin metadata
+
 ```csharp
 public PluginMetadata Metadata { get; }
 ```

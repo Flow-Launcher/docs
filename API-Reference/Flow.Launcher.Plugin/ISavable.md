@@ -1,6 +1,6 @@
 # ISavable interface
 
-Save additional plugin data. Inherit this interface if additional data e.g. cache needs to be saved, Otherwise if LoadSettingJsonStorage or SaveSettingJsonStorage has been called, plugin settings will be automatically saved (see Flow.Launcher/PublicAPIInstance.SavePluginSettings) by Flow
+Inherit this interface if you need to save additional data which is not a setting or cache, please implement this interface.
 
 ```csharp
 public interface ISavable : IFeatures
@@ -10,7 +10,11 @@ public interface ISavable : IFeatures
 
 | name | description |
 | --- | --- |
-| [Save](ISavable/Save.md)() |  |
+| [Save](ISavable/Save.md)() | Save additional plugin data. |
+
+## Remarks
+
+For storing plugin settings, prefer [`LoadSettingJsonStorage`](./IPublicAPI/LoadSettingJsonStorage.md) or [`SaveSettingJsonStorage`](./IPublicAPI/SaveSettingJsonStorage.md). For storing plugin caches, prefer [`LoadCacheBinaryStorageAsync`](./IPublicAPI/LoadCacheBinaryStorageAsync.md) or [`SaveCacheBinaryStorageAsync`](./IPublicAPI/SaveCacheBinaryStorageAsync.md). Once called, those settings and caches will be automatically saved by Flow.
 
 ## See Also
 

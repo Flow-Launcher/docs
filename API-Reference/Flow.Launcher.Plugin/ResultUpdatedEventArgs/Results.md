@@ -1,5 +1,7 @@
 # ResultUpdatedEventArgs.Results field
 
+List of results that should be displayed
+
 ```csharp
 public List<Result> Results;
 ```

@@ -9,5 +9,9 @@ __pycache__/
 # config
 .env
 
+# .NET build artifacts
+bin/
+obj/
+
 # Local audit notes (docs-audit skill)
 /.audit/

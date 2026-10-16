@@ -1,5 +1,7 @@
 # IResultUpdated.ResultsUpdated event
 
+Event that is triggered when the results are updated
+
 ```csharp
 public event ResultUpdatedEventHandler ResultsUpdated;
 ```

@@ -6,6 +6,10 @@ This holds the text which can be provided by plugin to help Flow autocomplete te
 public string AutoCompleteText { get; set; }
 ```
 
+## Remarks
+
+When a value is not set, the [`Title`](./Title.md) will be used. Please include the action keyword prefix when necessary because Flow does not prepend it automatically.
+
 ## See Also
 
 * class [Result](../Result.md)
