@@ -40,10 +40,21 @@ To restore: exit Flow, replace the UserData folder with your backup, then restar
 
 ### Flow shows up in the wrong place on screen / is too small or large
 
-If you've moved between monitors with different resolutions, the saved window position may be offscreen. To fix this, exit Flow, open `%APPDATA%\FlowLauncher\Settings\Settings.json`, and reset:
+#### Search window
 
-- Search window: `WindowLeft`, `WindowTop`, and `WindowSize` (width, default `580`)
-- Settings window: `SettingWindowLeft`, `SettingWindowTop`, `SettingWindowWidth` (default `1000`), and `SettingWindowHeight` (default `700`)
+In **Settings → General**, **Search Window Location** chooses whether Flow remembers the last position or places the window on a selected monitor. **Remember Last Position** restores `WindowLeft` and `WindowTop`, which are screen coordinates, not a monitor-specific position; both default to `0`. To correct a saved position, exit Flow Launcher and adjust these values in `%APPDATA%\FlowLauncher\Settings\Settings.json`.
+
+For other location choices, **Search Window Position on Monitor** controls placement on the selected monitor. **Custom Position** uses `CustomWindowLeft` and `CustomWindowTop` offsets from that monitor's working area, not `WindowLeft` and `WindowTop`. For a predictable fallback, choose **Monitor with Mouse Cursor** and a non-custom alignment such as **Center**. If Settings is inaccessible, exit Flow Launcher and set `SearchWindowScreen` to `"Cursor"` and `SearchWindowAlign` to `"Center"` in the settings file. To use the saved coordinates instead, set `SearchWindowScreen` to `"RememberLastLaunchLocation"` and adjust `WindowLeft` and `WindowTop`.
+
+The search window's width is set by `WindowSize.` which defaults to `580`.
+You can also adjust its width or height inside flow with the shortcuts listed in **Settings → Hotkeys**: `Ctrl + [` / `Ctrl + ]` for width, and `Ctrl + Plus` / `Ctrl + Minus` for height.
+
+#### Settings window
+
+If the Settings window is offscreen, exit Flow Launcher, open `%APPDATA%\FlowLauncher\Settings\Settings.json` and edit `SettingWindowLeft` and `SettingWindowTop`.
+`0` for both will put it in the top left, and `null` will let Flow choose a position for it when it opens. 
+
+If the size of the Settings window is an issue you can edit that in `%APPDATA%\FlowLauncher\Settings\Settings.json` as well, using `SettingWindowWidth` (default 1000) and `SettingWindowHeight` (default 700).
 
 ### Windows says Flow is unsafe to run
 
