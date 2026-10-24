@@ -20,7 +20,7 @@ When a user triggers your plugin, Flow:
 
 Your process runs when called and then exits. It must write its response to stdout.
 
-> **Important:** Only write JSON-RPC responses to stdout. Any debug output must go to a log file. Flow treats any output on **stderr** as an error and will not parse the response.
+> **Important:** Only write JSON-RPC responses to stdout. Any debug output must go to a log file. Flow can treat output on **stderr** as an error and then not parse the response.
 
 ---
 
