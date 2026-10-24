@@ -318,7 +318,7 @@ Refer to the built-in Windows11 theme as a reference, and check the provided lin
 - https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Flow.Launcher/Resources/Dark.xaml
 ----
 
-## Let's share it
+## Let's share it!
 Once you have crafted your perfect theme, why not share it with the community:
 
 [Theme Gallery](https://github.com/Flow-Launcher/Flow.Launcher/discussions/1438)
