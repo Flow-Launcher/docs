@@ -60,9 +60,6 @@ Key things to configure early:
 | Set a plugin's action keyword | Plugins → [plugin name] → Action Keyword |
 | Prioritise a plugin's results | Plugins → [plugin name] → Priority |
 
-## Useful things you might not discover on your own
-
-See [Usage Tips](/usage-tips.md).
 
 ## Next steps
 
