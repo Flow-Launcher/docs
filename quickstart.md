@@ -62,7 +62,7 @@ Key things to configure early:
 
 ## Useful things you might not discover on your own
 
-See [Usage Tips](/usage-tips.md#searching) for matching tips, [Plugin Manager commands](/usage-tips.md#plugins), and [portable mode and settings](/usage-tips.md#settings). For keyboard shortcuts, see [Keyboard Shortcuts](/keyboard-shortcuts.md).
+See [Usage Tips](/usage-tips.md).
 
 ## Next steps
 
