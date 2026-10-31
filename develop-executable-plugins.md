@@ -3,7 +3,6 @@
 Executable plugins let you build a Flow Launcher plugin in **any language that can produce a binary** — Go, Rust, C, compiled TypeScript, Zig, or anything else. Flow treats the executable as a subprocess and communicates with it over JSON-RPC.
 
 This is a good choice when you want:
-- Minimal startup latency (no interpreter to boot)
 - A single binary with no runtime dependency
 - A language not otherwise supported
 
