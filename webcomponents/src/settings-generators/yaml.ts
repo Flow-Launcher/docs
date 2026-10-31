@@ -22,5 +22,8 @@ export const generateSettingsTemplate = (data => {
 		delete element.attributes;
 		element.attributes = attributes;
 	}
-	return dump({ body: json });
+	return dump({
+		$schema: 'https://www.flowlauncher.com/schemas/settings-template.schema.json',
+		body: json
+	});
 }) satisfies TypingGenerator;

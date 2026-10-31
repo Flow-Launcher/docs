@@ -1,6 +1,6 @@
 ### Settings
 
-The settings allow you to configure and customise Flow and its plugins, and gives visual access to the Plugin Store.
+The settings allow you to configure and customise Flow and its plugins, and give visual access to the Plugin Store.
 
 
 Settings can be accessed three ways:
@@ -9,7 +9,7 @@ Settings can be accessed three ways:
 
 ![Settings via search bar](/assets/Flow_settings_launch.png)
 
-2. Right-click on the Flow Launcher taskbar icon and choose "Settings".
+2. Right-click on the Flow Launcher system tray icon and choose "Settings".
 
 ![Settings via taskbar](/assets/Flow_settings_taskbar.png)
 

@@ -12,3 +12,6 @@ __pycache__/
 # .NET build artifacts
 bin/
 obj/
+
+# Local audit notes (docs-audit skill)
+/.audit/

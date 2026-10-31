@@ -77,7 +77,7 @@ attributes:
 | `name`         | The name of the input. This is the key that you will use to access the value of the input in the settings object.                                    |
 | `label`        | The label for the input. If set, it's displayed to the left of the input.                                                                            |
 | `description`  | The description for the input. If set, it's displayed to the left of the input, right below the label.                                               |
-| `defaultValue` | The default value for the input. It the value your plugin will receive in the settings for that input until the user changes that value in settings. |
+| `defaultValue` | The default value for the input. It's the value your plugin will receive in the settings for that input until the user changes that value in settings. |
 
 #### `passwordBox`
 This is a password input. The user will see dots instead of the actual characters they type.
@@ -184,10 +184,10 @@ body:
 <settings-component-demo type="checkbox" label="Prefer shorter answers" description="If checked, the plugin will try to give answer much shorter than the usual ones."></settings-component-demo>
 
 ### JSON Schema
-Add the following line at the beginning of your `SettingsTemplate.yaml` file to enable validation and auto-completion in your IDE. Unfortunately, this feature is supported only in JetBrains IDEs (WebStorm, PhpStorm, Rider, etc.) and does not work in Visual Studio or Visual Studio Code. Please note that it must start with `#` as it must be a comment, otherwise Flow Launcher won't be able to parse the file.
+Add the following line at the beginning of your `SettingsTemplate.yaml` file to enable validation and auto-completion in your IDE.
 
 ```yaml
-#$schema: https://www.flowlauncher.com/schemas/settings-template.schema.json
+$schema: https://www.flowlauncher.com/schemas/settings-template.schema.json
 ```
 
 ### Visual editor for `SettingsTemplate.yaml`
@@ -198,7 +198,7 @@ const element = document.querySelector('#__settings-script__');
 if (!element) {
     const script = document.createElement('script');
     script.id = '__settings-script__';
-    script.src = 'https://www.flowlauncher.com/docs/webcomponents/dist/flow-launcher-docs-web-components.js';
+    script.src = 'webcomponents/dist/flow-launcher-docs-web-components.js';
     script.type = 'module';
     document.body.appendChild(script);
 }

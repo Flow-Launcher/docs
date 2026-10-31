@@ -29,6 +29,11 @@
       subMaxLevel: 4,
       search: 'auto',
       auto2top: true,
+      // Pages that were merged into other pages; keeps old links working.
+      alias: {
+        '/py-(develop-plugins|setup-project|write-code|release-project|plugin-references)(?:\\.md)?': '/develop-python-plugins',
+        '/nodejs-(develop-plugins|setup-project|write-code|release-project|plugin-references)(?:\\.md)?': '/develop-nodejs-plugins',
+      },
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {

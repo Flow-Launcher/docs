@@ -1,6 +1,6 @@
-## Explorer Plugin
+### Explorer Plugin
 
-The Explorer plugin is a default plugin that installs with Flow Launcher. Previously there was an Explorer Plugin and an Everything Plugin, but these were merged, and you can now choose which search engine will search for what through Flow. If you don't already have the Everything search tool from Voidtools installed, Flow will automatically download and install it if you choose it as your search index engine. To trigger automatic install, fire a search and click the "Warning: Everything is not running" result. Flow Launcher currently only supports v1.4.x of Everything and not the 1.5 alpha branch. (For 1.5 alpha support, please refer to [this](https://github.com/Flow-Launcher/Flow.Launcher/issues/1716) link)
+The Explorer plugin is a default plugin that installs with Flow Launcher and is used to search for files and folders on your filesystem. You can now choose which search engine will search for what type of item through Flow. You can use the built-in Windows Search Index which is default and is part of the Windows operating system or you can use a popular third-party tool called [Everything](https://www.voidtools.com/). Everything tends to be a faster search and offers more search options than Windows Index however you do need to download and install it to use it. If you don't already have Everything installed, Flow will automatically download and install it if you choose it as your search index engine. To trigger automatic install, fire a search and click the "Warning: Everything is not running" result. 
 
 Here is how to configure this plugin:
 
@@ -33,6 +33,22 @@ and then choose the *Open With Editor* option
 - *Search full path* : use the Everything option to search the full path and not just the filename. Equivalent to the `path:` modifier within Everything.
 - *Sort Option* : dropdown list to show how the search results are sorted.
 - *Everything Path* : If you have Everything installed, Flow Launcher will try and find the installation to use, but if you are having issues, or it is installed in a non-standard directory, you can specify it explicitly here.
+
+**NOTE**
+If you let Flow download Everything for you, it will use version 1.4.1.1009. If you want to use the Everything 1.5 alpha branch you will need to do the following:
+
+1. Completely exit out of Everything (right-click the Everything system tray icon and click Exit)
+2. Open your Everything-1.5a.ini file in the same location as your Everything64.exe
+3. Add the following line to the end of the file:
+   ```ini
+   alpha_instance=0
+   ```
+4. Save changes and restart Everything.
+
+Everything will no longer use an instance name for window classes (IPC).
+Everything will continue to use the 1.5a instance name for settings, data and the Everything Service.
+(source - https://github.com/Flow-Launcher/Flow.Launcher/issues/1716)
+
 #### Customised Action Keywords tab
 ----
 ![Customise Action Keywords tab](/assets/explorer_3.png)
@@ -48,8 +64,8 @@ and then choose the *Open With Editor* option
 ----
 ![Index Search Excluded Paths tab](/assets/explorer_5.png)
 
-- Adding a directory here will exclude it from the Flow Launcher search, over-riding any settings you maye have in Windows Indexing or Everything.
+- Adding a directory here will exclude it from the Flow Launcher search, over-riding any settings you may have in Windows Indexing or Everything.
 
-### Using Everything
+#### Using Everything
 
 If you do choose to use Everything to search, [these Everything commands](https://www.voidtools.com/support/everything/searching/) may be useful to reference.
