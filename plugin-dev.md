@@ -111,8 +111,9 @@ Each Result represents one row in Flow Launcher and controls:
 - How that row looks  
 - How the user can interact with it  
 
-It has many properties, but these are the core ones:  
+It has many properties, but below examples contain the core ones:
 
+**JsonRPC plugin example:**
 ```json
 {
   "Title": "Main text shown in the result",
@@ -124,6 +125,22 @@ It has many properties, but these are the core ones:
     "parameters": ["https://example.com"]
   }
 }
+```
+
+**C# plugin example:**
+```csharp
+new Result
+{
+    Title = "Open example.com",
+    SubTitle = "https://example.com",
+    IcoPath = "Images/icon.png",
+    Score = 50,
+    Action = _ =>
+    {
+        _context.API.OpenUrl("https://example.com");
+        return true;
+    }
+};
 ```
 
 - **Title / SubTitle** — what the user sees
