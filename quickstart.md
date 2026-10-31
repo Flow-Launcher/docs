@@ -62,22 +62,7 @@ Key things to configure early:
 
 ## Useful things you might not discover on your own
 
-**Fuzzy and acronym matching** — You don't need to type the full name of an app. `gkp` matches *GitKraken Preview*, `acr` matches *Acrobat Reader DC*, and `code` or `visual` both match *Visual Studio Code*.
-
-**Run as administrator** — Highlight any result and press `Ctrl + Shift + Enter` to run it as admin.
-
-**Open folder instead of navigating into it** — In Explorer results, press `Ctrl + Shift + Enter` to open the folder directly in File Explorer.
-
-**Reload plugins** — Press `F5` in the query window, or type `reload plugin data`, to refresh all plugin data (useful after installing new apps or bookmarks).
-
-**Plugin Manager** — Install, uninstall, or update plugins from the search bar. Type:
-- `pm install <plugin name>`
-- `pm uninstall <plugin name>`
-- `pm update <plugin name>`
-
-**Portable mode** — Flow is self-contained and can run from a USB drive or cloud folder (like Dropbox). Type `Flow Launcher UserData Folder` to see where your settings are stored.
-
-**Back up your settings** — Copy the `UserData` folder (found via `Flow Launcher UserData Folder`) to back up everything: settings, plugins, themes, and history.
+See [Usage Tips](/usage-tips.md).
 
 ## Next steps
 
