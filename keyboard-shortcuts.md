@@ -67,5 +67,5 @@ These are typed commands rather than keyboard shortcuts, but included here for d
 
 ## Tips
 
-- Typing **`?`** shows all currently active action keywords. Narrow them by typing the first character or two of the keyword you're looking for.
+- Typing **`?`** to view all active action keywords. Narrow them down by typing the first few characters of the keyword or the plugin name.
 - Many shortcuts can be customised individually in **Settings → Hotkeys**, not only the global activation hotkey.
