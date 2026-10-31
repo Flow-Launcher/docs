@@ -11,7 +11,7 @@
 - Right-click with the mouse, or press right-arrow on the keyboard, on a result to access the context menu for additional actions. The context menu is specific to the plugin providing the result.
 
 #### Plugins
-- Typing `?` in the search bar will show you action keywords from your active plugins. This can be refined by typing the first letter or two of the keywords you are after.
+- Typing `?` to view all active action keywords. Narrow them down by typing the first few characters of the keyword or the plugin name.
 - Install, uninstall, or update plugins from the search bar with the Plugin Manager commands:
   - `pm install <plugin name>`
   - `pm uninstall <plugin name>`
