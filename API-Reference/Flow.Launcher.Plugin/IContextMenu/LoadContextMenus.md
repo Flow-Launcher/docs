@@ -1,8 +1,14 @@
 # IContextMenu.LoadContextMenus method
 
+Load context menu items for the given result.
+
 ```csharp
 public List<Result> LoadContextMenus(Result selectedResult)
 ```
+
+| parameter | description |
+| --- | --- |
+| selectedResult | The [`Result`](../Result.md) for which the user has activated the context menu. |
 
 ## See Also
 

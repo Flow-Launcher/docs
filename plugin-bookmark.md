@@ -8,15 +8,15 @@ This page contains the information for setting custom browser locations for the 
 
 ----
 
-**Brave**
+#### Brave
 - Chromium Engine
 - C:\Users\username\AppData\Local\BraveSoftware\Brave-Browser\User Data\
 
 
-**LibreWolf**
+#### LibreWolf
 - Firefox Engine
 - C:\Users\username\AppData\Roaming\librewolf\Profiles\1tyx98jn.default-default
 
-**Zen Browser (Twilight)**
+#### Zen Browser (Twilight)
 - Firefox Engine
 - C:\Users\username\AppData\Roaming\zen\Profiles\profile.Default (twilight)

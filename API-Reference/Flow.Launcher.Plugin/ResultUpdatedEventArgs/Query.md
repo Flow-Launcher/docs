@@ -1,5 +1,7 @@
 # ResultUpdatedEventArgs.Query field
 
+Query that triggered the update
+
 ```csharp
 public Query Query;
 ```

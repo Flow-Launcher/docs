@@ -1,5 +1,7 @@
 # Query.ActionKeyword property
 
+The action keyword part of this query. For global plugins this value will be empty.
+
 ```csharp
 public string ActionKeyword { get; set; }
 ```

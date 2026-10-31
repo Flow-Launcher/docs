@@ -1,5 +1,7 @@
 # MatchResult.IsSearchPrecisionScoreMet method
 
+Determines if the search precision score is met.
+
 ```csharp
 public bool IsSearchPrecisionScoreMet()
 ```

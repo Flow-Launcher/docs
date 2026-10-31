@@ -1,5 +1,7 @@
 # ISettingProvider interface
 
+This interface is used to create settings panel for .Net plugins
+
 ```csharp
 public interface ISettingProvider
 ```
@@ -8,7 +10,7 @@ public interface ISettingProvider
 
 | name | description |
 | --- | --- |
-| [CreateSettingPanel](ISettingProvider/CreateSettingPanel.md)() |  |
+| [CreateSettingPanel](ISettingProvider/CreateSettingPanel.md)() | Create settings panel control for .Net plugins |
 
 ## See Also
 

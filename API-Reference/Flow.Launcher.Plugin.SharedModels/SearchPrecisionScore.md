@@ -1,5 +1,7 @@
 # SearchPrecisionScore enumeration
 
+Represents the search precision score used to filter search results.
+
 ```csharp
 public enum SearchPrecisionScore
 ```
@@ -8,9 +10,9 @@ public enum SearchPrecisionScore
 
 | name | value | description |
 | --- | --- | --- |
-| Regular | `50` |  |
-| Low | `20` |  |
-| None | `0` |  |
+| Regular | `50` | The highest search precision score. |
+| Low | `20` | The medium search precision score. |
+| None | `0` | The lowest search precision score. |
 
 ## See Also
 

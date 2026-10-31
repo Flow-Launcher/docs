@@ -3,7 +3,7 @@
 ### Notes
 
 - When porting, please keep the author's commit history
-- Flow Launcher targets minimum .NET 5, so older plugins should be upgraded to keep the continuity of their future developments
+- Flow Launcher targets minimum .NET 9, so older plugins should be upgraded to keep the continuity of their future developments
 - All dll libraries used by the plugin should be outputted and included in the final build, to do this, set the attribute CopyLocalLockFileAssemblies in your project file to true
 
 ### Steps
@@ -12,10 +12,10 @@
 2. Use `try-convert` tool from https://github.com/dotnet/try-convert
 3. `try-convert -w path-to-folder-or-solution-or-project`
 4. May need to fix on the project file, a good template to follow is the [Explorer plugin](https://github.com/Flow-Launcher/Flow.Launcher/blob/dev/Plugins/Flow.Launcher.Plugin.Explorer/Flow.Launcher.Plugin.Explorer.csproj) project:
-	- fix `<TargetFramework>` to `net5.0-windows`
-	- set the output location as `Output\Release\<name of the project>`
-	- add `<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>` and `<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>` to the csproj file
-	- bump version to 2.0.0 and fix up any missing attributes if necessary
+    - fix `<TargetFramework>` to `net9.0-windows10.0.19041.0`
+    - set the output location as `Output\Release\<name of the project>`
+    - add `<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>` and `<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>` to the csproj file
+    - bump version to 2.0.0 and fix up any missing attributes if necessary
 5. Update code and fix plugin's setting layout if necessary
 6. Update readme to indicate where this port is from and the original author of the project
 

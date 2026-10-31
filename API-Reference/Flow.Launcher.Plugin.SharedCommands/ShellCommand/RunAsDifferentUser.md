@@ -1,8 +1,14 @@
 # ShellCommand.RunAsDifferentUser method
 
+Runs a windows command using the provided ProcessStartInfo
+
 ```csharp
 public static Process RunAsDifferentUser(ProcessStartInfo processStartInfo)
 ```
+
+| parameter | description |
+| --- | --- |
+| processStartInfo |  |
 
 ## See Also
 

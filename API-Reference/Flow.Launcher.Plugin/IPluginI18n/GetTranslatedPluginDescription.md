@@ -1,5 +1,7 @@
 # IPluginI18n.GetTranslatedPluginDescription method
 
+Get a localised version of the plugin's description
+
 ```csharp
 public string GetTranslatedPluginDescription()
 ```

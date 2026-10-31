@@ -11,7 +11,7 @@ const element = document.querySelector('#__settings-script__');
 if (!element) {
     const script = document.createElement('script');
     script.id = '__settings-script__';
-    script.src = 'https://www.flowlauncher.com/docs/webcomponents/dist/flow-launcher-docs-web-components.js';
+    script.src = 'webcomponents/dist/flow-launcher-docs-web-components.js';
     script.type = 'module';
     document.body.appendChild(script);
 }

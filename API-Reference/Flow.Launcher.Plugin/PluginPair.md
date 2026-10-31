@@ -1,5 +1,7 @@
 # PluginPair class
 
+Plugin instance and plugin metadata
+
 ```csharp
 public class PluginPair
 ```
@@ -9,11 +11,11 @@ public class PluginPair
 | name | description |
 | --- | --- |
 | [PluginPair](PluginPair/PluginPair.md)() | The default constructor. |
-| [Metadata](PluginPair/Metadata.md) { get; } |  |
-| [Plugin](PluginPair/Plugin.md) { get; } |  |
-| override [Equals](PluginPair/Equals.md)(…) |  |
-| override [GetHashCode](PluginPair/GetHashCode.md)() |  |
-| override [ToString](PluginPair/ToString.md)() |  |
+| [Metadata](PluginPair/Metadata.md) { get; } | Plugin metadata |
+| [Plugin](PluginPair/Plugin.md) { get; } | Plugin instance |
+| override [Equals](PluginPair/Equals.md)(…) | Compare by plugin metadata ID |
+| override [GetHashCode](PluginPair/GetHashCode.md)() | Get hash code |
+| override [ToString](PluginPair/ToString.md)() | Convert to string |
 
 ## See Also
 

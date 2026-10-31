@@ -1,5 +1,7 @@
 # MatchResult.Success property
 
+Whether the match operation was successful.
+
 ```csharp
 public bool Success { get; set; }
 ```

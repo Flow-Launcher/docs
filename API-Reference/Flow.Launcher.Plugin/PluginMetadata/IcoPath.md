@@ -1,5 +1,7 @@
 # PluginMetadata.IcoPath property
 
+Plugin icon path.
+
 ```csharp
 public string IcoPath { get; set; }
 ```
