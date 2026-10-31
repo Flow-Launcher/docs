@@ -60,7 +60,6 @@ Key things to configure early:
 | Set a plugin's action keyword | Plugins → [plugin name] → Action Keyword |
 | Prioritise a plugin's results | Plugins → [plugin name] → Priority |
 
-
 ## Next steps
 
 - Browse the [Plugin Store](https://www.flowlauncher.com/plugins/) to extend Flow
