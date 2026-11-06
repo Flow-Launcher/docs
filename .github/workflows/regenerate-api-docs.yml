@@ -33,7 +33,7 @@ jobs:
       - name: Setup .Net for DocsGen
         uses: actions/setup-dotnet@v6
         with:
-          dotnet-version: 9.0.x
+          dotnet-version: 10.0.x
 
       - name: Regenerate API docs
         working-directory: docs
