@@ -21,10 +21,14 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
+          # The offline check makes no API calls, so it needs no token
+          token: ""
           # --offline blocks network requests so only internal links are checked.
           # --root-dir is needed for docsify's root-relative links such as /plugin-dev.md
           args: --offline --root-dir "$(pwd)" --include-fragments --no-progress './**/*.md'
